@@ -1,0 +1,131 @@
+/* Faruq Pradhan — MHPTT Digital Portfolio */
+
+:root{
+  --bg:#fdfdfb; --surface:#fff; --ink:#1c1f23; --ink-soft:#4a5258; --ink-faint:#767f86;
+  --rule:#e3e0d8; --accent:#7d2b34; --accent-soft:#f3ece9; --focus:#1a5f7a;
+  --serif:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --sans:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  --measure:68ch;
+}
+@media (prefers-color-scheme:dark){
+  :root{ --bg:#15171a; --surface:#1d2024; --ink:#e9e6e1; --ink-soft:#b3b8bd; --ink-faint:#878e95;
+         --rule:#2f343a; --accent:#e0919a; --accent-soft:#26191c; --focus:#7fc3dd; }
+}
+
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:var(--serif);font-size:1.0625rem;line-height:1.65;
+  font-synthesis-weight:none;-webkit-font-smoothing:antialiased}
+
+.wrap{width:100%;max-width:min(var(--measure) + 8rem,74rem);margin:0 auto;padding:0 1.5rem}
+.skip{position:absolute;left:-9999px}
+.skip:focus{left:1rem;top:1rem;position:fixed;z-index:99;background:var(--surface);
+  padding:.6rem 1rem;border:2px solid var(--focus);border-radius:4px}
+a{color:var(--accent);text-underline-offset:.18em;text-decoration-thickness:.06em}
+a:hover{text-decoration-thickness:.12em}
+:focus-visible{outline:2px solid var(--focus);outline-offset:3px;border-radius:2px}
+img{max-width:100%;height:auto}
+
+/* Header */
+.site-header{border-bottom:1px solid var(--rule);background:var(--surface);position:sticky;top:0;z-index:20}
+.header-inner{display:flex;align-items:center;justify-content:space-between;gap:1.5rem;
+  min-height:4.5rem;flex-wrap:wrap;max-width:74rem}
+.brand{text-decoration:none;color:inherit;display:block;padding:.6rem 0}
+.brand-name{display:block;font-size:1.2rem;font-weight:600;letter-spacing:-.01em}
+.brand-role{display:block;font-family:var(--sans);font-size:.75rem;color:var(--ink-faint);
+  letter-spacing:.04em;text-transform:uppercase;margin-top:.15rem}
+.site-nav ul{display:flex;gap:1.6rem;list-style:none;margin:0;padding:0;flex-wrap:wrap}
+.site-nav a{font-family:var(--sans);font-size:.875rem;font-weight:500;color:var(--ink-soft);
+  text-decoration:none;padding:.4rem 0;border-bottom:2px solid transparent;white-space:nowrap}
+.site-nav a:hover{color:var(--accent);border-bottom-color:var(--accent)}
+.nav-toggle,.nav-btn{display:none}
+
+@media (max-width:760px){
+  .header-inner{min-height:3.75rem}
+  .nav-btn{display:flex;flex-direction:column;justify-content:center;gap:5px;
+    width:44px;height:44px;cursor:pointer;padding:10px}
+  .nav-btn span{display:block;height:2px;background:var(--ink);border-radius:2px}
+  .site-nav{position:relative}
+  .site-nav ul{display:none;position:absolute;right:0;top:calc(100% + .5rem);
+    flex-direction:column;gap:0;background:var(--surface);border:1px solid var(--rule);
+    border-radius:8px;padding:.5rem 0;min-width:14rem;box-shadow:0 8px 28px rgb(0 0 0 / .12)}
+  .nav-toggle:checked ~ ul{display:flex}
+  .site-nav li a{display:block;padding:.65rem 1.15rem;border-bottom:none}
+}
+
+/* Typography */
+main{padding:3.5rem 0 4.5rem;min-height:60vh}
+.prose{max-width:var(--measure)}
+.page-title{font-size:clamp(1.85rem,1.3rem + 2.2vw,2.6rem);line-height:1.15;
+  letter-spacing:-.02em;margin:0 0 .5rem;font-weight:600}
+.page-subtitle{font-family:var(--sans);font-size:1rem;color:var(--ink-soft);margin:0 0 2rem}
+.eyebrow{font-family:var(--sans);font-size:.75rem;text-transform:uppercase;letter-spacing:.09em;
+  color:var(--ink-faint);margin:0 0 .9rem}
+.eyebrow a{color:inherit;text-decoration:none}
+.eyebrow a:hover{color:var(--accent)}
+.prose h2{font-size:1.4rem;line-height:1.25;letter-spacing:-.01em;margin:2.75rem 0 .5rem;font-weight:600}
+.prose h3{font-family:var(--sans);font-size:.8rem;font-weight:600;text-transform:uppercase;
+  letter-spacing:.09em;color:var(--ink-faint);margin:1.75rem 0 .4rem}
+.prose p{margin:0 0 1.1rem}
+.prose ul,.prose ol{margin:0 0 1.2rem;padding-left:1.3rem}
+.prose li{margin-bottom:.4rem}
+.prose hr{border:0;border-top:1px solid var(--rule);margin:3rem 0}
+.lede{font-size:1.2rem;line-height:1.55;color:var(--ink-soft)}
+
+.statement{margin:0 0 2.5rem;padding:1.15rem 1.4rem;background:var(--accent-soft);
+  border-left:3px solid var(--accent);border-radius:0 6px 6px 0;
+  font-style:italic;color:var(--ink-soft);font-size:1.05rem}
+.statement p{margin:0}
+
+/* Artifact blocks inside a competency page */
+.competency-body h2{padding-top:1.75rem;border-top:1px solid var(--rule)}
+.competency-body h2:first-child{padding-top:0;border-top:0;margin-top:0}
+.meta{font-family:var(--sans);font-size:.875rem;color:var(--ink-soft);margin:0 0 1.25rem}
+.meta strong{color:var(--ink);font-weight:600}
+.dl{display:inline-flex;align-items:center;gap:.5rem;font-family:var(--sans);font-size:.85rem;
+  font-weight:500;text-decoration:none;color:var(--accent);border:1px solid var(--rule);
+  border-radius:6px;padding:.5rem .9rem;background:var(--surface);margin:0 .5rem .5rem 0}
+.dl:hover{border-color:var(--accent);background:var(--accent-soft)}
+.todo{font-family:var(--sans);font-size:.85rem;color:var(--ink-faint);
+  border:1px dashed var(--rule);border-radius:6px;padding:.85rem 1rem;margin:0 0 1.2rem}
+
+/* Competency index cards */
+.cards{list-style:none;padding:0;margin:2rem 0 0;display:grid;gap:1rem;
+  grid-template-columns:repeat(auto-fill,minmax(min(100%,20rem),1fr))}
+.card{border:1px solid var(--rule);border-radius:10px;background:var(--surface);transition:border-color .15s}
+.card:hover{border-color:var(--accent)}
+.card a{display:block;padding:1.25rem 1.35rem;text-decoration:none;color:inherit;height:100%}
+.card-num{font-family:var(--sans);font-size:.75rem;font-weight:600;letter-spacing:.08em;color:var(--accent)}
+.card-name{font-size:1.12rem;font-weight:600;margin:.3rem 0 .45rem;letter-spacing:-.01em}
+.card-stmt{font-family:var(--sans);font-size:.83rem;line-height:1.5;color:var(--ink-faint);margin:0}
+
+/* Pager */
+.pager{display:flex;justify-content:space-between;gap:1rem;margin-top:3.5rem;padding-top:1.5rem;
+  border-top:1px solid var(--rule);font-family:var(--sans);font-size:.85rem;flex-wrap:wrap}
+.pager a{text-decoration:none;color:var(--ink-soft);max-width:48%}
+.pager a:hover{color:var(--accent)}
+.pager-next{text-align:right;margin-left:auto}
+
+/* Tables & code */
+.table-scroll{overflow-x:auto;margin:0 0 1.5rem}
+table{border-collapse:collapse;width:100%;font-family:var(--sans);font-size:.88rem}
+th,td{text-align:left;padding:.6rem .75rem;border-bottom:1px solid var(--rule);vertical-align:top}
+th{font-weight:600;color:var(--ink-faint);text-transform:uppercase;font-size:.72rem;letter-spacing:.07em}
+code{font-size:.9em;background:var(--accent-soft);padding:.12em .35em;border-radius:3px}
+
+/* Footer */
+.site-footer{border-top:1px solid var(--rule);background:var(--surface);padding:2.5rem 0;
+  font-family:var(--sans);font-size:.875rem}
+.footer-inner{display:flex;justify-content:space-between;gap:2rem;flex-wrap:wrap;max-width:74rem}
+.site-footer p{margin:0 0 .25rem}
+.footer-name{font-weight:600}
+.footer-meta,.footer-contact{color:var(--ink-faint)}
+.footer-contact{text-align:right}
+@media (max-width:560px){.footer-contact{text-align:left}}
+
+@media print{
+  .site-header,.site-nav,.pager,.site-footer{display:none}
+  body{background:#fff;color:#000;font-size:11pt}
+  a{color:#000;text-decoration:underline}
+}

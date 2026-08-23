@@ -1,0 +1,32 @@
+title: "Faruq Pradhan"
+tagline: "MB.BCh.BAO, FRCPC, LRCP&SI (NUI)"
+role: "Transplant Hepatologist · Assistant Professor"
+email: "fpradhan@unmc.edu"
+phone: "402-559-5200"
+description: >-
+  Digital portfolio for the Master of Health Professions Teaching &
+  Technology, University of Nebraska Medical Center.
+url: "https://fpradhan.com"
+baseurl: ""
+
+collections:
+  competencies:
+    output: true
+    permalink: /artifacts/:name/
+
+defaults:
+  - scope: { path: "" }
+    values: { layout: "page" }
+  - scope: { path: "", type: "competencies" }
+    values: { layout: "competency" }
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude: [README.md, Gemfile, Gemfile.lock, vendor]

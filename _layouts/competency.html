@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<article class="wrap prose competency">
+  <p class="eyebrow"><a href="{{ '/artifacts/' | relative_url }}">MHPTT Artifacts</a></p>
+  <h1 class="page-title">{{ page.number }}. {{ page.name }}</h1>
+  <blockquote class="statement"><p>{{ page.statement }}</p></blockquote>
+  <div class="competency-body">{{ content }}</div>
+
+  {% assign items = site.competencies | sort: "order" %}
+  {% assign prev_item = nil %}
+  {% assign next_item = nil %}
+  {% assign found = false %}
+  {% for c in items %}
+    {% if found and next_item == nil %}{% assign next_item = c %}{% endif %}
+    {% if c.url == page.url %}{% assign found = true %}{% endif %}
+    {% unless found %}{% assign prev_item = c %}{% endunless %}
+  {% endfor %}
+
+  <nav class="pager" aria-label="Competencies">
+    {% if prev_item %}
+      <a class="pager-prev" href="{{ prev_item.url | relative_url }}">← {{ prev_item.number }}. {{ prev_item.name }}</a>
+    {% else %}<span></span>{% endif %}
+    {% if next_item %}
+      <a class="pager-next" href="{{ next_item.url | relative_url }}">{{ next_item.number }}. {{ next_item.name }} →</a>
+    {% endif %}
+  </nav>
+</article>
