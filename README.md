@@ -123,6 +123,20 @@ phone details, so nothing on it is broken.
 variable in the `:root` block at the top; `--accent` re-skins the whole site. Light and dark
 palettes are both defined, and the site follows the reader's system setting.
 
+The type stack is three faces, each with a job:
+
+| Variable | Face | Used for |
+|---|---|---|
+| `--display` | Instrument Serif | Page titles, section headings, the lede, competency statements and numerals |
+| `--sans` | Inter | Body text, navigation, artifact chips |
+| `--mono` | JetBrains Mono | Every label, date, course line and button — the detail that gives the site its character |
+
+Two things to keep in mind if you edit the type. Instrument Serif ships a single weight, so
+`**bold**` inside a display-face element will not render bolder — that is why emphasis in the
+lede is marked with colour instead (`.lede strong`). And artifact chips on the index are
+deliberately kept in Inter: artifact titles are long, and mono uppercase makes them unreadable
+at chip size.
+
 ---
 
 ## One-time setup

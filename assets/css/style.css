@@ -10,7 +10,8 @@
 :root{
   /* Type */
   --sans:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
-  --serif:"Source Serif 4",Iowan Old Style,Georgia,"Times New Roman",serif;
+  --display:"Instrument Serif",Iowan Old Style,Georgia,"Times New Roman",serif;
+  --mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
 
   /* Fluid type scale */
   --t-xs:0.75rem;
@@ -19,7 +20,7 @@
   --t-md:clamp(1.0625rem,1.02rem + 0.22vw,1.1875rem);
   --t-lg:clamp(1.25rem,1.16rem + 0.42vw,1.5rem);
   --t-xl:clamp(1.5rem,1.32rem + 0.9vw,2rem);
-  --t-2xl:clamp(2rem,1.6rem + 1.9vw,3.25rem);
+  --t-2xl:clamp(2.2rem,1.75rem + 2.1vw,3.4rem);
 
   /* Space. --shell governs the header, footer and full-width content; --content
      is the reading column. Both are centred, so every page shares one axis. */
@@ -27,18 +28,18 @@
   --shell:58rem;
   --content:40rem;
 
-  /* Colour — light */
-  --bg:#ffffff;
-  --surface:#fafaf9;
-  --surface-2:#f4f4f2;
-  --ink:#16181b;
-  --ink-soft:#565d64;
-  --ink-faint:#8a9097;
-  --rule:#e7e7e4;
-  --rule-strong:#d3d3cf;
-  --accent:#8b2942;
-  --accent-wash:#faf4f5;
-  --focus:#1f6f8b;
+  /* Colour — light. Warm paper, near-black ink, one vivid accent. */
+  --bg:#f6f4ee;
+  --surface:#f0ede4;
+  --surface-2:#e8e4d8;
+  --ink:#15140f;
+  --ink-soft:#514d43;
+  --ink-faint:#6f6a5c;
+  --rule:#ded9cb;
+  --rule-strong:#c6c0ae;
+  --accent:#b0402a;
+  --accent-wash:#f7ebe6;
+  --focus:#2f6b86;
 
   --radius:10px;
   --radius-sm:6px;
@@ -46,17 +47,17 @@
 
 @media (prefers-color-scheme:dark){
   :root{
-    --bg:#121316;
-    --surface:#191b1f;
-    --surface-2:#212429;
-    --ink:#eceae7;
-    --ink-soft:#aeb4ba;
-    --ink-faint:#838a91;
-    --rule:#2a2e33;
-    --rule-strong:#3a3f45;
-    --accent:#eda3ae;
-    --accent-wash:#221a1d;
-    --focus:#8ecbe4;
+    --bg:#131210;
+    --surface:#1b1a16;
+    --surface-2:#23211c;
+    --ink:#f0ece1;
+    --ink-soft:#b2ac9d;
+    --ink-faint:#8f887a;
+    --rule:#2b2924;
+    --rule-strong:#3d3a32;
+    --accent:#e88267;
+    --accent-wash:#241a16;
+    --focus:#7fc0d8;
   }
 }
 
@@ -108,10 +109,11 @@ a:hover{text-decoration-thickness:.1em}
 .container.wide{max-width:var(--shell)}
 .prose{max-width:none}
 
-/* Small uppercase label, used for eyebrows, artifact labels, section marks */
+/* Small uppercase label, used for eyebrows, artifact labels, section marks.
+   Set in the mono face — this is the detail that gives the site its character. */
 .label,.eyebrow{
-  font-size:var(--t-xs);font-weight:600;letter-spacing:.11em;text-transform:uppercase;
-  color:var(--ink-faint);margin:0;
+  font-family:var(--mono);font-size:.7rem;font-weight:500;letter-spacing:.07em;
+  text-transform:uppercase;color:var(--ink-faint);margin:0;
 }
 .eyebrow{margin-bottom:1rem}
 .eyebrow a{color:inherit;text-decoration:none}
@@ -124,7 +126,7 @@ a:hover{text-decoration-thickness:.1em}
   background:color-mix(in srgb,var(--bg) 88%,transparent);
   backdrop-filter:saturate(180%) blur(12px);
   -webkit-backdrop-filter:saturate(180%) blur(12px);
-  border-bottom:1px solid var(--rule);
+  border-bottom:1px solid var(--ink);
 }
 @supports not (backdrop-filter:blur(1px)){ .site-header{background:var(--bg)} }
 
@@ -132,9 +134,10 @@ a:hover{text-decoration-thickness:.1em}
   gap:2rem;min-height:4.25rem}
 
 .brand{text-decoration:none;color:inherit;display:block;padding:.5rem 0;min-width:0}
-.brand-name{display:block;font-size:1.0625rem;font-weight:600;letter-spacing:-.015em;line-height:1.2}
-.brand-role{display:block;font-size:var(--t-xs);color:var(--ink-faint);
-  letter-spacing:.07em;text-transform:uppercase;margin-top:.2rem;font-weight:500}
+.brand-name{display:block;font-family:var(--display);font-weight:400;
+  font-size:1.3rem;letter-spacing:0;line-height:1.15}
+.brand-role{display:block;font-family:var(--mono);font-size:.66rem;color:var(--ink-faint);
+  letter-spacing:.06em;text-transform:uppercase;margin-top:.3rem;font-weight:400}
 @media (max-width:560px){ .brand-role{display:none} }
 
 .site-nav > ul{display:flex;align-items:center;gap:.35rem;list-style:none;margin:0;padding:0}
@@ -171,7 +174,8 @@ a:hover{text-decoration-thickness:.1em}
 }
 .submenu a:hover{background:var(--surface-2);color:var(--ink)}
 .submenu a[aria-current="page"]{color:var(--accent);font-weight:600}
-.submenu .n{font-variant-numeric:tabular-nums;font-weight:600;color:var(--accent);font-size:var(--t-xs)}
+.submenu .n{font-family:var(--mono);font-variant-numeric:tabular-nums;font-weight:500;
+  color:var(--accent);font-size:.7rem}
 .submenu .sep{height:1px;background:var(--rule);margin:.45rem .7rem}
 .submenu .all{font-weight:600;color:var(--ink)}
 
@@ -227,8 +231,9 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
 @media (max-width:640px){ main{padding:2.75rem 0 4rem} }
 
 .page-title{
-  font-size:var(--t-2xl);line-height:1.08;letter-spacing:-.028em;
-  font-weight:600;margin:0 0 .75rem;text-wrap:balance;
+  font-family:var(--display);font-weight:400;
+  font-size:var(--t-2xl);line-height:1.02;letter-spacing:-.005em;
+  margin:0 0 .85rem;text-wrap:balance;
 }
 .page-subtitle{
   font-size:var(--t-md);color:var(--ink-soft);margin:0 0 3rem;
@@ -236,8 +241,9 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
 }
 .page-title + .prose-body,.page-subtitle + .prose-body{margin-top:0}
 
-.prose h2{font-size:var(--t-lg);line-height:1.25;letter-spacing:-.017em;
-  font-weight:600;margin:3.25rem 0 .75rem;text-wrap:balance}
+.prose h2{font-family:var(--display);font-weight:400;
+  font-size:1.75rem;line-height:1.2;letter-spacing:0;
+  margin:3.25rem 0 .75rem;text-wrap:balance}
 .prose h3{font-size:var(--t-xs);font-weight:600;text-transform:uppercase;
   letter-spacing:.11em;color:var(--ink-faint);margin:2.25rem 0 .6rem}
 .prose h2 + h3{margin-top:1.5rem}
@@ -251,34 +257,37 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
 
 /* Opening paragraph, set in the serif for contrast against the sans UI */
 .lede{
-  font-family:var(--serif);font-size:var(--t-lg);line-height:1.5;
-  letter-spacing:-.005em;color:var(--ink);margin:0 0 1.75rem;max-width:46ch;
+  font-family:var(--display);font-size:1.6rem;line-height:1.28;
+  letter-spacing:0;color:var(--ink);margin:0 0 1.75rem;max-width:34ch;
 }
+.lede strong{font-weight:400;color:var(--accent)}
 
 /* Competency statement */
 .statement{
-  font-family:var(--serif);font-style:italic;font-size:var(--t-md);line-height:1.55;
-  color:var(--ink-soft);margin:0 0 2.5rem;padding:0 0 0 1.4rem;
-  border-left:2px solid var(--accent);max-width:60ch;
+  font-family:var(--display);font-style:normal;font-size:1.3rem;line-height:1.35;
+  color:var(--ink);margin:0 0 2.5rem;padding:0 0 0 1.5rem;
+  border-left:0;box-shadow:inset 3px 0 0 var(--accent);max-width:52ch;
 }
 .statement p{margin:0}
 
 /* Course / date metadata line */
-.meta{font-size:var(--t-sm);color:var(--ink-faint);margin:0 0 1.5rem;
-  letter-spacing:.005em}
+.meta{font-family:var(--mono);font-size:.72rem;line-height:1.6;color:var(--ink-faint);
+  margin:0 0 1.5rem;letter-spacing:.02em}
 .meta strong{color:var(--ink-soft);font-weight:600}
 
 /* Download / external artifact link */
 .dl{
   display:inline-flex;align-items:center;gap:.55rem;
-  font-size:var(--t-sm);font-weight:500;text-decoration:none;color:var(--ink);
-  border:1px solid var(--rule-strong);border-radius:var(--radius-sm);
-  padding:.55rem .95rem;background:var(--bg);
+  font-family:var(--mono);font-size:.72rem;font-weight:500;letter-spacing:.05em;
+  text-transform:uppercase;text-decoration:none;color:var(--ink);
+  border:1px solid var(--ink);border-radius:0;
+  padding:.6rem 1rem;background:transparent;
   margin:.25rem .5rem .5rem 0;
   transition:border-color .15s ease,background .15s ease,color .15s ease;
 }
 .dl::after{content:"↓";font-size:.95em;color:var(--ink-faint);transition:color .15s ease}
 .dl:hover{border-color:var(--accent);color:var(--accent);background:var(--accent-wash)}
+.dl:hover::after{color:var(--accent)}
 .dl:hover::after{color:var(--accent)}
 .dl.ext::after{content:"↗"}
 .dl.go::after{content:"→"}
@@ -308,31 +317,31 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
 
 /* Definition-style fact rows, e.g. board certifications */
 .facts{margin:0 0 1.75rem;padding:0}
-.facts dt{font-size:var(--t-xs);font-weight:600;text-transform:uppercase;
-  letter-spacing:.11em;color:var(--ink-faint);margin:0 0 .3rem}
+.facts dt{font-family:var(--mono);font-size:.7rem;font-weight:500;text-transform:uppercase;
+  letter-spacing:.06em;color:var(--ink-faint);margin:0 0 .35rem}
 .facts dd{margin:0 0 1.15rem;color:var(--ink-soft);line-height:1.6}
 .facts dd:last-child{margin-bottom:0}
 
 /* ------------------------------------------------- Competency index list */
 
 .prose .index-list{list-style:none;margin:2.5rem 0 0;padding:0;
-  border-top:1px solid var(--rule)}
+  border-top:1px solid var(--ink)}
 .prose .index-list > li{margin:0;padding-left:0}
 .index-list .index-item{
   position:relative;
-  display:grid;grid-template-columns:3.75rem minmax(0,1fr);gap:1.25rem;align-items:baseline;
+  display:grid;grid-template-columns:3.5rem minmax(0,1fr);gap:1.25rem;align-items:baseline;
   padding:1.6rem .85rem;border-bottom:1px solid var(--rule);
   border-radius:var(--radius);
   transition:background .15s ease;
 }
 .index-item:hover{background:var(--surface)}
 .index-num{
-  font-family:var(--serif);font-size:1.75rem;line-height:1.1;font-weight:300;
-  color:var(--accent);font-variant-numeric:tabular-nums;letter-spacing:-.02em;
+  font-family:var(--display);font-size:2.5rem;line-height:1;font-weight:400;
+  color:var(--accent);font-variant-numeric:tabular-nums;letter-spacing:-.01em;
 }
 .index-text{min-width:0}
-.index-name{font-size:var(--t-lg);font-weight:600;letter-spacing:-.017em;
-  line-height:1.25;margin:0 0 .45rem}
+.index-name{font-family:var(--display);font-size:1.55rem;font-weight:400;
+  letter-spacing:0;line-height:1.15;margin:0 0 .5rem}
 .index-name a{color:inherit;text-decoration:none}
 /* Stretched link: the whole row is clickable, but the link's accessible name
    stays just the competency name rather than the entire block of text. */
@@ -343,7 +352,10 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
 .prose .index-artifacts{list-style:none;margin:0;padding:0;
   display:flex;flex-wrap:wrap;gap:.4rem .5rem}
 .prose .index-artifacts li{
-  font-size:var(--t-xs);line-height:1.5;color:var(--ink-faint);margin:0;
+  /* Deliberately NOT the mono face — artifact titles are long, and mono
+     uppercase makes them unreadable at chip size. */
+  font-family:var(--sans);font-size:var(--t-xs);line-height:1.5;
+  color:var(--ink-soft);margin:0;
   background:var(--surface-2);border-radius:100px;padding:.28rem .75rem;
   max-width:100%;
 }
@@ -369,8 +381,8 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
 .on-page a{font-size:var(--t-sm);font-weight:500;color:var(--ink);
   text-decoration:none;line-height:1.5}
 .on-page a:hover{color:var(--accent);text-decoration:underline}
-.on-page .n{color:var(--accent);font-weight:600;margin-right:.5rem;
-  font-variant-numeric:tabular-nums}
+.on-page .n{font-family:var(--mono);font-size:.72rem;color:var(--accent);font-weight:500;
+  margin-right:.55rem;font-variant-numeric:tabular-nums}
 
 /* One artifact block */
 .artifact{padding-top:2.75rem;margin-top:2.75rem;border-top:1px solid var(--rule);
@@ -391,8 +403,8 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
 }
 .cv-list dt:first-of-type{border-top:0;margin-top:0;padding-top:0}
 .cv-list .when{
-  font-size:var(--t-xs);font-weight:500;color:var(--ink-faint);
-  white-space:nowrap;font-variant-numeric:tabular-nums;letter-spacing:.02em;
+  font-family:var(--mono);font-size:.7rem;font-weight:400;color:var(--ink-faint);
+  white-space:nowrap;font-variant-numeric:tabular-nums;letter-spacing:.01em;
 }
 .cv-list dd{margin:.35rem 0 0;font-size:var(--t-sm);line-height:1.55;color:var(--ink-soft)}
 @media (max-width:560px){
@@ -441,18 +453,22 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
 
 /* ----------------------------------------------------- Tables and code */
 
-.table-scroll{overflow-x:auto;margin:0 0 1.75rem;
-  border:1px solid var(--rule);border-radius:var(--radius)}
+/* Kramdown applies {: .table-scroll} to the <table> itself, not to a wrapper,
+   so the table has to be its own scroll container. display:block is what makes
+   overflow-x actually apply to a table box. */
+.table-scroll{display:block;width:100%;max-width:100%;overflow-x:auto;
+  margin:0 0 1.75rem;border:1px solid var(--rule);border-radius:var(--radius)}
 table{border-collapse:collapse;width:100%;font-size:var(--t-sm)}
 th,td{text-align:left;padding:.7rem .9rem;border-bottom:1px solid var(--rule);
   vertical-align:top}
 tbody tr:last-child td{border-bottom:0}
-/* Date ranges read badly when an en dash lets them wrap mid-span. */
-.table-scroll td:first-child{white-space:nowrap}
-th{font-weight:600;color:var(--ink-faint);text-transform:uppercase;
-  font-size:var(--t-xs);letter-spacing:.09em;background:var(--surface)}
-code{font-size:.88em;background:var(--surface-2);padding:.15em .38em;
-  border-radius:4px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+/* Date ranges read badly when an en dash lets them wrap mid-span — but on a
+   narrow screen wrapping beats forcing the page sideways. */
+@media (min-width:641px){ .table-scroll td:first-child{white-space:nowrap} }
+th{font-family:var(--mono);font-weight:500;color:var(--ink-faint);text-transform:uppercase;
+  font-size:.68rem;letter-spacing:.05em;background:var(--surface)}
+code{font-size:.85em;background:var(--surface-2);padding:.15em .38em;
+  border-radius:3px;font-family:var(--mono)}
 
 /* ---------------------------------------------------------------- Form */
 
@@ -507,7 +523,7 @@ code{font-size:.88em;background:var(--surface-2);padding:.15em .38em;
 /* --------------------------------------------------------------- Error */
 
 .error-page{text-align:center;padding:2rem 0 0;max-width:44ch;margin-inline:auto}
-.error-code{font-family:var(--serif);font-size:5rem;font-weight:300;line-height:1;
+.error-code{font-family:var(--display);font-size:6rem;font-weight:400;line-height:1;
   color:var(--accent);margin:0 0 1rem}
 
 /* --------------------------------------------------------------- Print */
