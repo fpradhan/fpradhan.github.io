@@ -175,6 +175,13 @@ so the form needs an external handler — [Formspree](https://formspree.io),
 `form_endpoint:`, and the form appears on `/contact/`. Until then the page shows the email and
 phone details, so nothing on it is broken.
 
+> **Assets carry a build stamp.** The stylesheet and favicon are linked as
+> `style.css?v=<build time>`, regenerated on every build. Without it a browser that
+> cached an earlier stylesheet keeps using it against newer markup — which is what
+> happened after the first rebuild: `.container` and `.submenu` did not exist in the
+> cached CSS, so pages lost their width and the nav dropdown unrolled inline. Leave
+> the stamp in place.
+
 **To change the design** — `assets/css/style.css`. Every colour, size and width is a CSS
 variable in the `:root` block at the top; `--accent` re-skins the whole site. Light and dark
 palettes are both defined, and the site follows the reader's system setting.

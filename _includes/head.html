@@ -1,5 +1,16 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+
+{%- comment -%}
+  Cache-busting stamp. The stylesheet lives at a fixed path, so a browser that
+  cached an earlier version will keep serving it even after the HTML changes —
+  which is exactly what happened when the site was rebuilt: new markup was
+  rendered against the previous stylesheet, so `.container` and `.submenu` had
+  no rules and the page lost its width and its dropdown. Appending the build
+  time makes every deploy a new URL, so that cannot recur.
+{%- endcomment -%}
+{%- assign v = site.time | date: '%Y%m%d%H%M%S' -%}
 <meta name="theme-color" content="#f6f4ee" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#131210" media="(prefers-color-scheme: dark)">
 
@@ -10,10 +21,10 @@
 {%- endcomment -%}
 {%- seo -%}
 
-<link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
+<link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}?v={{ v }}" type="image/svg+xml">
 <link rel="mask-icon" href="{{ '/assets/favicon.svg' | relative_url }}" color="#b0402a">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
-<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={{ v }}">
