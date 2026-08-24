@@ -4,16 +4,11 @@ number: "6"
 name: "Instructional Technology"
 order: 7
 title: "6. Instructional Technology"
-description: "MHPTT competency 6, Instructional Technology. Two artifacts from the Master of Health Professions Teaching & Technology, each with a description, a reflection, and the evidence itself."
-artifacts:
-  - label:  "6A"
-    title:  "SAMR-Framed Technology Mini-Projects"
-    course: "HPTT 803 – Integrating Technology into Health Professions Curriculum (Summer 2025)"
-    anchor: "artifact-6a"
-  - label:  "6B"
-    title:  "Mixed Reality Ergonomics Training System for Endoscopy"
-    course: "HPTT 824 – Simulated and Virtual Learning in Health Professions Education (Fall 2025)"
-    anchor: "artifact-6b"
+description: "MHPTT competency 6, Instructional Technology — the outcome statement and the artifacts evidencing it, from the Master of Health Professions Teaching & Technology at UNMC."
+# One entry per artifact — label, title, course, and the anchor of its
+# <section> in the body below. Drives the jump list on this page and the
+# artifact list on /artifacts/. Left empty until artifacts are chosen.
+artifacts: []
 statement: >-
   Demonstrate effective integration of current and emerging technology into
   health professions education to foster active learning, and employ
@@ -21,68 +16,46 @@ statement: >-
   distance education settings.
 ---
 
-<!-- Artifact 6A — keep the section tags that wrap this block; write between them. -->
-<section class="artifact" id="artifact-6a" markdown="1">
+<p class="todo"><strong>Artifacts to be added.</strong> Two artifacts belong on this page, each with a description, a reflection, and the file itself. An artifact template sits in a comment just below — copy it out and fill it in.</p>
 
-<p class="label">Artifact 6A</p>
+{% comment %}
+  ARTIFACT TEMPLATE — copy everything between the dashed rules out of this
+  comment, once per artifact, and fill it in. Nothing inside a Liquid comment
+  reaches the browser, so this stays invisible until you move a copy out.
 
-## SAMR-Framed Technology Mini-Projects
+  Then add a matching entry to `artifacts:` in the front matter above, so the
+  artifact appears in the jump list here and in the list on /artifacts/.
 
-**Course:** HPTT 803 – Integrating Technology into Health Professions Curriculum (Summer 2025)
+  ----------------------------------------------------------------------------
+<section class="artifact" id="artifact-6-a" markdown="1">
+
+<p class="label">Artifact 6-A</p>
+
+## Title of the artifact
+
+**Course:** HPTT ### – Full Course Name (Term Year)
 {: .meta}
 
 ### Description
 
-A set of educational technology projects with tool selection justified against the SAMR
-framework and mapped to course objectives through an alignment worksheet. Working artifacts
-include a Prezi on understanding liver enzymes, a Quizlet set, and recorded demonstration
-videos.
+What the assignment required. Two to four sentences, factual — what the work
+was, not yet why it matters.
 
 ### Reflection
 
-<p class="todo"><strong>To write.</strong> Name the competency explicitly — “This artifact demonstrates Student Learning Outcome 6 by…” — then work through the prompts below and delete this block.</p>
+Why this demonstrates the competency, what it changed about how you teach, and
+what was hard. First person, and name the outcome explicitly.
 
-- Which tools reached Redefinition on SAMR and which stalled at Substitution — and why that is a legitimate outcome rather than a failure.
-- How the AI tool work connects to the AI-derived patient education research line you list among your research interests.
-- **Embed the working artifacts here, not just the worksheet.** Both exemplar portfolios link live, usable resources; a reviewer should be able to open the Prezi and run the Quizlet set.
-
-[Download the full artifact](/assets/artifacts/hptt803-samr-and-mini-projects.pdf){: .dl}
+[Download the full artifact](/assets/artifacts/filename.pdf){: .dl}
 
 </section>
-
-<!-- Artifact 6B — keep the section tags that wrap this block; write between them. -->
-<section class="artifact" id="artifact-6b" markdown="1">
-
-<p class="label">Artifact 6B</p>
-
-## Mixed Reality Ergonomics Training System for Endoscopy
-
-**Course:** HPTT 824 – Simulated and Virtual Learning in Health Professions Education (Fall 2025)
-{: .meta}
-
-### Description
-
-A design proposal for a mixed-reality system teaching endoscopic ergonomics — the emerging-
-technology end of this competency, applied to a real and under-taught problem given the rates
-of musculoskeletal injury among endoscopists. Accompanied by companion work on realism in
-augmented reality.
-
-### Reflection
-
-<p class="todo"><strong>To write.</strong> Name the competency explicitly — “This artifact demonstrates Student Learning Outcome 6 by…” — then work through the prompts below and delete this block.</p>
-
-- What XR can teach about ergonomics that verbal coaching at the bedside cannot.
-- Where the realism-versus-cost tradeoff sits today.
-- Whether you would actually deploy this in your own fellowship programme, and what would have to be true first.
-
-[Download the full artifact](/assets/artifacts/hptt824-mixed-reality-ergonomics.pdf){: .dl}
-
-</section>
+  ----------------------------------------------------------------------------
+{% endcomment %}
 
 <section class="references" markdown="1">
 
 ## References
 
-<p class="todo">Add APA references for the sources cited above. Both exemplar portfolios carry a reference list on every competency page.</p>
+<p class="todo">APA references for the sources cited above. Both exemplar portfolios carry a reference list on every competency page.</p>
 
 </section>

@@ -4,82 +4,55 @@ number: "8b"
 name: "Learner Assessment"
 order: 11
 title: "8b. Learner Assessment"
-description: "MHPTT competency 8b, Learner Assessment. Two artifacts from the Master of Health Professions Teaching & Technology, each with a description, a reflection, and the evidence itself."
-artifacts:
-  - label:  "8b-A"
-    title:  "SBAR Project — Solving an Assessment Challenge"
-    course: "HPTT 805 – Evaluation and Assessment of Teaching and Learning in Health Professions Education (Fall 2024)"
-    anchor: "artifact-8b-a"
-  - label:  "8b-B"
-    title:  "Instructional Design Project — “Chronic Hepatitis: A Patient's Journey”"
-    course: "HPTT 802 – Instructional Design for Health Professions Education (Spring 2024)"
-    anchor: "artifact-8b-b"
+description: "MHPTT competency 8b, Learner Assessment — the outcome statement and the artifacts evidencing it, from the Master of Health Professions Teaching & Technology at UNMC."
+# One entry per artifact — label, title, course, and the anchor of its
+# <section> in the body below. Drives the jump list on this page and the
+# artifact list on /artifacts/. Left empty until artifacts are chosen.
+artifacts: []
 statement: >-
   Create engaging learning solutions to improve health professions education.
 ---
 
-<!-- Artifact 8b-A — keep the section tags that wrap this block; write between them. -->
+<p class="todo"><strong>Artifacts to be added.</strong> Two artifacts belong on this page, each with a description, a reflection, and the file itself. An artifact template sits in a comment just below — copy it out and fill it in.</p>
+
+{% comment %}
+  ARTIFACT TEMPLATE — copy everything between the dashed rules out of this
+  comment, once per artifact, and fill it in. Nothing inside a Liquid comment
+  reaches the browser, so this stays invisible until you move a copy out.
+
+  Then add a matching entry to `artifacts:` in the front matter above, so the
+  artifact appears in the jump list here and in the list on /artifacts/.
+
+  ----------------------------------------------------------------------------
 <section class="artifact" id="artifact-8b-a" markdown="1">
 
 <p class="label">Artifact 8b-A</p>
 
-## SBAR Project — Solving an Assessment Challenge
+## Title of the artifact
 
-**Course:** HPTT 805 – Evaluation and Assessment of Teaching and Learning in Health Professions Education (Fall 2024)
+**Course:** HPTT ### – Full Course Name (Term Year)
 {: .meta}
 
 ### Description
 
-A formal SBAR paper identifying an assessment gap in gastroenterology training and proposing a
-solution, structured through situation, background, assessment, and recommendation — a framing
-immediately legible to any clinician reviewing this portfolio.
+What the assignment required. Two to four sentences, factual — what the work
+was, not yet why it matters.
 
 ### Reflection
 
-<p class="todo"><strong>To write.</strong> Name the competency explicitly — “This artifact demonstrates Student Learning Outcome 8b by…” — then work through the prompts below and delete this block.</p>
+Why this demonstrates the competency, what it changed about how you teach, and
+what was hard. First person, and name the outcome explicitly.
 
-- How you scoped the problem.
-- Which recommendation was actually feasible in your division and which was aspirational.
-- **Merge the four sections into one document before uploading** — four separate downloads reads as unfinished.
-
-[Download the full artifact](/assets/artifacts/hptt805-sbar-project.pdf){: .dl}
+[Download the full artifact](/assets/artifacts/filename.pdf){: .dl}
 
 </section>
-
-<!-- Artifact 8b-B — keep the section tags that wrap this block; write between them. -->
-<section class="artifact" id="artifact-8b-b" markdown="1">
-
-<p class="label">Artifact 8b-B</p>
-
-## Instructional Design Project — “Chronic Hepatitis: A Patient's Journey”
-
-**Course:** HPTT 802 – Instructional Design for Health Professions Education (Spring 2024)
-{: .meta}
-
-### Description
-
-An eleven-section instructional design project built around a patient-journey narrative: goal
-statement, needs analysis, learner situations and characteristics, two full teaching and
-learning activities each with its own assessment and storyboard, a peer review summary and
-self-reflection, and a media list. Assessment is designed into each activity rather than
-appended to it.
-
-### Reflection
-
-<p class="todo"><strong>To write.</strong> Name the competency explicitly — “This artifact demonstrates Student Learning Outcome 8b by…” — then work through the prompts below and delete this block.</p>
-
-- Why a patient-journey narrative rather than a topic-by-topic module.
-- How assessment was designed into each activity rather than bolted on.
-- What the peer review changed.
-
-[Download the full artifact](/assets/artifacts/hptt802-id-project.pdf){: .dl}
-
-</section>
+  ----------------------------------------------------------------------------
+{% endcomment %}
 
 <section class="references" markdown="1">
 
 ## References
 
-<p class="todo">Add APA references for the sources cited above. Both exemplar portfolios carry a reference list on every competency page.</p>
+<p class="todo">APA references for the sources cited above. Both exemplar portfolios carry a reference list on every competency page.</p>
 
 </section>

@@ -4,81 +4,56 @@ number: "7b"
 name: "Leadership in Health Professions Education"
 order: 9
 title: "7b. Leadership in Health Professions Education"
-description: "MHPTT competency 7b, Leadership in Health Professions Education. Two artifacts from the Master of Health Professions Teaching & Technology, each with a description, a reflection, and the evidence itself."
-artifacts:
-  - label:  "7b-A"
-    title:  "Leadership Capstone — “Nutritional Success & Liver Transplantation”"
-    course: "HPTT 823 – Leadership in Health Professions Education (Spring 2025)"
-    anchor: "artifact-7b-a"
-  - label:  "7b-B"
-    title:  "Individual Development Plan (myIDP)"
-    course: "ScienceCareers myIDP — professional, not coursework (August 2024)"
-    anchor: "artifact-7b-b"
+description: "MHPTT competency 7b, Leadership in Health Professions Education — the outcome statement and the artifacts evidencing it, from the Master of Health Professions Teaching & Technology at UNMC."
+# One entry per artifact — label, title, course, and the anchor of its
+# <section> in the body below. Drives the jump list on this page and the
+# artifact list on /artifacts/. Left empty until artifacts are chosen.
+artifacts: []
 statement: >-
   Demonstrate leadership in health professions education through innovation,
   mentorship, and reflective practice.
 ---
 
-<!-- Artifact 7b-A — keep the section tags that wrap this block; write between them. -->
+<p class="todo"><strong>Artifacts to be added.</strong> Two artifacts belong on this page, each with a description, a reflection, and the file itself. An artifact template sits in a comment just below — copy it out and fill it in.</p>
+
+{% comment %}
+  ARTIFACT TEMPLATE — copy everything between the dashed rules out of this
+  comment, once per artifact, and fill it in. Nothing inside a Liquid comment
+  reaches the browser, so this stays invisible until you move a copy out.
+
+  Then add a matching entry to `artifacts:` in the front matter above, so the
+  artifact appears in the jump list here and in the list on /artifacts/.
+
+  ----------------------------------------------------------------------------
 <section class="artifact" id="artifact-7b-a" markdown="1">
 
 <p class="label">Artifact 7b-A</p>
 
-## Leadership Capstone — “Nutritional Success & Liver Transplantation”
+## Title of the artifact
 
-**Course:** HPTT 823 – Leadership in Health Professions Education (Spring 2025)
+**Course:** HPTT ### – Full Course Name (Term Year)
 {: .meta}
 
 ### Description
 
-The full arc of a leadership project: vision, plan, and persuasion. The capstone presentation
-and supporting document are accompanied by a recorded elevator pitch — the only artifact in
-this portfolio where a reviewer hears the case made aloud.
+What the assignment required. Two to four sentences, factual — what the work
+was, not yet why it matters.
 
 ### Reflection
 
-<p class="todo"><strong>To write.</strong> Name the competency explicitly — “This artifact demonstrates Student Learning Outcome 7b by…” — then work through the prompts below and delete this block.</p>
+Why this demonstrates the competency, what it changed about how you teach, and
+what was hard. First person, and name the outcome explicitly.
 
-- How the pitch differed from the full presentation, and what that taught you about audience.
-- Your own note in the pitch — that coming across as leader-like on video is hard because you cannot read the room or adjust tone on the fly — is a good, honest reflection seed. Expand it.
-- Whether any of the plan has been implemented since.
-- **Embed the elevator pitch video** rather than linking a file.
-
-[Download the full artifact](/assets/artifacts/hptt823-leadership-capstone.pdf){: .dl}
+[Download the full artifact](/assets/artifacts/filename.pdf){: .dl}
 
 </section>
-
-<!-- Artifact 7b-B — keep the section tags that wrap this block; write between them. -->
-<section class="artifact" id="artifact-7b-b" markdown="1">
-
-<p class="label">Artifact 7b-B</p>
-
-## Individual Development Plan (myIDP)
-
-**Course:** ScienceCareers myIDP — professional, not coursework (August 2024)
-{: .meta}
-
-### Description
-
-A structured self-assessment across teaching, research, communication, and leadership domains,
-identifying skill gaps and setting professional development goals.
-
-### Reflection
-
-<p class="todo"><strong>To write.</strong> Name the competency explicitly — “This artifact demonstrates Student Learning Outcome 7b by…” — then work through the prompts below and delete this block.</p>
-
-- Which gaps the IDP surfaced, and whether the MHPTT closed them.
-- Where you sit now versus August 2024.
-- What the next two years look like.
-
-[Download the full artifact](/assets/artifacts/myidp-pradhan-2024.pdf){: .dl}
-
-</section>
+  ----------------------------------------------------------------------------
+{% endcomment %}
 
 <section class="references" markdown="1">
 
 ## References
 
-<p class="todo">Add APA references for the sources cited above. Both exemplar portfolios carry a reference list on every competency page.</p>
+<p class="todo">APA references for the sources cited above. Both exemplar portfolios carry a reference list on every competency page.</p>
 
 </section>

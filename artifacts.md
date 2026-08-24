@@ -1,7 +1,7 @@
 ---
 title: "MHPTT Artifacts"
-description: "The eight MHPTT competencies across eleven outcome areas, with twenty-two artifacts of evidence."
-subtitle: "Eight competencies, eleven outcome areas, twenty-two artifacts."
+description: "The eight MHPTT competencies, across the eleven outcome areas that evidence them."
+subtitle: "Eight competencies, evidenced across eleven outcome areas."
 permalink: /artifacts/
 wide: true
 ---
@@ -9,8 +9,8 @@ wide: true
 The Master of Health Professions Teaching & Technology is built around eight core
 competencies. Three of them — Research, Leadership, and Learner Assessment — carry two
 distinct sub-statements each, which is why eight competencies are evidenced across eleven
-pages. Each page states the outcome, then presents two artifacts: what the work required,
-what it demonstrates, and the file itself.
+pages. Each page states its outcome, then presents the artifacts evidencing it — what the work
+required, what it demonstrates, and the file itself.
 
 <ul class="index-list">
 {%- assign items = site.competencies | sort: "order" -%}

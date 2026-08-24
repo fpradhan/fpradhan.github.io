@@ -4,88 +4,57 @@ number: "3"
 name: "Learning Theory"
 order: 3
 title: "3. Learning Theory"
-description: "MHPTT competency 3, Learning Theory. Two artifacts from the Master of Health Professions Teaching & Technology, each with a description, a reflection, and the evidence itself."
-artifacts:
-  - label:  "3A"
-    title:  "Learning Theories Paper — Social Cognitive Theory"
-    course: "HPTT 801 – Foundations of Health Professions Education (Fall 2023)"
-    anchor: "artifact-3a"
-  - label:  "3B"
-    title:  "Integration Paper"
-    course: "HPTT 801 – Foundations of Health Professions Education (Fall 2023)"
-    anchor: "artifact-3b"
+description: "MHPTT competency 3, Learning Theory — the outcome statement and the artifacts evidencing it, from the Master of Health Professions Teaching & Technology at UNMC."
+# One entry per artifact — label, title, course, and the anchor of its
+# <section> in the body below. Drives the jump list on this page and the
+# artifact list on /artifacts/. Left empty until artifacts are chosen.
+artifacts: []
 statement: >-
   Apply content knowledge, pedagogical, and professional knowledge necessary
   to carry out teaching responsibilities and for successful performance in the
   health professions field.
 ---
 
-<!-- Artifact 3A — keep the section tags that wrap this block; write between them. -->
-<section class="artifact" id="artifact-3a" markdown="1">
+<p class="todo"><strong>Artifacts to be added.</strong> Two artifacts belong on this page, each with a description, a reflection, and the file itself. An artifact template sits in a comment just below — copy it out and fill it in.</p>
 
-<p class="label">Artifact 3A</p>
+{% comment %}
+  ARTIFACT TEMPLATE — copy everything between the dashed rules out of this
+  comment, once per artifact, and fill it in. Nothing inside a Liquid comment
+  reaches the browser, so this stays invisible until you move a copy out.
 
-## Learning Theories Paper — Social Cognitive Theory
+  Then add a matching entry to `artifacts:` in the front matter above, so the
+  artifact appears in the jump list here and in the list on /artifacts/.
 
-**Course:** HPTT 801 – Foundations of Health Professions Education (Fall 2023)
+  ----------------------------------------------------------------------------
+<section class="artifact" id="artifact-3-a" markdown="1">
+
+<p class="label">Artifact 3-A</p>
+
+## Title of the artifact
+
+**Course:** HPTT ### – Full Course Name (Term Year)
 {: .meta}
 
 ### Description
 
-An argument for Bandura's social cognitive theory and triadic reciprocal causation as the
-framework that best describes clinical teaching, tested against behaviorism, social
-constructivism, and information processing theory. The comparison is worked through a specific
-procedural example: negative reinforcement is unusable in endoscopy training because
-unrecognised looping can cause splenic laceration or colonic perforation, so modeling and
-Schunk's goal properties of specificity, proximity, and difficulty carry the instructional load
-instead.
+What the assignment required. Two to four sentences, factual — what the work
+was, not yet why it matters.
 
 ### Reflection
 
-<p class="todo"><strong>To write.</strong> Name the competency explicitly — “This artifact demonstrates Student Learning Outcome 3 by…” — then work through the prompts below and delete this block.</p>
+Why this demonstrates the competency, what it changed about how you teach, and
+what was hard. First person, and name the outcome explicitly.
 
-- Why cognitivism over constructivism, given how much scaffolding you actually do at the bedside.
-- Where social cognitive theory runs out in asynchronous online settings.
-- Whether the endoscopy example changed how you teach loop reduction.
-
-[Download the full artifact](/assets/artifacts/hptt801-learning-theories-paper.pdf){: .dl}
+[Download the full artifact](/assets/artifacts/filename.pdf){: .dl}
 
 </section>
-
-<!-- Artifact 3B — keep the section tags that wrap this block; write between them. -->
-<section class="artifact" id="artifact-3b" markdown="1">
-
-<p class="label">Artifact 3B</p>
-
-## Integration Paper
-
-**Course:** HPTT 801 – Foundations of Health Professions Education (Fall 2023)
-{: .meta}
-
-### Description
-
-A re-examination of the learning theories paper against the curriculum actually built, and an
-honest account of where the two diverge. The open-book weekly multiple-choice assessment is the
-worked example: it is better described by Vygotsky's zone of proximal development than by
-Bandura, a locked-browser exam would fit the stated theory more closely, and the open-book
-policy is nonetheless retained on the grounds of learner stress.
-
-### Reflection
-
-<p class="todo"><strong>To write.</strong> Name the competency explicitly — “This artifact demonstrates Student Learning Outcome 3 by…” — then work through the prompts below and delete this block.</p>
-
-- What changed between the two papers, and what prompted the change.
-- Whether you would still keep the open-book policy.
-- Where blending theories beats committing to one.
-
-[Download the full artifact](/assets/artifacts/hptt801-integration-paper.pdf){: .dl}
-
-</section>
+  ----------------------------------------------------------------------------
+{% endcomment %}
 
 <section class="references" markdown="1">
 
 ## References
 
-<p class="todo">Add APA references for the sources cited above. Both exemplar portfolios carry a reference list on every competency page.</p>
+<p class="todo">APA references for the sources cited above. Both exemplar portfolios carry a reference list on every competency page.</p>
 
 </section>

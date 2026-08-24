@@ -4,94 +4,57 @@ number: "1"
 name: "Instructional Methods"
 order: 1
 title: "1. Instructional Methods"
-description: "MHPTT competency 1, Instructional Methods. Two artifacts from the Master of Health Professions Teaching & Technology, each with a description, a reflection, and the evidence itself."
-artifacts:
-  - label:  "1A"
-    title:  "Curriculum Outline — “Pathophysiology of the Liver”"
-    course: "HPTT 801 – Foundations of Health Professions Education (Fall 2023)"
-    anchor: "artifact-1a"
-  - label:  "1B"
-    title:  "Clinical Teaching Project — Diagnostic Paracentesis"
-    course: "HPTT 840 – Foundations of Clinical Teaching (Summer 2026)"
-    anchor: "artifact-1b"
+description: "MHPTT competency 1, Instructional Methods — the outcome statement and the artifacts evidencing it, from the Master of Health Professions Teaching & Technology at UNMC."
+# One entry per artifact — label, title, course, and the anchor of its
+# <section> in the body below. Drives the jump list on this page and the
+# artifact list on /artifacts/. Left empty until artifacts are chosen.
+artifacts: []
 statement: >-
   Demonstrate an understanding of the theory and practice of education through
   the development of health science programs that focus on the application of
   evidence-based strategies and methodologies.
 ---
 
-<!-- Artifact 1A — keep the section tags that wrap this block; write between them. -->
-<section class="artifact" id="artifact-1a" markdown="1">
+<p class="todo"><strong>Artifacts to be added.</strong> Two artifacts belong on this page, each with a description, a reflection, and the file itself. An artifact template sits in a comment just below — copy it out and fill it in.</p>
 
-<p class="label">Artifact 1A</p>
+{% comment %}
+  ARTIFACT TEMPLATE — copy everything between the dashed rules out of this
+  comment, once per artifact, and fill it in. Nothing inside a Liquid comment
+  reaches the browser, so this stays invisible until you move a copy out.
 
-## Curriculum Outline — “Pathophysiology of the Liver”
+  Then add a matching entry to `artifacts:` in the front matter above, so the
+  artifact appears in the jump list here and in the list on /artifacts/.
 
-**Course:** HPTT 801 – Foundations of Health Professions Education (Fall 2023)
+  ----------------------------------------------------------------------------
+<section class="artifact" id="artifact-1-a" markdown="1">
+
+<p class="label">Artifact 1-A</p>
+
+## Title of the artifact
+
+**Course:** HPTT ### – Full Course Name (Term Year)
 {: .meta}
 
 ### Description
 
-A complete 15-week course proposal for medical students covering hepatic anatomy and
-development, viral hepatitis, steatotic liver disease, autoimmune and metabolic liver disease,
-hepatic vascular complications, and liver transplantation. The design specifies five learning
-outcomes, weekly readings, open-book multiple-choice assessments, six problem-solving clinical
-case discussion posts with peer review, and a final comprehensive care plan built inside a
-simulated electronic medical record. Teaching strategy is grounded explicitly in Bandura's
-reciprocal determinism and in Mayer's multimedia principles of signaling, segmenting, and
-redundancy.
+What the assignment required. Two to four sentences, factual — what the work
+was, not yet why it matters.
 
 ### Reflection
 
-<p class="todo"><strong>To write.</strong> Name the competency explicitly — “This artifact demonstrates Student Learning Outcome 1 by…” — then work through the prompts below and delete this block.</p>
+Why this demonstrates the competency, what it changed about how you teach, and
+what was hard. First person, and name the outcome explicitly.
 
-- Why a 15-week didactic course rather than the rotation-based design you first proposed.
-- How you decided scope and sequence — anatomy and physiology before pathology before transplant.
-- What you would change now, three years and eight courses later.
-
-[Download the full artifact](/assets/artifacts/hptt801-curriculum-outline.pdf){: .dl}
+[Download the full artifact](/assets/artifacts/filename.pdf){: .dl}
 
 </section>
-
-<!-- Artifact 1B — keep the section tags that wrap this block; write between them. -->
-<section class="artifact" id="artifact-1b" markdown="1">
-
-<p class="label">Artifact 1B</p>
-
-## Clinical Teaching Project — Diagnostic Paracentesis
-
-**Course:** HPTT 840 – Foundations of Clinical Teaching (Summer 2026)
-{: .meta}
-
-### Description
-
-A simulation-based instructional and assessment plan for teaching diagnostic paracentesis to
-third-year medical students during a three-week Hepatology clerkship, in five components:
-learning objectives, teaching strategy, reflective assignment, assessment tool, and reflection
-on peer feedback, with a procedural checklist appended. Objectives are written in full ABCD
-form across all three domains — affective (advocating for the safety of paracentesis despite an
-elevated INR), psychomotor (80% or better on the procedural rubric), and cognitive
-(differentiating portal-hypertensive from non-portal-hypertensive ascites) — each justified
-against AGA and AASLD guidance and against Barsuk et al. (2012), who reported checklist
-performance rising from 33.0% to 92.7% after a single session.
-
-### Reflection
-
-<p class="todo"><strong>To write.</strong> Name the competency explicitly — “This artifact demonstrates Student Learning Outcome 1 by…” — then work through the prompts below and delete this block.</p>
-
-- How designing for the bedside differs from designing for a Canvas module.
-- Why you built an affective objective at all, and how you assess one — a student raising a guideline-based concern across the clinical hierarchy is an unusual thing to make examinable.
-- Which strategies you had been using intuitively that this course gave you names for.
-- How the peer-review round changed your second submission.
-
-[Download the full artifact](/assets/artifacts/hptt840-clinical-teaching-project.pdf){: .dl}
-
-</section>
+  ----------------------------------------------------------------------------
+{% endcomment %}
 
 <section class="references" markdown="1">
 
 ## References
 
-<p class="todo">Add APA references for the sources cited above. Both exemplar portfolios carry a reference list on every competency page.</p>
+<p class="todo">APA references for the sources cited above. Both exemplar portfolios carry a reference list on every competency page.</p>
 
 </section>

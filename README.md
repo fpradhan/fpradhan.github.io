@@ -260,12 +260,20 @@ assets/artifacts/        downloadable artifact files (README lists the expected 
 
 ## Status
 
-Structure, navigation, styling and all eleven competency pages are in place, pre-filled with
-artifact titles, courses and descriptions drawn from the coursework.
+Structure, navigation, styling, the CV and all eleven competency pages are in place. Each
+competency page carries its outcome statement, a reference section, and an artifact template
+in a Liquid comment ready to be copied out.
 
-**The reflections and the reference lists are not written** — those are yours, and they are
-the graded core of the portfolio. **The twenty-two artifact files are not yet uploaded**; the
-download links point at the filenames listed in `assets/artifacts/README.md` and will work as
-soon as the files are added.
+**No artifacts have been chosen yet.** Adding one is three steps:
+
+1. Copy the template out of the `{% raw %}{% comment %}{% endraw %}` block in
+   `_competencies/<page>.md` and fill in the title, course, description and reflection.
+2. Drop the file into `assets/artifacts/` and point the download link at it.
+3. Add a matching entry to `artifacts:` in that page's front matter, so it appears in the
+   jump list on the page and in the list on `/artifacts/`.
+
+Also still open: the reference lists, the headshot and CV PDF, the profile links, and the
+contact-form endpoint. Every one of those is an optional slot — the page renders correctly
+without it, so nothing on the site looks broken in the meantime.
 
 Content plan and artifact mapping: `MHPTT-Wix-Portfolio-Plan.md` in the HPTT 832 folder.

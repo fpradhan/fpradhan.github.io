@@ -4,88 +4,57 @@ number: "4"
 name: "Best Practices in Teaching"
 order: 4
 title: "4. Best Practices in Teaching"
-description: "MHPTT competency 4, Best Practices in Teaching. Two artifacts from the Master of Health Professions Teaching & Technology, each with a description, a reflection, and the evidence itself."
-artifacts:
-  - label:  "4A"
-    title:  "Applying the Science of Learning"
-    course: "HPTT 802 – Instructional Design for Health Professions Education (Spring 2024)"
-    anchor: "artifact-4a"
-  - label:  "4B"
-    title:  "Reflective Practice and Feedback Reflection"
-    course: "HPTT 840 – Foundations of Clinical Teaching (Summer 2026)"
-    anchor: "artifact-4b"
+description: "MHPTT competency 4, Best Practices in Teaching — the outcome statement and the artifacts evidencing it, from the Master of Health Professions Teaching & Technology at UNMC."
+# One entry per artifact — label, title, course, and the anchor of its
+# <section> in the body below. Drives the jump list on this page and the
+# artifact list on /artifacts/. Left empty until artifacts are chosen.
+artifacts: []
 statement: >-
   Demonstrate reflective practice through the integration of evidence-based
   knowledge, skills, and attitudes towards establishing effective learning
   environments.
 ---
 
-<!-- Artifact 4A — keep the section tags that wrap this block; write between them. -->
-<section class="artifact" id="artifact-4a" markdown="1">
+<p class="todo"><strong>Artifacts to be added.</strong> Two artifacts belong on this page, each with a description, a reflection, and the file itself. An artifact template sits in a comment just below — copy it out and fill it in.</p>
 
-<p class="label">Artifact 4A</p>
+{% comment %}
+  ARTIFACT TEMPLATE — copy everything between the dashed rules out of this
+  comment, once per artifact, and fill it in. Nothing inside a Liquid comment
+  reaches the browser, so this stays invisible until you move a copy out.
 
-## Applying the Science of Learning
+  Then add a matching entry to `artifacts:` in the front matter above, so the
+  artifact appears in the jump list here and in the list on /artifacts/.
 
-**Course:** HPTT 802 – Instructional Design for Health Professions Education (Spring 2024)
+  ----------------------------------------------------------------------------
+<section class="artifact" id="artifact-4-a" markdown="1">
+
+<p class="label">Artifact 4-A</p>
+
+## Title of the artifact
+
+**Course:** HPTT ### – Full Course Name (Term Year)
 {: .meta}
 
 ### Description
 
-An evidence-integration exercise pairing published teaching tips with primary sources from
-gastroenterology and hepatology: preparing learners to transfer knowledge to new settings,
-illustrated with simulation-based colonoscopy assessment and with VR and console-gaming
-psychomotor transfer; and harnessing emotion for learning, illustrated with Schwartz rounds and
-with McConnell and Eva's work on emotion in clinical skill transfer.
+What the assignment required. Two to four sentences, factual — what the work
+was, not yet why it matters.
 
 ### Reflection
 
-<p class="todo"><strong>To write.</strong> Name the competency explicitly — “This artifact demonstrates Student Learning Outcome 4 by…” — then work through the prompts below and delete this block.</p>
+Why this demonstrates the competency, what it changed about how you teach, and
+what was hard. First person, and name the outcome explicitly.
 
-- Which of these tips you have actually adopted since.
-- The emotional-state material is worth dwelling on — much of GI training is high-stakes procedural work performed under observation.
-- Where the evidence contradicted something you believed about your own teaching.
-
-[Download the full artifact](/assets/artifacts/hptt802-science-of-learning.pdf){: .dl}
+[Download the full artifact](/assets/artifacts/filename.pdf){: .dl}
 
 </section>
-
-<!-- Artifact 4B — keep the section tags that wrap this block; write between them. -->
-<section class="artifact" id="artifact-4b" markdown="1">
-
-<p class="label">Artifact 4B</p>
-
-## Reflective Practice and Feedback Reflection
-
-**Course:** HPTT 840 – Foundations of Clinical Teaching (Summer 2026)
-{: .meta}
-
-### Description
-
-Rather than simply reflecting, this artifact selects and justifies a validated instrument: the
-REFLECT rubric (Wald et al., 2012) and its four progressive levels — descriptive writing,
-reflective writing, responded reflection, and critical reflection — as the right scaffold for
-third-year students completing a procedural simulation. It is argued against Peyton's Four-Step
-Approach (Krautter et al., 2011) on procedural cognitive load, and includes disclosure of the
-author's own performance anxiety during training as part of the rationale.
-
-### Reflection
-
-<p class="todo"><strong>To write.</strong> Name the competency explicitly — “This artifact demonstrates Student Learning Outcome 4 by…” — then work through the prompts below and delete this block.</p>
-
-- Why a validated rubric rather than free reflection.
-- Where you sit on the REFLECT levels yourself.
-- A time your feedback landed badly, and what you changed.
-- How you reflect in the moment during a procedure versus afterwards.
-
-[Download the full artifact](/assets/artifacts/hptt840-reflective-practice.pdf){: .dl}
-
-</section>
+  ----------------------------------------------------------------------------
+{% endcomment %}
 
 <section class="references" markdown="1">
 
 ## References
 
-<p class="todo">Add APA references for the sources cited above. Both exemplar portfolios carry a reference list on every competency page.</p>
+<p class="todo">APA references for the sources cited above. Both exemplar portfolios carry a reference list on every competency page.</p>
 
 </section>
