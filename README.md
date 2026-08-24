@@ -194,18 +194,26 @@ The type stack is three faces, each with a job:
 | `--sans` | Inter | Body text, navigation, artifact titles on the index |
 | `--mono` | JetBrains Mono | Every label, date, course line and button — the detail that gives the site its character |
 
-**The fonts are self-hosted**, in `assets/fonts/`, declared at the top of `style.css`. Three
-files, 161 KB in total, one variable woff2 per family covering the whole weight range it
-declares — so weight 500 interpolates rather than snapping to 400. Only the latin subset is
-shipped; a character outside it falls back to Georgia for that glyph rather than blocking the
+**The fonts are self-hosted**, in `assets/fonts/`, declared at the top of `style.css`. Five
+files: an upright and a true italic for Literata and Inter, plus JetBrains Mono. Each is a
+variable woff2 covering the whole weight range it declares — so weight 500 interpolates rather
+than snapping to 400. Only the latin subset is shipped; a character outside it falls back to Georgia for that glyph rather than blocking the
 page. Serving them from this domain means one fewer third party, no dependency on a network
 that might block a font CDN — hospital networks sometimes do — and nothing about a visitor
 leaving the site. The two faces that set the first screen are preloaded in `head.html`.
 
-Two things to keep in mind if you edit the type. Neither family ships a true italic here, so
-`*emphasis*` is synthesised as an oblique — fine in passing, not for long passages. And artifact
-titles on the index are deliberately kept in Inter: they are long, and mono uppercase makes them
-unreadable at that size.
+The italics are real cuts, not slanted uprights, and `font-synthesis: none` stops the browser
+faking either a slant or a weight it does not have. They are declared but deliberately **not**
+preloaded: a browser fetches a face only when text matching it is actually rendered, so a page
+with no italic text pays nothing for them. Measured — `/artifacts/` pulls three font files,
+`/resume/` pulls four, the fourth being Inter italic for the parenthetical notes in its tables.
+
+One consequence worth knowing: JetBrains Mono ships upright only. Italic text inside a label,
+date or course line would render upright rather than slanted. Nothing does that today, and an
+upright is a better failure than a mechanical fake.
+
+Artifact titles on the index are deliberately kept in Inter: they are long, and mono uppercase
+makes them unreadable at that size.
 
 ---
 
