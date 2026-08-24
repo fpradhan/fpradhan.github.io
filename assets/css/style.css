@@ -359,8 +359,12 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
 .on-page{margin:0 0 3rem;padding:1.15rem 1.35rem;background:var(--surface);
   border:1px solid var(--rule);border-radius:var(--radius)}
 .on-page .label{margin-bottom:.7rem}
-.prose .on-page ol{list-style:none;margin:0;padding:0}
+.prose .on-page ol,.prose .on-page ul{list-style:none;margin:0;padding:0}
 .prose .on-page li{margin:0 0 .45rem;padding:0}
+.prose .on-page li::marker{content:none}
+/* A long section index (the CV page) reads better in two columns. */
+@media (min-width:640px){ .prose .on-page ul{columns:2;column-gap:2.5rem} }
+.prose .on-page ul li{break-inside:avoid}
 .on-page li:last-child{margin-bottom:0}
 .on-page a{font-size:var(--t-sm);font-weight:500;color:var(--ink);
   text-decoration:none;line-height:1.5}
@@ -377,6 +381,41 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
 
 .competency-body > h2{margin-top:3.5rem}
 .competency-body > h2:first-child{margin-top:0}
+
+/* CV entry list — title with a right-aligned date, optional detail beneath */
+.cv-list{margin:0 0 2.25rem;padding:0}
+.cv-list dt{
+  display:flex;justify-content:space-between;align-items:baseline;gap:1.25rem;
+  font-weight:600;font-size:.97rem;line-height:1.45;color:var(--ink);
+  border-top:1px solid var(--rule);margin-top:1rem;padding-top:1rem;
+}
+.cv-list dt:first-of-type{border-top:0;margin-top:0;padding-top:0}
+.cv-list .when{
+  font-size:var(--t-xs);font-weight:500;color:var(--ink-faint);
+  white-space:nowrap;font-variant-numeric:tabular-nums;letter-spacing:.02em;
+}
+.cv-list dd{margin:.35rem 0 0;font-size:var(--t-sm);line-height:1.55;color:var(--ink-soft)}
+@media (max-width:560px){
+  .cv-list dt{flex-direction:column;gap:.2rem}
+  .cv-list .when{order:-1}
+}
+
+/* Citation list — hanging indent, tabular numbering */
+.prose .cites{margin:0 0 2rem;padding:0;list-style:none;counter-reset:cite}
+.prose .cites li{
+  position:relative;margin:0 0 .9rem;padding-left:2.4rem;
+  font-size:var(--t-sm);line-height:1.6;color:var(--ink-soft);
+}
+.prose ol.cites li{counter-increment:cite}
+.prose ol.cites li::before{
+  content:counter(cite) ".";position:absolute;left:0;top:0;width:2rem;
+  text-align:right;color:var(--ink-faint);font-variant-numeric:tabular-nums;
+}
+.prose ul.cites li::before{
+  content:"";position:absolute;left:.75rem;top:.72em;width:4px;height:4px;
+  border-radius:50%;background:var(--rule-strong);
+}
+.cites a{word-break:break-word}
 
 /* Page-level reference list */
 .references{margin-top:3.5rem;padding-top:2rem;border-top:1px solid var(--rule)}
