@@ -24,7 +24,14 @@
 <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}?v={{ v }}" type="image/svg+xml">
 <link rel="mask-icon" href="{{ '/assets/favicon.svg' | relative_url }}" color="#b0402a">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+{%- comment -%}
+  Fonts are served from this domain, declared in style.css. The two faces that
+  set the first screen are preloaded, since the browser cannot discover them
+  until the stylesheet has parsed. crossorigin is required even same-origin —
+  fonts are always fetched in CORS mode.
+{%- endcomment -%}
+<link rel="preload" as="font" type="font/woff2" crossorigin
+      href="{{ '/assets/fonts/inter-latin.woff2' | relative_url }}">
+<link rel="preload" as="font" type="font/woff2" crossorigin
+      href="{{ '/assets/fonts/literata-latin.woff2' | relative_url }}">
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={{ v }}">

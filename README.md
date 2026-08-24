@@ -190,15 +190,22 @@ The type stack is three faces, each with a job:
 
 | Variable | Face | Used for |
 |---|---|---|
-| `--display` | Instrument Serif | Page titles, section headings, the lede, competency statements and numerals |
-| `--sans` | Inter | Body text, navigation, artifact chips |
+| `--display` | Literata | Page titles, section headings, the lede, competency statements and numerals |
+| `--sans` | Inter | Body text, navigation, artifact titles on the index |
 | `--mono` | JetBrains Mono | Every label, date, course line and button — the detail that gives the site its character |
 
-Two things to keep in mind if you edit the type. Instrument Serif ships a single weight, so
-`**bold**` inside a display-face element will not render bolder — that is why emphasis in the
-lede is marked with colour instead (`.lede strong`). And artifact chips on the index are
-deliberately kept in Inter: artifact titles are long, and mono uppercase makes them unreadable
-at chip size.
+**The fonts are self-hosted**, in `assets/fonts/`, declared at the top of `style.css`. Three
+files, 161 KB in total, one variable woff2 per family covering the whole weight range it
+declares — so weight 500 interpolates rather than snapping to 400. Only the latin subset is
+shipped; a character outside it falls back to Georgia for that glyph rather than blocking the
+page. Serving them from this domain means one fewer third party, no dependency on a network
+that might block a font CDN — hospital networks sometimes do — and nothing about a visitor
+leaving the site. The two faces that set the first screen are preloaded in `head.html`.
+
+Two things to keep in mind if you edit the type. Neither family ships a true italic here, so
+`*emphasis*` is synthesised as an oblique — fine in passing, not for long passages. And artifact
+titles on the index are deliberately kept in Inter: they are long, and mono uppercase makes them
+unreadable at that size.
 
 ---
 
