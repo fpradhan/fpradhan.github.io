@@ -1,5 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="FP">
-  <rect width="64" height="64" rx="14" fill="#b0402a"/>
-  <text x="32" y="43" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif"
-        font-size="32" font-weight="400" fill="#ffffff" letter-spacing="0.5">FP</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="Faruq Pradhan">
+  <rect width="48" height="48" rx="10" fill="#b0402a"/>
+  <g fill="none" stroke="#f6f4ee" stroke-width="2" stroke-linejoin="round">
+    <polygon points="39,24 31.5,36.9 16.5,36.9 9,24 16.5,11.1 31.5,11.1"/>
+  </g>
+  <circle cx="24" cy="24" r="3.2" fill="#f6f4ee"/>
 </svg>

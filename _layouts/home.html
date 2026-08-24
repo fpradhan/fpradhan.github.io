@@ -1,9 +1,9 @@
 ---
 layout: default
 ---
-<article class="container">
-  {%- assign has_portrait = false -%}
-  {%- if site.portrait and site.portrait != "" %}{% assign has_portrait = true %}{% endif -%}
+{%- assign has_portrait = false -%}
+{%- if site.portrait and site.portrait != "" %}{% assign has_portrait = true %}{% endif -%}
+<article class="container{% if has_portrait %} wide{% endif %}">
 
   <div class="hero{% unless has_portrait %} hero-solo{% endunless %}">
     <div class="hero-body prose">

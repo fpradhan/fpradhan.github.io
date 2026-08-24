@@ -1,0 +1,25 @@
+{%- comment -%}
+  Reusable image figure. From Markdown:
+
+    {% include figure.html
+       src="/assets/img/steatotic-module.png"
+       alt="Opening screen of the Steatotic Liver Disease module, showing the clinical case hook"
+       caption="HPTT 825 — the module opens on a case rather than an objective."
+       width="1600" height="1000" %}
+
+  alt is required. A figure without it is skipped rather than shipped
+  inaccessible, so a missing description shows up as a missing image.
+  width and height are optional but worth passing: they reserve the right space
+  while the file loads, so the text under it does not jump.
+{%- endcomment -%}
+{%- if include.src and include.alt -%}
+<figure class="figure{% if include.wide %} figure-wide{% endif %}">
+  <img src="{{ include.src | relative_url }}" alt="{{ include.alt }}"
+       loading="{{ include.loading | default: 'lazy' }}" decoding="async"
+       {%- if include.width %} width="{{ include.width }}"{% endif %}
+       {%- if include.height %} height="{{ include.height }}"{% endif %}>
+  {%- if include.caption %}
+  <figcaption>{{ include.caption }}</figcaption>
+  {%- endif %}
+</figure>
+{%- endif -%}

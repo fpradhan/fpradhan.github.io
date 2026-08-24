@@ -3,8 +3,11 @@
 <header class="site-header">
   <div class="wrap header-inner">
     <a class="brand" href="{{ '/' | relative_url }}">
-      <span class="brand-name">{{ site.title }}</span>
-      <span class="brand-role">{{ site.role }}</span>
+      {% include mark.html size="30" class="brand-mark" %}
+      <span class="brand-text">
+        <span class="brand-name">{{ site.title }}</span>
+        <span class="brand-role">{{ site.role }}</span>
+      </span>
     </a>
 
     <nav class="site-nav" aria-label="Main">

@@ -26,6 +26,11 @@ layout: default
     </nav>
     {%- endif %}
 
+    {%- if page.image and page.image_alt %}
+    {% include figure.html src=page.image alt=page.image_alt caption=page.image_caption
+                           width=page.image_width height=page.image_height wide=true %}
+    {%- endif %}
+
     <div class="competency-body">{{ content }}</div>
 
     {%- assign items = site.competencies | sort: "order" -%}

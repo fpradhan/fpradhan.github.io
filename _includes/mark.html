@@ -1,0 +1,21 @@
+{%- comment -%}
+  Original artwork, drawn for this site — a hepatic lobule: the hexagonal
+  histological unit of the liver, with the central vein at its centre, the six
+  portal triads at its vertices and the sinusoids radiating between them.
+  Inline so it inherits currentColor and follows the light/dark theme.
+  Decorative: aria-hidden, so it is never announced to a screen reader.
+{%- endcomment -%}
+<svg class="mark{% if include.class %} {{ include.class }}{% endif %}" viewBox="0 0 48 48"
+     width="{{ include.size | default: 26 }}" height="{{ include.size | default: 26 }}"
+     aria-hidden="true" focusable="false">
+  <g fill="none" stroke="currentColor" stroke-width="1.4"
+     stroke-linejoin="round" stroke-linecap="round">
+    <polygon points="44,24 34,41.3 14,41.3 4,24 14,6.7 34,6.7"/>
+    <g stroke-width="1" opacity=".55">
+      <line x1="24" y1="24" x2="44" y2="24"/><line x1="24" y1="24" x2="34" y2="41.3"/>
+      <line x1="24" y1="24" x2="14" y2="41.3"/><line x1="24" y1="24" x2="4"  y2="24"/>
+      <line x1="24" y1="24" x2="14" y2="6.7"/><line x1="24" y1="24" x2="34" y2="6.7"/>
+    </g>
+  </g>
+  <circle cx="24" cy="24" r="3.4" fill="currentColor"/>
+</svg>

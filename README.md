@@ -102,6 +102,62 @@ as you fill each section in; every place needing your input is marked with one.
 link in the competency page matches the filename. `assets/artifacts/README.md` lists every
 filename the pages already point at, and the file-preparation notes that go with them.
 
+## Images
+
+The site ships no photographs. Everything visual in it right now is drawn in code: the mark in
+the header, the footer and the favicon is an inline SVG of a hepatic lobule — the liver's
+hexagonal histological unit, with the central vein at its centre and the six portal triads at
+its vertices. It is original artwork for this site, it inherits the theme colour, and it costs
+no extra request. Nothing on the site uses third-party imagery, so there is no licence to
+track.
+
+Photographs slot in through three mechanisms.
+
+**1. The headshot.** Put the file in `assets/img/` and set `portrait:` in `_config.yml`. The
+About page then switches to a two-column hero with the photograph beside the introduction. Any
+aspect ratio works — it is cropped to 4:5 favouring the top of the frame, so a standard
+headshot sits correctly.
+
+**2. A lead image on any page.** Add to that page's front matter:
+
+```yaml
+image:         /assets/img/teaching.jpg
+image_alt:     What the photograph shows
+image_caption: Optional line beneath it
+image_width:   1600      # optional, but see below
+image_height:  1000
+```
+
+It renders only when both `image` and `image_alt` are present. This works on the standalone
+pages and on the eleven competency pages.
+
+**3. Anywhere in the prose,** including inside an artifact's `<section>`:
+
+```liquid
+{% include figure.html
+   src="/assets/img/endoscopy-rubric.png"
+   alt="The endoscopic skills rubric, showing the five-point anchors for scope handling"
+   caption="HPTT 805 — anchors written so two attendings score the same trainee alike."
+   width="1600" height="1000" %}
+```
+
+Wrap several in `<div class="gallery" markdown="1">…</div>` to lay them out in a responsive
+grid. The Teaching page has a commented-out example ready to uncomment.
+
+**Three rules the templates enforce or assume:**
+
+- **`alt` is required.** A figure without it is skipped rather than shipped inaccessible, so a
+  missing description shows up as a missing image rather than as a silent accessibility gap.
+  Describe what the image *shows*, not that it is a photograph.
+- **Pass `width` and `height`.** They reserve the right space while the file loads, so the text
+  beneath does not jump when it arrives. Use the file's real pixel dimensions; the CSS still
+  scales the image to fit.
+- **Screenshots of your own work beat stock photography.** A screen from the Steatotic Liver
+  Disease module is evidence; a stock photograph of a doctor is decoration, and a reviewer can
+  tell. It also sidesteps licensing entirely, since the work is yours.
+
+---
+
 **To fill in an optional slot** — these live in `_config.yml` and each renders only once you
 set it, so the site never shows a broken link or an empty box:
 

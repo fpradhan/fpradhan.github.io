@@ -5,6 +5,18 @@ layout: default
   <div class="prose">
     {% if page.title %}<h1 class="page-title">{{ page.title }}</h1>{% endif %}
     {% if page.subtitle %}<p class="page-subtitle">{{ page.subtitle }}</p>{% endif %}
+    {%- comment -%}
+      Optional lead image, set per page in the front matter:
+        image:         /assets/img/teaching.jpg
+        image_alt:     what it shows
+        image_caption: optional line beneath
+      It renders only when both image and image_alt are present.
+    {%- endcomment -%}
+    {%- if page.image and page.image_alt %}
+    {% include figure.html src=page.image alt=page.image_alt caption=page.image_caption
+                           width=page.image_width height=page.image_height
+                           loading="eager" wide=true %}
+    {%- endif %}
     {{ content }}
   </div>
 </article>

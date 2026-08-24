@@ -27,7 +27,11 @@ social:
 # shows a broken link or an empty box for something you have not supplied.
 # ---------------------------------------------------------------------------
 
-# Portrait for the About page, e.g. "/assets/img/portrait.jpg"
+# Portrait for the About page, e.g. "/assets/img/portrait.jpg".
+# Drop the file into assets/img/ and put its path here — the About page then
+# switches to a two-column hero with the photograph beside the introduction.
+# Any aspect ratio works; it is cropped to 4:5 with the top of the frame
+# favoured, so a standard headshot sits correctly.
 portrait: ""
 portrait_alt: "Faruq Pradhan"
 

@@ -97,6 +97,28 @@ the Portal Hypertension e-learning module, the Prezi on liver enzymes, the Quizl
 Acute Liver Failure escape room. Embed where you can — a reviewer should be able to open and
 run them.</p>
 
+<p class="todo"><strong>Screenshots go here.</strong> A screen from each module does more for this
+page than any stock photograph — it is evidence, and it is yours. Drop the files into
+<code>assets/img/</code> and uncomment the block below, one <code>figure.html</code> line per image.
+Every image needs an <code>alt</code> describing what it shows; without one the figure is skipped
+rather than shipped inaccessible.</p>
+
+{% comment %} Delete this line and the {% raw %}{% endcomment %}{% endraw %} line below once the
+screenshots are in assets/img/. Liquid skips everything between them, so nothing
+is sent to the browser while the block is commented out.
+<div class="gallery" markdown="1">
+{% include figure.html src="/assets/img/steatotic-module.png" width="1600" height="1000"
+   alt="Opening screen of the Steatotic Liver Disease module, showing the clinical case that opens it"
+   caption="HPTT 825 — the module opens on a case, not an objective." %}
+{% include figure.html src="/assets/img/portal-htn-module.png" width="1600" height="1000"
+   alt="Title screen of the Portal Hypertension e-learning module"
+   caption="Portal Hypertension — A Systemic Disease, UNMC E-Gallery." %}
+{% include figure.html src="/assets/img/escape-room.png" width="1600" height="1000"
+   alt="A puzzle station from the Acute Liver Failure escape room simulation"
+   caption="Acute Liver Failure escape room, HPTT 824." %}
+</div>
+{% endcomment %}
+
 ---
 
 ## Global medical experience
