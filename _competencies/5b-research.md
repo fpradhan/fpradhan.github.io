@@ -4,10 +4,25 @@ number: "5b"
 name: "Research"
 order: 6
 title: "5b. Research"
+description: "MHPTT competency 5b, Research. Two artifacts from the Master of Health Professions Teaching & Technology, each with a description, a reflection, and the evidence itself."
+artifacts:
+  - label:  "5b-A"
+    title:  "Article Critique #1 — Mandatory Hepatology Education for Internal Medicine Residents"
+    course: "HPTT 830 – Research Analysis and Design for Health Professions Education (Spring 2026)"
+    anchor: "artifact-5b-a"
+  - label:  "5b-B"
+    title:  "Article Critique #3 — Palliative Care in Hepatology"
+    course: "HPTT 830 – Research Analysis and Design for Health Professions Education (Spring 2026)"
+    anchor: "artifact-5b-b"
 statement: >-
   Examine empirical evidence supporting theories of effective teaching, adult
   learning, and interdisciplinary teamwork in health professions education.
 ---
+
+<!-- Artifact 5b-A — keep the section tags that wrap this block; write between them. -->
+<section class="artifact" id="artifact-5b-a" markdown="1">
+
+<p class="label">Artifact 5b-A</p>
 
 ## Article Critique #1 — Mandatory Hepatology Education for Internal Medicine Residents
 
@@ -30,6 +45,13 @@ since 2023, that hepatology is underrepresented in medical training.
 
 [Download the full artifact](/assets/artifacts/hptt830-article-critique-1.pdf){: .dl}
 
+</section>
+
+<!-- Artifact 5b-B — keep the section tags that wrap this block; write between them. -->
+<section class="artifact" id="artifact-5b-b" markdown="1">
+
+<p class="label">Artifact 5b-B</p>
+
 ## Article Critique #3 — Palliative Care in Hepatology
 
 **Course:** HPTT 830 – Research Analysis and Design for Health Professions Education (Spring 2026)
@@ -51,8 +73,12 @@ interdisciplinary teamwork.
 
 [Download the full artifact](/assets/artifacts/hptt830-article-critique-3.pdf){: .dl}
 
----
+</section>
 
-### References
+<section class="references" markdown="1">
+
+## References
 
 <p class="todo">Add APA references for the sources cited above. Both exemplar portfolios carry a reference list on every competency page.</p>
+
+</section>

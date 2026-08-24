@@ -4,11 +4,26 @@ number: "4"
 name: "Best Practices in Teaching"
 order: 4
 title: "4. Best Practices in Teaching"
+description: "MHPTT competency 4, Best Practices in Teaching. Two artifacts from the Master of Health Professions Teaching & Technology, each with a description, a reflection, and the evidence itself."
+artifacts:
+  - label:  "4A"
+    title:  "Applying the Science of Learning"
+    course: "HPTT 802 – Instructional Design for Health Professions Education (Spring 2024)"
+    anchor: "artifact-4a"
+  - label:  "4B"
+    title:  "Reflective Practice and Feedback Reflection"
+    course: "HPTT 840 – Foundations of Clinical Teaching (Summer 2026)"
+    anchor: "artifact-4b"
 statement: >-
   Demonstrate reflective practice through the integration of evidence-based
   knowledge, skills, and attitudes towards establishing effective learning
   environments.
 ---
+
+<!-- Artifact 4A — keep the section tags that wrap this block; write between them. -->
+<section class="artifact" id="artifact-4a" markdown="1">
+
+<p class="label">Artifact 4A</p>
 
 ## Applying the Science of Learning
 
@@ -32,6 +47,13 @@ with McConnell and Eva's work on emotion in clinical skill transfer.
 - Where the evidence contradicted something you believed about your own teaching.
 
 [Download the full artifact](/assets/artifacts/hptt802-science-of-learning.pdf){: .dl}
+
+</section>
+
+<!-- Artifact 4B — keep the section tags that wrap this block; write between them. -->
+<section class="artifact" id="artifact-4b" markdown="1">
+
+<p class="label">Artifact 4B</p>
 
 ## Reflective Practice and Feedback Reflection
 
@@ -58,8 +80,12 @@ author's own performance anxiety during training as part of the rationale.
 
 [Download the full artifact](/assets/artifacts/hptt840-reflective-practice.pdf){: .dl}
 
----
+</section>
 
-### References
+<section class="references" markdown="1">
+
+## References
 
 <p class="todo">Add APA references for the sources cited above. Both exemplar portfolios carry a reference list on every competency page.</p>
+
+</section>

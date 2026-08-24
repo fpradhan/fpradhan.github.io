@@ -1,8 +1,10 @@
 ---
 layout: default
 ---
-<article class="wrap prose">
-  {% if page.title %}<h1 class="page-title">{{ page.title }}</h1>{% endif %}
-  {% if page.subtitle %}<p class="page-subtitle">{{ page.subtitle }}</p>{% endif %}
-  {{ content }}
+<article class="container{% if page.wide %} wide{% endif %}">
+  <div class="prose">
+    {% if page.title %}<h1 class="page-title">{{ page.title }}</h1>{% endif %}
+    {% if page.subtitle %}<p class="page-subtitle">{{ page.subtitle }}</p>{% endif %}
+    {{ content }}
+  </div>
 </article>

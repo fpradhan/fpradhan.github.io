@@ -1,5 +1,6 @@
 ---
 title: "Teaching"
+description: "Educational philosophy, presentations, and resources for learners in hepatology and transplant medicine."
 subtitle: "Philosophy, presentations, and resources for learners."
 permalink: /teaching/
 ---

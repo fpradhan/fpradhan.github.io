@@ -4,10 +4,25 @@ number: "7a"
 name: "Leadership in Health Professions Education"
 order: 8
 title: "7a. Leadership in Health Professions Education"
+description: "MHPTT competency 7a, Leadership in Health Professions Education. Two artifacts from the Master of Health Professions Teaching & Technology, each with a description, a reflection, and the evidence itself."
+artifacts:
+  - label:  "7a-A"
+    title:  "Strategic Plan — Optimizing Nutritional Status Post-Liver Transplantation"
+    course: "HPTT 823 – Leadership in Health Professions Education (Spring 2025)"
+    anchor: "artifact-7a-a"
+  - label:  "7a-B"
+    title:  "Orientation and Onboarding Plan"
+    course: "HPTT 840 – Foundations of Clinical Teaching (Summer 2026)"
+    anchor: "artifact-7a-b"
 statement: >-
   Apply knowledge of the administrative aspects of leading educational
   programs for health professions.
 ---
+
+<!-- Artifact 7a-A — keep the section tags that wrap this block; write between them. -->
+<section class="artifact" id="artifact-7a-a" markdown="1">
+
+<p class="label">Artifact 7a-A</p>
 
 ## Strategic Plan — Optimizing Nutritional Status Post-Liver Transplantation
 
@@ -33,6 +48,13 @@ quality-improvement and clinical-research opportunity for the transplant program
 
 [Download the full artifact](/assets/artifacts/hptt823-strategic-plan.pdf){: .dl}
 
+</section>
+
+<!-- Artifact 7a-B — keep the section tags that wrap this block; write between them. -->
+<section class="artifact" id="artifact-7a-b" markdown="1">
+
+<p class="label">Artifact 7a-B</p>
+
 ## Orientation and Onboarding Plan
 
 **Course:** HPTT 840 – Foundations of Clinical Teaching (Summer 2026)
@@ -54,8 +76,12 @@ plan above.
 
 [Download the full artifact](/assets/artifacts/hptt840-orientation-onboarding-plan.pdf){: .dl}
 
----
+</section>
 
-### References
+<section class="references" markdown="1">
+
+## References
 
 <p class="todo">Add APA references for the sources cited above. Both exemplar portfolios carry a reference list on every competency page.</p>
+
+</section>

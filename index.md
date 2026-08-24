@@ -1,8 +1,14 @@
 ---
+layout: home
 title: "Faruq Pradhan, MB.BCh.BAO, FRCPC, LRCP&SI (NUI)"
 subtitle: "Transplant Hepatologist · Assistant Professor, University of Nebraska Medical Center"
 description: "Digital portfolio for the Master of Health Professions Teaching & Technology, UNMC."
 ---
+
+This site is my digital portfolio for the **Master of Health Professions Teaching &
+Technology** at UNMC. It collects the work I produced across the programme and reflects
+on what each piece changed about how I teach.
+{: .lede}
 
 I am a Transplant Hepatologist and Assistant Professor at the University of Nebraska
 Medical Center, and core faculty for both the Gastroenterology and Transplant Hepatology
@@ -10,16 +16,14 @@ fellowships. I am also course director for a four-year supplemental medical scho
 curriculum in hepatology and transplant medicine that I established with the Department
 of Surgery.
 
-This site is my digital portfolio for the **Master of Health Professions Teaching &
-Technology** at UNMC. It collects the work I produced across the programme and reflects
-on what each piece changed about how I teach.
-{: .lede}
-
 ## Board certifications
 
-**American Board of Internal Medicine** — Internal Medicine · Gastroenterology · Transplant Hepatology
-
-**Royal College of Physicians and Surgeons of Canada** — Internal Medicine · Gastroenterology
+<dl class="facts" markdown="1">
+<dt>American Board of Internal Medicine</dt>
+<dd>Internal Medicine · Gastroenterology · Transplant Hepatology</dd>
+<dt>Royal College of Physicians and Surgeons of Canada</dt>
+<dd>Internal Medicine · Gastroenterology</dd>
+</dl>
 
 ## A note on what runs through this work
 
@@ -34,4 +38,4 @@ programme and neither is visible from any single artifact page. Worth stating he
   (2025) → a formal research proposal on AI-augmented gamification (2026). The same instinct,
   progressively better evidenced.
 
-[Browse the MHPTT artifacts](/artifacts/){: .dl}
+[Browse the MHPTT artifacts](/artifacts/){: .dl .go}

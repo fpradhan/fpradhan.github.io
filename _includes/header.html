@@ -1,19 +1,55 @@
 <a class="skip" href="#main">Skip to content</a>
+
 <header class="site-header">
   <div class="wrap header-inner">
     <a class="brand" href="{{ '/' | relative_url }}">
       <span class="brand-name">{{ site.title }}</span>
       <span class="brand-role">{{ site.role }}</span>
     </a>
+
     <nav class="site-nav" aria-label="Main">
+      {%- comment -%}
+        The checkbox is the mobile disclosure control. It is visually hidden but
+        still focusable, so the menu opens from the keyboard as well as by tap.
+      {%- endcomment -%}
       <input type="checkbox" id="nav-toggle" class="nav-toggle">
-      <label for="nav-toggle" class="nav-btn" aria-hidden="true"><span></span><span></span><span></span></label>
+      <label for="nav-toggle" class="nav-btn">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+        <span class="sr-only">Menu</span>
+      </label>
+
       <ul>
-        <li><a href="{{ '/' | relative_url }}">About</a></li>
-        <li><a href="{{ '/teaching/' | relative_url }}">Teaching</a></li>
-        <li><a href="{{ '/resume/' | relative_url }}">Resume / CV</a></li>
-        <li><a href="{{ '/artifacts/' | relative_url }}">MHPTT Artifacts</a></li>
-        <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+        <li><a class="nav-link" href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>About</a></li>
+        <li><a class="nav-link" href="{{ '/teaching/' | relative_url }}"{% if page.url contains '/teaching' %} aria-current="page"{% endif %}>Teaching</a></li>
+        <li><a class="nav-link" href="{{ '/resume/' | relative_url }}"{% if page.url contains '/resume' %} aria-current="page"{% endif %}>Resume / CV</a></li>
+
+        <li class="has-menu">
+          <a class="nav-link" href="{{ '/artifacts/' | relative_url }}"{% if page.url == '/artifacts/' %} aria-current="page"{% endif %}>MHPTT Artifacts</a>
+          {%- comment -%}
+            All eleven outcome areas, so any competency is one click away from any
+            page. Opens on hover and on :focus-within, so it needs no JavaScript.
+          {%- endcomment -%}
+          <ul class="submenu">
+            {%- assign competencies = site.competencies | sort: "order" -%}
+            {%- for c in competencies %}
+            <li>
+              <a href="{{ c.url | relative_url }}"{% if page.url == c.url %} aria-current="page"{% endif %}>
+                <span class="n">{{ c.number }}</span>
+                <span>{{ c.name }}</span>
+              </a>
+            </li>
+            {%- endfor %}
+            <li class="sep" aria-hidden="true"></li>
+            <li>
+              <a class="all" href="{{ '/artifacts/' | relative_url }}">
+                <span class="n" aria-hidden="true">→</span>
+                <span>All artifacts</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+
+        <li><a class="nav-link" href="{{ '/contact/' | relative_url }}"{% if page.url contains '/contact' %} aria-current="page"{% endif %}>Contact</a></li>
       </ul>
     </nav>
   </div>

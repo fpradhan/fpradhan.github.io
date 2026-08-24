@@ -4,11 +4,26 @@ number: "2"
 name: "Innovation in Teaching"
 order: 2
 title: "2. Innovation in Teaching"
+description: "MHPTT competency 2, Innovation in Teaching. Two artifacts from the Master of Health Professions Teaching & Technology, each with a description, a reflection, and the evidence itself."
+artifacts:
+  - label:  "2A"
+    title:  "“Introduction to Steatotic Liver Disease” — Interactive E-Module"
+    course: "HPTT 825 – Essentials of E-Module Development (Summer 2024)"
+    anchor: "artifact-2a"
+  - label:  "2B"
+    title:  "Acute Liver Failure Escape Room Simulation"
+    course: "HPTT 824 – Simulated and Virtual Learning in Health Professions Education (Fall 2025)"
+    anchor: "artifact-2b"
 statement: >-
   Design effective learning environments using a variety of interactive
   educational and multimedia strategies which engage the learner in
   interdisciplinary and collaborative activities.
 ---
+
+<!-- Artifact 2A — keep the section tags that wrap this block; write between them. -->
+<section class="artifact" id="artifact-2a" markdown="1">
+
+<p class="label">Artifact 2A</p>
 
 ## “Introduction to Steatotic Liver Disease” — Interactive E-Module
 
@@ -36,6 +51,13 @@ plan, and narration transcript.
 
 [Download the full artifact](/assets/artifacts/hptt825-steatotic-liver-disease-module){: .dl}
 
+</section>
+
+<!-- Artifact 2B — keep the section tags that wrap this block; write between them. -->
+<section class="artifact" id="artifact-2b" markdown="1">
+
+<p class="label">Artifact 2B</p>
+
 ## Acute Liver Failure Escape Room Simulation
 
 **Course:** HPTT 824 – Simulated and Virtual Learning in Health Professions Education (Fall 2025)
@@ -59,8 +81,12 @@ where decisions are consequential and fast.
 
 [Download the full artifact](/assets/artifacts/hptt824-escape-room-simulation.pdf){: .dl}
 
----
+</section>
 
-### References
+<section class="references" markdown="1">
+
+## References
 
 <p class="todo">Add APA references for the sources cited above. Both exemplar portfolios carry a reference list on every competency page.</p>
+
+</section>

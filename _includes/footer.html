@@ -3,10 +3,24 @@
     <div>
       <p class="footer-name">{{ site.title }}</p>
       <p class="footer-meta">{{ site.tagline }}</p>
+      {%- if site.profiles and site.profiles.size > 0 %}
+      <ul class="links" style="margin-top:1rem">
+        {%- for p in site.profiles %}
+        <li><a href="{{ p.url }}"{% unless p.url contains site.url %} rel="me noopener"{% endunless %}>{{ p.name }}</a></li>
+        {%- endfor %}
+      </ul>
+      {%- endif %}
     </div>
+
     <div class="footer-contact">
       <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
-      <p>{{ site.phone }}</p>
+      {%- if site.phone %}<p>{{ site.phone }}</p>{% endif %}
+      <p><a href="{{ '/contact/' | relative_url }}">Contact</a></p>
     </div>
+
+    <p class="footer-note">
+      Digital portfolio for the Master of Health Professions Teaching &amp; Technology,
+      University of Nebraska Medical Center. &copy; {{ 'now' | date: "%Y" }} {{ site.title }}.
+    </p>
   </div>
 </footer>

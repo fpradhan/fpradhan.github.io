@@ -1,28 +1,55 @@
 ---
 layout: default
 ---
-<article class="wrap prose competency">
-  <p class="eyebrow"><a href="{{ '/artifacts/' | relative_url }}">MHPTT Artifacts</a></p>
-  <h1 class="page-title">{{ page.number }}. {{ page.name }}</h1>
-  <blockquote class="statement"><p>{{ page.statement }}</p></blockquote>
-  <div class="competency-body">{{ content }}</div>
+<article class="container">
+  <div class="prose competency">
 
-  {% assign items = site.competencies | sort: "order" %}
-  {% assign prev_item = nil %}
-  {% assign next_item = nil %}
-  {% assign found = false %}
-  {% for c in items %}
-    {% if found and next_item == nil %}{% assign next_item = c %}{% endif %}
-    {% if c.url == page.url %}{% assign found = true %}{% endif %}
-    {% unless found %}{% assign prev_item = c %}{% endunless %}
-  {% endfor %}
+    <p class="eyebrow"><a href="{{ '/artifacts/' | relative_url }}">MHPTT Artifacts</a></p>
+    <h1 class="page-title">{{ page.number }}. {{ page.name }}</h1>
 
-  <nav class="pager" aria-label="Competencies">
-    {% if prev_item %}
-      <a class="pager-prev" href="{{ prev_item.url | relative_url }}">← {{ prev_item.number }}. {{ prev_item.name }}</a>
-    {% else %}<span></span>{% endif %}
-    {% if next_item %}
-      <a class="pager-next" href="{{ next_item.url | relative_url }}">{{ next_item.number }}. {{ next_item.name }} →</a>
-    {% endif %}
-  </nav>
+    <blockquote class="statement"><p>{{ page.statement }}</p></blockquote>
+
+    {%- comment -%}
+      Jump list, built from the `artifacts:` block in this page's front matter.
+      Keep the titles there in step with the <h2> headings in the body below.
+    {%- endcomment -%}
+    {%- if page.artifacts and page.artifacts.size > 0 %}
+    <nav class="on-page" aria-label="Artifacts on this page">
+      <p class="label">Evidence on this page</p>
+      <ol>
+        {%- for a in page.artifacts %}
+        <li>
+          <a href="#{{ a.anchor }}"><span class="n">{{ a.label }}</span>{{ a.title }}</a>
+        </li>
+        {%- endfor %}
+      </ol>
+    </nav>
+    {%- endif %}
+
+    <div class="competency-body">{{ content }}</div>
+
+    {%- assign items = site.competencies | sort: "order" -%}
+    {%- assign prev_item = nil -%}
+    {%- assign next_item = nil -%}
+    {%- assign found = false -%}
+    {%- for c in items -%}
+      {%- if found and next_item == nil %}{% assign next_item = c %}{% endif -%}
+      {%- if c.url == page.url %}{% assign found = true %}{% endif -%}
+      {%- unless found %}{% assign prev_item = c %}{% endunless -%}
+    {%- endfor -%}
+
+    <nav class="pager" aria-label="Competencies">
+      {%- if prev_item %}
+      <a class="pager-prev" href="{{ prev_item.url | relative_url }}">
+        <span class="label">← Previous</span>{{ prev_item.number }}. {{ prev_item.name }}
+      </a>
+      {%- else %}<span></span>{% endif %}
+      {%- if next_item %}
+      <a class="pager-next" href="{{ next_item.url | relative_url }}">
+        <span class="label">Next →</span>{{ next_item.number }}. {{ next_item.name }}
+      </a>
+      {%- endif %}
+    </nav>
+
+  </div>
 </article>

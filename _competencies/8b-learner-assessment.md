@@ -4,9 +4,24 @@ number: "8b"
 name: "Learner Assessment"
 order: 11
 title: "8b. Learner Assessment"
+description: "MHPTT competency 8b, Learner Assessment. Two artifacts from the Master of Health Professions Teaching & Technology, each with a description, a reflection, and the evidence itself."
+artifacts:
+  - label:  "8b-A"
+    title:  "SBAR Project — Solving an Assessment Challenge"
+    course: "HPTT 805 – Evaluation and Assessment of Teaching and Learning in Health Professions Education (Fall 2024)"
+    anchor: "artifact-8b-a"
+  - label:  "8b-B"
+    title:  "Instructional Design Project — “Chronic Hepatitis: A Patient's Journey”"
+    course: "HPTT 802 – Instructional Design for Health Professions Education (Spring 2024)"
+    anchor: "artifact-8b-b"
 statement: >-
   Create engaging learning solutions to improve health professions education.
 ---
+
+<!-- Artifact 8b-A — keep the section tags that wrap this block; write between them. -->
+<section class="artifact" id="artifact-8b-a" markdown="1">
+
+<p class="label">Artifact 8b-A</p>
 
 ## SBAR Project — Solving an Assessment Challenge
 
@@ -28,6 +43,13 @@ immediately legible to any clinician reviewing this portfolio.
 - **Merge the four sections into one document before uploading** — four separate downloads reads as unfinished.
 
 [Download the full artifact](/assets/artifacts/hptt805-sbar-project.pdf){: .dl}
+
+</section>
+
+<!-- Artifact 8b-B — keep the section tags that wrap this block; write between them. -->
+<section class="artifact" id="artifact-8b-b" markdown="1">
+
+<p class="label">Artifact 8b-B</p>
 
 ## Instructional Design Project — “Chronic Hepatitis: A Patient's Journey”
 
@@ -52,8 +74,12 @@ appended to it.
 
 [Download the full artifact](/assets/artifacts/hptt802-id-project.pdf){: .dl}
 
----
+</section>
 
-### References
+<section class="references" markdown="1">
+
+## References
 
 <p class="todo">Add APA references for the sources cited above. Both exemplar portfolios carry a reference list on every competency page.</p>
+
+</section>

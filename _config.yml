@@ -1,14 +1,64 @@
-title: "Faruq Pradhan"
-tagline: "MB.BCh.BAO, FRCPC, LRCP&SI (NUI)"
-role: "Transplant Hepatologist · Assistant Professor"
-email: "fpradhan@unmc.edu"
-phone: "402-559-5200"
+# ---------------------------------------------------------------------------
+# Site identity
+# ---------------------------------------------------------------------------
+title:    "Faruq Pradhan"
+tagline:  "MB.BCh.BAO, FRCPC, LRCP&SI (NUI)"
+role:     "Transplant Hepatologist · Assistant Professor"
+email:    "fpradhan@unmc.edu"
+phone:    "402-559-5200"
+lang:     "en"
+
 description: >-
   Digital portfolio for the Master of Health Professions Teaching &
   Technology, University of Nebraska Medical Center.
-url: "https://fpradhan.com"
+
+url:     "https://fpradhan.com"
 baseurl: ""
 
+# Used by jekyll-seo-tag for the author and JSON-LD blocks.
+author:
+  name: "Faruq Pradhan"
+social:
+  name:  "Faruq Pradhan"
+  links: []
+
+# ---------------------------------------------------------------------------
+# Optional slots. Each renders only when you fill it in, so the site never
+# shows a broken link or an empty box for something you have not supplied.
+# ---------------------------------------------------------------------------
+
+# Portrait for the About page, e.g. "/assets/img/portrait.jpg"
+portrait: ""
+portrait_alt: "Faruq Pradhan"
+
+# Social preview image used when a link to the site is shared, e.g.
+# "/assets/img/social-card.png". 1200x630 works well. Leave empty to omit it.
+image: ""
+
+# Downloadable CV, e.g. "/assets/artifacts/pradhan-cv.pdf"
+cv: ""
+cv_label: "Download CV (PDF)"
+
+# External profiles. Shown in the footer and on the Contact page.
+#   - name: "LinkedIn"
+#     url:  "https://www.linkedin.com/in/..."
+#   - name: "Google Scholar"
+#     url:  "https://scholar.google.com/citations?user=..."
+#   - name: "PubMed"
+#     url:  "https://pubmed.ncbi.nlm.nih.gov/?term=..."
+# Adding the same URLs to social.links above also puts them in the page's
+# structured data, which is what Google reads.
+profiles: []
+
+# Contact form endpoint. GitHub Pages serves static files and cannot process a
+# form POST, so the form needs an external handler — Formspree, Basin, Getform
+# or similar. Paste the endpoint URL here and the form appears on /contact/.
+# Until then the Contact page shows the email and phone details only.
+form_endpoint: ""
+
+# ---------------------------------------------------------------------------
+# Build
+# ---------------------------------------------------------------------------
 collections:
   competencies:
     output: true
@@ -20,13 +70,27 @@ defaults:
   - scope: { path: "", type: "competencies" }
     values: { layout: "competency" }
 
+# The github-pages gem defaults `theme` to jekyll-theme-primer. That theme ships its own
+# assets/css/style.scss, which compiles to the same /assets/css/style.css this site already
+# provides — so the two collide. This site supplies all of its own layouts, includes and
+# styling, so the theme is switched off explicitly.
+theme: null
+
 markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
+  syntax_highlighter_opts:
+    disable: true
 
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-exclude: [README.md, Gemfile, Gemfile.lock, vendor]
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .gitignore
+  - assets/artifacts/README.md

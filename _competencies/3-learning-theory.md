@@ -4,11 +4,26 @@ number: "3"
 name: "Learning Theory"
 order: 3
 title: "3. Learning Theory"
+description: "MHPTT competency 3, Learning Theory. Two artifacts from the Master of Health Professions Teaching & Technology, each with a description, a reflection, and the evidence itself."
+artifacts:
+  - label:  "3A"
+    title:  "Learning Theories Paper — Social Cognitive Theory"
+    course: "HPTT 801 – Foundations of Health Professions Education (Fall 2023)"
+    anchor: "artifact-3a"
+  - label:  "3B"
+    title:  "Integration Paper"
+    course: "HPTT 801 – Foundations of Health Professions Education (Fall 2023)"
+    anchor: "artifact-3b"
 statement: >-
   Apply content knowledge, pedagogical, and professional knowledge necessary
   to carry out teaching responsibilities and for successful performance in the
   health professions field.
 ---
+
+<!-- Artifact 3A — keep the section tags that wrap this block; write between them. -->
+<section class="artifact" id="artifact-3a" markdown="1">
+
+<p class="label">Artifact 3A</p>
 
 ## Learning Theories Paper — Social Cognitive Theory
 
@@ -35,6 +50,13 @@ instead.
 
 [Download the full artifact](/assets/artifacts/hptt801-learning-theories-paper.pdf){: .dl}
 
+</section>
+
+<!-- Artifact 3B — keep the section tags that wrap this block; write between them. -->
+<section class="artifact" id="artifact-3b" markdown="1">
+
+<p class="label">Artifact 3B</p>
+
 ## Integration Paper
 
 **Course:** HPTT 801 – Foundations of Health Professions Education (Fall 2023)
@@ -58,8 +80,12 @@ policy is nonetheless retained on the grounds of learner stress.
 
 [Download the full artifact](/assets/artifacts/hptt801-integration-paper.pdf){: .dl}
 
----
+</section>
 
-### References
+<section class="references" markdown="1">
+
+## References
 
 <p class="todo">Add APA references for the sources cited above. Both exemplar portfolios carry a reference list on every competency page.</p>
+
+</section>

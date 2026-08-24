@@ -4,11 +4,26 @@ number: "8a"
 name: "Learner Assessment"
 order: 10
 title: "8a. Learner Assessment"
+description: "MHPTT competency 8a, Learner Assessment. Two artifacts from the Master of Health Professions Teaching & Technology, each with a description, a reflection, and the evidence itself."
+artifacts:
+  - label:  "8a-A"
+    title:  "Test Blueprint and Psychometric Item Analysis"
+    course: "HPTT 805 – Evaluation and Assessment of Teaching and Learning in Health Professions Education (Fall 2024)"
+    anchor: "artifact-8a-a"
+  - label:  "8a-B"
+    title:  "Endoscopic Skills Blueprint Rubric"
+    course: "HPTT 805 – Evaluation and Assessment of Teaching and Learning in Health Professions Education (Fall 2024)"
+    anchor: "artifact-8a-b"
 statement: >-
   Assess the effectiveness and efficiency of instructional strategies and
   student learning achievements through the evaluation of program and/or
   curricula outcomes.
 ---
+
+<!-- Artifact 8a-A — keep the section tags that wrap this block; write between them. -->
+<section class="artifact" id="artifact-8a-a" markdown="1">
+
+<p class="label">Artifact 8a-A</p>
 
 ## Test Blueprint and Psychometric Item Analysis
 
@@ -36,6 +51,13 @@ KR-20 across repeat administrations would signify.
 
 [Download the full artifact](/assets/artifacts/hptt805-blueprint-and-item-analysis.pdf){: .dl}
 
+</section>
+
+<!-- Artifact 8a-B — keep the section tags that wrap this block; write between them. -->
+<section class="artifact" id="artifact-8a-b" markdown="1">
+
+<p class="label">Artifact 8a-B</p>
+
 ## Endoscopic Skills Blueprint Rubric
 
 **Course:** HPTT 805 – Evaluation and Assessment of Teaching and Learning in Health Professions Education (Fall 2024)
@@ -59,8 +81,12 @@ on procedures where a therapeutic intervention is anticipated, for a more comple
 
 [Download the full artifact](/assets/artifacts/hptt805-endoscopic-skills-rubric.pdf){: .dl}
 
----
+</section>
 
-### References
+<section class="references" markdown="1">
+
+## References
 
 <p class="todo">Add APA references for the sources cited above. Both exemplar portfolios carry a reference list on every competency page.</p>
+
+</section>

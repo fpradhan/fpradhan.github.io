@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<article class="container">
+  {%- assign has_portrait = false -%}
+  {%- if site.portrait and site.portrait != "" %}{% assign has_portrait = true %}{% endif -%}
+
+  <div class="hero{% unless has_portrait %} hero-solo{% endunless %}">
+    <div class="hero-body prose">
+      <h1 class="page-title">{{ page.title }}</h1>
+      {%- if page.subtitle %}<p class="page-subtitle">{{ page.subtitle }}</p>{% endif %}
+      {{ content }}
+    </div>
+
+    {%- if has_portrait %}
+    <figure class="portrait">
+      <img src="{{ site.portrait | relative_url }}" alt="{{ site.portrait_alt | default: site.title }}" loading="eager">
+      {%- if page.portrait_caption %}<figcaption>{{ page.portrait_caption }}</figcaption>{% endif %}
+    </figure>
+    {%- endif %}
+  </div>
+</article>

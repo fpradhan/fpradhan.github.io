@@ -4,11 +4,26 @@ number: "1"
 name: "Instructional Methods"
 order: 1
 title: "1. Instructional Methods"
+description: "MHPTT competency 1, Instructional Methods. Two artifacts from the Master of Health Professions Teaching & Technology, each with a description, a reflection, and the evidence itself."
+artifacts:
+  - label:  "1A"
+    title:  "Curriculum Outline — “Pathophysiology of the Liver”"
+    course: "HPTT 801 – Foundations of Health Professions Education (Fall 2023)"
+    anchor: "artifact-1a"
+  - label:  "1B"
+    title:  "Clinical Teaching Project — Diagnostic Paracentesis"
+    course: "HPTT 840 – Foundations of Clinical Teaching (Summer 2026)"
+    anchor: "artifact-1b"
 statement: >-
   Demonstrate an understanding of the theory and practice of education through
   the development of health science programs that focus on the application of
   evidence-based strategies and methodologies.
 ---
+
+<!-- Artifact 1A — keep the section tags that wrap this block; write between them. -->
+<section class="artifact" id="artifact-1a" markdown="1">
+
+<p class="label">Artifact 1A</p>
 
 ## Curriculum Outline — “Pathophysiology of the Liver”
 
@@ -35,6 +50,13 @@ redundancy.
 - What you would change now, three years and eight courses later.
 
 [Download the full artifact](/assets/artifacts/hptt801-curriculum-outline.pdf){: .dl}
+
+</section>
+
+<!-- Artifact 1B — keep the section tags that wrap this block; write between them. -->
+<section class="artifact" id="artifact-1b" markdown="1">
+
+<p class="label">Artifact 1B</p>
 
 ## Clinical Teaching Project — Diagnostic Paracentesis
 
@@ -64,8 +86,12 @@ performance rising from 33.0% to 92.7% after a single session.
 
 [Download the full artifact](/assets/artifacts/hptt840-clinical-teaching-project.pdf){: .dl}
 
----
+</section>
 
-### References
+<section class="references" markdown="1">
+
+## References
 
 <p class="todo">Add APA references for the sources cited above. Both exemplar portfolios carry a reference list on every competency page.</p>
+
+</section>

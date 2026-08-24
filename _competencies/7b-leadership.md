@@ -4,10 +4,25 @@ number: "7b"
 name: "Leadership in Health Professions Education"
 order: 9
 title: "7b. Leadership in Health Professions Education"
+description: "MHPTT competency 7b, Leadership in Health Professions Education. Two artifacts from the Master of Health Professions Teaching & Technology, each with a description, a reflection, and the evidence itself."
+artifacts:
+  - label:  "7b-A"
+    title:  "Leadership Capstone — “Nutritional Success & Liver Transplantation”"
+    course: "HPTT 823 – Leadership in Health Professions Education (Spring 2025)"
+    anchor: "artifact-7b-a"
+  - label:  "7b-B"
+    title:  "Individual Development Plan (myIDP)"
+    course: "ScienceCareers myIDP — professional, not coursework (August 2024)"
+    anchor: "artifact-7b-b"
 statement: >-
   Demonstrate leadership in health professions education through innovation,
   mentorship, and reflective practice.
 ---
+
+<!-- Artifact 7b-A — keep the section tags that wrap this block; write between them. -->
+<section class="artifact" id="artifact-7b-a" markdown="1">
+
+<p class="label">Artifact 7b-A</p>
 
 ## Leadership Capstone — “Nutritional Success & Liver Transplantation”
 
@@ -31,6 +46,13 @@ this portfolio where a reviewer hears the case made aloud.
 
 [Download the full artifact](/assets/artifacts/hptt823-leadership-capstone.pdf){: .dl}
 
+</section>
+
+<!-- Artifact 7b-B — keep the section tags that wrap this block; write between them. -->
+<section class="artifact" id="artifact-7b-b" markdown="1">
+
+<p class="label">Artifact 7b-B</p>
+
 ## Individual Development Plan (myIDP)
 
 **Course:** ScienceCareers myIDP — professional, not coursework (August 2024)
@@ -51,8 +73,12 @@ identifying skill gaps and setting professional development goals.
 
 [Download the full artifact](/assets/artifacts/myidp-pradhan-2024.pdf){: .dl}
 
----
+</section>
 
-### References
+<section class="references" markdown="1">
+
+## References
 
 <p class="todo">Add APA references for the sources cited above. Both exemplar portfolios carry a reference list on every competency page.</p>
+
+</section>

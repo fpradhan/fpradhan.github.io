@@ -1,16 +1,25 @@
 ---
 title: "Resume / CV"
+description: "Positions, training, research interests, educational leadership, and publications."
 permalink: /resume/
 ---
 
+{% if site.cv and site.cv != "" %}
+<p><a class="dl" href="{{ site.cv | relative_url }}">{{ site.cv_label | default: "Download CV (PDF)" }}</a></p>
+{% else %}
 <p class="todo">Add a downloadable CV here. The exemplar portfolio offers two — an academic CV and
-a clinical resume — as PDFs.</p>
+a clinical resume — as PDFs. Drop the file into <code>assets/artifacts/</code> and set
+<code>cv:</code> in <code>_config.yml</code> — this button then appears automatically.</p>
+{% endif %}
 
 ## Current position
 
-**Assistant Professor and Transplant Hepatologist**, University of Nebraska Medical Center — 2022–present
-Core faculty, Gastroenterology and Transplant Hepatology fellowships. Faculty advisor for fellowship wellness.
-Course director, Enhanced Medical Education Track in hepatology and transplant medicine.
+**Assistant Professor and Transplant Hepatologist** · University of Nebraska Medical Center · 2022–present
+{: .meta}
+
+- Core faculty, Gastroenterology and Transplant Hepatology fellowships
+- Faculty advisor for fellowship wellness
+- Course director, Enhanced Medical Education Track in hepatology and transplant medicine
 
 ## Training
 
@@ -35,7 +44,15 @@ Course director, Enhanced Medical Education Track in hepatology and transplant m
 **Clinical interests** — chronic liver disease, cirrhosis, liver transplantation, short bowel
 syndrome and intestinal transplantation, and medical education.
 
-<p class="todo">Google Scholar and PubMed links belong here.</p>
+{% if site.profiles and site.profiles.size > 0 %}
+<ul class="links">
+{% for pr in site.profiles %}<li><a href="{{ pr.url }}" rel="me noopener">{{ pr.name }}</a></li>{% endfor %}
+</ul>
+{% else %}
+<p class="todo">Google Scholar and PubMed links belong here. Add them under
+<code>profiles:</code> in <code>_config.yml</code> and they appear here, on the Contact page,
+and in the footer.</p>
+{% endif %}
 
 ## Educational leadership
 
