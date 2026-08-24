@@ -20,6 +20,7 @@
   tags here as well or they will be emitted twice.
 {%- endcomment -%}
 {%- seo -%}
+{%- if page.noindex %}<meta name="robots" content="noindex, follow">{% endif %}
 
 <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}?v={{ v }}" type="image/svg+xml">
 <link rel="mask-icon" href="{{ '/assets/favicon.svg' | relative_url }}" color="#b0402a">

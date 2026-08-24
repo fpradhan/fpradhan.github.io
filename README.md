@@ -12,7 +12,8 @@ Five navigation items, matching the exemplar portfolios:
 ```
 About            /                     index.md
 Teaching         /teaching/            teaching.md      philosophy · presentations · learner resources
-Resume / CV      /resume/              resume.md        positions · training · research interests · leadership
+Resume / CV      /resume/              resume.md        the graded highlight page — appointments · training · expertise · leadership · scholarship
+  └ full CV      /cv/                  cv.md            the complete record; source of the PDF, unlisted and noindexed
 MHPTT Artifacts  /artifacts/           artifacts.md     all 11 outcome areas, with their evidence
   ├ 1. Instructional Methods           _competencies/1-instructional-methods.md
   ├ 2. Innovation in Teaching          _competencies/2-innovation-in-teaching.md
@@ -155,6 +156,28 @@ grid. The Teaching page has a commented-out example ready to uncomment.
 - **Screenshots of your own work beat stock photography.** A screen from the Steatotic Liver
   Disease module is evidence; a stock photograph of a doctor is decoration, and a reviewer can
   tell. It also sidesteps licensing entirely, since the work is yours.
+
+---
+
+## Resume / CV — two pages, one purpose
+
+The assignment grades `/resume/`, and its rubric asks for a page that "highlights only key
+information" plus "a downloadable PDF of the complete resume or CV". So the record is split:
+
+- **`/resume/`** is the page you submit. Eight sections, roughly 750 words: a header carrying
+  name, credentials, phone and email; appointments; education and training; certification;
+  areas of expertise; educational leadership; five selected honors; scholarship as counts plus
+  four representative publications. Everything is reverse chronological.
+- **`/cv/`** carries the complete record — every publication, presentation, grant, trial,
+  committee and award. It is `noindex` and kept out of the sitemap and the nav, so it does not
+  compete with the graded page in search. It is styled for print.
+
+**To add the CV PDF.** Either export your Word CV to PDF, or open `/cv/` and print it to PDF
+from the browser — the print stylesheet sets paper margins, drops the site chrome and navigation,
+scales type to 8.5–9.5pt and keeps entries from breaking across pages. Put the file in
+`assets/artifacts/` and set `cv:` in `_config.yml`. A **Download full CV (PDF)** button then
+appears in the header beside **View the full CV**; until then only the latter shows, so the page
+is never missing a promised file.
 
 ---
 

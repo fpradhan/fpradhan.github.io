@@ -404,6 +404,25 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
   .portrait{max-width:13rem;order:-1}
 }
 
+/* Résumé / CV header: name, credentials, contact. Doubles as the first block
+   of the printed CV, so it is styled to hold up on paper as well as on screen. */
+.cv-header{margin:0 0 2.75rem;padding-bottom:1.5rem;border-bottom:1px solid var(--ink)}
+.cv-name{
+  font-family:var(--display);font-weight:600;
+  font-size:clamp(1.7rem,1.35rem + 1.5vw,2.4rem);line-height:1.12;letter-spacing:-.022em;
+  margin:0 0 .5rem;
+}
+.cv-role{font-size:1rem;line-height:1.5;color:var(--ink-soft);margin:0 0 .7rem}
+.cv-contact{
+  font-family:var(--mono);font-size:.74rem;letter-spacing:.02em;line-height:1.7;
+  color:var(--ink-faint);margin:0;
+}
+.cv-contact a{color:var(--ink-soft);text-decoration:none;border-bottom:1px solid var(--rule-strong)}
+.cv-contact a:hover{color:var(--accent);border-bottom-color:var(--accent)}
+.cv-actions{margin:1.25rem 0 0}
+.cv-actions .dl{margin-bottom:0}
+.cv-note{margin-top:2.5rem;padding-top:1.25rem;border-top:1px solid var(--rule)}
+
 /* Definition-style fact rows, e.g. board certifications */
 .facts{margin:0 0 1.75rem;padding:0}
 .facts dt{font-family:var(--mono);font-size:.7rem;font-weight:500;text-transform:uppercase;
@@ -626,8 +645,24 @@ code{font-size:.85em;background:var(--surface-2);padding:.15em .38em;
 
 /* --------------------------------------------------------------- Print */
 
+@page{margin:16mm 14mm}
 @media print{
-  .site-header,.site-nav,.pager,.site-footer,.skip,.on-page,.todo{display:none !important}
+  .site-header,.site-nav,.pager,.site-footer,.skip,.on-page,.todo,.cv-note,
+  .cv-actions,.links{display:none !important}
+  .cv-header{border-bottom:1.5pt solid #000;margin-bottom:14pt;padding-bottom:8pt}
+  .cv-name{font-size:19pt;line-height:1.1;margin-bottom:3pt}
+  .cv-role{font-size:10pt;margin-bottom:4pt;color:#000}
+  .cv-contact{font-size:8.5pt;color:#333}
+  .cv-contact a{border:0}
+  .prose h2{font-size:12pt;margin:14pt 0 5pt;padding-top:5pt;border-top:.5pt solid #999}
+  .prose h3{font-size:8.5pt;margin:9pt 0 3pt}
+  .cv-list dt{font-size:9.5pt;margin-top:6pt;padding-top:6pt;border-top:.5pt solid #ddd}
+  .cv-list dd{font-size:8.5pt;margin-top:2pt}
+  .cv-list .when{font-size:8pt}
+  .prose .cites li{font-size:8.5pt;margin-bottom:5pt}
+  .meta{font-size:8.5pt}
+  table{font-size:8.5pt}
+  .cv-list dt,.prose .cites li,tr{break-inside:avoid;page-break-inside:avoid}
   html,body{background:#fff;color:#000;font-size:10.5pt;line-height:1.45}
   main{padding:0}
   .wrap,.prose{max-width:none;padding:0}

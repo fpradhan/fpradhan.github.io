@@ -3,7 +3,7 @@ layout: default
 ---
 <article class="container{% if page.wide %} wide{% endif %}">
   <div class="prose">
-    {% if page.title %}<h1 class="page-title">{{ page.title }}</h1>{% endif %}
+    {% if page.title and page.hide_title != true %}<h1 class="page-title">{{ page.title }}</h1>{% endif %}
     {% if page.subtitle %}<p class="page-subtitle">{{ page.subtitle }}</p>{% endif %}
     {%- comment -%}
       Optional lead image, set per page in the front matter:
