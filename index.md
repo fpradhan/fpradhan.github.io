@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Faruq Pradhan, MB.BCh.BAO, FRCPC, LRCP&SI (NUI)"
+title: "Faruq Pradhan, MB BCh BAO, FRCPC"
 subtitle: "Transplant Hepatologist · Assistant Professor, University of Nebraska Medical Center"
 description: "Digital portfolio for the Master of Health Professions Teaching & Technology, UNMC."
 ---
