@@ -2,63 +2,101 @@
 
 ## Writing
 
-Faruq asked that all writing here avoid the tells catalogued at
+Faruq asked that writing here avoid the patterns catalogued at
 [Wikipedia:Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing).
-This applies to two things: text that goes on the site, and replies written to him in chat.
+This covers text on the site and replies written to him in chat. The notes below come from a PDF
+of the page he supplied (revision of 25 Aug 2026); an earlier version of this file was written
+from memory and got several things wrong.
 
-The page itself could not be fetched from this environment — the egress proxy blocks
-wikipedia.org — so the list below is written from knowledge of it rather than copied from it.
-If you can reach the page, read it and correct anything here that is wrong or missing.
+Three caveats the page makes about itself, worth keeping:
 
-### Avoid
+- It is "descriptive, not prescriptive; it consists of observations, not rules."
+- The vocabulary lists are "to be taken as literally as possible: a word being overused by AI
+  does not imply that its synonyms are also overused."
+- The listed signs are "only potential signs of a problem, not the problem itself."
 
-**Puffery and inflated significance.** "stands as", "serves as a testament", "rich heritage",
-"enduring legacy", "watershed moment", "profound", "breathtaking". Say what a thing is and let
-the reader judge its weight.
+### The underlying problem
 
-**Editorial throat-clearing.** "It is important to note that", "it is worth noting", "notably",
-"significantly", "arguably", "indeed". If it matters, state it; if it does not, cut it.
+The page's own diagnosis is more useful than any word list. LLM output regresses to the mean:
+it drops specific, unusual facts, which are statistically rare, and replaces them with generic
+positive description, which is statistically common. Its example is that "inventor of the first
+train-coupling device" becomes "a revolutionary titan of industry" — simultaneously less
+specific and more exaggerated.
 
-**Connective padding.** "Moreover", "Furthermore", "Additionally", "In addition". Usually the
-sentence is stronger with nothing in front of it.
+So the first test on any sentence here is whether it names something only this person did. On
+this site that means the endoscopy example, the 33.0% to 92.7% checklist figure, the survey of
+curricular deans, the open-book policy he kept against his own stated theory. Those survive.
+"A commitment to excellence in medical education" does not.
 
-**Participial tails.** Clauses bolted to the end of a sentence to sound analytic:
-"highlighting the importance of...", "underscoring its role in...", "reflecting a broader
-trend...", "showcasing...". Cut them or make them their own sentence with a subject.
+### Patterns, with the page's own words to watch
 
-**Negative parallelism.** "Not just X, but Y." "It is not about X — it is about Y."
-"is instruction, not its audit." Occasionally this is the right sentence. As a habit it becomes
-a tic, and repeated across paragraphs it is one of the loudest tells.
+**Undue significance and legacy.** stands/serves as, is a testament/reminder, a
+crucial/pivotal/vital/significant/key role/moment, underscores/highlights its
+importance/significance, reflects broader, symbolizing its ongoing/enduring/lasting,
+contributing to the, setting the stage for, marking/shaping the, represents/marks a shift, key
+turning point, evolving landscape, focal point, indelible mark, deeply rooted.
 
-**Rule of three as a reflex.** Three adjectives, three clauses, three examples, over and over.
-Vary the count. Two is often enough; sometimes one is.
+**Promotional tone.** boasts a, vibrant, rich, profound, enhancing, showcasing, exemplifies,
+commitment to, natural beauty, nestled, in the heart of, groundbreaking, renowned, featuring,
+diverse array.
 
-**Aphoristic closers.** Ending paragraph after paragraph with a short, quotable reversal.
-One earned line is good writing. Three in a row is a pattern.
+**Superficial analysis via participial tails.** A present participle clause bolted to the end of
+a sentence: highlighting/underscoring/emphasizing…, ensuring…, reflecting/symbolizing…,
+contributing to…, cultivating/fostering…, encompassing…, enhancing…, valuable insights,
+align/resonate with.
 
-**Em dash overuse.** Prefer a comma, a colon, a semicolon, or a full stop. Reserve the em dash
-for a genuine interruption, and use no more than one or two per page.
+**Vague attribution.** Industry reports, Observers have cited, Experts argue, Some critics
+argue, several sources (when few are cited), "such as" before a list that is actually exhaustive.
 
-**Formatting habits.** Bold used for emphasis inside prose; Title Case In Headings; a bulleted
-list where a paragraph belongs; every bullet opening with a bolded lead-in; emoji.
+**Copula replacement.** serves as / stands as / marks / functions as / operates as / represents
+[a]; boasts / features / maintains / offers [a]. Prefer is, are, has.
 
-**Summary paragraphs that restate.** "In summary", "In conclusion", "Overall". If the piece is
-short enough to be read, it does not need to be recapped.
+**Abstracted connections.** in connection with, connected with/to, in association with,
+associated with — where of, for, by, used in, or caused by would say it plainly.
 
-**Vague attribution.** "Studies show", "experts agree", "research suggests", "some critics
-argue" — without naming who, where or when.
+**Negative parallelism.** "Not just X, but also Y."
 
-**Flagged vocabulary.** delve, tapestry, testament, showcase, underscore, pivotal, crucial,
-vital, realm, landscape (figurative), leverage, robust, seamless, meticulous, intricate,
-comprehensive, foster, garner, myriad, plethora, navigate (figurative), embark, journey,
-resonate, illuminate, multifaceted, nuanced, holistic, transformative, groundbreaking,
-cutting-edge, harness, unlock, elevate, empower, streamline, boasts, poised to.
+**Rule of three** used as a reflex.
 
-### Prefer
+**The "Challenges" arc.** "Despite its…, X faces several challenges", "Despite these
+challenges", a Challenges and Legacy or Future Outlook section, a closing paragraph that turns
+vaguely optimistic.
 
-Concrete nouns and specific numbers. Short declarative sentences mixed with longer ones. Plain
-verbs. Naming who did what. Saying "I do not know" or "I could not check" instead of hedging.
-Cutting a sentence that would survive its own deletion.
+**Section summaries** that restate what the section just said.
+
+**Vocabulary by era.** The page tracks these as changing over time, which matters — the older
+lists now read as dated rather than current.
+2023 to mid-2024: Additionally, boasts, bolstered, crucial, delve, emphasizing, enduring,
+garner, intricate/intricacies, interplay, key, landscape, meticulous/meticulously, pivotal,
+underscore, tapestry, testament, valuable, vibrant.
+Mid-2024 to mid-2025: align with, bolstered, crucial, emphasizing, enhance, enduring,
+fostering, highlighting, pivotal, showcasing, underscore, vibrant.
+Mid-2025 on: emphasizing, enhance, highlighting, showcasing.
+
+**Formatting.** Overuse of boldface. Title Case In Headings. Emoji as formatting. Bulleted
+lists where every item opens with a boldfaced lead-in followed by a colon.
+
+**Chatbot correspondence left in the text.** I hope this helps, Of course!, Certainly!, You're
+absolutely right!, Would you like…, let me know, here is a…
+
+**Knowledge-cutoff disclaimers.** Up to my last training update, as of my last knowledge update,
+while specific details are limited, not widely documented, based on available information.
+
+### Two things I got wrong before, recorded so they are not repeated
+
+**Em dashes are not in this page.** It discusses dashes only as stray list markers. The belief
+that em dashes signal AI writing is popular but is not supported here. Use them where they are
+right; do not hunt them.
+
+**Curly quotation marks are listed**, because Wikipedia's house style wants straight ones. This
+site is not Wikipedia and its type is set in a real typeface, where curly quotes and apostrophes
+are correct typography. Keep them.
+
+### What to do instead
+
+Name who did what, with numbers and dates. Let a specific fact carry its own weight rather than
+labelling it important. Prefer is, has, and made to serves as, features, and represents. Say "I
+could not check" rather than hedging. Cut any sentence that would not be missed.
 
 ## The site
 

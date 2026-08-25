@@ -1,58 +1,59 @@
 ---
 title: "Teaching Philosophy"
-description: "Teaching philosophy of Faruq Pradhan, MB BCh BAO, FRCPC — how three years in the Master of Health Professions Teaching & Technology changed how he teaches hepatology."
+description: "Teaching philosophy of Faruq Pradhan, MB BCh BAO, FRCPC, Transplant Hepatologist and Assistant Professor at the University of Nebraska Medical Center."
 permalink: /teaching/philosophy/
-subtitle: "How three years in this programme changed what I think teaching is."
 ---
 
-I came into this programme believing that teaching was clinical expertise, generously shared. I
-now hold something narrower and more useful: expertise is necessary but not sufficient, and what
-separates a physician who knows a great deal from one who teaches well is deliberate design.
 
-That conviction has a theoretical spine. My earliest formal thinking rested on Bandura's social
-cognitive theory, and on triadic reciprocality, where learner, behaviour and environment
-continuously shape one another. In endoscopy this is not abstract: learning by consequence is
-unavailable to me, because a mishandled loop can lacerate a spleen and the patient bears that
-cost. What remains is modelling, graded practice, and goals set with attention to specificity,
-proximity and difficulty (Schunk, 2012). I still teach procedures this way.
+Being an academic physician requires adaptability, medical expertise, and compassion. As a
+Transplant Hepatologist I have the privilege of working with medical trainees at every stage of
+the career — from pre-med through to Transplant Hepatology fellowship. I am a firm believer in
+combining bedside education with real cases linked to key topics in hepatology, bridging the gap
+between theoretical knowledge and clinical practice. My training across Canada, Ireland, and the
+United States gives me both a diverse experience to draw from and the ability to connect with
+students from a wide range of backgrounds.
 
-I have also learned to say when theory and my own practice disagree. Revisiting a curriculum I
-had designed, I found its weekly open-book assessment better described by Vygotsky's zone of
-proximal development than by the social cognitive frame I had claimed. A closed-book examination
-would have fit my stated theory more neatly. I kept the open-book policy, because trainee stress
-was the more pressing problem. I no longer treat that kind of inconsistency as a lapse in
-rigour. More than one theory can be true of the same room.
+By first understanding a trainee's baseline knowledge, I adjust a complex concept — chronic
+liver disease, or liver transplantation — to engage them within their individual zone of
+proximal development (Vygotsky, 1978). Much of what I do at the bedside is described by
+Bandura's social cognitive theory, in which learner, behaviour, and environment continuously
+influence one another. In endoscopy this is practical rather than abstract: learning through
+consequence is not available to me, since a mishandled loop can cause a splenic laceration and
+the patient bears that cost. I rely instead on demonstration, graded practice, and goals set for
+specificity, proximity, and difficulty (Schunk, 2012).
 
-Design now carries as much weight as content. Building a fifteen-week course forced me to treat
-signalling, segmenting and redundancy (Mayer, 2009) as decisions rather than instincts, and they
-govern the e-learning modules I have built since. I now decide what a learner should see first,
-and in what order, before I write any of it.
+What has changed most is how much weight I give to design. Building a fifteen-week curriculum
+required me to treat signalling, segmenting, and redundancy (Mayer, 2009) as deliberate choices
+rather than instincts, and I apply them to the e-modules I develop. I have also grown more
+comfortable saying where practice and stated theory diverge: revisiting that course, I found its
+weekly open-book assessment better explained by the zone of proximal development than by the
+social cognitive framework I had claimed. I kept the open-book format, because trainee stress
+was the more immediate concern.
 
-I used to treat assessment as the audit that follows teaching. Blueprinting an examination
-across content domains and cognitive levels changed what I taught before anyone sat it, and the
-difficulty and discrimination indices afterwards told me more about my own items than about the
-trainees. The endoscopic skills rubric I wrote is anchored for repeated use across three years
-of fellowship and expects low first-year scores, so a fellow can see movement across three years
-rather than a single verdict.
+Trainee learning can be assessed through several means. On an inpatient service I follow
+fellows' progress through the day-to-day management of patients on the Hepatology service. More
+longitudinally, I track knowledge and identify gaps through standardized testing such as the
+annual in-training examination. Gaps are addressed individually through one-on-one feedback, or
+at group level by adding lectures to the curriculum. I have come to treat assessment as part of
+instruction: blueprinting an examination across content domains and cognitive levels changed
+what I taught before anyone sat it, and the difficulty and discrimination indices afterwards
+told me as much about my items as about the trainees.
 
-The affective domain is the part I once neglected and now consider indispensable. Designing
-simulation-based teaching for paracentesis, I wrote an objective requiring a student to raise a
-guideline-based concern with a supervising physician — to speak up across the clinical
-hierarchy. Psychomotor competence can be built with a checklist in one session (Barsuk et al.,
-2012) and staged with Peyton's four-step approach to manage cognitive load (Krautter et al.,
-2011). The willingness to advocate for a patient cannot; it has to be taught on purpose.
+More recently I have paid closer attention to the affective domain. In designing
+simulation-based teaching for paracentesis, I wrote an objective requiring the student to raise
+a guideline-based concern with a supervising physician. Procedural competence can be built with
+a checklist and staged with Peyton's four-step approach to manage cognitive load (Barsuk et al.,
+2012; Krautter et al., 2011), but the willingness to speak up on a patient's behalf has to be
+taught deliberately. I also ask trainees to reflect against a validated instrument, using the
+REFLECT rubric (Wald et al., 2012), and I tell them about my own performance anxiety.
 
-I ask trainees to reflect against a validated instrument rather than freely, using the REFLECT
-rubric's progression from description to critical reflection (Wald et al., 2012), and hold
-myself to the same standard. My own performance anxiety during procedural training is something
-I disclose to learners, because a supervisor who appears never to have struggled is not a usable
-model. Having trained in Canada, Ireland and the United States, I have been the outsider each
-time, and I try to teach from a learner's starting point rather than my own.
-
-This is where the work is going. I founded a four-year medical school track in hepatology and
-transplantation because the discipline is barely visible in undergraduate medical education, and
-a workforce shortage is not solved at the fellowship level. My aim is to design, deliberately,
-the exposure I did not have.
+In short: I integrate bedside clinical medicine to augment education for trainees at all levels,
+leveraging clinical expertise, an international background, and communication to improve
+trainees' practice and support them through standardized examinations. What this programme added
+is a vocabulary and a set of methods for doing that on purpose, and it is why I established a
+four-year medical school track in hepatology and transplantation: the specialty is barely
+visible in undergraduate medical education, and a workforce shortage is not solved at the
+fellowship level alone.
 
 <section class="references" markdown="1">
 
