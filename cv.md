@@ -96,6 +96,15 @@ syndrome and intestinal transplantation, and medical education.
 <dd>University of Nebraska Medical Center, Omaha, NE</dd>
 </dl>
 
+## Global medical experience
+
+<dl class="cv-list" markdown="0">
+<dt>Project Pacemaker<span class="when">1/2016</span></dt>
+<dd>Cochabamba, Bolivia. Selected to join a humanitarian medical trip working in an impoverished hospital and providing healthcare to patients with Chagas disease.</dd>
+<dt>Global Medical Training<span class="when">2/2009</span></dt>
+<dd>Panama City, Panamá. Traveling rural clinic volunteer with a non-governmental organization, providing basic, free medical healthcare services to the rural population.</dd>
+</dl>
+
 ## Leadership and service
 
 <dl class="cv-list" markdown="0">
@@ -212,8 +221,8 @@ syndrome and intestinal transplantation, and medical education.
 <dl class="cv-list" markdown="0">
 <dt>United States Provisional Patent – Carabiner Bite Block<span class="when">2/2025</span></dt>
 <dd>Ref. 2309P, Serial No. 63/761,304; full patent application under review (Docket No. 1317-020US01/23096)</dd>
-<dd>United States Trademark (under review) – LIMES						 3/2026</dd>
-<dd>www.liverlimes.com</dd>
+<dt>United States Trademark, under review – LIMES<span class="when">3/2026</span></dt>
+<dd><a href="https://www.liverlimes.com">liverlimes.com</a></dd>
 </dl>
 
 ## Editorial, peer review and memberships
@@ -336,6 +345,12 @@ syndrome and intestinal transplantation, and medical education.
 <li>Alnounou, A., Weiss, S., Jafri, S. M. R., Mellinger, J.L., Pradhan, F. Benzodiazepine or Z-Drug Initiation is Associated with Higher Risk of Hepatic Encephalopathy or Death in Cirrhosis. Submitted to Clinical Gastroenterology and Hepatology, August 2026.</li>
 </ol>
 
+### Abstracts under review
+
+<ol class="cites" markdown="0">
+<li>Weiss, S., Pradhan, F., Mazariegos, G., &amp; Weiner, J. How to stomach it: Considerations in transplanting the stomach in patients with intestinal dysmotility. Submitted to NYU Transplant Research Day 2026.</li>
+</ol>
+
 ## Presentations
 
 **10 oral presentations · 52 poster presentations · 17 invited talks**
@@ -380,3 +395,16 @@ presentations is in the CV PDF.
 ### Invited talks
 
 See the [Teaching](/teaching/) page.
+
+## Media engagement
+
+<dl class="cv-list" markdown="0">
+<dt>KETV – interview for Donate Life Month<span class="when">4/2024</span></dt>
+</dl>
+
+## Other professional activities
+
+<dl class="cv-list" markdown="0">
+<dt>Moderator, Hot Topic Debate – American Transplant Congress 2026<span class="when">6/2026</span></dt>
+<dt>Moderator, UNMC Transplant Symposium<span class="when">3/2024, 3/2025, 5/2026</span></dt>
+</dl>
