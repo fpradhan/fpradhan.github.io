@@ -401,7 +401,7 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
 @media (prefers-color-scheme:dark){ .portrait img{filter:brightness(.94)} }
 @media (max-width:900px){
   .hero{grid-template-columns:1fr;gap:2rem}
-  .portrait{max-width:13rem;order:-1}
+  .portrait{max-width:clamp(13rem,30vw,16rem);order:-1}
 }
 
 /* Résumé / CV header: name, credentials, contact. Doubles as the first block
@@ -552,6 +552,10 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
 .prose .references ol,.prose .references ul{font-size:var(--t-sm);line-height:1.6;
   color:var(--ink-soft);padding-left:0;list-style:none}
 .prose .references li{padding-left:2rem;text-indent:-2rem;margin-bottom:.75rem}
+/* References written as plain paragraphs get the same hanging indent as list
+   items, so an APA entry wraps under its own first line. */
+.prose .references p:not(.todo){font-size:var(--t-sm);line-height:1.6;
+  color:var(--ink-soft);padding-left:2rem;text-indent:-2rem;margin-bottom:.75rem}
 
 /* Previous / next */
 .pager{display:grid;grid-template-columns:1fr 1fr;gap:1rem;
