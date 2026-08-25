@@ -112,4 +112,4 @@ American Society of Transplantation *(Intestinal Sub-Committee Chair; Executive 
 {% endif %}
 
 <p class="meta cv-note">The complete record — every publication, presentation, grant, trial,
-committee and award — is in the <a href="{% if site.cv and site.cv != "" %}{{ site.cv | relative_url }}{% else %}/cv/{% endif %}">full CV</a>.</p>
+committee and award — is on the <a href="{{ '/cv/' | relative_url }}">full CV page</a>{% if site.cv and site.cv != "" %}, or as a <a href="{{ site.cv | relative_url }}">PDF</a>{% endif %}.</p>

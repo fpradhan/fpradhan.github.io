@@ -40,8 +40,8 @@ portrait_alt: "Faruq Pradhan"
 image: ""
 
 # Downloadable CV, e.g. "/assets/artifacts/pradhan-cv.pdf"
-cv: ""
-cv_label: "Download CV (PDF)"
+cv: "/assets/artifacts/pradhan-cv.pdf"
+cv_label: "Download the full CV (PDF)"
 
 # External profiles. Shown in the footer and on the Contact page.
 #   - name: "LinkedIn"

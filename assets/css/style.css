@@ -336,7 +336,6 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
 .dl::after{content:"↓";font-size:.95em;color:var(--ink-faint);transition:color .15s ease}
 .dl:hover{border-color:var(--accent);color:var(--accent);background:var(--accent-wash)}
 .dl:hover::after{color:var(--accent)}
-.dl:hover::after{color:var(--accent)}
 .dl.ext::after{content:"↗"}
 .dl.go::after{content:"→"}
 
