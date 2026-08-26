@@ -74,8 +74,8 @@ contact_email: "liver@fpradhan.com"
 #   form_endpoint: "https://formspree.io/f/xxxxxxxx"
 #   form_access_key: ""            # not used
 form_provider: "web3forms"
-form_endpoint: ""
-form_access_key: ""
+form_endpoint: "https://api.web3forms.com/submit"
+form_access_key: "bc71f164-db2b-40bb-a758-27cbcaacb8eb"
 
 # ---------------------------------------------------------------------------
 # Build
