@@ -4,7 +4,7 @@
 title:    "Faruq Pradhan"
 tagline:  "MB BCh BAO, FRCPC, LRCP&SI"
 role:     "Transplant Hepatologist · Assistant Professor"  # shown under the site name
-email:    "fpradhan@unmc.edu"
+email:    "liver@fpradhan.com"
 phone:    "402-559-5200"
 lang:     "en"
 
@@ -53,10 +53,6 @@ profiles:
     url:  "https://www.linkedin.com/in/faruq-pradhan"
   - name: "Google Scholar"
     url:  "https://scholar.google.com/citations?user=RCPGvYgAAAAJ&hl=en"
-
-# Address shown on the Contact page and used as the form's reply-to. Kept
-# separate from `email:` above, which stays the UNMC address the CV carries.
-contact_email: "liver@fpradhan.com"
 
 # Contact form. GitHub Pages serves static files and cannot process a form
 # POST, so delivery needs an external handler. Nothing appears on /contact/

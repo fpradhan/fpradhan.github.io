@@ -11,7 +11,7 @@ noindex: true
 <h1 class="cv-name">Faruq Pradhan, MB BCh BAO, FRCPC</h1>
 <p class="cv-role">Transplant Hepatologist · Assistant Professor of Medicine<br>
 University of Nebraska Medical Center</p>
-<p class="cv-contact"><a href="mailto:fpradhan@unmc.edu">fpradhan@unmc.edu</a> · 402-559-5200 · Omaha, Nebraska</p>
+<p class="cv-contact"><a href="mailto:liver@fpradhan.com">liver@fpradhan.com</a> · 402-559-5200 · Omaha, Nebraska</p>
 </header>
 
 <p class="meta cv-note">Complete curriculum vitae. A condensed version is on the

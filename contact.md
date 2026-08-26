@@ -13,7 +13,7 @@ teaching and curriculum design more generally.
 
 <dl class="facts" markdown="1">
 <dt>Email</dt>
-<dd><a href="mailto:{{ site.contact_email | default: site.email }}">{{ site.contact_email | default: site.email }}</a></dd>
+<dd><a href="mailto:{{ site.email }}">{{ site.email }}</a></dd>
 <dt>Telephone</dt>
 <dd>{{ site.phone }}</dd>
 <dt>Department</dt>
@@ -34,6 +34,12 @@ page, and in the site footer.</p>
 {% endif %}
 
 ## Send a message
+
+<p class="notice" markdown="1">**Not for clinical questions.** Please do not send questions about your own
+care, another person's care, or any patient information through this form. Clinical questions are not
+answered here. If you are a patient of Nebraska Medicine, contact your care team through
+[One Chart | Patient](https://www.nebraskamed.com/patient-portal) or call your clinic. **In an emergency,
+call 911.**</p>
 
 {% if site.form_endpoint and site.form_endpoint != "" %}
 <form class="form" action="{{ site.form_endpoint }}" method="POST">
@@ -69,8 +75,8 @@ page, and in the site footer.</p>
     <textarea id="f-message" name="message" required></textarea>
   </div>
   <button class="btn" type="submit">Send message</button>
-  <p class="form-note">Goes to {{ site.contact_email | default: site.email }}. I read everything,
-  though a reply may take a few days during a clinical week.</p>
+  <p class="form-note">Goes to {{ site.email }}. I read everything, though a reply may take a few
+  days during a clinical week.</p>
 </form>
 {% else %}
 <p class="todo"><strong>Form not yet connected.</strong> GitHub Pages serves static files and

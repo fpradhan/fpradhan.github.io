@@ -9,7 +9,7 @@ hide_title: true
 <h1 class="cv-name">Faruq Pradhan, MB BCh BAO, FRCPC</h1>
 <p class="cv-role">Transplant Hepatologist · Assistant Professor of Medicine<br>
 University of Nebraska Medical Center</p>
-<p class="cv-contact"><a href="mailto:fpradhan@unmc.edu">fpradhan@unmc.edu</a> · 402-559-5200 · Omaha, Nebraska</p>
+<p class="cv-contact"><a href="mailto:liver@fpradhan.com">liver@fpradhan.com</a> · 402-559-5200 · Omaha, Nebraska</p>
 {%- comment -%}
   The PDF button appears once `cv:` is set in _config.yml. Until then the same
   slot offers the full CV as a page, so this never renders as a broken promise

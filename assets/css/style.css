@@ -617,6 +617,16 @@ code{font-size:.85em;background:var(--surface-2);padding:.15em .38em;
 .trap{position:absolute;left:-9999px;width:1px;height:1px;opacity:0;pointer-events:none}
 .form-note{font-size:var(--t-sm);color:var(--ink-faint);margin:1rem 0 0;max-width:34rem}
 
+/* Standing notice inside prose — the clinical-questions warning on /contact/.
+   Ruled on the left rather than boxed, so it reads as a caution without
+   shouting over the page. */
+.prose .notice{
+  font-size:var(--t-sm);line-height:1.65;color:var(--ink-soft);
+  margin:1.5rem 0;padding:.9rem 0 .9rem 1.1rem;
+  border-left:2px solid var(--accent);max-width:40rem;
+}
+.prose .notice strong{color:var(--ink)}
+
 /* Inline list of external profiles */
 .prose .links{list-style:none;margin:1rem 0 1.5rem;padding:0;
   display:flex;flex-wrap:wrap;gap:.5rem}
@@ -640,6 +650,8 @@ code{font-size:.85em;background:var(--surface-2);padding:.15em .38em;
 .footer-contact a:hover{color:var(--accent);text-decoration:underline}
 .footer-note{width:100%;color:var(--ink-faint);font-size:var(--t-xs);
   border-top:1px solid var(--rule);padding-top:1.25rem;margin-top:.5rem}
+.footer-disclaimer{border-top:0;padding-top:0;margin-top:.75rem;
+  max-width:52rem;text-wrap:pretty}
 @media (max-width:640px){
   .footer-inner{flex-direction:column;gap:1.5rem}
   .footer-contact{text-align:left}
