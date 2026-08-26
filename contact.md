@@ -13,7 +13,7 @@ teaching and curriculum design more generally.
 
 <dl class="facts" markdown="1">
 <dt>Email</dt>
-<dd><a href="mailto:{{ site.email }}">{{ site.email }}</a></dd>
+<dd><a href="mailto:{{ site.contact_email | default: site.email }}">{{ site.contact_email | default: site.email }}</a></dd>
 <dt>Telephone</dt>
 <dd>{{ site.phone }}</dd>
 <dt>Department</dt>
@@ -37,6 +37,21 @@ page, and in the site footer.</p>
 
 {% if site.form_endpoint and site.form_endpoint != "" %}
 <form class="form" action="{{ site.form_endpoint }}" method="POST">
+{%- comment -%}
+  Field names differ between handlers, so the two dialects are kept apart here
+  rather than sending both and letting the unused ones show up in the email.
+  `name`, `email`, `subject` and `message` are common to both.
+{%- endcomment -%}
+{%- if site.form_provider == "formspree" %}
+  <input type="hidden" name="_next" value="{{ '/contact/thanks/' | absolute_url }}">
+  <input type="hidden" name="_subject" value="Message from fpradhan.com">
+  <input type="text" name="_gotcha" class="trap" tabindex="-1" autocomplete="off" aria-hidden="true">
+{%- else %}
+  <input type="hidden" name="access_key" value="{{ site.form_access_key }}">
+  <input type="hidden" name="redirect" value="{{ '/contact/thanks/' | absolute_url }}">
+  <input type="hidden" name="from_name" value="fpradhan.com">
+  <input type="checkbox" name="botcheck" class="trap" tabindex="-1" autocomplete="off" aria-hidden="true">
+{%- endif %}
   <div class="field">
     <label for="f-name">Name</label>
     <input type="text" id="f-name" name="name" autocomplete="name" required>
@@ -54,12 +69,13 @@ page, and in the site footer.</p>
     <textarea id="f-message" name="message" required></textarea>
   </div>
   <button class="btn" type="submit">Send message</button>
+  <p class="form-note">Goes to {{ site.contact_email | default: site.email }}. I read everything,
+  though a reply may take a few days during a clinical week.</p>
 </form>
 {% else %}
 <p class="todo"><strong>Form not yet connected.</strong> GitHub Pages serves static files and
-cannot process a form submission on its own, so the form needs an external handler —
-<a href="https://formspree.io">Formspree</a>, <a href="https://usebasin.com">Basin</a> or
-similar. Create an endpoint, paste the URL into <code>form_endpoint:</code> in
-<code>_config.yml</code>, and the form appears here. Until then the email address above is the
-working route, so nothing on this page is broken.</p>
+cannot process a form submission on its own, so delivery needs an external handler. The steps
+are in the <code>form_endpoint</code> comment in <code>_config.yml</code>; fill that in and the
+form appears here. Until then the email address above is the working route, so nothing on this
+page is broken.</p>
 {% endif %}

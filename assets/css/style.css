@@ -612,6 +612,11 @@ code{font-size:.85em;background:var(--surface-2);padding:.15em .38em;
 }
 .btn:hover{opacity:.85}
 
+/* Honeypot. Off-screen rather than display:none, which some bots skip, and
+   hidden from assistive tech so nobody is asked to fill it in. */
+.trap{position:absolute;left:-9999px;width:1px;height:1px;opacity:0;pointer-events:none}
+.form-note{font-size:var(--t-sm);color:var(--ink-faint);margin:1rem 0 0;max-width:34rem}
+
 /* Inline list of external profiles */
 .prose .links{list-style:none;margin:1rem 0 1.5rem;padding:0;
   display:flex;flex-wrap:wrap;gap:.5rem}

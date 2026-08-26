@@ -20,7 +20,9 @@ author:
   name: "Faruq Pradhan"
 social:
   name:  "Faruq Pradhan"
-  links: []
+  links:
+    - "https://www.linkedin.com/in/faruq-pradhan"
+    - "https://scholar.google.com/citations?user=RCPGvYgAAAAJ&hl=en"
 
 # ---------------------------------------------------------------------------
 # Optional slots. Each renders only when you fill it in, so the site never
@@ -44,21 +46,36 @@ cv: "/assets/artifacts/pradhan-cv.pdf"
 cv_label: "Download the full CV (PDF)"
 
 # External profiles. Shown in the footer and on the Contact page.
-#   - name: "LinkedIn"
-#     url:  "https://www.linkedin.com/in/..."
-#   - name: "Google Scholar"
-#     url:  "https://scholar.google.com/citations?user=..."
-#   - name: "PubMed"
-#     url:  "https://pubmed.ncbi.nlm.nih.gov/?term=..."
-# Adding the same URLs to social.links above also puts them in the page's
-# structured data, which is what Google reads.
-profiles: []
+# The same URLs are repeated under social.links above, which is what puts them
+# in the page's structured data for Google.
+profiles:
+  - name: "LinkedIn"
+    url:  "https://www.linkedin.com/in/faruq-pradhan"
+  - name: "Google Scholar"
+    url:  "https://scholar.google.com/citations?user=RCPGvYgAAAAJ&hl=en"
 
-# Contact form endpoint. GitHub Pages serves static files and cannot process a
-# form POST, so the form needs an external handler — Formspree, Basin, Getform
-# or similar. Paste the endpoint URL here and the form appears on /contact/.
-# Until then the Contact page shows the email and phone details only.
+# Address shown on the Contact page and used as the form's reply-to. Kept
+# separate from `email:` above, which stays the UNMC address the CV carries.
+contact_email: "liver@fpradhan.com"
+
+# Contact form. GitHub Pages serves static files and cannot process a form
+# POST, so delivery needs an external handler. Nothing appears on /contact/
+# until `form_endpoint` is filled in — the email address is shown instead, so
+# the page is never broken.
+#
+# Web3Forms (no account; they email you an access key at the address you want
+# the mail delivered to — put liver@fpradhan.com in):
+#   form_provider: "web3forms"
+#   form_endpoint: "https://api.web3forms.com/submit"
+#   form_access_key: "the key they send you"
+#
+# Formspree (account required; create a form, set its recipient, copy the URL):
+#   form_provider: "formspree"
+#   form_endpoint: "https://formspree.io/f/xxxxxxxx"
+#   form_access_key: ""            # not used
+form_provider: "web3forms"
 form_endpoint: ""
+form_access_key: ""
 
 # ---------------------------------------------------------------------------
 # Build
@@ -98,3 +115,4 @@ exclude:
   - vendor
   - .gitignore
   - assets/artifacts/README.md
+  - notes
