@@ -3,6 +3,8 @@ title: "Curriculum Vitae"
 description: "Complete curriculum vitae for Faruq Pradhan, MB BCh BAO, FRCPC — Transplant Hepatologist and Assistant Professor at the University of Nebraska Medical Center."
 permalink: /cv/
 hide_title: true
+wide: true
+section_viewer: true
 sitemap: false
 noindex: true
 ---
@@ -14,8 +16,15 @@ University of Nebraska Medical Center</p>
 <p class="cv-contact"><a href="mailto:liver@fpradhan.com">liver@fpradhan.com</a> · 402-559-5200 · Omaha, Nebraska</p>
 </header>
 
-<p class="meta cv-note">Complete curriculum vitae. A condensed version is on the
-<a href="/resume/">Resume / CV</a> page.</p>
+<p class="cv-actions">
+{%- if site.cv and site.cv != "" %}
+  <a class="dl" href="{{ site.cv | relative_url }}">{{ site.cv_label | default: "Download the full CV (PDF)" }}</a>
+{%- endif %}
+  <a class="dl go" href="{{ '/resume/' | relative_url }}">See the highlights</a>
+</p>
+
+<p class="meta cv-note">Complete curriculum vitae. Pick a section from the contents list; choose
+<em>Everything</em> to read it straight through or to search the page.</p>
 
 ## Positions and appointments
 

@@ -50,10 +50,10 @@ University of Nebraska Medical Center, Omaha, Nebraska
 
 ## Board certification and licensure
 
-- **American Board of Internal Medicine** — Transplant Hepatology, Gastroenterology, Internal Medicine
-- **Royal College of Physicians of Canada** — Internal Medicine, Gastroenterology *(FRCPC)*
-- **Royal College of Physicians &amp; Surgeons of Ireland** — Licentiate *(LRCP&amp;SI)*
-- Full Nebraska medical license
+American Board of Internal Medicine — Transplant Hepatology · Gastroenterology · Internal Medicine.
+Royal College of Physicians and Surgeons of Canada — Internal Medicine · Gastroenterology *(FRCPC)*.
+Royal College of Physicians &amp; Surgeons of Ireland — Licentiate *(LRCP&amp;SI)*. Full Nebraska medical licence.
+{: .meta}
 
 ## Areas of expertise
 
@@ -81,8 +81,6 @@ University of Nebraska Medical Center, Omaha, Nebraska
 <dt>Outstanding Research Award, Small Intestine — American College of Gastroenterology<span class="when">2025</span></dt>
 <dt>E-Learning Innovator Award — UNMC<span class="when">2025</span></dt>
 <dt>Internal Medicine Fellowship Top Teacher Award — UNMC<span class="when">2023</span></dt>
-<dt>Honoree, Research Innovation Awards — UNMC<span class="when">2023</span></dt>
-<dt>Citation of Excellence in Teaching — nominated by Tufts University medical students<span class="when">2016</span></dt>
 </dl>
 
 ## Scholarship
@@ -90,20 +88,9 @@ University of Nebraska Medical Center, Omaha, Nebraska
 **21 peer-reviewed publications · 13 book chapters · 10 oral and 52 poster presentations · 17 invited talks · 4 education grants · 3 trials as principal investigator**
 {: .meta}
 
-Selected publications:
-
-<ol class="cites" markdown="0">
-<li>Pradhan, F., Winters, A. C., Aby, E. S., Singh, N., &amp; Pillai, A. (2026). H-1B visa changes and its impact on transplant workforce. <em>Transplantation, 110</em>(4).</li>
-<li>Aby, E.&dagger;, Pradhan, F.&dagger;, King, L., et al. (2025). Workload, compensation, and institutional support among US transplant hepatologists: Results of a national survey. <em>Liver Transplantation</em>. &dagger; Co-first authorship.</li>
-<li>Pradhan, F., Fiedler, A., Olivera-Martinez, M., Manatsathit, W., &amp; Peeraphatdit, T. (2024). Artificial intelligence compared with human-derived patient educational materials on cirrhosis. <em>Hepatology Communications, 8</em>(3).</li>
-<li>Pradhan, F., Ravipati, P., &amp; Slocum, Z. P. (2023). With great power comes great responsibility: AI and its future in medical education. <em>Graduate Medical Education Research Journal, 5</em>(2).</li>
-</ol>
-
 Invited talks are listed on the [Teaching](/teaching/) page.
 
-## Professional memberships
-
-American Society of Transplantation *(Intestinal Sub-Committee Chair; Executive Committee Member-at-Large)* · American Gastroenterological Association · American College of Gastroenterology · American Association for the Study of Liver Diseases
+## Elsewhere
 
 {% if site.profiles and site.profiles.size > 0 %}
 <ul class="links">

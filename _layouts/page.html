@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<article class="container{% if page.wide %} wide{% endif %}">
+<article class="container{% if page.wide %} wide{% endif %}"{% if page.section_viewer %} data-section-viewer{% endif %}>
   <div class="prose">
     {% if page.title and page.hide_title != true %}<h1 class="page-title">{{ page.title }}</h1>{% endif %}
     {% if page.subtitle %}<p class="page-subtitle">{{ page.subtitle }}</p>{% endif %}
@@ -20,3 +20,7 @@ layout: default
     {{ content }}
   </div>
 </article>
+{%- if page.section_viewer %}
+{%- assign v = site.time | date: '%Y%m%d%H%M%S' %}
+<script src="{{ '/assets/js/section-viewer.js' | relative_url }}?v={{ v }}" defer></script>
+{%- endif %}
