@@ -31,9 +31,9 @@ University of Nebraska Medical Center, Omaha, Nebraska
 {: .meta}
 
 <dl class="cv-list" markdown="0">
-<dt>Medical Director, Adult Liver Transplantation<span class="when">2026 – present</span></dt>
-<dt>Assistant Professor of Medicine, Transplant Hepatology<span class="when">2022 – present</span></dt>
-<dt>Core Faculty, Gastroenterology and Transplant Hepatology fellowships<span class="when">2022 – present</span></dt>
+<dt>Medical Director, Adult Liver Transplantation<span class="when">2026 – Present</span></dt>
+<dt>Assistant Professor of Medicine, Transplant Hepatology<span class="when">2022 – Present</span></dt>
+<dt>Core Faculty, Gastroenterology and Transplant Hepatology fellowships<span class="when">2022 – Present</span></dt>
 </dl>
 
 ## Education and training
@@ -52,7 +52,7 @@ University of Nebraska Medical Center, Omaha, Nebraska
 
 American Board of Internal Medicine — Transplant Hepatology · Gastroenterology · Internal Medicine.
 Royal College of Physicians and Surgeons of Canada — Internal Medicine · Gastroenterology *(FRCPC)*.
-Royal College of Physicians &amp; Surgeons of Ireland — Licentiate *(LRCP&amp;SI)*. Full Nebraska medical licence.
+Royal College of Physicians &amp; Surgeons of Ireland — Licentiate *(LRCP&amp;SI)*. Full Nebraska medical license.
 {: .meta}
 
 ## Areas of expertise
@@ -66,12 +66,12 @@ Royal College of Physicians &amp; Surgeons of Ireland — Licentiate *(LRCP&amp;
 ## Educational leadership
 
 <dl class="cv-list" markdown="0">
-<dt>Course Director and Founder, Enhanced Medical Education Track<span class="when">2023 – present</span></dt>
+<dt>Course Director and Founder, Enhanced Medical Education Track<span class="when">2023 – Present</span></dt>
 <dd><em>Combined Medical and Surgical Integrated Track in Liver Transplantation</em> — a four-year supplemental medical school curriculum in hepatology and transplant medicine, established with the Department of Surgery and enrolling two to three students a year.</dd>
-<dt>Item Writing Committee, Gastroenterology — ABIM<span class="when">2025 – present</span></dt>
+<dt>Item Writing Committee, Gastroenterology — ABIM<span class="when">2025 – Present</span></dt>
 <dt>Transplant Hepatology Blueprint Reviewer — ABIM<span class="when">2025</span></dt>
-<dt>Interprofessional Academy of Educators — UNMC<span class="when">2025 – present</span></dt>
-<dt>Academy of Educators — American Gastroenterological Association<span class="when">2024 – present</span></dt>
+<dt>Interprofessional Academy of Educators — UNMC<span class="when">2025 – Present</span></dt>
+<dt>Academy of Educators — American Gastroenterological Association<span class="when">2024 – Present</span></dt>
 <dt>Faculty Advisor, Gastroenterology Fellowship Wellness<span class="when">2022 – 2025</span></dt>
 </dl>
 

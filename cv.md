@@ -64,7 +64,7 @@ University of Nebraska Medical Center</p>
 <dt>American Board of Internal Medicine — Transplant Hepatology<span class="when">Expires 2032</span></dt>
 <dt>American Board of Internal Medicine — Gastroenterology<span class="when">Expires 2031</span></dt>
 <dt>American Board of Internal Medicine — Internal Medicine<span class="when">Expires 2027</span></dt>
-<dt>Fellow of the Royal College of Physicians of Canada — Internal Medicine, Gastroenterology</dt>
+<dt>Fellow of the Royal College of Physicians and Surgeons of Canada — Internal Medicine, Gastroenterology</dt>
 <dt>Licentiate of the Royal College of Physicians &amp; Surgeons of Ireland (LRCP&amp;SI)</dt>
 <dt>Full Nebraska medical license</dt>
 </dl>

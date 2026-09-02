@@ -16,14 +16,14 @@ students from a wide range of backgrounds.
 By first understanding a trainee's baseline knowledge, I adjust a complex concept — chronic
 liver disease, or liver transplantation — to engage them within their individual zone of
 proximal development (Vygotsky, 1978). Much of what I do at the bedside is described by
-Bandura's social cognitive theory, in which the learner, their behaviour, and their environment
+Bandura's social cognitive theory, in which the learner, their behavior, and their environment
 continuously influence one another (Bandura, 1986). In endoscopy this is practical rather than
 abstract, since learning through consequence is not available to me: a mishandled loop can cause
 a splenic laceration, and the patient carries that cost. I rely instead on demonstration, graded
 practice, and goals that are specific and attainable.
 
-What has changed most over this programme is the weight I now give to design. Building a
-fifteen-week curriculum required me to treat sequencing, signalling what matters, and removing
+What has changed most over this program is the weight I now give to design. Building a
+fifteen-week curriculum required me to treat sequencing, signaling what matters, and removing
 redundancy as deliberate choices rather than instincts (Mayer, 2009), and I apply the same
 thinking to the e-modules I develop. I have also become more comfortable saying where my
 practice and my stated theory diverge. On revisiting that course, I found its weekly open-book
@@ -49,7 +49,7 @@ open with trainees about my own performance anxiety than I once was.
 
 In short: I integrate bedside clinical medicine to augment education for trainees at all levels,
 leveraging clinical expertise, an international background, and communication to improve
-trainees' practice and support them through standardized examinations. What this programme has
+trainees' practice and support them through standardized examinations. What this program has
 added is a vocabulary and a set of methods for doing that deliberately. It is also why I
 established a four-year medical school track in hepatology and transplantation: the specialty is
 barely visible in undergraduate medical education, and the shortage will not be solved at

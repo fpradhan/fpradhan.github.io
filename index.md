@@ -13,7 +13,7 @@ on what each piece changed about how I teach.
 I am a Transplant Hepatologist and Assistant Professor at the University of Nebraska
 Medical Center, where I am Medical Director of Adult Liver Transplantation and core faculty
 for both the Gastroenterology and Transplant Hepatology fellowships. I founded and direct a
-4-year supplementary course to the medical school curriculum: *Combined Medical and Surgical
+four-year supplementary course to the medical school curriculum: *Combined Medical and Surgical
 Integrated Track in Liver Transplantation*.
 
 ## Board certifications
