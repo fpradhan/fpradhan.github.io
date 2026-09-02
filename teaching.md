@@ -7,14 +7,13 @@ permalink: /teaching/
 
 ## Educational philosophy
 
-I came into this programme believing that teaching was clinical expertise, generously shared. I
-now hold something narrower and more useful: expertise is necessary but not sufficient, and what
-separates a physician who knows a great deal from one who teaches well is deliberate design.
+I came into this program thinking that teaching was mostly a matter of knowing enough and being
+willing to share it. What changed is how much of it I now plan in advance.
 {: .lede}
 
-That shift — from expertise to design, and from assessment as audit to assessment as instruction
-— is what three years of this programme changed. The full statement sets out the theory behind
-it, where my practice and my stated theory have disagreed, and where the work is going.
+Sequencing, deciding what to leave out, how a question is written and what its wrong answers say:
+I used to handle these by instinct and now treat them as decisions. The full statement sets out
+the theory behind that, including where my practice and my stated theory have disagreed.
 
 <p><a class="dl go" href="{{ '/teaching/philosophy/' | relative_url }}">Read the teaching philosophy</a></p>
 
@@ -22,7 +21,7 @@ it, where my practice and my stated theory have disagreed, and where the work is
 
 ## Presentations
 
-Invited talks, webinars and grand rounds, most recent first.
+Seventeen invited talks, webinars and grand rounds between 2016 and 2026, most recent first.
 {: .meta}
 
 <dl class="cv-list" markdown="0">
@@ -71,16 +70,19 @@ Invited talks, webinars and grand rounds, most recent first.
 
 ## Resources for learners
 
-<p class="todo">Link the things trainees can actually use: the Steatotic Liver Disease module,
-the Portal Hypertension e-learning module, the Prezi on liver enzymes, the Quizlet set, the
-Acute Liver Failure escape room. Embed where you can — a reviewer should be able to open and
-run them.</p>
+{% comment %}
+  TO WRITE. Nothing between these markers reaches the browser.
 
-<p class="todo"><strong>Screenshots go here.</strong> A screen from each module does more for this
-page than any stock photograph — it is evidence, and it is yours. Drop the files into
-<code>assets/img/</code> and uncomment the block below, one <code>figure.html</code> line per image.
-Every image needs an <code>alt</code> describing what it shows; without one the figure is skipped
-rather than shipped inaccessible.</p>
+  Link what trainees can open and run: the Steatotic Liver Disease module, the Portal
+  Hypertension e-module in the UNMC E-Gallery, the Prezi on liver enzymes, the Quizlet set,
+  the Acute Liver Failure escape room. Crow's equivalent section, Student & Fellowship
+  Education, is a row of tiles that each open a working resource.
+
+  Screenshots: a screen from each module is better evidence than any stock photograph.
+  Drop the files into assets/img/ and uncomment the gallery below, one figure.html line per
+  image. Every image needs an alt describing what it shows, or the figure is skipped rather
+  than shipped inaccessible.
+{% endcomment %}
 
 {% comment %} Delete this line and the {% raw %}{% endcomment %}{% endraw %} line below once the
 screenshots are in assets/img/. Liquid skips everything between them, so nothing
@@ -88,10 +90,10 @@ is sent to the browser while the block is commented out.
 <div class="gallery" markdown="1">
 {% include figure.html src="/assets/img/steatotic-module.png" width="1600" height="1000"
    alt="Opening screen of the Steatotic Liver Disease module, showing the clinical case that opens it"
-   caption="HPTT 825 — the module opens on a case, not an objective." %}
+   caption="HPTT 825. The module opens on a case, not an objective." %}
 {% include figure.html src="/assets/img/portal-htn-module.png" width="1600" height="1000"
    alt="Title screen of the Portal Hypertension e-learning module"
-   caption="Portal Hypertension — A Systemic Disease, UNMC E-Gallery." %}
+   caption="Portal Hypertension: A Systemic Disease, UNMC E-Gallery." %}
 {% include figure.html src="/assets/img/escape-room.png" width="1600" height="1000"
    alt="A puzzle station from the Acute Liver Failure escape room simulation"
    caption="Acute Liver Failure escape room, HPTT 824." %}

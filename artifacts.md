@@ -6,11 +6,14 @@ permalink: /artifacts/
 wide: true
 ---
 
-The Master of Health Professions Teaching & Technology is built around eight core
-competencies. Three of them — Research, Leadership, and Learner Assessment — carry two
-distinct sub-statements each, which is why eight competencies are evidenced across eleven
-pages. Each page states its outcome, then presents the artifacts evidencing it — what the work
-required, what it demonstrates, and the file itself.
+Eleven outcome areas, each evidenced by two artifacts. Every page states its outcome, then the
+artifacts that evidence it: what the assignment required, what I took from it, and the file
+itself.
+
+The Master of Health Professions Teaching & Technology is built around eight competencies.
+Research, Leadership and Learner Assessment each carry two sub-statements, which is why eight
+competencies are evidenced across eleven pages.
+{: .meta}
 
 <ul class="index-list">
 {%- assign items = site.competencies | sort: "order" -%}

@@ -84,9 +84,13 @@ while specific details are limited, not widely documented, based on available in
 
 ### Two things I got wrong before, recorded so they are not repeated
 
-**Em dashes are not in this page.** It discusses dashes only as stray list markers. The belief
-that em dashes signal AI writing is popular but is not supported here. Use them where they are
-right; do not hunt them.
+**Em dashes are not in this page.** It discusses dashes only as stray list markers, so the
+popular belief that em dashes signal AI writing is not supported by the source.
+
+**Faruq has since asked for none anyway** (31 Aug 2026), along with no hyperbole and a factual
+register. That instruction stands regardless of what the Wikipedia page does or does not say.
+Use a colon, a full stop, or a comma instead. The three pages rewritten that day carry none;
+about 90 remain elsewhere on the site, mostly in the competency files and the CV.
 
 **Curly quotation marks are listed**, because Wikipedia's house style wants straight ones. This
 site is not Wikipedia and its type is set in a real typeface, where curly quotes and apostrophes

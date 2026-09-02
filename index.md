@@ -6,16 +6,16 @@ description: "Digital portfolio for the Master of Health Professions Teaching & 
 ---
 
 This site is my digital portfolio for the **Master of Health Professions Teaching &
-Technology** at UNMC. It collects the work I produced across the programme and reflects
+Technology** at UNMC. It collects the work I produced across the program and reflects
 on what each piece changed about how I teach.
 {: .lede}
 
 I am a Transplant Hepatologist and Assistant Professor at the University of Nebraska
 Medical Center, where I am Medical Director of Adult Liver Transplantation and core faculty
 for both the Gastroenterology and Transplant Hepatology fellowships. I founded and direct the
-Enhanced Medical Education Track — a combined medical and surgical integrated track in liver
-transplantation — a four-year supplemental medical school curriculum I established with the
-Department of Surgery, taking two to three students a year.
+Enhanced Medical Education Track, a combined medical and surgical integrated track in liver
+transplantation. It is a four-year supplemental medical school curriculum I established with
+the Department of Surgery, taking two to three students a year.
 
 ## Board certifications
 
@@ -26,17 +26,15 @@ Department of Surgery, taking two to three students a year.
 <dd>Internal Medicine · Gastroenterology</dd>
 </dl>
 
-## A note on what runs through this work
+## Two threads
 
-<p class="todo"><strong>To write — four or five sentences.</strong> Two threads run through the whole
-programme and neither is visible from any single artifact page. Worth stating here:</p>
+The first is the gap in hepatology teaching. In 2023 I found that 22% of graduating medical
+students had any hepatology rotation exposure and 42% felt adequately taught (Pan et al.). Most
+of what followed came from that: a fifteen-week curriculum, an e-module on steatotic liver
+disease, and the four-year medical school track I established with the Department of Surgery. By
+2026 I was surveying medical school curricular deans to measure the gap directly.
 
-- **The hepatology education gap.** You named it in 2023 (Pan et al.: 22% of graduating students
-  had any hepatology rotation exposure; 42% felt adequately taught), built a curriculum and an
-  e-module around it, founded a track to close it, and by 2026 were surveying medical school
-  curricular deans to measure it yourself.
-- **Gamification.** “Who Wants To Be A Hepatologist” (2024) → the Acute Liver Failure escape room
-  (2025) → a formal research proposal on AI-augmented gamification (2026). The same instinct,
-  progressively better evidenced.
+The second is gamification. I built *Who Wants To Be A Hepatologist* in 2024, an Acute Liver
+Failure escape room in 2025, and in 2026 wrote a research proposal on AI-augmented gamification.
 
 [Browse the MHPTT artifacts](/artifacts/){: .dl .go}
