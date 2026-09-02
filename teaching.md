@@ -24,13 +24,18 @@ transplantation, written for medical students and other trainees.
 
 <p><a class="dl ext" href="https://www.liverlimes.com" rel="noopener">Open liverlimes.com</a></p>
 
+*Portal Hypertension: A Systemic Disease* is an e-learning module I built with two medical
+students through the UNMC E-Learning Awards, hosted in the university's E-Gallery.
+
+<p><a class="dl ext" href="https://www.unmc.edu/elearning/egallery/portal-hypertension/" rel="noopener">Open the Portal Hypertension module</a></p>
+
 {% comment %}
   TO WRITE. Nothing between these markers reaches the browser.
 
-  Link what trainees can open and run: the Steatotic Liver Disease module, the Portal
-  Hypertension e-module in the UNMC E-Gallery, the Prezi on liver enzymes, the Quizlet set,
-  the Acute Liver Failure escape room. Crow's equivalent section, Student & Fellowship
-  Education, is a row of tiles that each open a working resource.
+  Still to link, once each has a working address: the Steatotic Liver Disease module from
+  HPTT 825, the Prezi on liver enzymes, the Quizlet set, and the Acute Liver Failure escape
+  room. Crow's equivalent section, Student & Fellowship Education, is a row of tiles that
+  each open a working resource.
 
   Screenshots: a screen from each module is better evidence than any stock photograph.
   Drop the files into assets/img/ and uncomment the gallery below, one figure.html line per
