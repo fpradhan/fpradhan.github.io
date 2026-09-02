@@ -5,7 +5,7 @@ subtitle: "Thank you for taking the time to look through this portfolio."
 permalink: /contact/
 ---
 
-I would be glad to hear from you — about the work here, about hepatology education, or about
+I would be glad to hear from you about the work here, about hepatology education, or about
 teaching and curriculum design more generally.
 {: .lede}
 
@@ -75,8 +75,8 @@ call 911.**</p>
     <textarea id="f-message" name="message" required></textarea>
   </div>
   <button class="btn" type="submit">Send message</button>
-  <p class="form-note">Goes to {{ site.email }}. I read everything, though a reply may take a few
-  days during a clinical week.</p>
+  <p class="form-note">Goes to {{ site.email }}. A reply may take a few days during a clinical
+  week.</p>
 </form>
 {% else %}
 <p class="todo"><strong>Form not yet connected.</strong> GitHub Pages serves static files and
