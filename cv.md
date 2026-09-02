@@ -403,7 +403,47 @@ presentations is in the CV PDF.
 
 ### Invited talks
 
-See the [Teaching](/teaching/) page.
+<dl class="cv-list" markdown="0">
+<dt>American Transplant Congress 2026 – Speaker<span class="when">6/2026</span></dt>
+<dd>Meet-the-Expert: Hepatology Workforce</dd>
+<dt>University of Nebraska Transplant Symposium 2026 – Speaker<span class="when">5/2026</span></dt>
+<dd>Debate: Transition of Care Post–Solid Organ Transplant</dd>
+<dt>Northwestern University GI/Hepatology Division – Speaker<span class="when">5/2026</span></dt>
+<dd>Transplant Hepatology Medical School Pathway</dd>
+<dt>Featured Presentation – UNMC E-Learning Showcase Awards &amp; Recognition Ceremony<span class="when">4/2026</span></dt>
+<dd>Portal Hypertension – A Systemic Disease e-Module</dd>
+<dt>Gut Check 2026 – Practice Gastroenterology Updates for Frontline Clinicians<span class="when">4/2026</span></dt>
+<dd>Alcohol-Associated Liver Disease: New Insights</dd>
+<dt>American Gastroenterological Association Academy of Educators – Scholarship Group<span class="when">7/2025</span></dt>
+<dd>Addressing the Hepatology Workforce Shortage through a Supplemental Medical School Curriculum</dd>
+<dt>Division of Geriatrics, Gerontology, and Palliative Medicine – Speaker<span class="when">6/2025</span></dt>
+<dd>Palliative Care &amp; Liver Disease</dd>
+<dd>University of Nebraska Medical Center</dd>
+<dt>American Society of Transplantation TYF-COP/LICOP Webinar – Speaker/Organizer<span class="when">6/2025</span></dt>
+<dd>The Art of Balance: Determining Clinical Workload in Academic Hepatology</dd>
+<dt>Creighton University Infectious Diseases Symposium – Speaker<span class="when">4/2025</span></dt>
+<dd>Hepatitis B</dd>
+<dt>Nebraska Academy of Family Physicians – Speaker<span class="when">3/2025</span></dt>
+<dd>Elevated Liver Enzymes and Steatotic Liver Disease</dd>
+<dt>American Society of Transplantation Community Education Webinar – Panelist/Organizer<span class="when">1/2025</span></dt>
+<dd>Navigating the Financial Burden of Organ Transplantation</dd>
+<dt>American Society of Transplantation TYF-COP Webinar – Speaker<span class="when">10/2024</span></dt>
+<dd>Building the Transplant Workforce in Hepatology</dd>
+<dt>Medical Grand Rounds<span class="when">2/2024</span></dt>
+<dd>Medical Nutrition &amp; Frailty in Cirrhosis</dd>
+<dd>University of Nebraska Medical Center</dd>
+<dt>Transplant Research Conference &amp; Journal Club<span class="when">9/2023</span></dt>
+<dd>Frailty in Liver Transplantation</dd>
+<dd>University of Nebraska Medical Center</dd>
+<dt>Division of Nutrition – Speaker<span class="when">1/2023</span></dt>
+<dd>Medical Nutrition &amp; Frailty in Cirrhosis</dd>
+<dd>University of Nebraska Medical Center</dd>
+<dt>Circle the City – Invited Speaker<span class="when">5/2019</span></dt>
+<dd>Management of Hepatitis C</dd>
+<dt>Medical Grand Rounds<span class="when">3/2016</span></dt>
+<dd>Non-Invasive Assessment of Liver Fibrosis</dd>
+<dd>Lahey Hospital &amp; Medical Center</dd>
+</dl>
 
 ## Media engagement
 

@@ -88,7 +88,7 @@ Royal College of Physicians &amp; Surgeons of Ireland — Licentiate *(LRCP&amp;
 **21 peer-reviewed publications · 13 book chapters · 10 oral and 52 poster presentations · 17 invited talks · 4 education grants · 3 trials as principal investigator**
 {: .meta}
 
-Invited talks are listed on the [Teaching](/teaching/) page.
+Invited talks are listed on the [full CV page]({{ '/cv/' | relative_url }}).
 
 ## Elsewhere
 

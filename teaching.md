@@ -1,7 +1,7 @@
 ---
 title: "Teaching"
-description: "Educational philosophy, presentations, and resources for learners in hepatology and transplant medicine."
-subtitle: "Philosophy, presentations, and resources for learners."
+description: "Educational philosophy and resources for learners in hepatology and transplant medicine."
+subtitle: "Philosophy and resources for learners."
 permalink: /teaching/
 ---
 
@@ -17,58 +17,12 @@ the theory behind that, including where my practice and my stated theory have di
 
 <p><a class="dl go" href="{{ '/teaching/philosophy/' | relative_url }}">Read the teaching philosophy</a></p>
 
----
-
-## Presentations
-
-Seventeen invited talks, webinars and grand rounds between 2016 and 2026, most recent first.
-{: .meta}
-
-<dl class="cv-list" markdown="0">
-<dt>American Transplant Congress 2026 – Speaker<span class="when">6/2026</span></dt>
-<dd>Meet-the-Expert: Hepatology Workforce</dd>
-<dt>University of Nebraska Transplant Symposium 2026 – Speaker<span class="when">5/2026</span></dt>
-<dd>Debate: Transition of Care Post–Solid Organ Transplant</dd>
-<dt>Northwestern University GI/Hepatology Division – Speaker<span class="when">5/2026</span></dt>
-<dd>Transplant Hepatology Medical School Pathway</dd>
-<dt>Featured Presentation – UNMC E-Learning Showcase Awards &amp; Recognition Ceremony<span class="when">4/2026</span></dt>
-<dd>Portal Hypertension – A Systemic Disease e-Module</dd>
-<dt>Gut Check 2026 – Practice Gastroenterology Updates for Frontline Clinicians<span class="when">4/2026</span></dt>
-<dd>Alcohol-Associated Liver Disease: New Insights</dd>
-<dt>American Gastroenterological Association Academy of Educators – Scholarship Group<span class="when">7/2025</span></dt>
-<dd>Addressing the Hepatology Workforce Shortage through a Supplemental Medical School Curriculum</dd>
-<dt>Division of Geriatrics, Gerontology, and Palliative Medicine – Speaker<span class="when">6/2025</span></dt>
-<dd>Palliative Care &amp; Liver Disease</dd>
-<dd>University of Nebraska Medical Center</dd>
-<dt>American Society of Transplantation TYF-COP/LICOP Webinar – Speaker/Organizer<span class="when">6/2025</span></dt>
-<dd>The Art of Balance: Determining Clinical Workload in Academic Hepatology</dd>
-<dt>Creighton University Infectious Diseases Symposium – Speaker<span class="when">4/2025</span></dt>
-<dd>Hepatitis B</dd>
-<dt>Nebraska Academy of Family Physicians – Speaker<span class="when">3/2025</span></dt>
-<dd>Elevated Liver Enzymes and Steatotic Liver Disease</dd>
-<dt>American Society of Transplantation Community Education Webinar – Panelist/Organizer<span class="when">1/2025</span></dt>
-<dd>Navigating the Financial Burden of Organ Transplantation</dd>
-<dt>American Society of Transplantation TYF-COP Webinar – Speaker<span class="when">10/2024</span></dt>
-<dd>Building the Transplant Workforce in Hepatology</dd>
-<dt>Medical Grand Rounds<span class="when">2/2024</span></dt>
-<dd>Medical Nutrition &amp; Frailty in Cirrhosis</dd>
-<dd>University of Nebraska Medical Center</dd>
-<dt>Transplant Research Conference &amp; Journal Club<span class="when">9/2023</span></dt>
-<dd>Frailty in Liver Transplantation</dd>
-<dd>University of Nebraska Medical Center</dd>
-<dt>Division of Nutrition – Speaker<span class="when">1/2023</span></dt>
-<dd>Medical Nutrition &amp; Frailty in Cirrhosis</dd>
-<dd>University of Nebraska Medical Center</dd>
-<dt>Circle the City – Invited Speaker<span class="when">5/2019</span></dt>
-<dd>Management of Hepatitis C</dd>
-<dt>Medical Grand Rounds<span class="when">3/2016</span></dt>
-<dd>Non-Invasive Assessment of Liver Fibrosis</dd>
-<dd>Lahey Hospital &amp; Medical Center</dd>
-</dl>
-
----
-
 ## Resources for learners
+
+LIMES is a separate site I built for self-directed learning on liver disease and liver
+transplantation, written for medical students and other trainees.
+
+<p><a class="dl ext" href="https://www.liverlimes.com" rel="noopener">Open liverlimes.com</a></p>
 
 {% comment %}
   TO WRITE. Nothing between these markers reaches the browser.
@@ -100,15 +54,3 @@ is sent to the browser while the block is commented out.
 </div>
 {% endcomment %}
 
----
-
-## Global medical experience
-
-<dl class="cv-list" markdown="0">
-<dt>Project Pacemaker<span class="when">1/2016</span></dt>
-<dd>Cochabamba, Bolivia</dd>
-<dd>Selected to join a humanitarian medical trip working in an impoverished hospital and providing healthcare to patients with Chagas disease</dd>
-<dt>Global Medical Training<span class="when">2/2009</span></dt>
-<dd>Panama City, Panamá</dd>
-<dd>Traveling rural clinic volunteer with a non-governmental organization (Global Medical Training); provided basic, free medical healthcare services to the rural population</dd>
-</dl>
