@@ -3,6 +3,14 @@
 <meta name="color-scheme" content="light dark">
 
 {%- comment -%}
+  iOS Safari scans text for dates, phone numbers and addresses and wraps what it
+  finds in its own links, styled as links and absent from the markup. On the CV it
+  turned "11/2024 – 11/2025" into a half-underlined red date link. This asks it not
+  to; assets/css/style.css carries a backstop for versions that do it anyway.
+{%- endcomment -%}
+<meta name="format-detection" content="telephone=no,date=no,address=no,email=no">
+
+{%- comment -%}
   Cache-busting stamp. The stylesheet lives at a fixed path, so a browser that
   cached an earlier version will keep serving it even after the HTML changes —
   which is exactly what happened when the site was rebuilt: new markup was

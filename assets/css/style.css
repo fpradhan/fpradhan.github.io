@@ -105,6 +105,14 @@
 /* --------------------------------------------------------------- Reset */
 
 *,*::before,*::after{box-sizing:border-box}
+
+/* Backstop for iOS Safari's data detectors. Where it still injects a link
+   around a date or a number, this stops it looking like one. */
+a[x-apple-data-detectors],
+a[x-apple-data-detectors] *{
+  color:inherit!important;text-decoration:none!important;
+  font:inherit!important;border:0!important;pointer-events:none;
+}
 html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
 @media (prefers-reduced-motion:reduce){
   html{scroll-behavior:auto}
