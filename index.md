@@ -12,10 +12,9 @@ on what each piece changed about how I teach.
 
 I am a Transplant Hepatologist and Assistant Professor at the University of Nebraska
 Medical Center, where I am Medical Director of Adult Liver Transplantation and core faculty
-for both the Gastroenterology and Transplant Hepatology fellowships. I founded and direct the
-Enhanced Medical Education Track, a combined medical and surgical integrated track in liver
-transplantation. It is a four-year supplemental medical school curriculum I established with
-the Department of Surgery, taking two to three students a year.
+for both the Gastroenterology and Transplant Hepatology fellowships. I founded and direct a
+4-year supplementary course to the medical school curriculum: *Combined Medical and Surgical
+Integrated Track in Liver Transplantation*.
 
 ## Board certifications
 
