@@ -26,15 +26,4 @@ the Department of Surgery, taking two to three students a year.
 <dd>Internal Medicine · Gastroenterology</dd>
 </dl>
 
-## Two threads
-
-The first is the gap in hepatology teaching. In 2023 I found that 22% of graduating medical
-students had any hepatology rotation exposure and 42% felt adequately taught (Pan et al.). Most
-of what followed came from that: a fifteen-week curriculum, an e-module on steatotic liver
-disease, and the four-year medical school track I established with the Department of Surgery. By
-2026 I was surveying medical school curricular deans to measure the gap directly.
-
-The second is gamification. I built *Who Wants To Be A Hepatologist* in 2024, an Acute Liver
-Failure escape room in 2025, and in 2026 wrote a research proposal on AI-augmented gamification.
-
 [Browse the MHPTT artifacts](/artifacts/){: .dl .go}
