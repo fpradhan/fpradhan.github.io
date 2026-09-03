@@ -98,6 +98,6 @@ CVVH. Debriefing uses the Plus-Delta model.
     - the scenario and the three puzzles are described from slides 4 to 8
 {% endcomment %}
 
-<p><a class="dl" href="{{ '/assets/artifacts/hptt824-acute-liver-failure-escape-room.pptx' | relative_url }}">Download the simulation deck (PPTX)</a></p>
+<p><a class="dl" href="{{ '/assets/artifacts/hptt824-acute-liver-failure-escape-room.pdf' | relative_url }}">Download the simulation deck (PDF)</a></p>
 
 </section>
