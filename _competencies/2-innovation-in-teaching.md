@@ -13,6 +13,10 @@ artifacts:
     title: "Introduction to Steatotic Liver Disease e-Module"
     course: "HPTT 825"
     anchor: "artifact-2-a"
+  - label: "2-B"
+    title: "Acute Liver Failure Escape Room Simulation"
+    course: "HPTT 824"
+    anchor: "artifact-2-b"
 statement: >-
   Design effective learning environments using a variety of interactive
   educational and multimedia strategies which engage the learner in
@@ -53,45 +57,47 @@ track to make this a regional opportunity.
 
 </section>
 
-{% comment %}
-  ARTIFACT 2-B, HELD. Nothing between these markers reaches the browser.
-
-  The deck is already in the repository at
-  assets/artifacts/hptt824-acute-liver-failure-escape-room.pptx, so only the
-  reflection is outstanding. Three things in the draft need your attention
-  before it can go up.
-
-  1. This sentence stops mid-way:
-       "I chose to highlight this assignment because it highlights both facets
-        of objective 2a through the use of "
-
-  2. Two sentences describe the endoscopy ergonomics simulation, not this one.
-     Checked every slide and every speaker note in the escape room deck: it
-     contains no Creighton Competency Evaluation Instrument, no Simulation
-     Effectiveness Tool, no AR/VR and no Gemini-generated images. Its debrief
-     uses the Plus-Delta model. Those two sentences belong to the other deck:
-       "Google Gemini was also utilized to help generate some of the images
-        describing the AR/VR integration."
-       "The Creighton Competency Evaluation Instrument was modified for use in
-        this simulation for learner assessment, with the Simulation
-        Effectiveness Tool (5-Point Version) included for simulation
-        evaluation."
-
-  3. What survives is accurate and is the opening sentence:
-       "The purpose of this assignment was to design a team-based escape room
-        simulation including learning objectives, role delineation, puzzle
-        examples, and a debrief strategy."
-
-  Once the reflection is finished, uncomment the section below and add the
-  matching entry to `artifacts:` in the front matter.
-
 <section class="artifact" id="artifact-2-b" markdown="1">
+
 <p class="label">Artifact 2-B</p>
+
 ## Acute Liver Failure Escape Room Simulation
+
 **Course:** HPTT 824 – Simulated and Virtual Learning in Health Professions Education (Fall 2025)
 {: .meta}
+
 ### Reflection
-TO COME.
-<p><a class="dl" href="{{ '/assets/artifacts/hptt824-acute-liver-failure-escape-room.pptx' | relative_url }}">Download the simulation deck (PPTX)</a></p>
-</section>
+
+The purpose of this assignment was to design a team-based escape room simulation including
+learning objectives, role delineation, puzzle examples, and a debrief strategy. I chose to
+highlight this assignment because it addresses both facets of objective 2a: the puzzles engage
+learners through interactive problem-solving rather than through lecture, and the assigned roles
+require the team to reach the diagnosis and the treatment plan together.
+
+The scenario opens with a patient presenting to the emergency room with new-onset confusion,
+jaundice, and elevated liver enzymes. The team works through three puzzles to identify the
+hepatotoxic supplement among the patient's medications, to calculate the correct N-acetylcysteine
+loading dose in order to open a lockbox, and to arrange the tubing needed to start the patient on
+CVVH. Debriefing uses the Plus-Delta model.
+
+{% comment %}
+  STILL TO WRITE, and nothing between these markers reaches the browser.
+
+  Two of the six required elements are not yet covered for this artifact:
+  the challenges encountered, and the application to a current or future role.
+  Every other artifact on objectives 1 and 2 has both.
+
+  Changes made to the draft, so you can check them:
+    - the sentence that stopped at "through the use of " is now completed, and
+      names the two facets of objective 2a
+    - the Creighton Competency Evaluation Instrument and Simulation
+      Effectiveness Tool sentence is replaced by the Plus-Delta model, which is
+      what slide 8 of the deck actually specifies
+    - the Google Gemini AR/VR sentence is removed; that belongs to the
+      endoscopy ergonomics simulation
+    - the scenario and the three puzzles are described from slides 4 to 8
 {% endcomment %}
+
+<p><a class="dl" href="{{ '/assets/artifacts/hptt824-acute-liver-failure-escape-room.pptx' | relative_url }}">Download the simulation deck (PPTX)</a></p>
+
+</section>
