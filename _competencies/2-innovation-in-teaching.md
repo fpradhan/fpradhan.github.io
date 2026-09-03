@@ -35,10 +35,10 @@ statement: >-
 ### Reflection
 
 This assignment was one of the more challenging tasks throughout the MHPTT program, but overall,
-it was the most rewarding. The work throughout the HPTT 825 course culminated in the development
-of an e-Learning module using Articulate Storyline and I am quite proud of the final product. I
-selected this artifact to represent Innovation in Teaching as it embraces interactivity to engage
-medical students while augmenting their classroom lectures on the topic.
+it was the most rewarding. The task was to create an e-Learning module using the Articulate
+Storyline software over the summer semester from scratch and I am quite proud of the final
+product. I selected this artifact to represent Innovation in Teaching as it embraces interactivity
+to engage medical students while augmenting their classroom lectures on the topic.
 
 Some of the challenges encountered included gaining software familiarity while adhering to
 e-module best practices, as well as the timespan to complete with this being a summer semester
@@ -72,31 +72,22 @@ The purpose of this assignment was to design a team-based escape room simulation
 learning objectives, role delineation, puzzle examples, and a debrief strategy. I chose to
 highlight this assignment because it addresses both facets of objective 2a: the puzzles engage
 learners through interactive problem-solving rather than through lecture, and the assigned roles
-require the team to reach the diagnosis and the treatment plan together.
+require the team to reach the diagnosis and the treatment plan collaboratively.
 
 The scenario opens with a patient presenting to the emergency room with new-onset confusion,
 jaundice, and elevated liver enzymes. The team works through three puzzles to identify the
 hepatotoxic supplement among the patient's medications, to calculate the correct N-acetylcysteine
-loading dose in order to open a lockbox, and to arrange the tubing needed to start the patient on
-CVVH. Debriefing uses the Plus-Delta model.
+loading dose to open a lockbox, and arrange the tubing needed to start the patient on continuous
+veno-venous hemodialysis. Post-simulation debriefing uses the Plus-Delta model, one that I had
+informally seen implemented in the past but through this course I was able to better understand
+the methodology behind this model and the importance of structured debriefing in simulation.
 
-{% comment %}
-  STILL TO WRITE, and nothing between these markers reaches the browser.
-
-  Two of the six required elements are not yet covered for this artifact:
-  the challenges encountered, and the application to a current or future role.
-  Every other artifact on objectives 1 and 2 has both.
-
-  Changes made to the draft, so you can check them:
-    - the sentence that stopped at "through the use of " is now completed, and
-      names the two facets of objective 2a
-    - the Creighton Competency Evaluation Instrument and Simulation
-      Effectiveness Tool sentence is replaced by the Plus-Delta model, which is
-      what slide 8 of the deck actually specifies
-    - the Google Gemini AR/VR sentence is removed; that belongs to the
-      endoscopy ergonomics simulation
-    - the scenario and the three puzzles are described from slides 4 to 8
-{% endcomment %}
+While I have participated in escape rooms in the past, this was my first foray into creating a
+medical-themed simulation. One of the challenges encountered was finding a balance between
+clinical accuracy of the content and the gamification and simplification necessary to adapt to an
+escape room scenario but I feel that in the end I was able to create a good balance. In the
+future, I would like to implement this activity with the medical students that I train and work on
+development over the next one or two years.
 
 <p><a class="dl" href="{{ '/assets/artifacts/hptt824-acute-liver-failure-escape-room.pdf' | relative_url }}">Download the simulation deck (PDF)</a></p>
 

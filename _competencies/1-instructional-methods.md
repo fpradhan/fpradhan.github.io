@@ -82,9 +82,11 @@ the REFLECT rubric (as developed by Wald et al.), and multiple other cited refer
 Creating an affective learning objective was a challenging element to this assignment, especially
 with regards to assessment. Reflective assessments were a new concept for me, and though I had
 completed various forms of these in the past, I can look back on these prior implementations and
-recognize effective and ineffective mechanisms utilized. Going forward, I would like to
-incorporate reflective assessment (specifically the REFLECT rubric) through my existing work with
-medical students when they rotate through Hepatology clinical rotations.
+recognize effective and ineffective mechanisms utilized.
+
+Going forward, I would like to incorporate reflective assessment (specifically the REFLECT rubric)
+through my existing work with medical students when they rotate through Hepatology clinical
+rotations.
 
 <p><a class="dl" href="{{ '/assets/artifacts/hptt840-clinical-teaching-project.docx' | relative_url }}">Download the clinical teaching project (DOCX)</a></p>
 
