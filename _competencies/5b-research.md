@@ -10,8 +10,8 @@ description: "MHPTT competency 5b, Research — the outcome statement and the ar
 # artifact list on /artifacts/. Left empty until artifacts are chosen.
 artifacts: []
 statement: >-
-  Examine empirical evidence supporting theories of effective teaching, adult
-  learning, and interdisciplinary teamwork in health professions education.
+  Analyze empirical data to support the theories of effective teaching, adult
+  learning, and interdisciplinary collaboration.
 ---
 
 <p class="todo"><strong>Artifacts to be added.</strong> Two artifacts belong on this page, each with a description, a reflection, and the file itself. An artifact template sits in a comment just below — copy it out and fill it in.</p>

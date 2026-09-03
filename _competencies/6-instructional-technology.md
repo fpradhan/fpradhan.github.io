@@ -11,9 +11,9 @@ description: "MHPTT competency 6, Instructional Technology — the outcome state
 artifacts: []
 statement: >-
   Demonstrate effective integration of current and emerging technology into
-  health professions education to foster active learning, and employ
-  innovative teaching strategies for today's learner in both classroom and
-  distance education settings.
+  health professions education to foster active learning and employ innovative
+  teaching strategies for today’s learner in both a classroom and distance
+  education setting.
 ---
 
 <p class="todo"><strong>Artifacts to be added.</strong> Two artifacts belong on this page, each with a description, a reflection, and the file itself. An artifact template sits in a comment just below — copy it out and fill it in.</p>

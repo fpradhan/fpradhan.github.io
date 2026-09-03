@@ -11,7 +11,7 @@ description: "MHPTT competency 5a, Research — the outcome statement and the ar
 artifacts: []
 statement: >-
   Develop research skills and engage in scholarship activities in an effort to
-  advance understanding and practice of education.
+  advance understanding and practice of education in the health professions.
 ---
 
 <p class="todo"><strong>Artifacts to be added.</strong> Two artifacts belong on this page, each with a description, a reflection, and the file itself. An artifact template sits in a comment just below — copy it out and fill it in.</p>
