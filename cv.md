@@ -50,9 +50,9 @@ University of Nebraska Medical Center</p>
 
 | Years | Position | Institution |
 |---|---|---|
-| 2023 – present | MS, Health Professions Teaching &amp; Technology *(expected 12/2026)* | University of Nebraska Medical Center |
+| 2023 – present | MHPTT (Master of Health Professions Teaching &amp; Technology)<br>*expected 12/2026* | University of Nebraska Medical Center |
 | 2021 – 2022 | Transplant Hepatology Fellowship | University of Nebraska Medical Center |
-| 2018 – 2021 | Gastroenterology Fellowship *(Chief Fellow, 2020–21)* | University of Arizona College of Medicine – Phoenix |
+| 2018 – 2021 | Gastroenterology Fellowship<br>*Chief Fellow, 2020–21* | University of Arizona College of Medicine – Phoenix |
 | 2017 – 2018 | Chief Resident, Internal Medicine | Lahey Hospital &amp; Medical Center, Beth Israel Lahey Health |
 | 2014 – 2017 | Internal Medicine Residency | Lahey Hospital &amp; Medical Center, Beth Israel Lahey Health |
 | 2009 – 2014 | MB BCh BAO *(MD equivalent)* | Royal College of Surgeons in Ireland, Dublin |
