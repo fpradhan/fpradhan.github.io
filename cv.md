@@ -28,12 +28,12 @@ University of Nebraska Medical Center</p>
 
 ## Positions and appointments
 
-**Assistant Professor of Medicine, Transplant Hepatology** · University of Nebraska Medical Center, Omaha, Nebraska · 2022 – present
+**Assistant Professor of Medicine, Transplant Hepatology** · University of Nebraska Medical Center, Omaha, Nebraska · 2022 – Present
 {: .meta}
 
-- **Medical Director**, Adult Liver Transplantation — 2026 – present
-- **Course Director and Founder**, Enhanced Medical Education Track — *Combined Medical and Surgical Integrated Track in Liver Transplantation* — 2023 – present
-- **Core Faculty**, Gastroenterology and Transplant Hepatology fellowships — 2022 – present
+- **Medical Director**, Adult Liver Transplantation — 2026 – Present
+- **Course Director and Founder**, Enhanced Medical Education Track — *Combined Medical and Surgical Integrated Track in Liver Transplantation* — 2023 – Present
+- **Core Faculty**, Gastroenterology and Transplant Hepatology Fellowships — 2022 – Present
 
 ### Previous academic appointments
 
@@ -46,16 +46,22 @@ University of Nebraska Medical Center</p>
 <dd>Tufts University School of Medicine, Boston, MA</dd>
 </dl>
 
+### Skills
+
+<p class="skills"><strong>Education:</strong> curriculum design, e-learning and simulation, assessment design and item writing.<br>
+<strong>Clinical:</strong> liver transplantation, cirrhosis and portal hypertension, intestinal failure.<br>
+<strong>Research:</strong> clinical trials, database analysis and survey methods.</p>
+
 ## Education and training
 
 | Years | Position | Institution |
 |---|---|---|
-| 2023 – present | MHPTT (Master of Health Professions Teaching &amp; Technology)<br>*expected 12/2026* | University of Nebraska Medical Center |
+| 2023 – Present | MHPTT (Master of Health Professions Teaching &amp; Technology)<br>*expected 12/2026* | University of Nebraska Medical Center |
 | 2021 – 2022 | Transplant Hepatology Fellowship | University of Nebraska Medical Center |
-| 2018 – 2021 | Gastroenterology Fellowship<br>*Chief Fellow, 2020–21* | University of Arizona College of Medicine – Phoenix |
+| 2018 – 2021 | Gastroenterology Fellowship<br>*Chief Fellow, 2020 – 2021* | University of Arizona College of Medicine – Phoenix |
 | 2017 – 2018 | Chief Resident, Internal Medicine | Lahey Hospital &amp; Medical Center, Beth Israel Lahey Health |
 | 2014 – 2017 | Internal Medicine Residency | Lahey Hospital &amp; Medical Center, Beth Israel Lahey Health |
-| 2009 – 2014 | MB BCh BAO *(MD equivalent)* | Royal College of Surgeons in Ireland, Dublin |
+| 2009 – 2014 | MB BCh BAO<br>*MD equivalent* | Royal College of Surgeons in Ireland, Dublin |
 {: .table-scroll}
 
 ## Board certification and licensure
@@ -228,10 +234,10 @@ syndrome and intestinal transplantation, and medical education.
 ### Patents and trademarks
 
 <dl class="cv-list" markdown="0">
-<dt>United States Provisional Patent – Carabiner Bite Block<span class="when">2/2025</span></dt>
-<dd>Ref. 2309P, Serial No. 63/761,304; full patent application under review (Docket No. 1317-020US01/23096)</dd>
 <dt>United States Trademark, under review – LIMES<span class="when">3/2026</span></dt>
 <dd><a href="https://www.liverlimes.com">liverlimes.com</a></dd>
+<dt>United States Provisional Patent – Carabiner Bite Block<span class="when">2/2025</span></dt>
+<dd>Ref. 2309P, Serial No. 63/761,304; full patent application under review (Docket No. 1317-020US01/23096)</dd>
 </dl>
 
 ## Editorial, peer review and memberships
