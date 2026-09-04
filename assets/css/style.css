@@ -531,6 +531,18 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
   white-space:nowrap;font-variant-numeric:tabular-nums;letter-spacing:.01em;
 }
 .cv-list dd{margin:.35rem 0 0;font-size:var(--t-sm);line-height:1.55;color:var(--ink-soft)}
+/* Nested entries inside a cv-list. Without these every level carries the same
+   rule and weight, so a committee reads as a peer of the society it sits in.
+   Used on /cv/ under society memberships: lv2 is a body within a society, lv3
+   a role within that body. */
+.cv-list dt.lv2,.cv-list dt.lv3{border-top:0;padding-top:0}
+.cv-list dt.lv2{margin-top:.6rem;padding-left:1.15rem;color:var(--ink-soft)}
+.cv-list dt.lv3{margin-top:.3rem;padding-left:2.3rem;font-weight:400;font-size:.93rem;
+  color:var(--ink-soft)}
+/* A level-2 entry with no date is a group label, not an appointment, so it gets
+   room above it. Degrades to the .6rem above where :has() is unsupported. */
+.cv-list dt.lv2:not(:has(.when)){margin-top:1.15rem}
+
 @media (max-width:560px){
   .cv-list dt{flex-direction:column;gap:.2rem}
   .cv-list .when{order:-1}
@@ -824,6 +836,9 @@ code{font-size:.85em;background:var(--surface-2);padding:.15em .38em;
   .prose h3{font-size:8.5pt;margin:9pt 0 3pt}
   .cv-list dt{font-size:9.5pt;margin-top:4pt;padding-top:4pt;border-top:.5pt solid #ddd}
   .cv-list dd{font-size:8.5pt;margin-top:2pt}
+  .cv-list dt.lv2,.cv-list dt.lv3{border-top:0;padding-top:0}
+  .cv-list dt.lv2{margin-top:3pt;padding-left:10pt;font-size:9pt}
+  .cv-list dt.lv3{margin-top:2pt;padding-left:20pt;font-size:8.5pt;font-weight:400}
   .cv-list .when{font-size:8pt}
   .prose .cites li{font-size:8.5pt;margin-bottom:5pt}
   .meta{font-size:8.5pt}

@@ -265,24 +265,24 @@ syndrome and intestinal transplantation, and medical education.
 
 <dl class="cv-list" markdown="0">
 <dt>American Society of Transplantation<span class="when">2021 – Present</span></dt>
-<dt>Liver &amp; Intestinal Community of Practice</dt>
-<dt>Member<span class="when">2021 – Present</span></dt>
-<dt>Intestinal Sub-Committee Chair<span class="when">8/2025 – 8/2027</span></dt>
-<dt>Executive Committee - Member-at-Large<span class="when">6/2026 – 6/2028</span></dt>
-<dt>Trainee and Young Faculty Community of Practice</dt>
-<dt>Member<span class="when">2021 – Present</span></dt>
-<dt>Community Education Committee</dt>
-<dt>Member<span class="when">2024 – Present</span></dt>
-<dt>Invited Reviewer – COP WTC 2025 Travel Grant<span class="when">2025</span></dt>
-<dt>Community of Practice Focus Group<span class="when">9/2025</span></dt>
+<dt class="lv2">Liver &amp; Intestinal Community of Practice</dt>
+<dt class="lv3">Member<span class="when">2021 – Present</span></dt>
+<dt class="lv3">Intestinal Sub-Committee Chair<span class="when">8/2025 – 8/2027</span></dt>
+<dt class="lv3">Executive Committee – Member-at-Large<span class="when">6/2026 – 6/2028</span></dt>
+<dt class="lv2">Trainee and Young Faculty Community of Practice</dt>
+<dt class="lv3">Member<span class="when">2021 – Present</span></dt>
+<dt class="lv2">Community Education Committee</dt>
+<dt class="lv3">Member<span class="when">2024 – Present</span></dt>
+<dt class="lv2">Invited Reviewer – COP WTC 2025 Travel Grant<span class="when">2025</span></dt>
+<dt class="lv2">Community of Practice Focus Group<span class="when">9/2025</span></dt>
 <dt>American Gastroenterological Association<span class="when">2018 – Present</span></dt>
-<dt>Academy of Educators<span class="when">2024 – Present</span></dt>
-<dt>AGA Young Delegates Program<span class="when">2020 – 2024</span></dt>
-<dt>CME Review Subcommittee<span class="when">6/2021 – 5/2024</span></dt>
-<dt>DDW Abstract Review Committee (GI Fellow-Directed QI Session)<span class="when">12/2021 – Present</span></dt>
+<dt class="lv2">Academy of Educators<span class="when">2024 – Present</span></dt>
+<dt class="lv2">AGA Young Delegates Program<span class="when">2020 – 2024</span></dt>
+<dt class="lv2">CME Review Subcommittee<span class="when">6/2021 – 5/2024</span></dt>
+<dt class="lv2">DDW Abstract Review Committee (GI Fellow-Directed QI Session)<span class="when">12/2021 – Present</span></dt>
 <dt>American College of Gastroenterology<span class="when">2018 – Present</span></dt>
 <dt>American Association for the Study of Liver Diseases<span class="when">2016 – Present</span></dt>
-<dt>Social Media Ambassador<span class="when">2019 – 2022</span></dt>
+<dt class="lv2">Social Media Ambassador<span class="when">2019 – 2022</span></dt>
 <dt>American College of Physicians<span class="when">2014 – 2023</span></dt>
 </dl>
 
