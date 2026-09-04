@@ -48,12 +48,25 @@ University of Nebraska Medical Center, Omaha, Nebraska
 | 2009 – 2014 | MB BCh BAO *(MD equivalent)* | Royal College of Surgeons in Ireland |
 {: .table-scroll}
 
-## Board certification and licensure
+## Board certification
 
-American Board of Internal Medicine — Transplant Hepatology · Gastroenterology · Internal Medicine.
-Royal College of Physicians and Surgeons of Canada — Internal Medicine · Gastroenterology *(FRCPC)*.
-Royal College of Physicians &amp; Surgeons of Ireland — Licentiate *(LRCP&amp;SI)*. Full Nebraska medical license.
-{: .meta}
+<div class="creds" markdown="0">
+<div class="cred-board">
+<p class="cred-issuer">American Board of Internal Medicine</p>
+<ul class="cred-items">
+<li>Transplant Hepatology</li>
+<li>Gastroenterology</li>
+<li>Internal Medicine</li>
+</ul>
+</div>
+<div class="cred-board">
+<p class="cred-issuer">Royal College of Physicians and Surgeons of Canada <span class="cred-post">FRCPC</span></p>
+<ul class="cred-items">
+<li>Internal Medicine</li>
+<li>Gastroenterology</li>
+</ul>
+</div>
+</div>
 
 ## Areas of expertise
 
@@ -67,20 +80,12 @@ Royal College of Physicians &amp; Surgeons of Ireland — Licentiate *(LRCP&amp;
 
 <dl class="cv-list" markdown="0">
 <dt>Course Director and Founder, Enhanced Medical Education Track<span class="when">2023 – Present</span></dt>
-<dd><em>Combined Medical and Surgical Integrated Track in Liver Transplantation</em> — a four-year supplemental medical school curriculum in hepatology and transplant medicine, established with the Department of Surgery and enrolling two to three students a year.</dd>
+<dd><em>Combined Medical and Surgical Integrated Track in Liver Transplantation</em> — a four-year supplemental medical school curriculum in hepatology and transplant medicine, enrolling two to three students a year.</dd>
 <dt>Item Writing Committee, Gastroenterology — ABIM<span class="when">2025 – Present</span></dt>
 <dt>Transplant Hepatology Blueprint Reviewer — ABIM<span class="when">2025</span></dt>
 <dt>Interprofessional Academy of Educators — UNMC<span class="when">2025 – Present</span></dt>
 <dt>Academy of Educators — American Gastroenterological Association<span class="when">2024 – Present</span></dt>
 <dt>Faculty Advisor, Gastroenterology Fellowship Wellness<span class="when">2022 – 2025</span></dt>
-</dl>
-
-## Selected honors and awards
-
-<dl class="cv-list" markdown="0">
-<dt>Outstanding Research Award, Small Intestine — American College of Gastroenterology<span class="when">2025</span></dt>
-<dt>E-Learning Innovator Award — UNMC<span class="when">2025</span></dt>
-<dt>Internal Medicine Fellowship Top Teacher Award — UNMC<span class="when">2023</span></dt>
 </dl>
 
 ## Scholarship
