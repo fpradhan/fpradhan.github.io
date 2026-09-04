@@ -34,11 +34,12 @@ statement: >-
 
 ### Reflection
 
-This assignment was one of the more challenging tasks throughout the MHPTT program, but overall,
-it was the most rewarding. The task was to create an e-Learning module using the Articulate
-Storyline software over the summer semester from scratch and I am quite proud of the final
-product. I selected this artifact to represent Innovation in Teaching as it embraces interactivity
-to engage medical students while augmenting their classroom lectures on the topic.
+This assignment, from HPTT 825 – Essentials of E-Module Development, was one of the more
+challenging tasks throughout the MHPTT program, but overall, it was the most rewarding. The task
+was to create an e-Learning module using the Articulate Storyline software over the summer
+semester from scratch and I am quite proud of the final product. I selected this artifact to
+represent Innovation in Teaching as it embraces interactivity to engage medical students while
+augmenting their classroom lectures on the topic.
 
 Some of the challenges encountered included gaining software familiarity while adhering to
 e-module best practices, as well as the timespan to complete with this being a summer semester
@@ -68,11 +69,12 @@ track to make this a regional opportunity.
 
 ### Reflection
 
-The purpose of this assignment was to design a team-based escape room simulation including
-learning objectives, role delineation, puzzle examples, and a debrief strategy. I chose to
-highlight this assignment because it addresses both facets of objective 2a: the puzzles engage
-learners through interactive problem-solving rather than through lecture, and the assigned roles
-require the team to reach the diagnosis and the treatment plan collaboratively.
+The purpose of this assignment in HPTT 824 – Simulated and Virtual Learning in Health Professions
+Education was to design a team-based escape room simulation including learning objectives, role
+delineation, puzzle examples, and a debrief strategy. I chose to highlight this assignment because
+it addresses both facets of objective 2a: the puzzles engage learners through interactive
+problem-solving rather than through lecture, and the assigned roles require the team to reach the
+diagnosis and the treatment plan collaboratively.
 
 The scenario opens with a patient presenting to the emergency room with new-onset confusion,
 jaundice, and elevated liver enzymes. The team works through three puzzles to identify the

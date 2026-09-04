@@ -34,15 +34,16 @@ statement: >-
 
 ### Reflection
 
-HPTT 801 was the first course I took in this Master's program, and this artifact aligns well with
-Learning Outcome 1 (Instructional Methods). This was my first time making a conscientious effort
-to utilize educational theory (incorporating elements of Bandura's reciprocal determinism and
-Mayer's cognitive theory of multimedia) to develop a comprehensive asynchronous online
-curriculum. The task was to design a complete course for a health professions audience, divided
-into weekly assignments, and an assessment plan. Using Schiff's diseases of the liver as the
-selected textbook, I was able to develop a 15-week in-depth course covering multiple facets of
-hepatology as well as introducing transplant medicine. I selected this artifact because I created
-an entire program rather than isolated elements, based on educational theory.
+HPTT 801 – Foundations of Health Professions Education was the first course I took in this
+Master's program, and this artifact aligns well with Learning Outcome 1 (Instructional Methods).
+This was my first time making a conscientious effort to utilize educational theory (incorporating
+elements of Bandura's reciprocal determinism and Mayer's cognitive theory of multimedia) to
+develop a comprehensive asynchronous online curriculum. The task was to design a complete course
+for a health professions audience, divided into weekly assignments, and an assessment plan. Using
+Schiff's diseases of the liver as the selected textbook, I was able to develop a 15-week in-depth
+course covering multiple facets of hepatology as well as introducing transplant medicine. I
+selected this artifact because I created an entire program rather than isolated elements, based on
+educational theory.
 
 One of the challenges when creating this assignment was the need to develop elements that would
 be covered in future MHPTT courses (such as the rubric, and assessment strategies); however, on
@@ -69,15 +70,16 @@ and one on cirrhosis and portal hypertension incorporating transplant medicine).
 
 ### Reflection
 
-The clinical teaching project was developed through one of my final courses in the MHPTT program
-and represents a comprehensive instructional and assessment plan based on a procedure that is
-commonly done within my field of practice. It comprises of five elements, namely learning
-objectives, a teaching strategy, a reflective assignment, an assessment tool, and a reflection
-based on peer feedback. I chose this assignment to demonstrate my personal progress in developing
-assessment strategies based on Peyton's Four-Step Approach and highlights my growth as compared
-to the HPTT 801 curriculum outline. Every choice made in this assignment is based on
-evidence-based strategies and methodologies, incorporating national medical society guidelines,
-the REFLECT rubric (as developed by Wald et al.), and multiple other cited references therein.
+The clinical teaching project was developed through HPTT 840 – Foundations of Clinical Teaching,
+one of my final courses in the MHPTT program, and represents a comprehensive instructional and
+assessment plan based on a procedure that is commonly done within my field of practice. It
+comprises of five elements, namely learning objectives, a teaching strategy, a reflective
+assignment, an assessment tool, and a reflection based on peer feedback. I chose this assignment
+to demonstrate my personal progress in developing assessment strategies based on Peyton's
+Four-Step Approach and highlights my growth as compared to the HPTT 801 curriculum outline. Every
+choice made in this assignment is based on evidence-based strategies and methodologies,
+incorporating national medical society guidelines, the REFLECT rubric (as developed by Wald et
+al.), and multiple other cited references therein.
 
 Creating an affective learning objective was a challenging element to this assignment, especially
 with regards to assessment. Reflective assessments were a new concept for me, and though I had
