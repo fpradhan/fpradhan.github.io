@@ -568,6 +568,31 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
 }
 .cites a{word-break:break-word}
 
+/* Scholarship figures. A handful of headline counts, so a figure list rather
+   than a chart. Values are right-aligned in their own column and set with
+   tabular figures, which is where equal-width digits belong. */
+.prose .figures{margin:0 0 1.6rem;padding:0;list-style:none;display:grid;gap:.6rem}
+.prose .figures li{
+  margin:0;padding:0;display:grid;grid-template-columns:2.2rem minmax(0,1fr);
+  gap:.8rem;align-items:baseline;
+  font-size:var(--t-sm);line-height:1.45;color:var(--ink-soft);
+}
+.figures .fig{
+  font-family:var(--mono);font-size:1.02rem;font-weight:500;color:var(--ink);
+  text-align:right;font-variant-numeric:tabular-nums;letter-spacing:-.01em;
+}
+.figures .sub{color:var(--ink-faint);font-size:var(--t-xs)}
+.figures .sub::before{content:"("}
+.figures .sub::after{content:")"}
+@media (min-width:34rem){
+  .prose .figures{grid-template-columns:repeat(2,minmax(0,1fr));column-gap:2.25rem}
+}
+@media print{
+  .prose .figures{grid-template-columns:repeat(2,minmax(0,1fr));gap:4pt 18pt;margin-bottom:10pt}
+  .prose .figures li{font-size:9pt}
+  .figures .fig{font-size:10pt}
+}
+
 /* Page-level reference list */
 .references{margin-top:3.5rem;padding-top:2rem;border-top:1px solid var(--rule)}
 .references h2,.references h3{margin-top:0}
@@ -783,7 +808,7 @@ code{font-size:.85em;background:var(--surface-2);padding:.15em .38em;
 @page{margin:16mm 14mm}
 @media print{
   .site-header,.site-nav,.pager,.site-footer,.skip,.on-page,.todo,.cv-note,
-  .cv-actions,.links,.print-hide{display:none !important}
+  .cv-actions,.links{display:none !important}
   .cv-header{border-bottom:1.5pt solid #000;margin-bottom:14pt;padding-bottom:8pt}
   .cv-name{font-size:19pt;line-height:1.1;margin-bottom:3pt}
   .cv-role{font-size:10pt;margin-bottom:4pt;color:#000}

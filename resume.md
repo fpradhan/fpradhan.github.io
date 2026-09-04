@@ -90,19 +90,13 @@ University of Nebraska Medical Center, Omaha, Nebraska
 
 ## Scholarship
 
-**21 peer-reviewed publications · 13 book chapters · 10 oral and 52 poster presentations · 17 invited talks · 4 education grants · 3 trials as principal investigator**
-{: .meta}
-
-Invited talks are listed on the [full CV page]({{ '/cv/' | relative_url }}).
-
-## Elsewhere
-{: .print-hide}
-
-{% if site.profiles and site.profiles.size > 0 %}
-<ul class="links">
-{% for pr in site.profiles %}<li><a href="{{ pr.url }}" rel="me noopener">{{ pr.name }}</a></li>{% endfor %}
+<ul class="figures" markdown="0">
+<li><span class="fig">21</span> <span>peer-reviewed publications</span></li>
+<li><span class="fig">13</span> <span>book chapters</span></li>
+<li><span class="fig">62</span> <span>presentations <span class="sub">10 oral, 52 poster</span></span></li>
+<li><span class="fig">17</span> <span>invited talks</span></li>
+<li><span class="fig">4</span> <span>education grants</span></li>
+<li><span class="fig">3</span> <span>trials as principal investigator</span></li>
 </ul>
-{% endif %}
 
-<p class="meta cv-note">The complete record — every publication, presentation, grant, trial,
-committee and award — is on the <a href="{{ '/cv/' | relative_url }}">full CV page</a>{% if site.cv and site.cv != "" %}, or as a <a href="{{ site.cv | relative_url }}">PDF</a>{% endif %}.</p>
+<p class="meta cv-note">The complete record is on the <a href="{{ '/cv/' | relative_url }}">full CV page</a>{% if site.cv and site.cv != "" %}, or as a <a href="{{ site.cv | relative_url }}">PDF</a>{% endif %}.</p>
