@@ -33,19 +33,19 @@ University of Nebraska Medical Center, Omaha, Nebraska
 <dl class="cv-list" markdown="0">
 <dt>Medical Director, Adult Liver Transplantation<span class="when">2026 – Present</span></dt>
 <dt>Assistant Professor of Medicine, Transplant Hepatology<span class="when">2022 – Present</span></dt>
-<dt>Core Faculty, Gastroenterology and Transplant Hepatology fellowships<span class="when">2022 – Present</span></dt>
+<dt>Core Faculty, Gastroenterology and Transplant Hepatology Fellowships<span class="when">2022 – Present</span></dt>
 </dl>
 
 ## Education and training
 
 | Years | Position | Institution |
 |---|---|---|
-| 2023 – present | MHPTT (Master of Health Professions Teaching &amp; Technology)<br>*expected 12/2026* | University of Nebraska Medical Center |
+| 2023 – Present | MHPTT (Master of Health Professions Teaching &amp; Technology)<br>*expected 12/2026* | University of Nebraska Medical Center |
 | 2021 – 2022 | Transplant Hepatology Fellowship | University of Nebraska Medical Center |
-| 2018 – 2021 | Gastroenterology Fellowship<br>*Chief Fellow, 2020–21* | University of Arizona College of Medicine – Phoenix |
+| 2018 – 2021 | Gastroenterology Fellowship<br>*Chief Fellow, 2020 – 2021* | University of Arizona College of Medicine – Phoenix |
 | 2017 – 2018 | Chief Resident, Internal Medicine | Lahey Hospital &amp; Medical Center |
 | 2014 – 2017 | Internal Medicine Residency | Lahey Hospital &amp; Medical Center |
-| 2009 – 2014 | MB BCh BAO *(MD equivalent)* | Royal College of Surgeons in Ireland |
+| 2009 – 2014 | MB BCh BAO<br>*MD equivalent* | Royal College of Surgeons in Ireland |
 {: .table-scroll}
 
 ## Board certification
@@ -79,12 +79,12 @@ University of Nebraska Medical Center, Omaha, Nebraska
 ## Educational leadership
 
 <dl class="cv-list" markdown="0">
-<dt>Course Director and Founder, Enhanced Medical Education Track<span class="when">2023 – Present</span></dt>
-<dd><em>Combined Medical and Surgical Integrated Track in Liver Transplantation</em> — a four-year supplemental medical school curriculum in hepatology and transplant medicine, enrolling two to three students a year.</dd>
 <dt>Item Writing Committee, Gastroenterology — ABIM<span class="when">2025 – Present</span></dt>
 <dt>Transplant Hepatology Blueprint Reviewer — ABIM<span class="when">2025</span></dt>
 <dt>Interprofessional Academy of Educators — UNMC<span class="when">2025 – Present</span></dt>
 <dt>Academy of Educators — American Gastroenterological Association<span class="when">2024 – Present</span></dt>
+<dt>Course Director and Founder, Enhanced Medical Education Track<span class="when">2023 – Present</span></dt>
+<dd><em>Combined Medical and Surgical Integrated Track in Liver Transplantation</em> — a four-year supplementary medical school curriculum in hepatology and transplant medicine, enrolling two to three students a year.</dd>
 <dt>Faculty Advisor, Gastroenterology Fellowship Wellness<span class="when">2022 – 2025</span></dt>
 </dl>
 
@@ -96,6 +96,7 @@ University of Nebraska Medical Center, Omaha, Nebraska
 Invited talks are listed on the [full CV page]({{ '/cv/' | relative_url }}).
 
 ## Elsewhere
+{: .print-hide}
 
 {% if site.profiles and site.profiles.size > 0 %}
 <ul class="links">

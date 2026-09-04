@@ -783,7 +783,7 @@ code{font-size:.85em;background:var(--surface-2);padding:.15em .38em;
 @page{margin:16mm 14mm}
 @media print{
   .site-header,.site-nav,.pager,.site-footer,.skip,.on-page,.todo,.cv-note,
-  .cv-actions,.links{display:none !important}
+  .cv-actions,.links,.print-hide{display:none !important}
   .cv-header{border-bottom:1.5pt solid #000;margin-bottom:14pt;padding-bottom:8pt}
   .cv-name{font-size:19pt;line-height:1.1;margin-bottom:3pt}
   .cv-role{font-size:10pt;margin-bottom:4pt;color:#000}
@@ -800,7 +800,7 @@ code{font-size:.85em;background:var(--surface-2);padding:.15em .38em;
   .creds{gap:8pt;margin-bottom:12pt}
   .cred-issuer{font-size:7.5pt;margin-bottom:4pt}
   .prose .cred-items li{background:none;border:.5pt solid #ccc;font-size:8.5pt;padding:2pt 4pt}
-  .cv-list dt,.prose .cites li,tr{break-inside:avoid;page-break-inside:avoid}
+  .cv-list dt,.cred-board,.prose .cites li,tr{break-inside:avoid;page-break-inside:avoid}
   html,body{background:#fff;color:#000;font-size:10.5pt;line-height:1.45}
   main{padding:0}
   .wrap,.prose{max-width:none;padding:0}
