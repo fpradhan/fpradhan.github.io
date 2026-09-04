@@ -14,7 +14,7 @@ statement: >-
   learning, and interdisciplinary collaboration.
 ---
 
-<p class="todo"><strong>Artifacts to be added.</strong> Two artifacts belong on this page, each with a description, a reflection, and the file itself. An artifact template sits in a comment just below — copy it out and fill it in.</p>
+<p class="todo">Under construction.</p>
 
 {% comment %}
   ARTIFACT TEMPLATE — copy everything between the dashed rules out of this
@@ -49,11 +49,3 @@ what was hard. First person, and name the outcome explicitly.
 </section>
   ----------------------------------------------------------------------------
 {% endcomment %}
-
-<section class="references" markdown="1">
-
-## References
-
-<p class="todo">APA references for the sources cited above. Both exemplar portfolios carry a reference list on every competency page.</p>
-
-</section>
