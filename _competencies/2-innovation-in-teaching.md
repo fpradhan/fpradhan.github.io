@@ -29,7 +29,7 @@ statement: >-
 
 ## Introduction to Steatotic Liver Disease e-Module
 
-**Course:** HPTT 825 – Essentials of E-Module Development (Summer 2024)
+**Course:** HPTT 825 – Essentials of E-Module Development
 {: .meta}
 
 ### Reflection
@@ -63,7 +63,7 @@ track to make this a regional opportunity.
 
 ## Acute Liver Failure Escape Room Simulation
 
-**Course:** HPTT 824 – Simulated and Virtual Learning in Health Professions Education (Fall 2025)
+**Course:** HPTT 824 – Simulated and Virtual Learning in Health Professions Education
 {: .meta}
 
 ### Reflection

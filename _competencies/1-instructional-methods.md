@@ -29,7 +29,7 @@ statement: >-
 
 ## Curriculum Outline
 
-**Course:** HPTT 801 – Foundations of Health Professions Education (Fall 2023)
+**Course:** HPTT 801 – Foundations of Health Professions Education
 {: .meta}
 
 ### Reflection
@@ -64,7 +64,7 @@ and one on cirrhosis and portal hypertension incorporating transplant medicine).
 
 ## Clinical Teaching Project
 
-**Course:** HPTT 840 – Foundations of Clinical Teaching (Summer 2026)
+**Course:** HPTT 840 – Foundations of Clinical Teaching
 {: .meta}
 
 ### Reflection
