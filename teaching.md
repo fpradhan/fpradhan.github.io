@@ -7,13 +7,15 @@ permalink: /teaching/
 
 ## Educational philosophy
 
-I came into this program thinking that teaching was mostly a matter of knowing enough and being
-willing to share it. What changed is how much of it I now plan in advance.
+Hepatology is barely visible in undergraduate medical education, and remains underrepresented
+before fellowship. There is a shortage of hepatologists nationwide that is projected to worsen.
 {: .lede}
 
-Sequencing, deciding what to leave out, how a question is written and what its wrong answers say:
-I used to handle these by instinct and now treat them as decisions. The full statement sets out
-the theory behind that, including where my practice and my stated theory have disagreed.
+My motivation as an educator is to work at a grassroots level and motivate learners to pursue this
+field. That is why I built a four-year track in hepatology and transplantation for medical
+students, and why I teach across the whole span, from pre-med to transplant hepatology fellowship.
+What this Master's program added is a way to design the next step: a regional and national
+platform for hepatology education.
 
 <p><a class="dl go" href="{{ '/teaching/philosophy/' | relative_url }}">Read the teaching philosophy</a></p>
 
