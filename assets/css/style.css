@@ -568,6 +568,12 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
 }
 .cites a{word-break:break-word}
 
+/* One-line skill summary, sitting under the Appointments list. Three labelled
+   lines rather than a flowing sentence, so the education, clinical and research
+   split is visible rather than inferred. */
+.prose .skills{margin:0 0 .25rem;font-size:var(--t-sm);line-height:1.65;color:var(--ink-soft)}
+.prose .skills strong{color:var(--ink);font-weight:600}
+
 /* Scholarship figures. A handful of headline counts, so a figure list rather
    than a chart. Values are right-aligned in their own column and set with
    tabular figures, which is where equal-width digits belong. */
@@ -822,6 +828,7 @@ code{font-size:.85em;background:var(--surface-2);padding:.15em .38em;
   .prose .cites li{font-size:8.5pt;margin-bottom:5pt}
   .meta{font-size:8.5pt}
   table{font-size:8.5pt}
+  .prose .skills{font-size:8.5pt;line-height:1.4;margin-top:5pt}
   .creds{gap:5pt;margin-bottom:8pt}
   th,td{padding:3pt 6pt}
   .cv-list{margin-bottom:0}

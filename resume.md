@@ -36,6 +36,10 @@ University of Nebraska Medical Center, Omaha, Nebraska
 <dt>Core Faculty, Gastroenterology and Transplant Hepatology Fellowships<span class="when">2022 – Present</span></dt>
 </dl>
 
+<p class="skills"><strong>Education:</strong> curriculum design, e-learning and simulation, assessment design and item writing.<br>
+<strong>Clinical:</strong> liver transplantation, cirrhosis and portal hypertension, intestinal failure.<br>
+<strong>Research:</strong> clinical trials, database analysis and survey methods.</p>
+
 ## Education and training
 
 | Years | Position | Institution |
