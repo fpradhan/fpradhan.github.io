@@ -8,16 +8,59 @@ permalink: /teaching/
 ## Educational philosophy
 
 Hepatology is barely visible in undergraduate medical education, and remains underrepresented
-before fellowship. There is a shortage of hepatologists nationwide that is projected to worsen.
-{: .lede}
+before fellowship. There is a shortage of hepatologists nationwide that is projected to worsen. My
+motivation as an educator is to work at a grassroots level and motivate learners to pursue this
+field. It is also why I established a four-year medical school track in hepatology and
+transplantation: the shortage will not be solved at fellowship level alone.
 
-My motivation as an educator is to work at a grassroots level and motivate learners to pursue this
-field. That is why I built a four-year track in hepatology and transplantation for medical
-students, and why I teach across the whole span, from pre-med to transplant hepatology fellowship.
-What this Master's program added is a way to design the next step: a regional and national
-platform for hepatology education.
+As a Transplant Hepatologist I have the privilege of working with medical trainees at every stage
+of the career, from pre-med through to Transplant Hepatology fellowship. I am a firm believer in
+combining bedside education with real cases linked to key topics in hepatology, bridging the gap
+between theoretical knowledge and clinical practice. My training across Canada, Ireland, and the
+United States gives me both a diverse experience to draw from and the ability to connect with
+students from a wide range of backgrounds.
 
-<p><a class="dl go" href="{{ '/teaching/philosophy/' | relative_url }}">Read the teaching philosophy</a></p>
+By first understanding a trainee's baseline knowledge, I adjust a complex concept, chronic liver
+disease or liver transplantation, to engage them within their individual zone of proximal
+development (Vygotsky, 1978). Much of what I do at the bedside is described by Bandura's social
+cognitive theory, in which the learner, their behavior, and their environment continuously
+influence one another (Bandura, 1986). I rely on demonstration, graded practice, and goals that
+are specific and attainable.
+
+What has changed most over this program is the weight I now give to design. Building a
+fifteen-week curriculum required me to treat sequencing, signaling what matters, and removing
+redundancy as deliberate choices rather than instincts (Mayer, 2009), and I apply the same
+thinking to the e-modules I develop. I have also become more comfortable saying where my practice
+and my stated theory diverge. Revisiting that course, I found its weekly open-book assessment
+fitted the zone of proximal development better than the framework I had claimed for it. A
+closed-book examination would have been more consistent. I kept the open book, because trainee
+stress mattered more.
+
+The same applies to assessment. Blueprinting an examination across content areas and levels of
+thinking changed what I taught before anyone sat it, and reviewing how the items performed
+afterwards told me as much about my own question writing as about the trainees.
+
+I have also come to pay closer attention to the affective side of training. In designing
+simulation-based teaching for paracentesis, I wrote an objective requiring the student to raise a
+guideline-based concern with a supervising physician, since the willingness to speak up on a
+patient's behalf is not something a checklist produces on its own. For similar reasons I am more
+open with trainees about my own performance anxiety than I once was.
+
+In short: I integrate bedside clinical medicine to augment education for trainees at all levels.
+This program taught me how to build curricula, e-modules and simulations that do the same thing
+outside the hospital.
+
+<section class="references" markdown="1">
+
+### References
+
+Bandura, A. (1986). *Social foundations of thought and action: A social cognitive theory.* Prentice-Hall.
+
+Mayer, R. E. (2009). *Multimedia learning* (2nd ed.). Cambridge University Press.
+
+Vygotsky, L. S. (1978). *Mind in society: The development of higher psychological processes.* Harvard University Press.
+
+</section>
 
 ## Resources for learners
 
