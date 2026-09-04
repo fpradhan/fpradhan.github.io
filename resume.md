@@ -68,14 +68,6 @@ University of Nebraska Medical Center, Omaha, Nebraska
 </div>
 </div>
 
-## Areas of expertise
-
-**Education** — curriculum design and course direction; e-learning and module development; simulation-based and procedural teaching; assessment design, item writing and psychometric analysis; mentorship of students, residents and fellows.
-
-**Clinical** — liver transplantation and post-transplant care; cirrhosis and portal hypertension; short bowel syndrome and intestinal transplantation; diagnostic and therapeutic endoscopy.
-
-**Research** — principal investigator on industry-sponsored trials; real-world database and propensity-matched analyses; national survey research; quality improvement in the transplant pathway.
-
 ## Educational leadership
 
 <dl class="cv-list" markdown="0">
