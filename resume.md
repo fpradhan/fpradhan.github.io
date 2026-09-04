@@ -60,7 +60,7 @@ University of Nebraska Medical Center, Omaha, Nebraska
 </ul>
 </div>
 <div class="cred-board">
-<p class="cred-issuer">Royal College of Physicians and Surgeons of Canada <span class="cred-post">FRCPC</span></p>
+<p class="cred-issuer">Royal College of Physicians and Surgeons of Canada</p>
 <ul class="cred-items">
 <li>Internal Medicine</li>
 <li>Gastroenterology</li>
