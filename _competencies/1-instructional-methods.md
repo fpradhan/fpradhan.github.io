@@ -58,7 +58,7 @@ deliver it through the four-year medical school track in hepatology and transpla
 founded and direct, where students already have longitudinal exposure from their preclinical years
 onward.
 
-<p><a class="dl" href="{{ '/assets/artifacts/hptt801-curriculum-outline.docx' | relative_url }}">Download the curriculum outline (DOCX)</a></p>
+<p><a class="dl" href="{{ '/assets/artifacts/hptt801-curriculum-outline.pdf' | relative_url }}">Download the curriculum outline (PDF)</a></p>
 
 </section>
 
@@ -93,6 +93,6 @@ Going forward, I would like to incorporate reflective assessment (specifically t
 through my existing work with medical students when they rotate through Hepatology clinical
 rotations.
 
-<p><a class="dl" href="{{ '/assets/artifacts/hptt840-clinical-teaching-project.docx' | relative_url }}">Download the clinical teaching project (DOCX)</a></p>
+<p><a class="dl" href="{{ '/assets/artifacts/hptt840-clinical-teaching-project.pdf' | relative_url }}">Download the clinical teaching project (PDF)</a></p>
 
 </section>
