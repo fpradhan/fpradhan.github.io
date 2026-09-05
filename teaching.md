@@ -7,58 +7,69 @@ permalink: /teaching/
 
 ## Educational philosophy
 
-Hepatology is barely visible in undergraduate medical education, and remains underrepresented
-before fellowship. There is a shortage of hepatologists nationwide that is projected to worsen. My
-motivation as an educator is to work at a grassroots level and motivate learners to pursue this
-field. It is also why I established a four-year medical school track in hepatology and
-transplantation: the shortage will not be solved at fellowship level alone.
+Hepatology is rarely a focus in medical school curricula compared to other organ groups and
+remains underrepresented in post-graduate training exposure. Compounding this is a national
+shortage of hepatologists that is projected to worsen. My motivation as an educator is to work at
+a grassroots level and draw learners toward this field before they settle on a specialty. It is
+also why I established a four-year medical school track in hepatology and transplantation, giving
+students longitudinal exposure from their preclinical years onward; the shortage will not be
+solved at fellowship level alone.
 
-As a Transplant Hepatologist I have the privilege of working with medical trainees at every stage
-of the career, from pre-med through to Transplant Hepatology fellowship. I am a firm believer in
-combining bedside education with real cases linked to key topics in hepatology, bridging the gap
-between theoretical knowledge and clinical practice. My training across Canada, Ireland, and the
-United States gives me both a diverse experience to draw from and the ability to connect with
-students from a wide range of backgrounds.
+Being an academic physician requires adaptability, medical expertise, and compassion. As a
+Transplant Hepatologist, I have the privilege of working with medical trainees at every stage of
+their career, from medical school through to Transplant Hepatology fellowship. I am a firm
+believer in combining bedside education with hepatology pathophysiology, linking real-life cases
+to key topics to bridge the gap between theoretical knowledge and clinical practice. My training
+across Canada, Ireland, and the United States gives me diverse experience to draw from and the
+ability to connect with students from a wide range of backgrounds.
 
-By first understanding a trainee's baseline knowledge, I adjust a complex concept, chronic liver
-disease or liver transplantation, to engage them within their individual zone of proximal
-development (Vygotsky, 1978). Much of what I do at the bedside is described by Bandura's social
-cognitive theory, in which the learner, their behavior, and their environment continuously
-influence one another (Bandura, 1986). I rely on demonstration, graded practice, and goals that
-are specific and attainable.
+I have integrated several educational theories into both my bedside teaching and my lecture
+development. Given the breadth of learner experience I encounter, Vygotsky's zone of proximal
+development is central to adjusting a complex concept, such as cirrhosis or liver transplantation,
+to a learner's baseline knowledge (Schunk, 2020). Much of what I do at the bedside is described by
+Bandura's social cognitive theory, in which the learner, their behavior, and their environment
+influence one another (Bandura, 1986). For procedural training I integrate modeling and design
+simulation sessions using Peyton's Four-Step Approach (Krautter et al., 2011). Finally, Mayer's
+Cognitive Theory of Multimedia Learning is now instrumental in my formal teaching practice and
+lecture development in order to avoid cognitive overload (Mayer & Moreno, 2003).
 
-What has changed most over this program is the weight I now give to design. Building a
-fifteen-week curriculum required me to treat sequencing, signaling what matters, and removing
-redundancy as deliberate choices rather than instincts (Mayer, 2009), and I apply the same
-thinking to the e-modules I develop. I have also become more comfortable saying where my practice
-and my stated theory diverge. Revisiting that course, I found its weekly open-book assessment
-fitted the zone of proximal development better than the framework I had claimed for it. A
-closed-book examination would have been more consistent. I kept the open book, because trainee
-stress mattered more.
+Learner assessment is where my practice has changed most. I now design formative and summative
+tools to do different work, a distinction that was not evident to me prior to this program and has
+directly influenced my assessments particularly in e-module development. Finally, effective
+feedback is a skill I had underestimated. I now structure it deliberately, using the REFLECT
+rubric for written feedback (Wald et al., 2012) and the PEARLS framework to combine
+self-assessment, focused facilitation, and directive feedback when debriefing (Eppich & Cheng,
+2015).
 
-The same applies to assessment. Blueprinting an examination across content areas and levels of
-thinking changed what I taught before anyone sat it, and reviewing how the items performed
-afterwards told me as much about my own question writing as about the trainees.
-
-I have also come to pay closer attention to the affective side of training. In designing
-simulation-based teaching for paracentesis, I wrote an objective requiring the student to raise a
-guideline-based concern with a supervising physician, since the willingness to speak up on a
-patient's behalf is not something a checklist produces on its own. For similar reasons I am more
-open with trainees about my own performance anxiety than I once was.
-
-In short: I integrate bedside clinical medicine to augment education for trainees at all levels.
-This program taught me how to build curricula, e-modules and simulations that do the same thing
-outside the hospital.
+Every day I use bedside clinical medicine to augment the education of trainees at all levels. What
+has changed is the scale: I now know how to build a curriculum, design an e-module, and integrate
+technology into my teaching, which lets me reach learners well beyond the patients present at
+hand. I now have the tools to expand my educator footprint and create a regional and national
+impact.
 
 <section class="references" markdown="1">
 
 ### References
 
-Bandura, A. (1986). *Social foundations of thought and action: A social cognitive theory.* Prentice-Hall.
+Bandura, A. (1986). *Social foundations of thought and action: A social cognitive theory.*
+Prentice-Hall.
 
-Mayer, R. E. (2009). *Multimedia learning* (2nd ed.). Cambridge University Press.
+Eppich, W., & Cheng, A. (2015). Promoting Excellence and Reflective Learning in Simulation
+(PEARLS): Development and rationale for a blended approach to health care simulation debriefing.
+*Simulation in Healthcare, 10*(2), 106–115.
 
-Vygotsky, L. S. (1978). *Mind in society: The development of higher psychological processes.* Harvard University Press.
+Krautter, M., Weyrich, P., Schultz, J. H., Buss, S. J., Maatouk, I., Jünger, J., & Nikendei, C.
+(2011). Effects of Peyton's four-step approach on objective performance measures in technical
+skills training: A controlled trial. *Teaching and Learning in Medicine, 23*(3), 244–250.
+
+Mayer, R. E., & Moreno, R. (2003). Nine ways to reduce cognitive load in multimedia learning.
+*Educational Psychologist, 38*(1), 43–52.
+
+Schunk, D. H. (2020). *Learning theories: An educational perspective* (8th ed.). Pearson.
+
+Wald, H. S., Borkan, J. M., Taylor, J. S., Anthony, D., & Reis, S. P. (2012). Fostering and
+evaluating reflective capacity in medical education: Developing the REFLECT rubric for assessing
+reflective writing. *Academic Medicine, 87*(1), 41–50.
 
 </section>
 
