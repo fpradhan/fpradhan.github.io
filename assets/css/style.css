@@ -299,6 +299,10 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
 .prose h2{font-family:var(--display);font-weight:600;
   font-size:1.5rem;line-height:1.28;letter-spacing:-.015em;
   margin:3.25rem 0 .75rem;text-wrap:balance}
+/* A page that hides its title and opens straight on a section: the first h2
+   would otherwise carry its full 3.25rem top margin and sit lower than the
+   first line of every other page. Used on /teaching/. */
+.prose > .sr-only:first-child + h2{margin-top:0}
 .prose h3{font-size:var(--t-xs);font-weight:600;text-transform:uppercase;
   letter-spacing:.11em;color:var(--ink-faint);margin:2.25rem 0 .6rem}
 .prose h2 + h3{margin-top:1.5rem}

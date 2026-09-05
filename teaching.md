@@ -1,9 +1,11 @@
 ---
 title: "Teaching"
 description: "Educational philosophy and resources for learners in hepatology and transplant medicine."
-subtitle: "Philosophy and resources for learners."
 permalink: /teaching/
+hide_title: true
 ---
+
+<h1 class="sr-only">Teaching</h1>
 
 ## Educational philosophy
 
