@@ -75,14 +75,14 @@ onward.
 
 The clinical teaching project was developed through HPTT 840 – Foundations of Clinical Teaching,
 one of my final courses in the MHPTT program, and represents a comprehensive instructional and
-assessment plan based on a procedure that is commonly done within my field of practice. It
-comprises five elements, namely learning objectives, a teaching strategy, a reflective assignment,
-an assessment tool, and a reflection based on peer feedback. I chose this assignment to
-demonstrate my personal progress in developing assessment strategies based on Peyton's Four-Step
-Approach and to highlight my growth as compared to the HPTT 801 curriculum outline. Every choice
-made in this assignment is based on evidence-based strategies and methodologies, incorporating
-national medical society guidelines, the REFLECT rubric (as developed by Wald et al.), and
-multiple other cited references therein.
+assessment plan based on paracentesis, a procedure that is commonly done within my field of
+practice. It comprises five elements, namely learning objectives, a teaching strategy, a
+reflective assignment, an assessment tool, and a reflection based on peer feedback. I chose this
+assignment to demonstrate my personal progress in developing assessment strategies based on
+Peyton's Four-Step Approach and to highlight my growth as compared to the HPTT 801 curriculum
+outline. Every choice made in this assignment is based on evidence-based strategies and
+methodologies, incorporating national medical society guidelines, the REFLECT rubric (as developed
+by Wald et al.), and multiple other cited references therein.
 
 Creating an affective learning objective was a challenging element to this assignment, especially
 with regards to assessment. Reflective assessments were a new concept for me, and though I had
