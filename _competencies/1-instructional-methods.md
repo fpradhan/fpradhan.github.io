@@ -38,12 +38,12 @@ HPTT 801 – Foundations of Health Professions Education was the first course I 
 Master's program, and this artifact aligns well with Learning Outcome 1 (Instructional Methods).
 This was my first time making a conscientious effort to utilize educational theory (incorporating
 elements of Bandura's reciprocal determinism and Mayer's cognitive theory of multimedia) to
-develop a comprehensive asynchronous online curriculum. The task was to design a complete course
-for a health professions audience, divided into weekly assignments, and an assessment plan. Using
-Schiff's diseases of the liver as the selected textbook, I was able to develop a 15-week in-depth
-course covering multiple facets of hepatology as well as introducing transplant medicine. I
-selected this artifact because I created an entire program rather than isolated elements, based on
-educational theory.
+develop a comprehensive asynchronous online curriculum. The Curriculum Outline assignment required
+me to design a complete course for a health professions audience, divided into weekly assignments,
+and an assessment plan. Using *Schiff's Diseases of the Liver* as the selected textbook, I was
+able to develop a 15-week in-depth course covering multiple facets of hepatology as well as
+introducing transplant medicine. I selected this artifact because I created an entire program
+rather than isolated elements, based on educational theory.
 
 One of the challenges when creating this assignment was the need to develop elements that would
 be covered in future MHPTT courses (such as the rubric, and assessment strategies); however, on
@@ -51,9 +51,12 @@ review I am able to reflect and see the progress that I have made throughout thi
 already see elements that I would adapt and change such as the rubric used to evaluate the
 discussion posts and the clinical plan from the EMR final assessment.
 
-If I were to implement this proposed curriculum, I would have to break it up into 2 courses given
-the amount of content proposed (such as one course focusing on acute and chronic liver disease,
-and one on cirrhosis and portal hypertension incorporating transplant medicine).
+If I were to implement this proposed curriculum, I would have to break it up into two courses
+given the amount of content proposed (such as one course focusing on acute and chronic liver
+disease, and one on cirrhosis and portal hypertension incorporating transplant medicine). I would
+deliver it through the four-year medical school track in hepatology and transplantation that I
+founded and direct, where students already have longitudinal exposure from their preclinical years
+onward.
 
 <p><a class="dl" href="{{ '/assets/artifacts/hptt801-curriculum-outline.docx' | relative_url }}">Download the curriculum outline (DOCX)</a></p>
 
@@ -73,13 +76,13 @@ and one on cirrhosis and portal hypertension incorporating transplant medicine).
 The clinical teaching project was developed through HPTT 840 – Foundations of Clinical Teaching,
 one of my final courses in the MHPTT program, and represents a comprehensive instructional and
 assessment plan based on a procedure that is commonly done within my field of practice. It
-comprises of five elements, namely learning objectives, a teaching strategy, a reflective
-assignment, an assessment tool, and a reflection based on peer feedback. I chose this assignment
-to demonstrate my personal progress in developing assessment strategies based on Peyton's
-Four-Step Approach and highlights my growth as compared to the HPTT 801 curriculum outline. Every
-choice made in this assignment is based on evidence-based strategies and methodologies,
-incorporating national medical society guidelines, the REFLECT rubric (as developed by Wald et
-al.), and multiple other cited references therein.
+comprises five elements, namely learning objectives, a teaching strategy, a reflective assignment,
+an assessment tool, and a reflection based on peer feedback. I chose this assignment to
+demonstrate my personal progress in developing assessment strategies based on Peyton's Four-Step
+Approach and to highlight my growth as compared to the HPTT 801 curriculum outline. Every choice
+made in this assignment is based on evidence-based strategies and methodologies, incorporating
+national medical society guidelines, the REFLECT rubric (as developed by Wald et al.), and
+multiple other cited references therein.
 
 Creating an affective learning objective was a challenging element to this assignment, especially
 with regards to assessment. Reflective assessments were a new concept for me, and though I had
