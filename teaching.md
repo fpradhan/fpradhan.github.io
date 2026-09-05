@@ -23,11 +23,11 @@ to key topics to bridge the gap between theoretical knowledge and clinical pract
 across Canada, Ireland, and the United States gives me diverse experience to draw from and the
 ability to connect with students from a wide range of backgrounds.
 
-I have integrated several educational theories into both my bedside teaching and my lecture
+I have incorporated several educational theories into both my bedside teaching and my lecture
 development. Given the breadth of learner experience I encounter, Vygotsky's zone of proximal
 development is central to adjusting a complex concept, such as cirrhosis or liver transplantation,
-to a learner's baseline knowledge (Schunk, 2020). Much of what I do at the bedside is described by
-Bandura's social cognitive theory, in which the learner, their behavior, and their environment
+to a learner's baseline knowledge (Vygotsky, 1978). Much of what I do at the bedside is described
+by Bandura's social cognitive theory, in which the learner, their behavior, and their environment
 influence one another (Bandura, 1986). For procedural training I integrate modeling and design
 simulation sessions using Peyton's Four-Step Approach (Krautter et al., 2011). Finally, Mayer's
 Cognitive Theory of Multimedia Learning is now instrumental in my formal teaching practice and
@@ -35,17 +35,16 @@ lecture development in order to avoid cognitive overload (Mayer & Moreno, 2003).
 
 Learner assessment is where my practice has changed most. I now design formative and summative
 tools to do different work, a distinction that was not evident to me prior to this program and has
-directly influenced my assessments particularly in e-module development. Finally, effective
-feedback is a skill I had underestimated. I now structure it deliberately, using the REFLECT
-rubric for written feedback (Wald et al., 2012) and the PEARLS framework to combine
-self-assessment, focused facilitation, and directive feedback when debriefing (Eppich & Cheng,
-2015).
+directly influenced my assessments particularly in e-module development. Effective feedback is
+also a skill I had underestimated. I now structure it deliberately, using the REFLECT rubric for
+written feedback (Wald et al., 2012) and the PEARLS framework to combine self-assessment, focused
+facilitation, and directive feedback when debriefing (Eppich & Cheng, 2015).
 
 Every day I use bedside clinical medicine to augment the education of trainees at all levels. What
 has changed is the scale: I now know how to build a curriculum, design an e-module, and integrate
 technology into my teaching, which lets me reach learners well beyond the patients present at
-hand. I now have the tools to expand my educator footprint and create a regional and national
-impact.
+hand. This program has given me the tools to expand my educator footprint and create a regional
+and national impact.
 
 <section class="references" markdown="1">
 
@@ -65,7 +64,8 @@ skills training: A controlled trial. *Teaching and Learning in Medicine, 23*(3),
 Mayer, R. E., & Moreno, R. (2003). Nine ways to reduce cognitive load in multimedia learning.
 *Educational Psychologist, 38*(1), 43–52.
 
-Schunk, D. H. (2020). *Learning theories: An educational perspective* (8th ed.). Pearson.
+Vygotsky, L. S. (1978). *Mind in society: The development of higher psychological processes.*
+Harvard University Press.
 
 Wald, H. S., Borkan, J. M., Taylor, J. S., Anthony, D., & Reis, S. P. (2012). Fostering and
 evaluating reflective capacity in medical education: Developing the REFLECT rubric for assessing
