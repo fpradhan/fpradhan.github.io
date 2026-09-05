@@ -37,9 +37,9 @@ statement: >-
 This assignment, from HPTT 825 – Essentials of E-Module Development, was one of the more
 challenging tasks throughout the MHPTT program, but overall, it was the most rewarding. The task
 was to create an e-Learning module from scratch using Articulate Storyline over the summer
-semester, and I am quite proud of the final product. I selected this artifact to represent
-Innovation in Teaching as it embraces interactivity to engage medical students while augmenting
-their classroom lectures on the topic.
+semester, and I am quite proud of the final product: *Introduction to Steatotic Liver Disease*. I
+selected this artifact to represent Innovation in Teaching as it embraces interactivity to engage
+medical students while augmenting their classroom lectures on the topic.
 
 Some of the challenges encountered included gaining software familiarity while adhering to
 e-Learning best practices, as well as the compressed timespan of a summer semester course.
