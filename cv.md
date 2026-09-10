@@ -18,7 +18,7 @@ University of Nebraska Medical Center</p>
 
 <p class="cv-actions">
 {%- if site.cv and site.cv != "" %}
-  <a class="dl" href="{{ site.cv | relative_url }}">{{ site.cv_label | default: "Download the full CV (PDF)" }}</a>
+  <a class="dl" href="{{ site.cv | relative_url }}" rel="noopener" target="_blank">{{ site.cv_label | default: "Download the full CV (PDF)" }}<span class="sr-only"> (opens in a new tab)</span></a>
 {%- endif %}
   <a class="dl go" href="{{ '/resume/' | relative_url }}">See the highlights</a>
 </p>

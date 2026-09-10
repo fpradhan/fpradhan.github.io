@@ -45,11 +45,12 @@ able to develop a 15-week in-depth course covering multiple facets of hepatology
 introducing transplant medicine. I selected this artifact because I created an entire program
 rather than isolated elements, based on educational theory.
 
-One of the challenges when creating this assignment was the need to develop elements that would
-be covered in future MHPTT courses (such as the rubric, and assessment strategies); however, on
-review I am able to reflect and see the progress that I have made throughout this degree. I can
-already see elements that I would adapt and change such as the rubric used to evaluate the
-discussion posts and the clinical plan from the EMR final assessment.
+One of the challenges when creating this assignment was the need to develop elements that would be
+covered in future Master of Health Professions Teaching and Technology (MHPTT) courses (such as
+the rubric, and assessment strategies); however, on review I am able to reflect and see the
+progress that I have made throughout this degree. I can already see elements that I would adapt
+and change such as the rubric used to evaluate the discussion posts and the clinical plan from the
+electronic medical record (EMR) final assessment.
 
 If I were to implement this proposed curriculum, I would have to break it up into two courses
 given the amount of content proposed (such as one course focusing on acute and chronic liver
@@ -58,7 +59,7 @@ deliver it through the four-year medical school track in hepatology and transpla
 founded and direct, where students already have longitudinal exposure from their preclinical years
 onward.
 
-<p><a class="dl" href="{{ '/assets/artifacts/hptt801-curriculum-outline.pdf' | relative_url }}">Download the curriculum outline (PDF)</a></p>
+<p><a class="dl" href="{{ '/assets/artifacts/hptt801-curriculum-outline.pdf' | relative_url }}" rel="noopener" target="_blank">Download the curriculum outline (PDF)<span class="sr-only"> (opens in a new tab)</span></a></p>
 
 </section>
 
@@ -81,8 +82,9 @@ reflective assignment, an assessment tool, and a reflection based on peer feedba
 assignment to demonstrate my personal progress in developing assessment strategies based on
 Peyton's Four-Step Approach and to highlight my growth as compared to the HPTT 801 curriculum
 outline. Every choice made in this assignment is based on evidence-based strategies and
-methodologies, incorporating national medical society guidelines, the REFLECT rubric (as developed
-by Wald et al.), and multiple other cited references therein.
+methodologies, incorporating national medical society guidelines, the Reflection Evaluation for
+Learners' Enhanced Competencies Tool (REFLECT) rubric as developed by Wald et al., and multiple
+other cited references therein.
 
 Creating an affective learning objective was a challenging element to this assignment, especially
 with regards to assessment. Reflective assessments were a new concept for me, and though I had
@@ -93,6 +95,6 @@ Going forward, I would like to incorporate reflective assessment (specifically t
 through my existing work with medical students when they rotate through Hepatology clinical
 rotations.
 
-<p><a class="dl" href="{{ '/assets/artifacts/hptt840-clinical-teaching-project.pdf' | relative_url }}">Download the clinical teaching project (PDF)</a></p>
+<p><a class="dl" href="{{ '/assets/artifacts/hptt840-clinical-teaching-project.pdf' | relative_url }}" rel="noopener" target="_blank">Download the clinical teaching project (PDF)<span class="sr-only"> (opens in a new tab)</span></a></p>
 
 </section>

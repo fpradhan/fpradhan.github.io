@@ -80,12 +80,12 @@ reflective writing. *Academic Medicine, 87*(1), 41–50.
 LIMES is a separate site I built for self-directed learning on liver disease and liver
 transplantation, written for medical students and other trainees.
 
-<p><a class="dl ext" href="https://www.liverlimes.com" rel="noopener">Open liverlimes.com</a></p>
+<p><a class="dl ext" href="https://www.liverlimes.com" rel="noopener" target="_blank">Open liverlimes.com<span class="sr-only"> (opens in a new tab)</span></a></p>
 
 *Portal Hypertension: A Systemic Disease* is an e-learning module I built with two medical
 students through the UNMC E-Learning Awards, hosted in the university's E-Gallery.
 
-<p><a class="dl ext" href="https://www.unmc.edu/elearning/egallery/portal-hypertension/" rel="noopener">Open the Portal Hypertension module</a></p>
+<p><a class="dl ext" href="https://www.unmc.edu/elearning/egallery/portal-hypertension/" rel="noopener" target="_blank">Open the Portal Hypertension module<span class="sr-only"> (opens in a new tab)</span></a></p>
 
 {% comment %}
   TO WRITE. Nothing between these markers reaches the browser.

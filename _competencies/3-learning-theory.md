@@ -57,7 +57,7 @@ theory against the curriculum I had designed. Following this course, I have been
 in modeling my clinical reasoning aloud for fellows and medical students and integrating
 reciprocal determinism concepts during bedside rounds.
 
-<p><a class="dl" href="{{ '/assets/artifacts/hptt801-learning-theory-paper.pdf' | relative_url }}">Download the learning theory paper (PDF)</a></p>
+<p><a class="dl" href="{{ '/assets/artifacts/hptt801-learning-theory-paper.pdf' | relative_url }}" rel="noopener" target="_blank">Download the learning theory paper (PDF)<span class="sr-only"> (opens in a new tab)</span></a></p>
 
 </section>
 

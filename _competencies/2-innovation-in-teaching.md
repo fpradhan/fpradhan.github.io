@@ -35,11 +35,12 @@ statement: >-
 ### Reflection
 
 This assignment, from HPTT 825 – Essentials of E-Module Development, was one of the more
-challenging tasks throughout the MHPTT program, but overall, it was the most rewarding. The task
-was to create an e-Learning module from scratch using Articulate Storyline over the summer
-semester, and I am quite proud of the final product: *Introduction to Steatotic Liver Disease*. I
-selected this artifact to represent Innovation in Teaching as it embraces interactivity to engage
-medical students while augmenting their classroom lectures on the topic.
+challenging tasks throughout the Master of Health Professions Teaching and Technology (MHPTT)
+program, but overall, it was the most rewarding. The task was to create an e-Learning module from
+scratch using Articulate Storyline over the summer semester, and I am quite proud of the final
+product: *Introduction to Steatotic Liver Disease*. I selected this artifact to represent
+Innovation in Teaching as it embraces interactivity to engage medical students while augmenting
+their classroom lectures on the topic.
 
 Some of the challenges encountered included gaining software familiarity while adhering to
 e-Learning best practices, as well as the compressed timespan of a summer semester course.
@@ -50,10 +51,11 @@ hepatology societies to help create online asynchronous educational content spec
 students and trainees.
 
 I aim to take the experience gained from this course to continue working with national medical
-societies, such as the AASLD, on online asynchronous interactive content for medical students and
-trainees. I also plan to expand my Enhanced Medical Education track into a regional opportunity.
+societies, such as the American Association for the Study of Liver Diseases (AASLD), on online
+asynchronous interactive content for medical students and trainees. I also plan to expand my
+Enhanced Medical Education track into a regional opportunity.
 
-<p><a class="dl ext" href="https://360.articulate.com/review/content/895c33e0-00ba-4da7-bfe8-b95ee220b54d/review" rel="noopener">Open the e-Learning module</a></p>
+<p><a class="dl ext" href="https://360.articulate.com/review/content/895c33e0-00ba-4da7-bfe8-b95ee220b54d/review" rel="noopener" target="_blank">Open the e-Learning module<span class="sr-only"> (opens in a new tab)</span></a></p>
 
 </section>
 
@@ -91,6 +93,6 @@ escape room scenario, but I feel that in the end I struck the right one. In the 
 like to implement this activity with the medical students I train and work on developing the
 escape room activity over the next one or two years.
 
-<p><a class="dl" href="{{ '/assets/artifacts/hptt824-acute-liver-failure-escape-room.pdf' | relative_url }}">Download the simulation deck (PDF)</a></p>
+<p><a class="dl" href="{{ '/assets/artifacts/hptt824-acute-liver-failure-escape-room.pdf' | relative_url }}" rel="noopener" target="_blank">Download the simulation deck (PDF)<span class="sr-only"> (opens in a new tab)</span></a></p>
 
 </section>
