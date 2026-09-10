@@ -350,6 +350,13 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
 .dl:hover::after{color:var(--accent)}
 .dl.ext::after{content:"↗"}
 .dl.go::after{content:"→"}
+/* Back to the artifacts index. The arrow leads rather than trails, so the
+   button reads as going up a level rather than onward to a file. */
+.dl.back::after{content:""}
+.dl.back::before{content:"←";font-size:.95em;color:var(--ink-faint);
+  transition:color .15s ease}
+.dl.back:hover::before{color:var(--accent)}
+.crumb{margin:0 0 1.75rem}
 
 /* Unwritten-content marker. Delete the element as each section is filled in. */
 .todo{
@@ -728,6 +735,7 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
 .pager a:hover{border-color:var(--accent);color:var(--accent)}
 .pager .label{display:block;margin-bottom:.3rem}
 .pager-next{text-align:right;grid-column:2}
+.pager-all{grid-column:1 / -1;text-align:center}
 @media (max-width:560px){
   .pager{grid-template-columns:1fr}
   .pager-next{text-align:left;grid-column:1}
@@ -859,7 +867,8 @@ code{font-size:.85em;background:var(--surface-2);padding:.15em .38em;
   .wrap,.prose{max-width:none;padding:0}
   a{color:#000;text-decoration:underline}
   .dl{border:0;padding:0}
-  .dl::after{content:""}
+  .dl::after,.dl.back::before{content:""}
+  .crumb{display:none !important}
   .statement{border-left:2px solid #999;color:#333}
   .artifact{break-inside:auto;page-break-inside:auto}
   h1,h2,h3{break-after:avoid;page-break-after:avoid}
