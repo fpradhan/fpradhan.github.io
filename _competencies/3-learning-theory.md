@@ -35,14 +35,13 @@ statement: >-
 
 ### Reflection
 
-HPTT 801 – Foundations of Health Professions Education was the first course I took in the Master
-of Health Professions Teaching and Technology (MHPTT) program, and this assignment tasked me to
-select the learning theory most closely matching my educational approach after gaining a
-foundational understanding of behaviorism, cognitivism, and constructivism. I felt that
-cognitivism, and more specifically Bandura's social cognitive theory, matched my teaching most
-closely. I was particularly drawn to Reciprocal Determinism, as it draws on a learner's prior
-experiences to teach new concepts, which has particular relevance for bedside clinical medicine
-and therefore represents objective 3a well.
+The Learning Theory Paper, from HPTT 801 – Foundations of Health Professions Education, tasked me
+to select the theory most closely matching my educational approach after gaining a foundational
+understanding of behaviorism, cognitivism, and constructivism. I felt that cognitivism, and more
+specifically Bandura's social cognitive theory, matched my teaching most closely. I was
+particularly drawn to Reciprocal Determinism, as it draws on a learner's prior experiences to
+teach new concepts, which has particular relevance for bedside clinical medicine and therefore
+represents objective 3a well.
 
 Reciprocal determinism describes personal, behavioral, and environmental factors influencing one
 another, and its adaptability suits it to clinical teaching. Much of the paper explored enactive

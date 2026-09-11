@@ -31,8 +31,8 @@ statement: >-
 
 ### Reflection
 
-The purpose of this assignment in HPTT 801 – Foundations of Health Professions Education was to
-revisit the learning theory paper I had written earlier in the semester and account for where it
+For the Integration Paper in HPTT 801 – Foundations of Health Professions Education, I revisited
+the learning theory paper I had written earlier in the semester and accounted for where it
 diverged from the curriculum I had actually built. I selected it to represent objective 4a because
 it is the artifact where I audit my own design, which effectively demonstrates reflective
 practice.
