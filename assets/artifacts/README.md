@@ -1,6 +1,19 @@
 # Artifact files
 
-Downloadable artifacts go here. Nothing is in this folder yet.
+Downloadable artifacts go here.
+
+| File | Serves |
+|---|---|
+| `hptt801-curriculum-outline.pdf` | artifact 1-A |
+| `hptt840-clinical-teaching-project.pdf` | artifact 1-B |
+| `hptt824-acute-liver-failure-escape-room.pdf` | artifact 2-B |
+| `hptt801-learning-theory-paper.pdf` | artifact 3-A |
+| `hptt801-integration-paper.pdf` | artifact 4-A |
+| `hptt824-learning-theory-analysis.pdf` | artifact 3-B |
+| `hptt802-science-of-learning-activity.pdf` | artifact 4-B, once its reflection is written |
+| `pradhan-cv.pdf` | the CV button on /resume/ and /cv/ |
+
+Artifact 2-A is an Articulate module and is linked live rather than downloaded.
 
 ## Naming
 

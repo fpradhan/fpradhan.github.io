@@ -56,12 +56,7 @@ tidiness. Following this course, I now have a better understanding regarding the
 planning theory, activity, and assessment when building educational content rather than adapting
 after the fact.
 
-{% comment %}
-  The artifact file for this reflection is not in assets/artifacts/ yet.
-  Drop it in and replace this comment with the download link, in the same
-  shape as the others: class="dl", rel="noopener", target="_blank", and
-  the screen-reader note.
-{% endcomment %}
+<p><a class="dl" href="{{ '/assets/artifacts/hptt801-integration-paper.pdf' | relative_url }}" rel="noopener" target="_blank">Download the integration paper (PDF)<span class="sr-only"> (opens in a new tab)</span></a></p>
 
 </section>
 

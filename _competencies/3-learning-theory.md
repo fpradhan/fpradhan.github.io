@@ -98,12 +98,7 @@ deciding that deliberate practice remained the most useful frame for procedural 
 it. Following this course, I have been applying some of these learning theories in simulation
 design, especially in the endoscopy ergonomics project I developed later in the semester.
 
-{% comment %}
-  The artifact file for this reflection is not in assets/artifacts/ yet.
-  Drop it in and replace this comment with the download link, in the same
-  shape as the others: class="dl", rel="noopener", target="_blank", and
-  the screen-reader note.
-{% endcomment %}
+<p><a class="dl" href="{{ '/assets/artifacts/hptt824-learning-theory-analysis.pdf' | relative_url }}" rel="noopener" target="_blank">Download the learning theory analysis (PDF)<span class="sr-only"> (opens in a new tab)</span></a></p>
 
 </section>
 
