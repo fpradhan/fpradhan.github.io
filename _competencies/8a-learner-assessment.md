@@ -7,8 +7,9 @@ title: "8a. Learner Assessment"
 description: "MHPTT competency 8a, Learner Assessment — the outcome statement and the artifacts evidencing it, from the Master of Health Professions Teaching & Technology at UNMC."
 # One entry per artifact — label, title, course, and the anchor of its
 # <section> in the body below. Drives the jump list on this page and the
-# artifact list on /artifacts/. Left empty until artifacts are chosen.
+# artifact list on /objectives/. Left empty until artifacts are chosen.
 artifacts: []
+redirect_from: /artifacts/8a-learner-assessment/
 statement: >-
   Assess the effectiveness and efficiency of instructional strategies and
   student learning achievements through the evaluation of program and/or
@@ -23,7 +24,7 @@ statement: >-
   reaches the browser, so this stays invisible until you move a copy out.
 
   Then add a matching entry to `artifacts:` in the front matter above, so the
-  artifact appears in the jump list here and in the list on /artifacts/.
+  artifact appears in the jump list here and in the list on /objectives/.
 
   ----------------------------------------------------------------------------
 <section class="artifact" id="artifact-8a-a" markdown="1">

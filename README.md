@@ -14,7 +14,7 @@ About            /                     index.md
 Teaching         /teaching/            teaching.md      philosophy · presentations · learner resources
 Resume / CV      /resume/              resume.md        the graded highlight page — appointments · training · expertise · leadership · scholarship
   └ full CV      /cv/                  cv.md            the complete record; source of the PDF, unlisted and noindexed
-MHPTT Artifacts  /artifacts/           artifacts.md     all 11 outcome areas, with their evidence
+MHPTT Objectives /objectives/          objectives.md    all 11 outcome areas, with their evidence
   ├ 1. Instructional Methods           _competencies/1-instructional-methods.md
   ├ 2. Innovation in Teaching          _competencies/2-innovation-in-teaching.md
   ├ 3. Learning Theory                 …
@@ -31,7 +31,7 @@ opens on hover and on keyboard focus, and needs no JavaScript. On narrow screens
 into the mobile menu so nothing hides behind a hover a touchscreen cannot perform.
 
 Adding, removing or reordering competency pages needs no other edit. The navigation dropdown,
-the `/artifacts/` index and the previous/next pager all read from the collection and sort on
+the `/objectives/` index and the previous/next pager all read from the collection and sort on
 the `order` field.
 
 ---
@@ -49,7 +49,7 @@ name: "Leadership in Health Professions Education"
 order: 8                         # sort position, everywhere
 title: "7a. Leadership in Health Professions Education"
 description: "…"                 # used for search results and link previews
-artifacts:                       # drives the jump list and the /artifacts/ index
+artifacts:                       # drives the jump list and the /objectives/ index
   - label:  "7a-A"
     title:  "Strategic Plan — Optimizing Nutrition Post-Liver Transplantation"
     course: "HPTT 823 – Leadership in HPE (Spring 2025)"
@@ -228,7 +228,7 @@ leaving the site. The two faces that set the first screen are preloaded in `head
 The italics are real cuts, not slanted uprights, and `font-synthesis: none` stops the browser
 faking either a slant or a weight it does not have. They are declared but deliberately **not**
 preloaded: a browser fetches a face only when text matching it is actually rendered, so a page
-with no italic text pays nothing for them. Measured — `/artifacts/` pulls three font files,
+with no italic text pays nothing for them. Measured — `/objectives/` pulls three font files,
 `/resume/` pulls four, the fourth being Inter italic for the parenthetical notes in its tables.
 
 One consequence worth knowing: JetBrains Mono ships upright only. Italic text inside a label,
@@ -289,7 +289,7 @@ CNAME                    fpradhan.com
 index.md                 About
 teaching.md              Philosophy · Presentations · Resources
 resume.md                Resume / CV  (research interests folded in)
-artifacts.md             MHPTT Artifacts index — auto-lists all 11 pages
+objectives.md            MHPTT Objectives index — auto-lists all 11 pages
 contact.md               Contact
 404.html                 not-found page
 robots.txt               points crawlers at the generated sitemap
@@ -315,7 +315,7 @@ in a Liquid comment ready to be copied out.
    `_competencies/<page>.md` and fill in the title, course, description and reflection.
 2. Drop the file into `assets/artifacts/` and point the download link at it.
 3. Add a matching entry to `artifacts:` in that page's front matter, so it appears in the
-   jump list on the page and in the list on `/artifacts/`.
+   jump list on the page and in the list on `/objectives/`.
 
 Also still open: the reference lists, the headshot and CV PDF, the profile links, and the
 contact-form endpoint. Every one of those is an optional slot — the page renders correctly

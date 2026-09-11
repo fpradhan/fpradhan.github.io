@@ -4,7 +4,7 @@ layout: default
 <article class="container">
   <div class="prose competency">
 
-    <p class="crumb"><a class="dl back" href="{{ '/artifacts/' | relative_url }}">All artifacts</a></p>
+    <p class="crumb"><a class="dl back" href="{{ '/objectives/' | relative_url }}">All objectives</a></p>
     <h1 class="page-title">{{ page.number }}. {{ page.name }}</h1>
 
     <blockquote class="statement"><p>{{ page.statement }}</p></blockquote>
@@ -49,8 +49,8 @@ layout: default
         <span class="label">← Previous</span>{{ prev_item.number }}. {{ prev_item.name }}
       </a>
       {%- else %}<span></span>{% endif %}
-      <a class="pager-all" href="{{ '/artifacts/' | relative_url }}">
-        <span class="label">↑ Return to</span>All artifacts
+      <a class="pager-all" href="{{ '/objectives/' | relative_url }}">
+        <span class="label">↑ Return to</span>All objectives
       </a>
       {%- if next_item %}
       <a class="pager-next" href="{{ next_item.url | relative_url }}">

@@ -7,7 +7,7 @@ title: "1. Instructional Methods"
 description: "MHPTT competency 1, Instructional Methods — the outcome statement and the artifacts evidencing it, from the Master of Health Professions Teaching & Technology at UNMC."
 # One entry per artifact — label, title, course, and the anchor of its
 # <section> in the body below. Drives the jump list on this page and the
-# artifact list on /artifacts/. Left empty until artifacts are chosen.
+# artifact list on /objectives/. Left empty until artifacts are chosen.
 artifacts:
   - label: "1-A"
     title: "Curriculum Outline"
@@ -17,6 +17,7 @@ artifacts:
     title: "Clinical Teaching Project"
     course: "HPTT 840"
     anchor: "artifact-1-b"
+redirect_from: /artifacts/1-instructional-methods/
 statement: >-
   Demonstrate an understanding of the theory and practice of education through
   the development of health science programs which focus on the application of

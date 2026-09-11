@@ -79,7 +79,7 @@ form_access_key: "bc71f164-db2b-40bb-a758-27cbcaacb8eb"
 collections:
   competencies:
     output: true
-    permalink: /artifacts/:name/
+    permalink: /objectives/:name/
 
 defaults:
   - scope: { path: "" }
@@ -103,6 +103,7 @@ kramdown:
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 exclude:
   - README.md

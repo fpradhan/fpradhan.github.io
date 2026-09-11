@@ -27,7 +27,7 @@
         <li><a class="nav-link" href="{{ '/resume/' | relative_url }}"{% if page.url contains '/resume' %} aria-current="page"{% endif %}>Resume / CV</a></li>
 
         <li class="has-menu">
-          <a class="nav-link" href="{{ '/artifacts/' | relative_url }}"{% if page.url == '/artifacts/' %} aria-current="page"{% endif %}>MHPTT Artifacts</a>
+          <a class="nav-link" href="{{ '/objectives/' | relative_url }}"{% if page.url == '/objectives/' %} aria-current="page"{% endif %}>MHPTT Objectives</a>
           {%- comment -%}
             All eleven outcome areas, so any competency is one click away from any
             page. Opens on hover and on :focus-within, so it needs no JavaScript.
@@ -44,9 +44,9 @@
             {%- endfor %}
             <li class="sep" aria-hidden="true"></li>
             <li>
-              <a class="all" href="{{ '/artifacts/' | relative_url }}">
+              <a class="all" href="{{ '/objectives/' | relative_url }}">
                 <span class="n" aria-hidden="true">→</span>
-                <span>All artifacts</span>
+                <span>All objectives</span>
               </a>
             </li>
           </ul>

@@ -1,7 +1,8 @@
 ---
-title: "MHPTT Artifacts"
-description: "The MHPTT outcome areas and the artifacts evidencing each."
-permalink: /artifacts/
+title: "MHPTT Objectives"
+description: "The MHPTT objectives and the artifacts evidencing each."
+permalink: /objectives/
+redirect_from: /artifacts/
 wide: true
 ---
 

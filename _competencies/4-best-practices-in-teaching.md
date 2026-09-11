@@ -7,12 +7,13 @@ title: "4. Best Practices in Teaching"
 description: "MHPTT competency 4, Best Practices in Teaching — the outcome statement and the artifacts evidencing it, from the Master of Health Professions Teaching & Technology at UNMC."
 # One entry per artifact — label, title, course, and the anchor of its
 # <section> in the body below. Drives the jump list on this page and the
-# artifact list on /artifacts/. Left empty until artifacts are chosen.
+# artifact list on /objectives/. Left empty until artifacts are chosen.
 artifacts:
   - label: "4-A"
     title: "Integration Paper"
     course: "HPTT 801"
     anchor: "artifact-4-a"
+redirect_from: /artifacts/4-best-practices-in-teaching/
 statement: >-
   Demonstrate reflective practice through the integration of evidence-based
   knowledge, skills, and attitudes towards establishing effective learning
@@ -70,7 +71,7 @@ after the fact.
   reaches the browser, so this stays invisible until you move a copy out.
 
   Then add a matching entry to `artifacts:` in the front matter above, so the
-  artifact appears in the jump list here and in the list on /artifacts/.
+  artifact appears in the jump list here and in the list on /objectives/.
 
   ----------------------------------------------------------------------------
 <section class="artifact" id="artifact-4-b" markdown="1">

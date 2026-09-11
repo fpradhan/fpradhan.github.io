@@ -26,4 +26,4 @@ Integrated Track in Liver Transplantation*.
 <dd>Internal Medicine · Gastroenterology</dd>
 </dl>
 
-[Browse the MHPTT artifacts](/artifacts/){: .dl .go}
+[Browse the MHPTT objectives](/objectives/){: .dl .go}
