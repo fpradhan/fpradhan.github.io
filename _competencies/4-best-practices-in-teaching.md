@@ -75,11 +75,11 @@ after the fact.
 
 ### Reflection
 
-Gooding, Mann and Armstrong's paper on the science of learning in health professions education
-gives twelve tips. This activity in HPTT 802 – Instructional Design for Health Professions
-Education asked me to select three of them, find two published examples of each tip in practice,
-and briefly summarize each example. I selected it to represent objective 4a because it required me
-to find the evidence behind teaching practices I had been using.
+The purpose of this assignment in HPTT 802 – Instructional Design for Health Professions Education
+was to choose three of the twelve tips in Gooding, Mann and Armstrong's paper on the science of
+learning in health professions education, find two published examples of each tip in practice, and
+briefly summarize each example. I selected it to represent objective 4a because it required me to
+find the evidence behind teaching practices I had been using.
 
 My three tips came from three different themes. From applying learning to new and varied contexts,
 I took the tip on preparing learners to transfer knowledge to new settings, pairing it with a
@@ -94,8 +94,9 @@ scores and traditional published literature dissemination measures.
 One of the challenges encountered was finding literature specific to hepatology. I had to think
 more broadly to consider my gastroenterology learners and to look at literature outside my primary
 specialty. The virtual reality skill study I found in the surgical endoscopy literature shaped the
-ergonomics proposal I built later in HPTT 824, where virtual reality develops foundational
-technique and augmented reality reinforces it in the live endoscopy suite.
+ergonomics proposal I built later in HPTT 824 – Simulated and Virtual Learning in Health
+Professions Education, where virtual reality develops foundational technique and augmented reality
+reinforces it in the live endoscopy suite.
 
 <p><a class="dl" href="{{ '/assets/artifacts/hptt802-science-of-learning-activity.pdf' | relative_url }}" rel="noopener" target="_blank">Download the science of learning activity (PDF)<span class="sr-only"> (opens in a new tab)</span></a></p>
 
