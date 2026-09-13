@@ -787,6 +787,9 @@ code{font-size:.85em;background:var(--surface-2);padding:.15em .38em;
    hidden from assistive tech so nobody is asked to fill it in. */
 .trap{position:absolute;left:-9999px;width:1px;height:1px;opacity:0;pointer-events:none}
 .form-note{font-size:var(--t-sm);color:var(--ink-faint);margin:1rem 0 0;max-width:34rem}
+.form .h-captcha{margin:1.5rem 0 0}
+.form-error{font-size:var(--t-sm);color:var(--accent);margin:.75rem 0 0;max-width:34rem}
+.form-error[hidden]{display:none}
 
 /* Standing notice inside prose — the clinical-questions warning on /contact/.
    Ruled on the left rather than boxed, so it reads as a caution without

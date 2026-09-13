@@ -5,6 +5,8 @@ subtitle: "Thank you for taking the time to look through this portfolio."
 permalink: /contact/
 ---
 
+{% assign eml = site.email | split: "" | reverse | join: "" %}
+
 I would be glad to hear from you about the work here, about hepatology education, or about
 teaching and curriculum design more generally.
 {: .lede}
@@ -12,6 +14,8 @@ teaching and curriculum design more generally.
 ## Reach me
 
 <dl class="facts" markdown="1">
+<dt>Email</dt>
+<dd><span class="eml" data-x="{{ eml }}">Use the form below.</span></dd>
 <dt>Telephone</dt>
 <dd>{{ site.phone }}</dd>
 <dt>Department</dt>
@@ -40,7 +44,7 @@ answered here. If you are a patient of Nebraska Medicine, contact your care team
 call 911.**</p>
 
 {% if site.form_endpoint and site.form_endpoint != "" %}
-<form class="form" action="{{ site.form_endpoint }}" method="POST">
+<form class="form" id="contact-form" action="{{ site.form_endpoint }}" method="POST">
 {%- comment -%}
   Field names differ between handlers, so the two dialects are kept apart here
   rather than sending both and letting the unused ones show up in the email.
@@ -72,6 +76,9 @@ call 911.**</p>
     <label for="f-message">Message</label>
     <textarea id="f-message" name="message" required></textarea>
   </div>
+  <div class="h-captcha" data-captcha="true"></div>
+  <p class="form-error" id="captcha-error" role="alert" hidden>Please complete the captcha before
+  sending.</p>
   <button class="btn" type="submit">Send message</button>
   <p class="form-note">Goes straight to my inbox. A reply may take a few days during a clinical
   week.</p>
@@ -82,4 +89,44 @@ cannot process a form submission on its own, so delivery needs an external handl
 are in the <code>form_endpoint</code> comment in <code>_config.yml</code>; fill that in and the
 form appears here. Until then the telephone number above is the working route, so nothing on
 this page is broken.</p>
+{% endif %}
+
+<script>
+/* The address is stored reversed so a regex harvester reading the source
+   finds no address, and is assembled here for real visitors. Anyone running
+   a headless browser still gets it: this stops the common scrapers, not all
+   of them. Without JavaScript the fallback text stands and the form works. */
+(function () {
+  var nodes = document.querySelectorAll('.eml[data-x]');
+  for (var i = 0; i < nodes.length; i++) {
+    var el = nodes[i];
+    var addr = el.getAttribute('data-x').split('').reverse().join('');
+    var a = document.createElement('a');
+    a.href = 'mailto:' + addr;
+    a.textContent = addr;
+    el.parentNode.replaceChild(a, el);
+  }
+})();
+</script>
+
+{% if site.form_endpoint and site.form_endpoint != "" %}
+<script src="https://web3forms.com/client/script.js" async defer></script>
+<script>
+/* Client-side check from the Web3Forms hCaptcha docs, with two changes: the
+   missing-widget case is handled, so a blocked or slow captcha script cannot
+   throw and let an unverified submission through, and the message is shown in
+   the page rather than in an alert box. */
+(function () {
+  var form = document.getElementById('contact-form');
+  if (!form) return;
+  var msg = document.getElementById('captcha-error');
+  form.addEventListener('submit', function (e) {
+    var field = form.querySelector('textarea[name=h-captcha-response]');
+    if (field && !field.value) {
+      e.preventDefault();
+      if (msg) { msg.hidden = false; }
+    }
+  });
+})();
+</script>
 {% endif %}
