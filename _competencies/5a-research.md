@@ -39,15 +39,15 @@ design took inspiration from earlier HPTT courses.
 
 Pan and colleagues found that only 22% of surveyed students reported exposure to a hepatology
 rotation, and Kobashigawa and colleagues predict a 35% shortage of adult transplant hepatologists
-by 2033. 62% of transplant hepatology fellowship positions unfilled in 2024 further compounding
-the workforce shortage. I also drew on my own unpublished 2025 survey of medical school curricular
-deans, which found that 57.1% of liver-transplant-affiliated schools weighted preclinical
-hepatology content equivalently to other specialties compared with 28.6% at non-affiliated
-schools, and that fewer than 40% of either group reported any lecture on liver transplantation. As
-a transplant hepatologist, these stark findings were the inspiration to develop a game with
-AI-integration to teach medical students about liver disease complications, and potentially
-increase specialty career interest. The proposal sets out one primary and three secondary research
-questions across a three-site study design.
+by 2033. 62% of transplant hepatology fellowship positions were unfilled in 2024, further
+compounding the workforce shortage. I also drew on my own unpublished 2025 survey of medical
+school curricular deans, which found that 57.1% of liver-transplant-affiliated schools weighted
+preclinical hepatology content equivalently to other specialties compared with 28.6% at
+non-affiliated schools, and that fewer than 40% of either group reported any lecture on liver
+transplantation. As a transplant hepatologist, these findings inspired me to develop a game with
+artificial intelligence (AI) integration to teach medical students about liver disease
+complications, and potentially increase specialty career interest. The proposal sets out one
+primary and three secondary research questions across a three-site study design.
 
 One of the challenges encountered was taking a three-site design through the institutional
 review board. I have since narrowed it to a single-site quality improvement pilot, keeping the
