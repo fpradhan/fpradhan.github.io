@@ -47,12 +47,12 @@ Reciprocal determinism describes personal, behavioral, and environmental factors
 another, and its adaptability suits it to clinical teaching. Much of the paper explored enactive
 versus observational learning, and the value of modeling my approach to clinical decisions in real
 time so that trainees see the reasoning and not only the decision. Comparing social cognitive
-theory against behaviorism best represents this objective. Operant conditioning is not a usable
-tool in endoscopy; when teaching loop reduction during colonoscopy, an unrecognized loop carries
-the risk of splenic laceration or colonic perforation. Positive reinforcement still has a role,
-such as celebrating a successful polypectomy, but modeling remains the more effective strategy.
-Patient safety therefore plays a large role when choosing a learning theory in the procedural
-setting.
+theory against behaviorism best represents this objective. Operant conditioning is often not an
+effective tool in endoscopic skill development; when teaching loop reduction during colonoscopy,
+an unrecognized loop carries the risk of splenic laceration or colonic perforation. Positive
+reinforcement still has a role, such as celebrating a successful polypectomy, but modeling remains
+the more effective strategy. Patient safety therefore plays a large role when choosing a learning
+theory in the procedural setting.
 
 One of the challenges encountered was committing to a single learning theory when my practice
 draws from several, especially given the different approach required for procedural versus bedside
