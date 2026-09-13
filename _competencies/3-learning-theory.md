@@ -81,9 +81,9 @@ completed in HPTT 824 – Simulated and Virtual Learning in Health Professions E
 required me to select a peer-reviewed article on learning theory in simulation, critique one of
 the theories described, and apply it to my own simulation design. I chose a 2022 review by
 Herrera-Aliaga and Estrada for its recency at the time, its relevance to how learner needs changed
-after the COVID-19 pandemic, and its mini-review of simulation typologies. I selected it to
-represent objective 3a as it applies the same pedagogical reasoning as my learning theory paper to
-a different modality.
+after the COVID-19 pandemic, and its mini-review of types of simulation activities. I selected it
+to represent objective 3a as it applies the same pedagogical reasoning as my learning theory paper
+to a different modality.
 
 The paper summarizes theories from Vygotsky, Kolb, Dreyfus and Dreyfus, Posner, Schön, Bandura,
 and Ericsson. I chose to summarize and critique Ericsson's work on deliberate practice. Its
