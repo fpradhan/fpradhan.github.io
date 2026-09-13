@@ -33,8 +33,8 @@ statement: >-
 The purpose of this assignment in HPTT 830 – Research Analysis and Design for Health Professions
 Education was to produce a complete research proposal, covering the introduction, problem
 statement, purpose statement, research questions, literature review, and methodology. I selected
-it to represent objective 5a because the proposal best represents my research skills, and because
-the topic grew out of a curricular gap I had previously identified. As well, the project idea and
+it to represent objective 5a because the proposal shows my research skills best, and because the
+topic grew out of a curricular gap I had previously identified. As well, the project idea and
 design took inspiration from earlier HPTT courses.
 
 Pan and colleagues found that only 22% of surveyed students reported exposure to a hepatology
@@ -43,15 +43,16 @@ by 2033 with 62% of transplant hepatology fellowship positions unfilled in 2024.
 own unpublished 2025 survey of medical school curricular deans, which found that 57.1% of
 liver-transplant-affiliated schools weighted preclinical hepatology content equivalently to other
 specialties compared with 28.6% at non-affiliated schools, and that fewer than 40% of either group
-reported any lecture on liver transplantation. The proposal sets out one primary and three
-secondary research questions across a three-site study design.
+reported any lecture on liver transplantation. The proposal tests an online interactive narrative
+game. It sets out one primary and three secondary research questions across a three-site study
+design.
 
-One of the challenges encountered was taking a three-site design through the institutional review
-board. I have since narrowed it to a single-site quality improvement pilot, keeping the same game,
-objectives and aims while reducing only the scope of the initial deployment, with multi-site
-expansion planned once the intervention is established. The game itself is now built,
+One of the challenges encountered was taking a three-site design through the institutional
+review board. I have since narrowed it to a single-site quality improvement pilot, keeping the
+same game, objectives and aims while reducing only the scope of the initial deployment, with
+multi-site expansion planned once the intervention is established. The game,
 [Hepatology Night Shift<span class="sr-only"> (opens in a new tab)</span>](https://hepatology.pages.dev/HepatologyNightShift){: rel="noopener" target="_blank"},
-and is undergoing final testing before I implement the project in Fall 2026.
+is now built and is undergoing final testing before I implement the project in Fall 2026.
 
 <p><a class="dl" href="{{ '/assets/artifacts/hptt830-research-proposal.pdf' | relative_url }}" rel="noopener" target="_blank">Download the research proposal (PDF)<span class="sr-only"> (opens in a new tab)</span></a></p>
 
