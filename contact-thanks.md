@@ -6,7 +6,7 @@ sitemap: false
 noindex: true
 ---
 
-Your message is on its way to {{ site.email }}. Thank you for writing. A reply may take a few
+Your message is on its way. Thank you for writing. A reply may take a few
 days during a clinical week.
 {: .lede}
 

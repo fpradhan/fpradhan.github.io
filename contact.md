@@ -12,8 +12,6 @@ teaching and curriculum design more generally.
 ## Reach me
 
 <dl class="facts" markdown="1">
-<dt>Email</dt>
-<dd><a href="mailto:{{ site.email }}">{{ site.email }}</a></dd>
 <dt>Telephone</dt>
 <dd>{{ site.phone }}</dd>
 <dt>Department</dt>
@@ -75,13 +73,13 @@ call 911.**</p>
     <textarea id="f-message" name="message" required></textarea>
   </div>
   <button class="btn" type="submit">Send message</button>
-  <p class="form-note">Goes to {{ site.email }}. A reply may take a few days during a clinical
+  <p class="form-note">Goes straight to my inbox. A reply may take a few days during a clinical
   week.</p>
 </form>
 {% else %}
 <p class="todo"><strong>Form not yet connected.</strong> GitHub Pages serves static files and
 cannot process a form submission on its own, so delivery needs an external handler. The steps
 are in the <code>form_endpoint</code> comment in <code>_config.yml</code>; fill that in and the
-form appears here. Until then the email address above is the working route, so nothing on this
-page is broken.</p>
+form appears here. Until then the telephone number above is the working route, so nothing on
+this page is broken.</p>
 {% endif %}
