@@ -39,19 +39,21 @@ design took inspiration from earlier HPTT courses.
 
 Pan and colleagues found that only 22% of surveyed students reported exposure to a hepatology
 rotation, and Kobashigawa and colleagues predict a 35% shortage of adult transplant hepatologists
-by 2033 with 62% of transplant hepatology fellowship positions unfilled in 2024. I also drew on my
-own unpublished 2025 survey of medical school curricular deans, which found that 57.1% of
-liver-transplant-affiliated schools weighted preclinical hepatology content equivalently to other
-specialties compared with 28.6% at non-affiliated schools, and that fewer than 40% of either group
-reported any lecture on liver transplantation. The proposal tests an online interactive narrative
-game. It sets out one primary and three secondary research questions across a three-site study
-design.
+by 2033. 62% of transplant hepatology fellowship positions unfilled in 2024 further compounding
+the workforce shortage. I also drew on my own unpublished 2025 survey of medical school curricular
+deans, which found that 57.1% of liver-transplant-affiliated schools weighted preclinical
+hepatology content equivalently to other specialties compared with 28.6% at non-affiliated
+schools, and that fewer than 40% of either group reported any lecture on liver transplantation. As
+a transplant hepatologist, these stark findings were the inspiration to develop a game with
+AI-integration to teach medical students about liver disease complications, and potentially
+increase specialty career interest. The proposal sets out one primary and three secondary research
+questions across a three-site study design.
 
 One of the challenges encountered was taking a three-site design through the institutional
 review board. I have since narrowed it to a single-site quality improvement pilot, keeping the
 same game, objectives and aims while reducing only the scope of the initial deployment, with
 multi-site expansion planned once the intervention is established. The game,
-[Hepatology Night Shift<span class="sr-only"> (opens in a new tab)</span>](https://hepatology.pages.dev/HepatologyNightShift){: rel="noopener" target="_blank"},
+*[Hepatology Night Shift<span class="sr-only"> (opens in a new tab)</span>](https://hepatology.pages.dev/HepatologyNightShift){: rel="noopener" target="_blank"}*,
 is now built and is undergoing final testing before I implement the project in Fall 2026.
 
 <p><a class="dl" href="{{ '/assets/artifacts/hptt830-research-proposal.pdf' | relative_url }}" rel="noopener" target="_blank">Download the research proposal (PDF)<span class="sr-only"> (opens in a new tab)</span></a></p>
