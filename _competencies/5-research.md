@@ -4,7 +4,7 @@ number: "5"
 order: 5
 name: "Research"
 title: "5. Research"
-description: "MHPTT competency 5, Research — the two outcome statements and the artifacts evidencing them, from the Master of Health Professions Teaching & Technology at UNMC."
+description: "MHPTT objective 5, Research — the two outcome statements and the artifacts evidencing them, from the Master of Health Professions Teaching & Technology at UNMC."
 # Objective 5 has two outcome statements. Each is shown on the page under its own
 # label, and each artifact says in its label which one it evidences.
 statements:

@@ -4,7 +4,7 @@ number: "8"
 order: 8
 name: "Learner Assessment"
 title: "8. Learner Assessment"
-description: "MHPTT competency 8, Learner Assessment — the two outcome statements and the artifacts evidencing them, from the Master of Health Professions Teaching & Technology at UNMC."
+description: "MHPTT objective 8, Learner Assessment — the two outcome statements and the artifacts evidencing them, from the Master of Health Professions Teaching & Technology at UNMC."
 # Objective 8 has two outcome statements. Each is shown on the page under its own
 # label, and each artifact says in its label which one it evidences.
 statements:

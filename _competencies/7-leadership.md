@@ -4,7 +4,7 @@ number: "7"
 order: 7
 name: "Leadership in Health Professions Education"
 title: "7. Leadership in Health Professions Education"
-description: "MHPTT competency 7, Leadership in Health Professions Education — the two outcome statements and the artifacts evidencing them, from the Master of Health Professions Teaching & Technology at UNMC."
+description: "MHPTT objective 7, Leadership in Health Professions Education — the two outcome statements and the artifacts evidencing them, from the Master of Health Professions Teaching & Technology at UNMC."
 # Objective 7 has two outcome statements. Each is shown on the page under its own
 # label, and each artifact says in its label which one it evidences.
 statements:

@@ -4,7 +4,7 @@ number: "4"
 name: "Best Practices in Teaching"
 order: 4
 title: "4. Best Practices in Teaching"
-description: "MHPTT competency 4, Best Practices in Teaching — the outcome statement and the artifacts evidencing it, from the Master of Health Professions Teaching & Technology at UNMC."
+description: "MHPTT objective 4, Best Practices in Teaching — the outcome statement and the artifacts evidencing it, from the Master of Health Professions Teaching & Technology at UNMC."
 # One entry per artifact — label, title, course, and the anchor of its
 # <section> in the body below. Drives the jump list on this page and the
 # artifact list on /objectives/. Left empty until artifacts are chosen.

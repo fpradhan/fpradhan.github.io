@@ -54,7 +54,7 @@ layout: default
       {%- unless found %}{% assign prev_item = c %}{% endunless -%}
     {%- endfor -%}
 
-    <nav class="pager" aria-label="Competencies">
+    <nav class="pager" aria-label="MHPTT objectives">
       {%- if prev_item %}
       <a class="pager-prev" href="{{ prev_item.url | relative_url }}">
         <span class="label">← Previous</span>{{ prev_item.number }}. {{ prev_item.name }}
