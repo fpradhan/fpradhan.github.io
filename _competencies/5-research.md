@@ -1,22 +1,34 @@
 ---
 layout: competency
-number: "5a"
-name: "Research"
+number: "5"
 order: 5
-title: "5a. Research"
-description: "MHPTT competency 5a, Research — the outcome statement and the artifacts evidencing it, from the Master of Health Professions Teaching & Technology at UNMC."
+name: "Research"
+title: "5. Research"
+description: "MHPTT competency 5, Research — the two outcome statements and the artifacts evidencing them, from the Master of Health Professions Teaching & Technology at UNMC."
+# Objective 5 has two outcome statements. Each is shown on the page under its own
+# label, and each artifact says in its label which one it evidences.
+statements:
+  - part: "5a"
+    text: >-
+      Develop research skills and engage in scholarship activities in an effort to
+      advance understanding and practice of education in the health professions.
+  - part: "5b"
+    text: >-
+      Analyze empirical data to support the theories of effective teaching, adult
+      learning, and interdisciplinary collaboration.
 # One entry per artifact — label, title, course, and the anchor of its
-# <section> in the body below. Drives the jump list on this page and the
-# artifact list on /objectives/. Left empty until artifacts are chosen.
+# <section> in the body below. Drives the jump list here and the artifact
+# list on /objectives/. Keep them grouped by part: every 5a before any 5b.
 artifacts:
   - label: "5a-A"
     title: "AI-Augmented Gamification as a Tool for Interactive Medical Student Education"
     course: "HPTT 830"
     anchor: "artifact-5a-a"
-redirect_from: /artifacts/5a-research/
-statement: >-
-  Develop research skills and engage in scholarship activities in an effort to
-  advance understanding and practice of education in the health professions.
+redirect_from:
+  - /objectives/5a-research/
+  - /objectives/5b-research/
+  - /artifacts/5a-research/
+  - /artifacts/5b-research/
 ---
 
 <section class="artifact" id="artifact-5a-a" markdown="1">
@@ -60,6 +72,8 @@ is now built and is undergoing final testing before I implement the project in F
 
 </section>
 
+<p class="todo"><strong>5b.</strong> Artifacts under construction.</p>
+
 {% comment %}
   ARTIFACT TEMPLATE — copy everything between the dashed rules out of this
   comment, once per artifact, and fill it in. Nothing inside a Liquid comment
@@ -67,6 +81,7 @@ is now built and is undergoing final testing before I implement the project in F
 
   Then add a matching entry to `artifacts:` in the front matter above, so the
   artifact appears in the jump list here and in the list on /objectives/.
+  Keep the entries grouped by part: all of 5a's before any of 5b's.
 
   ----------------------------------------------------------------------------
 <section class="artifact" id="artifact-5a-b" markdown="1">

@@ -7,7 +7,18 @@ layout: default
     <p class="crumb"><a class="dl back" href="{{ '/objectives/' | relative_url }}">All objectives</a></p>
     <h1 class="page-title">{{ page.number }}. {{ page.name }}</h1>
 
+    {%- comment -%}
+      Objectives 5, 7 and 8 carry two outcome statements; the rest carry one.
+    {%- endcomment -%}
+    {%- if page.statements and page.statements.size > 0 %}
+    <div class="statements">
+      {%- for s in page.statements %}
+      <blockquote class="statement"><p><span class="part">{{ s.part }}</span>{{ s.text }}</p></blockquote>
+      {%- endfor %}
+    </div>
+    {%- else %}
     <blockquote class="statement"><p>{{ page.statement }}</p></blockquote>
+    {%- endif %}
 
     {%- comment -%}
       Jump list, built from the `artifacts:` block in this page's front matter.

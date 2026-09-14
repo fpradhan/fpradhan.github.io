@@ -330,6 +330,15 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
 }
 .statement p{margin:0}
 
+/* Objectives 5, 7 and 8 have two outcome statements, each under its part
+   label. The label also appears on /objectives/, so .part stands alone. */
+.statements{margin:0 0 2.5rem}
+.statements .statement{margin-bottom:1.1rem}
+.statements .statement:last-child{margin-bottom:0}
+.part{font-family:var(--mono);font-size:.72rem;color:var(--accent);font-weight:500;
+  margin-right:.6rem;letter-spacing:.02em;font-variant-numeric:tabular-nums}
+.index-stmt + .index-stmt{margin-top:.5rem}
+
 /* Course / date metadata line */
 .meta{font-family:var(--mono);font-size:.72rem;line-height:1.6;color:var(--ink-faint);
   margin:0 0 1.5rem;letter-spacing:.02em}

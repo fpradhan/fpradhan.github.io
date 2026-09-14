@@ -1,22 +1,35 @@
 ---
 layout: competency
-number: "8a"
+number: "8"
+order: 8
 name: "Learner Assessment"
-order: 10
-title: "8a. Learner Assessment"
-description: "MHPTT competency 8a, Learner Assessment — the outcome statement and the artifacts evidencing it, from the Master of Health Professions Teaching & Technology at UNMC."
+title: "8. Learner Assessment"
+description: "MHPTT competency 8, Learner Assessment — the two outcome statements and the artifacts evidencing them, from the Master of Health Professions Teaching & Technology at UNMC."
+# Objective 8 has two outcome statements. Each is shown on the page under its own
+# label, and each artifact says in its label which one it evidences.
+statements:
+  - part: "8a"
+    text: >-
+      Assess the effectiveness and efficiency of instructional strategies and
+      student learning achievements through the evaluation of program and/or
+      curricula outcomes.
+  - part: "8b"
+    text: >-
+      Create engaging learning solutions to improve health professions education.
 # One entry per artifact — label, title, course, and the anchor of its
-# <section> in the body below. Drives the jump list on this page and the
-# artifact list on /objectives/. Left empty until artifacts are chosen.
+# <section> in the body below. Drives the jump list here and the artifact
+# list on /objectives/. Keep them grouped by part: every 8a before any 8b.
 artifacts: []
-redirect_from: /artifacts/8a-learner-assessment/
-statement: >-
-  Assess the effectiveness and efficiency of instructional strategies and
-  student learning achievements through the evaluation of program and/or
-  curricula outcomes.
+redirect_from:
+  - /objectives/8a-learner-assessment/
+  - /objectives/8b-learner-assessment/
+  - /artifacts/8a-learner-assessment/
+  - /artifacts/8b-learner-assessment/
 ---
 
-<p class="todo">Under construction.</p>
+<p class="todo"><strong>8a.</strong> Artifacts under construction.</p>
+
+<p class="todo"><strong>8b.</strong> Artifacts under construction.</p>
 
 {% comment %}
   ARTIFACT TEMPLATE — copy everything between the dashed rules out of this
@@ -25,6 +38,7 @@ statement: >-
 
   Then add a matching entry to `artifacts:` in the front matter above, so the
   artifact appears in the jump list here and in the list on /objectives/.
+  Keep the entries grouped by part: all of 8a's before any of 8b's.
 
   ----------------------------------------------------------------------------
 <section class="artifact" id="artifact-8a-a" markdown="1">

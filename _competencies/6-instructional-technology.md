@@ -2,7 +2,7 @@
 layout: competency
 number: "6"
 name: "Instructional Technology"
-order: 7
+order: 6
 title: "6. Instructional Technology"
 description: "MHPTT competency 6, Instructional Technology — the outcome statement and the artifacts evidencing it, from the Master of Health Professions Teaching & Technology at UNMC."
 # One entry per artifact — label, title, course, and the anchor of its

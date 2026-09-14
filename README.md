@@ -14,19 +14,19 @@ About            /                     index.md
 Teaching         /teaching/            teaching.md      philosophy · presentations · learner resources
 Resume / CV      /resume/              resume.md        the graded highlight page — appointments · training · expertise · leadership · scholarship
   └ full CV      /cv/                  cv.md            the complete record; source of the PDF, unlisted and noindexed
-MHPTT Objectives /objectives/          objectives.md    all 11 outcome areas, with their evidence
+MHPTT Objectives /objectives/          objectives.md    all 8 objectives, with their evidence
   ├ 1. Instructional Methods           _competencies/1-instructional-methods.md
   ├ 2. Innovation in Teaching          _competencies/2-innovation-in-teaching.md
   ├ 3. Learning Theory                 …
   ├ 4. Best Practices in Teaching
-  ├ 5a. Research            ├ 5b. Research
+  ├ 5. Research                        5a and 5b on one page
   ├ 6. Instructional Technology
-  ├ 7a. Leadership in HPE   ├ 7b. Leadership in HPE
-  └ 8a. Learner Assessment  └ 8b. Learner Assessment
+  ├ 7. Leadership in HPE               7a and 7b on one page
+  └ 8. Learner Assessment              8a and 8b on one page
 Contact          /contact/             contact.md
 ```
 
-**MHPTT Artifacts is a dropdown.** All eleven outcome areas are one click from any page. It
+**MHPTT Objectives is a dropdown.** All eight objectives are one click from any page. It
 opens on hover and on keyboard focus, and needs no JavaScript. On narrow screens it flattens
 into the mobile menu so nothing hides behind a hover a touchscreen cannot perform.
 
@@ -38,26 +38,38 @@ the `order` field.
 
 ## How a competency page is built
 
-Each of the eleven files in `_competencies/` carries two artifacts in the four-part block both
+Each of the eight files in `_competencies/` carries two artifacts in the four-part block both
 exemplar portfolios use — **label · title · course · description · reflection · evidence** —
 plus a page-level reference list.
 
 ```markdown
 ---
-number: "7a"                     # shown as the large numeral and in the nav
+number: "7"                      # shown as the large numeral and in the nav
 name: "Leadership in Health Professions Education"
-order: 8                         # sort position, everywhere
-title: "7a. Leadership in Health Professions Education"
+order: 7                         # sort position, everywhere
+title: "7. Leadership in Health Professions Education"
 description: "…"                 # used for search results and link previews
 artifacts:                       # drives the jump list and the /objectives/ index
   - label:  "7a-A"
     title:  "Strategic Plan — Optimizing Nutrition Post-Liver Transplantation"
     course: "HPTT 823 – Leadership in HPE (Spring 2025)"
     anchor: "artifact-7a-a"      # matches the id= on the <section> below
-statement: >-
-  Apply knowledge of the administrative aspects of leading educational programs…
+statements:                      # 5, 7 and 8 carry two; the rest use `statement:`
+  - part: "7a"
+    text: >-
+      Apply knowledge of the administrative aspects of leading educational programs…
+  - part: "7b"
+    text: >-
+      Demonstrate leadership in health professions education through innovation…
+redirect_from:                   # the split pages this one replaced
+  - /objectives/7a-leadership/
+  - /objectives/7b-leadership/
 ---
 ```
+
+Objectives 5, 7 and 8 each have two outcome statements. They share one page, with both
+statements shown at the top under their own labels and the artifacts grouped by part:
+every `7a-` artifact before any `7b-` one, so both reflections for an outcome sit together.
 
 The body then holds one `<section>` per artifact:
 
@@ -88,8 +100,9 @@ Two things to keep in mind when editing:
   `artifacts:` entry in the front matter. The front matter feeds the on-page jump list and the
   artifact index; the heading is what a reader sees.
 
-Artifacts are numbered per competency (`7a-A`, `7a-B`) rather than continuously across the
-site, so swapping one out later does not renumber everything after it.
+Artifacts are numbered per outcome (`7a-A`, `7a-B`, then `7b-A`) rather than continuously
+across the site, so swapping one out later does not renumber everything after it. The label
+is also what tells a reader which of a page's two outcomes the artifact evidences.
 
 ---
 
@@ -130,7 +143,7 @@ image_height:  1000
 ```
 
 It renders only when both `image` and `image_alt` are present. This works on the standalone
-pages and on the eleven competency pages.
+pages and on the eight objective pages.
 
 **3. Anywhere in the prose,** including inside an artifact's `<section>`:
 
@@ -289,11 +302,11 @@ CNAME                    fpradhan.com
 index.md                 About
 teaching.md              Philosophy · Presentations · Resources
 resume.md                Resume / CV  (research interests folded in)
-objectives.md            MHPTT Objectives index — auto-lists all 11 pages
+objectives.md            MHPTT Objectives index — auto-lists all 8 pages
 contact.md               Contact
 404.html                 not-found page
 robots.txt               points crawlers at the generated sitemap
-_competencies/           the 11 competency pages
+_competencies/           the 8 objective pages
 _layouts/                default · home · page · competency
 _includes/               head · header · footer
 assets/css/style.css     all styling
@@ -305,7 +318,7 @@ assets/artifacts/        downloadable artifact files (README lists the expected 
 
 ## Status
 
-Structure, navigation, styling, the CV and all eleven competency pages are in place. Each
+Structure, navigation, styling, the CV and all eight objective pages are in place. Each
 competency page carries its outcome statement, a reference section, and an artifact template
 in a Liquid comment ready to be copied out.
 
