@@ -25,9 +25,13 @@ artifacts:
     course: "HPTT 830"
     anchor: "artifact-5a-a"
   - label: "5a-B"
-    title: "Critical Appraisal"
+    title: "Article Critique #1"
     course: "HPTT 830"
     anchor: "artifact-5a-b"
+  - label: "5b-A"
+    title: "Article Critique #3"
+    course: "HPTT 830"
+    anchor: "artifact-5b-a"
 redirect_from:
   - /objectives/5a-research/
   - /objectives/5b-research/
@@ -80,20 +84,20 @@ is now built and is undergoing final testing before I implement the project in F
 
 <p class="label">Artifact 5a-B</p>
 
-## Critical Appraisal
+## Article Critique #1
 
 **Course:** HPTT 830 – Research Analysis and Design for Health Professions Education
 {: .meta}
 
 ### Reflection
 
-The purpose of this assignment in HPTT 830 – Research Analysis and Design for Health Professions
-Education was to critically appraise a published study, covering its design, sampling,
-intervention, assessment tools, findings and limitations. I chose Mikolajczyk and colleagues’ 2021
-study of mandatory hepatology education for internal medicine residents. I selected it to
-represent objective 5a as critical appraisal of published literature is an important research
-skill, and because this study is very pertinent to my career interests in building the hepatology
-workforce and trainee hepatology education.
+This assignment in HPTT 830 – Research Analysis and Design for Health Professions Education asked
+me to critically appraise a published study, covering its design, sampling, intervention,
+assessment tools, findings and limitations. I chose Mikolajczyk and colleagues’ 2021 study of
+mandatory hepatology education for internal medicine residents. I selected it to represent
+objective 5a as critical appraisal of published literature is an important research skill, and
+because this study is pertinent to my career interests in building the hepatology workforce and
+trainee hepatology education.
 
 The study is a single-center quantitative design running from 2014 to 2018, creating a mandatory
 two-week inpatient hepatology rotation with a complementary didactic curriculum, compared against
@@ -101,19 +105,33 @@ historical data from a similar cohort at the same institution. My strongest crit
 to study design, i.e., the intervention is inpatient only, while hepatology is a predominantly
 outpatient specialty, so measuring specialty interest after a one-sided clinical experience may
 not fully reflect the study aim. Regarding educational theory, the supplement credits Kolb’s
-experiential learning cycle directing study design and intervention, but the reader has to
+experiential learning cycle with directing study design and intervention, but the reader has to
 extrapolate which resident responsibility maps to which of the four steps, and learners performing
 below expectations are unaccounted for in the curricular design.
 
 One of the challenges encountered was critiquing a study based on educational theory rather than
-against its methods and design. Mikolajczyk and colleagues work with internal medicine residents,
-a population my own supplemental educational track for medical students does not reach, so the
-future goals are to extend the Enhanced Medical Education Track beyond medical school into
-residency.
+on its methods and design. Mikolajczyk and colleagues work with internal medicine residents, a
+population my own supplemental educational track for medical students does not reach, so my goal
+is to extend the Enhanced Medical Education Track beyond medical school into residency.
+
+<p><a class="dl" href="{{ '/assets/artifacts/hptt830-article-critique-1.pdf' | relative_url }}" rel="noopener" target="_blank">Download article critique #1 (PDF)<span class="sr-only"> (opens in a new tab)</span></a></p>
 
 </section>
 
-<p class="todo"><strong>5b.</strong> Artifacts under construction.</p>
+<section class="artifact" id="artifact-5b-a" markdown="1">
+
+<p class="label">Artifact 5b-A</p>
+
+## Article Critique #3
+
+**Course:** HPTT 830 – Research Analysis and Design for Health Professions Education
+{: .meta}
+
+<p class="todo"><strong>Reflection to come.</strong> The critique itself is below.</p>
+
+<p><a class="dl" href="{{ '/assets/artifacts/hptt830-article-critique-3.pdf' | relative_url }}" rel="noopener" target="_blank">Download article critique #3 (PDF)<span class="sr-only"> (opens in a new tab)</span></a></p>
+
+</section>
 
 {% comment %}
   ARTIFACT TEMPLATE — copy everything between the dashed rules out of this
@@ -125,9 +143,9 @@ residency.
   Keep the entries grouped by part: all of 5a's before any of 5b's.
 
   ----------------------------------------------------------------------------
-<section class="artifact" id="artifact-5b-a" markdown="1">
+<section class="artifact" id="artifact-5b-b" markdown="1">
 
-<p class="label">Artifact 5b-A</p>
+<p class="label">Artifact 5b-B</p>
 
 ## Title of the artifact
 
