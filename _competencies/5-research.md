@@ -29,9 +29,13 @@ artifacts:
     course: "HPTT 830"
     anchor: "artifact-5a-b"
   - label: "5b-A"
-    title: "Article Critique #3"
+    title: "Article Critique 3: Palliative Care Always: Hepatology"
     course: "HPTT 830"
     anchor: "artifact-5b-a"
+  - label: "5b-B"
+    title: "Revised Literature Review: Gamification and Improving Hepatology Knowledge for Medical Students"
+    course: "HPTT 830"
+    anchor: "artifact-5b-b"
 redirect_from:
   - /objectives/5a-research/
   - /objectives/5b-research/
@@ -122,14 +126,14 @@ is to extend the Enhanced Medical Education Track beyond medical school into res
 
 <p class="label">Artifact 5b-A</p>
 
-## Article Critique #3
+## Article Critique 3: Palliative Care Always: Hepatology
 
 **Course:** HPTT 830 – Research Analysis and Design for Health Professions Education
 {: .meta}
 
 ### Reflection
 
-Article Critique #3, completed in HPTT 830 – Research Analysis and Design for Health Professions
+Article Critique 3, completed in HPTT 830 – Research Analysis and Design for Health Professions
 Education, appraises DeNofrio and colleagues’ 2022 report on *Palliative Care Always: Hepatology*,
 a twelve-week online course training hepatologists in primary palliative care. The course ran as
 eleven modules on Stanford University’s edX platform, was completed by thirty-nine providers
@@ -148,11 +152,54 @@ The strongest feature is the longitudinal design: practice patterns were reasses
 and twenty-four months, with more than 80% of participants reporting palliative care skills in
 routine practice at one year. One of the challenges encountered was separating statistical
 significance from clinical significance. A p-value of 0.001 on a twenty-item multiple-choice test
-shows the improvement is unlikely to be chance, but the clinical implications seem minimal. I now
-ask what a significant finding would change at the bedside before accepting it as evidence, a
-question I had not been asking of educational research before this course.
+shows the improvement is unlikely to be chance, but the clinical implications seem minimal. This
+assignment has made me more careful about what a statistically significant result implies in
+practice, and I intend to carry that question into the evaluation of my own educational endeavors
+before treating a change in scores as evidence that the teaching worked.
 
-<p><a class="dl" href="{{ '/assets/artifacts/hptt830-article-critique-3.pdf' | relative_url }}" rel="noopener" target="_blank">Download article critique #3 (PDF)<span class="sr-only"> (opens in a new tab)</span></a></p>
+<p><a class="dl" href="{{ '/assets/artifacts/hptt830-article-critique-3.pdf' | relative_url }}" rel="noopener" target="_blank">Download the article critique (PDF)<span class="sr-only"> (opens in a new tab)</span></a></p>
+
+</section>
+
+
+<section class="artifact" id="artifact-5b-b" markdown="1">
+
+<p class="label">Artifact 5b-B</p>
+
+## Revised Literature Review: Gamification and Improving Hepatology Knowledge for Medical Students
+
+**Course:** HPTT 830 – Research Analysis and Design for Health Professions Education
+{: .meta}
+
+### Reflection
+
+The Revised Literature Review, written for HPTT 830 – Research Analysis and Design for Health
+Professions Education, required a thematically organized survey of the evidence underpinning my
+study, and was revised and adapted based on faculty feedback. I selected it to sit alongside the
+article critique to represent this objective because the two do opposite kinds of analysis: the
+critique tests one study against its own design, the review synthesizes evidence across three
+themes.
+
+The first theme is the learning needs of Generation Z, drawing on Eckleberry-Hunt and Shirazian
+and their colleagues: a la carte learning, individualized feedback, the flipped classroom, and
+digital natives who may lack the skills to judge what they find. The second is gamification in
+medical education, where Xu and colleagues reviewed 14 games and Surapaneni 30 articles across
+four domains. The limitations identified are key: no published studies on long-term knowledge
+retention, no standardized evaluation metrics, most work confined to a single institution, and
+little empirical evidence for gamification in summative assessment. The third is the hepatology
+curricular status quo, anchored on Pan and colleagues, whose survey of 65 incoming internal
+medicine interns found them less comfortable managing chronic liver disease than other chronic
+conditions.
+
+One of the challenges encountered was reconciling a contradiction between the articles I selected.
+Darmadi and colleagues found that a structured lecture on metabolic dysfunction-associated
+steatotic liver disease improved resident confidence and quiz scores at p<0.001 in 111 of 125
+residents, yet lecture-based teaching sits against the Generation Z learner preferences in my
+first theme. The flipped classroom is where the two findings meet and that reconciliation has
+driven my interest in online learning and in building e-modules to augment content that would
+otherwise be solely lectured.
+
+<p class="todo"><strong>Artifact file to come.</strong> The literature review is not yet attached.</p>
 
 </section>
 
@@ -166,9 +213,9 @@ question I had not been asking of educational research before this course.
   Keep the entries grouped by part: all of 5a's before any of 5b's.
 
   ----------------------------------------------------------------------------
-<section class="artifact" id="artifact-5b-b" markdown="1">
+<section class="artifact" id="artifact-5b-c" markdown="1">
 
-<p class="label">Artifact 5b-B</p>
+<p class="label">Artifact 5b-C</p>
 
 ## Title of the artifact
 
