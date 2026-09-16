@@ -25,7 +25,7 @@ artifacts:
     course: "HPTT 830"
     anchor: "artifact-5a-a"
   - label: "5a-B"
-    title: "Article Critique #1"
+    title: "Article Critique 1: Mandatory Hepatology Education for Internal Medicine Residents"
     course: "HPTT 830"
     anchor: "artifact-5a-b"
   - label: "5b-A"
@@ -88,7 +88,7 @@ is now built and is undergoing final testing before I implement the project in F
 
 <p class="label">Artifact 5a-B</p>
 
-## Article Critique #1
+## Article Critique 1: Mandatory Hepatology Education for Internal Medicine Residents
 
 **Course:** HPTT 830 – Research Analysis and Design for Health Professions Education
 {: .meta}
@@ -118,7 +118,7 @@ on its methods and design. Mikolajczyk and colleagues work with internal medicin
 population my own supplemental educational track for medical students does not reach, so my goal
 is to extend the Enhanced Medical Education Track beyond medical school into residency.
 
-<p><a class="dl" href="{{ '/assets/artifacts/hptt830-article-critique-1.pdf' | relative_url }}" rel="noopener" target="_blank">Download article critique #1 (PDF)<span class="sr-only"> (opens in a new tab)</span></a></p>
+<p><a class="dl" href="{{ '/assets/artifacts/hptt830-article-critique-1.pdf' | relative_url }}" rel="noopener" target="_blank">Download article critique 1 (PDF)<span class="sr-only"> (opens in a new tab)</span></a></p>
 
 </section>
 
@@ -177,19 +177,19 @@ The Revised Literature Review, written for HPTT 830 – Research Analysis and De
 Professions Education, required a thematically organized survey of the evidence underpinning my
 study, and was revised and adapted based on faculty feedback. I selected it to sit alongside the
 article critique to represent this objective because the two do opposite kinds of analysis: the
-critique tests one study against its own design, the review synthesizes evidence across three
+critique tests one study against its own design; the review synthesizes evidence across three
 themes.
 
 The first theme is the learning needs of Generation Z, drawing on Eckleberry-Hunt and Shirazian
 and their colleagues: a la carte learning, individualized feedback, the flipped classroom, and
 digital natives who may lack the skills to judge what they find. The second is gamification in
-medical education, where Xu and colleagues reviewed 14 games and Surapaneni 30 articles across
-four domains. The limitations identified are key: no published studies on long-term knowledge
-retention, no standardized evaluation metrics, most work confined to a single institution, and
-little empirical evidence for gamification in summative assessment. The third is the hepatology
-curricular status quo, anchored on Pan and colleagues, whose survey of 65 incoming internal
-medicine interns found them less comfortable managing chronic liver disease than other chronic
-conditions.
+medical education, where Xu and colleagues reviewed fourteen games and Surapaneni thirty articles
+across four domains. The limitations identified matter: no published studies on long-term
+knowledge retention, no standardized evaluation metrics, most work confined to a single
+institution, and little empirical evidence for gamification in summative assessment. The third is
+the hepatology curricular status quo, anchored on Pan and colleagues, whose survey of sixty-five
+incoming internal medicine interns found them less comfortable managing chronic liver disease than
+other chronic conditions.
 
 One of the challenges encountered was reconciling a contradiction between the articles I selected.
 Darmadi and colleagues found that a structured lecture on metabolic dysfunction-associated
