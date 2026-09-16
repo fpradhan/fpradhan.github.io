@@ -199,7 +199,7 @@ first theme. The flipped classroom is where the two findings meet and that recon
 driven my interest in online learning and in building e-modules to augment content that would
 otherwise be solely lectured.
 
-<p class="todo"><strong>Artifact file to come.</strong> The literature review is not yet attached.</p>
+<p><a class="dl" href="{{ '/assets/artifacts/hptt830-literature-review.pdf' | relative_url }}" rel="noopener" target="_blank">Download the literature review (PDF)<span class="sr-only"> (opens in a new tab)</span></a></p>
 
 </section>
 
