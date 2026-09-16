@@ -15,6 +15,7 @@ Downloadable artifacts go here.
 | `hptt830-article-critique-1.pdf` | artifact 5a-B |
 | `hptt830-article-critique-3.pdf` | artifact 5b-A |
 | `hptt830-literature-review.pdf` | artifact 5b-B |
+| `hptt803-mini-project-video-worksheet.pdf` | artifact 6-B |
 | `pradhan-cv.pdf` | the CV button on /resume/ and /cv/ |
 
 Artifact 2-A is an Articulate module and is linked live rather than downloaded.

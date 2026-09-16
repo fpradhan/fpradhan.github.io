@@ -157,7 +157,7 @@ assignment has made me more careful about what a statistically significant resul
 practice, and I intend to carry that question into the evaluation of my own educational endeavors
 before treating a change in scores as evidence that the teaching worked.
 
-<p><a class="dl" href="{{ '/assets/artifacts/hptt830-article-critique-3.pdf' | relative_url }}" rel="noopener" target="_blank">Download the article critique (PDF)<span class="sr-only"> (opens in a new tab)</span></a></p>
+<p><a class="dl" href="{{ '/assets/artifacts/hptt830-article-critique-3.pdf' | relative_url }}" rel="noopener" target="_blank">Download article critique 3 (PDF)<span class="sr-only"> (opens in a new tab)</span></a></p>
 
 </section>
 
