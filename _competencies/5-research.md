@@ -127,7 +127,30 @@ is to extend the Enhanced Medical Education Track beyond medical school into res
 **Course:** HPTT 830 – Research Analysis and Design for Health Professions Education
 {: .meta}
 
-<p class="todo"><strong>Reflection to come.</strong> The critique itself is below.</p>
+### Reflection
+
+Article Critique 3, completed in HPTT 830 – Research Analysis and Design for Health Professions
+Education, appraises DeNofrio and colleagues’ 2022 report on Palliative Care Always: Hepatology, a
+twelve-week online course training hepatologists in primary palliative care. The course ran as
+eleven modules on Stanford University’s edX platform, was completed by thirty-nine providers
+across ten clinical sites, and formed the educational arm of the larger PAL-LIVER trial. I
+selected this artifact to represent objective 5b because interdisciplinary collaboration is
+embodied in the study design and involves adult learners.
+
+Most of the critique is an argument about how the statistical findings are represented. The
+examination mean score rose from 85.9% to 91.3%, with a confidence interval of 2.8 to 9.2 and a
+p-value of 0.001. On a twenty-item test that difference is one additional question. The high
+pretest score, in a cohort where most participants had no formal palliative care training, points
+to an instrument that may not be sensitive enough to measure baseline knowledge, and no item
+development or validation is reported.
+
+The strongest feature is the longitudinal design: practice patterns were reassessed at six, twelve
+and twenty-four months, with more than 80% of participants reporting palliative care skills in
+routine practice at one year. One of the challenges encountered was separating statistical
+significance from clinical significance. A p-value of 0.001 on a twenty-item multiple-choice test
+shows the improvement is unlikely to be chance, but the clinical implications seem minimal. I now
+ask what a significant finding would change at the bedside before accepting it as evidence, a
+question I had not been asking of educational research before this course.
 
 <p><a class="dl" href="{{ '/assets/artifacts/hptt830-article-critique-3.pdf' | relative_url }}" rel="noopener" target="_blank">Download article critique #3 (PDF)<span class="sr-only"> (opens in a new tab)</span></a></p>
 
