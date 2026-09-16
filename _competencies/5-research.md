@@ -129,9 +129,9 @@ is to extend the Enhanced Medical Education Track beyond medical school into res
 
 ### Reflection
 
-Article Critique 3, completed in HPTT 830 – Research Analysis and Design for Health Professions
-Education, appraises DeNofrio and colleagues’ 2022 report on Palliative Care Always: Hepatology, a
-twelve-week online course training hepatologists in primary palliative care. The course ran as
+Article Critique #3, completed in HPTT 830 – Research Analysis and Design for Health Professions
+Education, appraises DeNofrio and colleagues’ 2022 report on *Palliative Care Always: Hepatology*,
+a twelve-week online course training hepatologists in primary palliative care. The course ran as
 eleven modules on Stanford University’s edX platform, was completed by thirty-nine providers
 across ten clinical sites, and formed the educational arm of the larger PAL-LIVER trial. I
 selected this artifact to represent objective 5b because interdisciplinary collaboration is
