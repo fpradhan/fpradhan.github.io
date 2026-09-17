@@ -38,14 +38,13 @@ to be built, linked, placed on the SAMR model, and reflected upon after completi
 this artifact to represent objective 6 because it is the one place in the portfolio where I tested
 a range of educational technologies against my own content and recorded an assessment of each.
 
-Several of the projects have since entered my teaching. A ThingLink augmented image of a Fibroscan
-device lets students explore the equipment before they meet it on clinical rotation. MagicSchool
-AI generated pre-lecture worksheets for self-completion, and I chose it over Diffit because it
-held a graduate reading level rather than reducing the material to a secondary-school one.
-JeopardyLabs produced a liver disease game and proved the least demanding of the several quiz
-platforms I have tried. The video work combined Prezi with PowerPoint screen recording, Explain
-Everything for a three-dimensional printer demonstration, and Google Earth with ScreenPal for a
-virtual field trip.
+A wide variety of educational technologies were investigated through this assignment. A ThingLink
+augmented image of a Fibroscan device lets students explore the equipment before they encounter it
+on clinical rotation. MagicSchool AI generated pre-lecture worksheets for self-completion, and I
+chose it over Diffit because it held a graduate reading level rather than reducing the material to
+a secondary-school one. JeopardyLabs was used to produce a liver disease Jeopardy-style game. The
+video work combined Prezi with PowerPoint screen recording, Explain Everything for a
+three-dimensional printer demonstration, and Google Earth with ScreenPal for a virtual field trip.
 
 One of the challenges encountered was accepting that some of the tools had several locked features
 behind paywalls. The free version of Prezi blocked audio recording and captions, and its fixed
