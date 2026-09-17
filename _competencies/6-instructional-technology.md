@@ -54,11 +54,11 @@ better engage learners. The two tables also cover both settings named in this ob
 classroom and asynchronous distance delivery.
 
 One of the challenges encountered was resisting the pull towards simple substitution. Redefinition
-sounds the most impressive, often takes an increased amount of work for development but also on
-the learner for adaptation. Deciding where a task truly benefited, rather than where the
-technology was most novel, was the more difficult part. I intend to carry that judgment into the
-Enhanced Medical Education Track, where I am selecting tools for the didactic and asynchronous
-components and continue to evolve the program.
+sounds the most impressive, but it takes more work to develop and more adaptation from the
+learner. Deciding where a task truly benefited, rather than where the technology was most novel,
+was the more difficult part. I intend to carry that judgment into the Enhanced Medical Education
+Track, where I am selecting tools for the didactic and asynchronous components and continuing to
+evolve the program.
 
 <p><a class="dl" href="{{ '/assets/artifacts/hptt803-samr-model-worksheet.pdf' | relative_url }}" rel="noopener" target="_blank">Download the SAMR worksheet (PDF)<span class="sr-only"> (opens in a new tab)</span></a></p>
 
