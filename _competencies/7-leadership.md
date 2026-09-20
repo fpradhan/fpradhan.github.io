@@ -32,6 +32,10 @@ artifacts:
     title: "Portal Hypertension: A Systemic Disease"
     course: "UNMC E-Learning Awards"
     anchor: "artifact-7b-a"
+  - label: "7b-B"
+    title: "Combined Medical and Surgical Integrated Track in Liver Transplantation"
+    course: "UNMC College of Medicine"
+    anchor: "artifact-7b-b"
 redirect_from:
   - /objectives/7a-leadership/
   - /objectives/7b-leadership/
@@ -158,6 +162,47 @@ across multiple schools.
 
 </section>
 
+
+<section class="artifact" id="artifact-7b-b" markdown="1">
+
+<p class="label">Artifact 7b-B</p>
+
+## Combined Medical and Surgical Integrated Track in Liver Transplantation
+
+**Program:** Enhanced Medical Education Track, University of Nebraska Medical Center College of Medicine
+{: .meta}
+
+### Reflection
+
+This presentation describes the Combined Medical and Surgical Integrated Track in Liver
+Transplantation, an Enhanced Medical Education Track within the University of Nebraska Medical
+Center College of Medicine, for which I am Faculty Director alongside core faculty in transplant
+surgery and transplant hepatology. It is professional work rather than coursework. I selected this
+artifact to represent objective 7b because I founded the track and now have 7 medical students
+enrolled across three years.
+
+The track comprises of four domains in every year: clinical, didactics, scholarly and
+interprofessional. First-year students tour organ preservation and the blood bank and sit in on a
+patient selection committee. Second-year students rotate with pharmacists on immunosuppression and
+with dietitians on nutritional evaluation, and observe an organ recovery. Third-year students
+complete a three-week Hepatology rotation split across outpatient, pre-transplant and
+post-transplant care, and present a journal article to faculty. Fourth-year students complete a
+sub-internship in transplant surgery and submit a capstone abstract to a national conference.
+Track completion is recognized in the Medical Student Performance Evaluation.
+
+One of the challenges encountered was sustaining engagement across four years when the capstone
+does not conclude until the final one. I completed preliminary end of year surveys, with
+reassuring findings, as every respondent reported increased interest in hepatology after
+participating, from a baseline where most were unsure or not interested. Kobashigawa and
+colleagues (including myself) published a peer-reviewed article in the American Journal of
+Transplantation in 2025, naming the track as a model educational pathway that could be shared with
+medical schools as a toolkit. I intend to use that recognition to take the track regional with
+conversations currently underway at Northwestern University.
+
+<p class="todo"><strong>Artifact file to come.</strong> The presentation is not yet attached.</p>
+
+</section>
+
 {% comment %}
   ARTIFACT TEMPLATE — copy everything between the dashed rules out of this
   comment, once per artifact, and fill it in. Nothing inside a Liquid comment
@@ -168,9 +213,9 @@ across multiple schools.
   Keep the entries grouped by part: all of 7a's before any of 7b's.
 
   ----------------------------------------------------------------------------
-<section class="artifact" id="artifact-7b-b" markdown="1">
+<section class="artifact" id="artifact-7b-c" markdown="1">
 
-<p class="label">Artifact 7b-B</p>
+<p class="label">Artifact 7b-C</p>
 
 ## Title of the artifact
 
