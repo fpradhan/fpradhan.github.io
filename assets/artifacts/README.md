@@ -17,6 +17,7 @@ Downloadable artifacts go here.
 | `hptt830-literature-review.pdf` | artifact 5b-B |
 | `hptt803-samr-model-worksheet.pdf` | artifact 6-A |
 | `hptt803-mini-project-video-worksheet.pdf` | artifact 6-B |
+| `hptt823-nutrition-strategic-plan.pdf` | artifact 7a-A |
 | `pradhan-cv.pdf` | the CV button on /resume/ and /cv/ |
 
 Artifact 2-A is an Articulate module and is linked live rather than downloaded.

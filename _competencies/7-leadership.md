@@ -19,7 +19,11 @@ statements:
 # One entry per artifact — label, title, course, and the anchor of its
 # <section> in the body below. Drives the jump list here and the artifact
 # list on /objectives/. Keep them grouped by part: every 7a before any 7b.
-artifacts: []
+artifacts:
+  - label: "7a-A"
+    title: "Nutritional Success & Liver Transplantation"
+    course: "HPTT 823"
+    anchor: "artifact-7a-a"
 redirect_from:
   - /objectives/7a-leadership/
   - /objectives/7b-leadership/
@@ -27,7 +31,44 @@ redirect_from:
   - /artifacts/7b-leadership/
 ---
 
-<p class="todo"><strong>7a.</strong> Artifacts under construction.</p>
+<section class="artifact" id="artifact-7a-a" markdown="1">
+
+<p class="label">Artifact 7a-A</p>
+
+## Nutritional Success & Liver Transplantation
+
+**Course:** HPTT 823 – Leadership in Health Professions Education
+{: .meta}
+
+### Reflection
+
+The purpose of this capstone project in HPTT 823 – Leadership in Health Professions Education was
+to develop a strategic plan with a supporting document and a presentation, taken through formal
+peer review. The plan proposes screening every liver transplant candidate for vitamin A, vitamin
+C, vitamin D, vitamin E, zinc and copper deficiency before surgery, with a standardized repletion
+protocol and post-transplant outcome tracking. I selected this artifact to represent objective 7a
+because the administrative elements are the substance of the plan: the multidisciplinary working
+group, the phased implementation pathway, and the post-implementation audit.
+
+The plan is built in three phases. The first forms a multidisciplinary working group of transplant
+hepatologists, dietitians, pharmacists, advanced practice providers and the transplant hepatology
+fellow, and writes the protocol. The second integrates the laboratory panel into the existing
+pre-surgical order set and pilots it on isolated liver transplant recipients while tracking
+process metrics. The third rolls the protocol out program-wide with an annual audit of adherence.
+The educational component sits within the second phase, where the fellow collaborates with a
+biostatistician to collect and analyze the data, presents the findings to the working group, and
+carries them to publication.
+
+One of the challenges encountered was the peer review itself. My first draft was framed around
+pre-transplant nutritional optimization, and the reviewed version moved the emphasis to
+post-transplant outcomes, since length of index stay, wound complications and readmissions are
+what the program can actually measure. Since completing this capstone project I have taken the
+first phase through to implementation, as the repletion protocol is written and the order sets are
+now in routine use. Data collection and analysis follow, with completion planned for 2027.
+
+<p><a class="dl" href="{{ '/assets/artifacts/hptt823-nutrition-strategic-plan.pdf' | relative_url }}" rel="noopener" target="_blank">Download the strategic plan presentation (PDF)<span class="sr-only"> (opens in a new tab)</span></a></p>
+
+</section>
 
 <p class="todo"><strong>7b.</strong> Artifacts under construction.</p>
 
@@ -41,9 +82,9 @@ redirect_from:
   Keep the entries grouped by part: all of 7a's before any of 7b's.
 
   ----------------------------------------------------------------------------
-<section class="artifact" id="artifact-7a-a" markdown="1">
+<section class="artifact" id="artifact-7a-b" markdown="1">
 
-<p class="label">Artifact 7a-A</p>
+<p class="label">Artifact 7a-B</p>
 
 ## Title of the artifact
 
