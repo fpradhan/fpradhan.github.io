@@ -105,9 +105,9 @@ simulation per student and a ten-minute debrief.
 
 One of the challenges encountered was compressing the orientation into twenty minutes. The whole
 activity runs to an hour, so orientation could not expand without taking time from the simulation
-or debrief, yet three goals across three domains had to be addressed. Over the next 1-2 years, my
-aim is to identify funding and work collaboratively with the UNMC simulation lab to further
-develop this activity.
+or debrief, yet three goals across three domains had to be addressed. Over the next one to two
+years, my aim is to identify funding and work collaboratively with the UNMC simulation lab to
+further develop this activity.
 
 <p><a class="dl" href="{{ '/assets/artifacts/hptt840-orientation-onboarding-plan.pdf' | relative_url }}" rel="noopener" target="_blank">Download the orientation and onboarding plan (PDF)<span class="sr-only"> (opens in a new tab)</span></a></p>
 
