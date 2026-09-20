@@ -28,6 +28,10 @@ artifacts:
     title: "Orientation and Onboarding Plan"
     course: "HPTT 840"
     anchor: "artifact-7a-b"
+  - label: "7b-A"
+    title: "Portal Hypertension: A Systemic Disease"
+    course: "UNMC E-Learning Awards"
+    anchor: "artifact-7b-a"
 redirect_from:
   - /objectives/7a-leadership/
   - /objectives/7b-leadership/
@@ -113,7 +117,46 @@ further develop this activity.
 
 </section>
 
-<p class="todo"><strong>7b.</strong> Artifacts under construction.</p>
+<section class="artifact" id="artifact-7b-a" markdown="1">
+
+<p class="label">Artifact 7b-A</p>
+
+## Portal Hypertension: A Systemic Disease
+
+**Program:** University of Nebraska Medical Center E-Learning Awards Program, 2024–2025
+{: .meta}
+
+### Reflection
+
+*Portal Hypertension: A Systemic Disease* is an e-Learning module produced through the University
+of Nebraska Medical Center E-Learning Awards Program for the 2024-2025 cohort, where I served as
+Faculty Project Director with funding from the Senior Vice Chancellor for Academic Affairs. This
+artifact is professional work rather than HPTT coursework. I selected it to represent objective 7b
+because the leadership lay in directing the project rather than building it, and because it
+documents my mentorship of two medical student module developers, Marissa Baker and Taylor Pitzl,
+College of Medicine Class of 2027.
+
+The module follows Linda, a patient with metabolic dysfunction-associated steatotic liver disease
+and cirrhosis, whose clinical condition deteriorates through the development of ascites,
+esophageal varices and hepatic encephalopathy. Learners work through her transplant evaluation and
+calculate her Model for End-Stage Liver Disease 3.0 score from her own laboratory results using a
+calculator built into the module. The inspiration for the module is curricular, based on a need
+the students identified. The College of Medicine curriculum is organized by organ block, so a
+disease whose complications are renal, hematologic, neurologic and cardiovascular is taught in
+fragments. This module was built deliberately across blocks to create connections across organ
+systems.
+
+One of the challenges encountered was directing the work rather than doing it myself, especially
+as I had recently completed HPTT 825 – Essentials of E-Module Development and was tempted to be
+more hands-on during development. Reviewing their drafts let me maintain clinical accuracy while
+leaving the design choices to them, which mattered because as medical students they would be able
+to tailor the content to their peers. This module is the model I intend to use when developing
+future asynchronous content, and when creating an online module series to benefit medical students
+across multiple schools.
+
+<p><a class="dl ext" href="https://www.unmc.edu/elearning/egallery/portal-hypertension/" rel="noopener" target="_blank">Open the portal hypertension module<span class="sr-only"> (opens in a new tab)</span></a></p>
+
+</section>
 
 {% comment %}
   ARTIFACT TEMPLATE — copy everything between the dashed rules out of this
@@ -125,9 +168,9 @@ further develop this activity.
   Keep the entries grouped by part: all of 7a's before any of 7b's.
 
   ----------------------------------------------------------------------------
-<section class="artifact" id="artifact-7b-a" markdown="1">
+<section class="artifact" id="artifact-7b-b" markdown="1">
 
-<p class="label">Artifact 7b-A</p>
+<p class="label">Artifact 7b-B</p>
 
 ## Title of the artifact
 

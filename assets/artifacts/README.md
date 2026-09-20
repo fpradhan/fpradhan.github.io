@@ -21,7 +21,7 @@ Downloadable artifacts go here.
 | `hptt840-orientation-onboarding-plan.pdf` | artifact 7a-B |
 | `pradhan-cv.pdf` | the CV button on /resume/ and /cv/ |
 
-Artifact 2-A is an Articulate module and is linked live rather than downloaded.
+Artifacts 2-A and 7b-A are hosted modules and are linked live rather than downloaded.
 
 ## Naming
 
