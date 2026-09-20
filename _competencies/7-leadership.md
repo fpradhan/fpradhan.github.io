@@ -24,6 +24,10 @@ artifacts:
     title: "Nutritional Success & Liver Transplantation"
     course: "HPTT 823"
     anchor: "artifact-7a-a"
+  - label: "7a-B"
+    title: "Orientation and Onboarding Plan"
+    course: "HPTT 840"
+    anchor: "artifact-7a-b"
 redirect_from:
   - /objectives/7a-leadership/
   - /objectives/7b-leadership/
@@ -70,6 +74,45 @@ now in routine use. Data collection and analysis follow, with completion planned
 
 </section>
 
+<section class="artifact" id="artifact-7a-b" markdown="1">
+
+<p class="label">Artifact 7a-B</p>
+
+## Orientation and Onboarding Plan
+
+**Course:** HPTT 840 – Foundations of Clinical Teaching
+{: .meta}
+
+### Reflection
+
+The purpose of this assignment in HPTT 840 – Foundations of Clinical Teaching was to design an
+onboarding and orientation plan for a new clinical teaching activity that I had proposed earlier
+in the course. My plan covers two third-year medical students on a three-week Hepatology
+clerkship, preparing for a simulated paracentesis. I selected this artifact to represent objective
+7a because orientation comprises administrative work, including decisions about expectations,
+pre-activity documents, simulation timing and roles that need to be presented to the learner up
+front.
+
+The plan is written against a specific learner profile, and includes addressing a common clinical
+misconception, i.e., the belief that an elevated international normalized ratio in chronic liver
+disease implies increased bleeding risk. Three orientation goals then follow: recalling the
+components of the serum-ascites albumin gradient and at least two etiologies of ascites,
+identifying equipment and key anatomical landmarks against a standardized checklist, and
+recognizing the procedure safety parameters. Onboarding is a single twenty-minute block on the day
+of the simulation, covering objectives, checklist and case framing, independent review of a
+one-page guideline summary, and a facilitated question period, ahead of fifteen minutes of
+simulation per student and a ten-minute debrief.
+
+One of the challenges encountered was compressing the orientation into twenty minutes. The whole
+activity runs to an hour, so orientation could not expand without taking time from the simulation
+or debrief, yet three goals across three domains had to be addressed. Over the next 1-2 years, my
+aim is to identify funding and work collaboratively with the UNMC simulation lab to further
+develop this activity.
+
+<p><a class="dl" href="{{ '/assets/artifacts/hptt840-orientation-onboarding-plan.pdf' | relative_url }}" rel="noopener" target="_blank">Download the orientation and onboarding plan (PDF)<span class="sr-only"> (opens in a new tab)</span></a></p>
+
+</section>
+
 <p class="todo"><strong>7b.</strong> Artifacts under construction.</p>
 
 {% comment %}
@@ -82,9 +125,9 @@ now in routine use. Data collection and analysis follow, with completion planned
   Keep the entries grouped by part: all of 7a's before any of 7b's.
 
   ----------------------------------------------------------------------------
-<section class="artifact" id="artifact-7a-b" markdown="1">
+<section class="artifact" id="artifact-7b-a" markdown="1">
 
-<p class="label">Artifact 7a-B</p>
+<p class="label">Artifact 7b-A</p>
 
 ## Title of the artifact
 
