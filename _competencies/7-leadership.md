@@ -183,7 +183,7 @@ enrolled across three years.
 
 The track comprises four domains in every year: clinical, didactics, scholarly and
 interprofessional. First-year students tour organ preservation and the blood bank. Second-year
-students sit in on a patient selection committee. Third-year students complete a three-week
+students sit in on a transplant selection committee. Third-year students complete a three-week
 Hepatology rotation split across outpatient, pre-transplant and post-transplant care, and observe
 an organ recovery. They also rotate with pharmacists on immunosuppression and with dietitians on
 nutritional evaluation, and present a journal article to faculty. Fourth-year students complete a
