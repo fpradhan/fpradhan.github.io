@@ -24,6 +24,10 @@ artifacts:
     title: "Psychometric Analysis"
     course: "HPTT 805"
     anchor: "artifact-8a-a"
+  - label: "8a-B"
+    title: "Test Blueprint"
+    course: "HPTT 805"
+    anchor: "artifact-8a-b"
 redirect_from:
   - /objectives/8a-learner-assessment/
   - /objectives/8b-learner-assessment/
@@ -68,6 +72,44 @@ data.
 
 </section>
 
+<section class="artifact" id="artifact-8a-b" markdown="1">
+
+<p class="label">Artifact 8a-B</p>
+
+## Test Blueprint
+
+**Course:** HPTT 805 – Evaluation and Assessment of Teaching and Learning in Health Professions Education
+{: .meta}
+
+### Reflection
+
+The purpose of this assignment in HPTT 805 – Evaluation and Assessment of Teaching and Learning in
+Health Professions Education was to develop a blueprint for a summative examination given to
+medical students at the end of a Hepatology lecture series, specifying content areas, learning
+objectives, taxonomic levels, weighting and item types. I selected this artifact to represent
+objective 8a because building the blueprint required me to evaluate what the lecture series
+covered, and at what level, before assessing any student against it.
+
+The blueprint comprises three content areas, each with its own objectives: approaching patients
+with chronic liver disease, liver anatomy and physiology, and elevated liver enzymes. These carry
+30%, 40% and 30% of the examination respectively. Across them, three levels of Bloom’s taxonomy
+are weighted at 35% knowledge, 30% comprehension and 35% application. Liver anatomy and physiology
+draws the largest share of knowledge items, while elevated liver enzymes is almost entirely
+comprehension and application, which matches what a student would be asked to do with such a
+patient in clinic.
+
+One of the challenges encountered was deciding how to weight the three content areas against one
+another. Liver anatomy and physiology takes the most lecture time, as these are the foundational
+topics that the clinical content builds on. That being said, hepatology clinical rotations are not
+mandatory in the current medical school curriculum, so I felt it was more important to secure
+those foundations than to weight the examination towards the clinical areas. In an ideal world
+hepatology would be a core rotation for medical students, and if that changed I would adapt the
+blueprint accordingly.
+
+<p><a class="dl" href="{{ '/assets/artifacts/hptt805-test-blueprint.pdf' | relative_url }}" rel="noopener" target="_blank">Download the test blueprint (PDF)<span class="sr-only"> (opens in a new tab)</span></a></p>
+
+</section>
+
 <p class="todo"><strong>8b.</strong> Artifacts under construction.</p>
 
 {% comment %}
@@ -80,9 +122,9 @@ data.
   Keep the entries grouped by part: all of 8a's before any of 8b's.
 
   ----------------------------------------------------------------------------
-<section class="artifact" id="artifact-8a-b" markdown="1">
+<section class="artifact" id="artifact-8b-a" markdown="1">
 
-<p class="label">Artifact 8a-B</p>
+<p class="label">Artifact 8b-A</p>
 
 ## Title of the artifact
 
