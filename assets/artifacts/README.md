@@ -19,6 +19,7 @@ Downloadable artifacts go here.
 | `hptt803-mini-project-video-worksheet.pdf` | artifact 6-B |
 | `hptt823-nutrition-strategic-plan.pdf` | artifact 7a-A |
 | `hptt840-orientation-onboarding-plan.pdf` | artifact 7a-B |
+| `emet-liver-transplant-track-curriculum.pdf` | artifact 7b-B |
 | `pradhan-cv.pdf` | the CV button on /resume/ and /cv/ |
 
 Artifacts 2-A and 7b-A are hosted modules and are linked live rather than downloaded.

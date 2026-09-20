@@ -199,7 +199,7 @@ Transplantation in 2025, naming the track as a model educational pathway that co
 medical schools as a toolkit. I intend to use that recognition to take the track regional with
 conversations currently underway at Northwestern University.
 
-<p class="todo"><strong>Artifact file to come.</strong> The presentation is not yet attached.</p>
+<p><a class="dl" href="{{ '/assets/artifacts/emet-liver-transplant-track-curriculum.pdf' | relative_url }}" rel="noopener" target="_blank">Download the track curriculum (PDF)<span class="sr-only"> (opens in a new tab)</span></a></p>
 
 </section>
 
