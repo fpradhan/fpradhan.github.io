@@ -110,8 +110,8 @@ simulation per student and a ten-minute debrief.
 One of the challenges encountered was compressing the orientation into twenty minutes. The whole
 activity runs to an hour, so orientation could not expand without taking time from the simulation
 or debrief, yet three goals across three domains had to be addressed. Over the next one to two
-years, my aim is to identify funding and work collaboratively with the UNMC simulation lab to
-further develop this activity.
+years, my aim is to identify funding and work collaboratively with the University of Nebraska
+Medical Center (UNMC) simulation lab to further develop this activity.
 
 <p><a class="dl" href="{{ '/assets/artifacts/hptt840-orientation-onboarding-plan.pdf' | relative_url }}" rel="noopener" target="_blank">Download the orientation and onboarding plan (PDF)<span class="sr-only"> (opens in a new tab)</span></a></p>
 
@@ -129,7 +129,7 @@ further develop this activity.
 ### Reflection
 
 *Portal Hypertension: A Systemic Disease* is an e-Learning module produced through the University
-of Nebraska Medical Center E-Learning Awards Program for the 2024-2025 cohort, where I served as
+of Nebraska Medical Center E-Learning Awards Program for the 2024–2025 cohort, where I served as
 Faculty Project Director with funding from the Senior Vice Chancellor for Academic Affairs. This
 artifact is professional work rather than HPTT coursework. I selected it to represent objective 7b
 because the leadership lay in directing the project rather than building it, and because it
