@@ -178,10 +178,10 @@ This presentation describes the Combined Medical and Surgical Integrated Track i
 Transplantation, an Enhanced Medical Education Track within the University of Nebraska Medical
 Center College of Medicine, for which I am Faculty Director alongside core faculty in transplant
 surgery and transplant hepatology. It is professional work rather than coursework. I selected this
-artifact to represent objective 7b because I founded the track and now have 7 medical students
+artifact to represent objective 7b because I founded the track and now have seven medical students
 enrolled across three years.
 
-The track comprises of four domains in every year: clinical, didactics, scholarly and
+The track comprises four domains in every year: clinical, didactics, scholarly and
 interprofessional. First-year students tour organ preservation and the blood bank and sit in on a
 patient selection committee. Second-year students rotate with pharmacists on immunosuppression and
 with dietitians on nutritional evaluation, and observe an organ recovery. Third-year students
@@ -191,13 +191,13 @@ sub-internship in transplant surgery and submit a capstone abstract to a nationa
 Track completion is recognized in the Medical Student Performance Evaluation.
 
 One of the challenges encountered was sustaining engagement across four years when the capstone
-does not conclude until the final one. I completed preliminary end of year surveys, with
+does not conclude until the final one. I completed preliminary end-of-year surveys, with
 reassuring findings, as every respondent reported increased interest in hepatology after
-participating, from a baseline where most were unsure or not interested. Kobashigawa and
-colleagues (including myself) published a peer-reviewed article in the American Journal of
-Transplantation in 2025, naming the track as a model educational pathway that could be shared with
-medical schools as a toolkit. I intend to use that recognition to take the track regional with
-conversations currently underway at Northwestern University.
+participating, from a baseline where most were unsure or not interested. A peer-reviewed paper I
+co-authored with Kobashigawa and colleagues, published in the American Journal of Transplantation
+in 2025, names the track as a model educational pathway that could be shared with medical schools
+as a toolkit. I intend to use that recognition to take the track regional with conversations
+currently underway at Northwestern University.
 
 <p><a class="dl" href="{{ '/assets/artifacts/emet-liver-transplant-track-curriculum.pdf' | relative_url }}" rel="noopener" target="_blank">Download the track curriculum (PDF)<span class="sr-only"> (opens in a new tab)</span></a></p>
 
