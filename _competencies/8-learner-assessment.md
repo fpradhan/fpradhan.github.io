@@ -59,10 +59,10 @@ in the cohort’s foundational preparation, or a compromised examination.
 
 One of the challenges encountered was that the same index means different things depending on what
 an item was written to do. A difficulty near 0.9 sits just below goal on a competency item and far
-too high on a discrimination item, however nothing in the report identifies which was the question
-intent. Going forward, I intend to run this analysis on assessments I am responsible for, and
-adapting the questions that I write for my medical school lectures based on the provided
-psychometric data.
+too high on a discrimination item; however, nothing in the report identifies the question’s
+intent. Going forward, I intend to run this analysis on assessments I am responsible for, and to
+adapt the questions that I write for my medical school lectures based on the provided psychometric
+data.
 
 <p><a class="dl" href="{{ '/assets/artifacts/hptt805-psychometric-analysis.pdf' | relative_url }}" rel="noopener" target="_blank">Download the psychometric analysis (PDF)<span class="sr-only"> (opens in a new tab)</span></a></p>
 
