@@ -92,19 +92,19 @@ covered, and at what level, before assessing any student against it.
 
 The blueprint comprises three content areas, each with its own objectives: approaching patients
 with chronic liver disease, liver anatomy and physiology, and elevated liver enzymes. These carry
-30%, 40% and 30% of the examination respectively. Across them, three levels of Bloom’s taxonomy
-are weighted at 35% knowledge, 30% comprehension and 35% application. Liver anatomy and physiology
-draws the largest share of knowledge items, while elevated liver enzymes is almost entirely
-comprehension and application, which matches what a student would be asked to do with such a
-patient in clinic.
+five, seven and eight of the twenty multiple-choice items respectively. Across them, three levels
+of Bloom’s taxonomy are weighted at 35% knowledge, 30% comprehension and 35% application. Liver
+anatomy and physiology draws the largest share of knowledge items, while elevated liver enzymes is
+entirely comprehension and application, which matches what a student would be asked to do with
+such a patient in clinic.
 
 One of the challenges encountered was deciding how to weight the three content areas against one
-another. Liver anatomy and physiology takes the most lecture time, as these are the foundational
-topics that the clinical content builds on. That being said, hepatology clinical rotations are not
-mandatory in the current medical school curriculum, so I felt it was more important to secure
-those foundations than to weight the examination towards the clinical areas. In an ideal world
-hepatology would be a core rotation for medical students, and if that changed I would adapt the
-blueprint accordingly.
+another. Liver anatomy and physiology takes some of the most lecture time and carries the largest
+share of knowledge items, as these are the foundational topics that the clinical content builds
+on. That being said, hepatology clinical rotations are not mandatory in our curriculum, so I felt
+it was more important to secure those foundations than to weight the examination towards the
+clinical areas. In an ideal world hepatology would be a core rotation for medical students, and if
+that changed I would adapt the blueprint accordingly.
 
 <p><a class="dl" href="{{ '/assets/artifacts/hptt805-test-blueprint.pdf' | relative_url }}" rel="noopener" target="_blank">Download the test blueprint (PDF)<span class="sr-only"> (opens in a new tab)</span></a></p>
 
