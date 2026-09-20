@@ -182,11 +182,11 @@ artifact to represent objective 7b because I founded the track and now have seve
 enrolled across three years.
 
 The track comprises four domains in every year: clinical, didactics, scholarly and
-interprofessional. First-year students tour organ preservation and the blood bank and sit in on a
-patient selection committee. Second-year students rotate with pharmacists on immunosuppression and
-with dietitians on nutritional evaluation, and observe an organ recovery. Third-year students
-complete a three-week Hepatology rotation split across outpatient, pre-transplant and
-post-transplant care, and present a journal article to faculty. Fourth-year students complete a
+interprofessional. First-year students tour organ preservation and the blood bank. Second-year
+students sit in on a patient selection committee. Third-year students complete a three-week
+Hepatology rotation split across outpatient, pre-transplant and post-transplant care, and observe
+an organ recovery. They also rotate with pharmacists on immunosuppression and with dietitians on
+nutritional evaluation, and present a journal article to faculty. Fourth-year students complete a
 sub-internship in transplant surgery and submit a capstone abstract to a national conference.
 Track completion is recognized in the Medical Student Performance Evaluation.
 
@@ -194,10 +194,10 @@ One of the challenges encountered was sustaining engagement across four years wh
 does not conclude until the final one. I completed preliminary end-of-year surveys, with
 reassuring findings, as every respondent reported increased interest in hepatology after
 participating, from a baseline where most were unsure or not interested. A peer-reviewed paper I
-co-authored with Kobashigawa and colleagues, published in the American Journal of Transplantation
-in 2025, names the track as a model educational pathway that could be shared with medical schools
-as a toolkit. I intend to use that recognition to take the track regional with conversations
-currently underway at Northwestern University.
+co-authored with Kobashigawa and colleagues, published in the *American Journal of
+Transplantation* in 2025, names the track as a model educational pathway that could be shared with
+medical schools as a toolkit. I intend to use that recognition to take the track regional with
+conversations currently underway at Northwestern University.
 
 <p><a class="dl" href="{{ '/assets/artifacts/emet-liver-transplant-track-curriculum.pdf' | relative_url }}" rel="noopener" target="_blank">Download the track curriculum (PDF)<span class="sr-only"> (opens in a new tab)</span></a></p>
 
