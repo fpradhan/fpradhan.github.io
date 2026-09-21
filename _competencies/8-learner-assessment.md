@@ -28,6 +28,10 @@ artifacts:
     title: "Test Blueprint"
     course: "HPTT 805"
     anchor: "artifact-8a-b"
+  - label: "8b-A"
+    title: "SBAR Course Project: Recommendation"
+    course: "HPTT 805"
+    anchor: "artifact-8b-a"
 redirect_from:
   - /objectives/8a-learner-assessment/
   - /objectives/8b-learner-assessment/
@@ -110,7 +114,46 @@ that changed I would adapt the blueprint accordingly.
 
 </section>
 
-<p class="todo"><strong>8b.</strong> Artifacts under construction.</p>
+<section class="artifact" id="artifact-8b-a" markdown="1">
+
+<p class="label">Artifact 8b-A</p>
+
+## SBAR Course Project: Recommendation
+
+**Course:** HPTT 805 – Evaluation and Assessment of Teaching and Learning in Health Professions Education
+{: .meta}
+
+### Reflection
+
+The SBAR Course Project in HPTT 805 – Evaluation and Assessment of Teaching and Learning in Health
+Professions Education was submitted as four separate assignments, each carrying the earlier
+sections forward, so the Recommendation document contains all four. It addresses how endoscopic
+competency is judged within our gastroenterology fellowship and proposes a new means of
+assessment. I selected the Recommendation section to represent objective 8b because it is the part
+that designs a solution rather than describing a problem, and one I am able to implement within my
+own program.
+
+The Situation and Background sections set out the status quo. American Board of Internal Medicine
+milestones are vague on endoscopic competency, the 2007 national core curriculum recommended 130
+upper endoscopies and 140 colonoscopies before competence was assessed, and the 2014 update
+removed those thresholds without replacing them. The Assessment section compared three validated
+instruments against criteria I set in advance: generalizability, time to complete, examiner
+training, cost and repeatability. I recommended the Skill Assessment in Fellow Endoscopy Training
+(SAFE-T) tool because it covers both upper endoscopy and colonoscopy, is five questions long, and
+needs minimal examiner training.
+
+I proposed that five endoscopies be reviewed every six months by at least two supervising
+attendings, on paper rather than online, and timed to the existing clinical competency committee
+meeting so that no new meeting is created. One of the challenges encountered was that none of the
+three tools was a complete fit. The barriers are also not financial, as the tool is free to use
+but assessor time and attending buy-in are not. An assessment is only useful if something follows
+from it, so a fellow scoring below expectation would have their schedule adjusted to allow more
+endoscopy time. I have already had preliminary conversations with fellowship leadership about
+implementation.
+
+<p><a class="dl" href="{{ '/assets/artifacts/hptt805-sbar-recommendation.pdf' | relative_url }}" rel="noopener" target="_blank">Download the SBAR recommendation (PDF)<span class="sr-only"> (opens in a new tab)</span></a></p>
+
+</section>
 
 {% comment %}
   ARTIFACT TEMPLATE — copy everything between the dashed rules out of this
@@ -122,9 +165,9 @@ that changed I would adapt the blueprint accordingly.
   Keep the entries grouped by part: all of 8a's before any of 8b's.
 
   ----------------------------------------------------------------------------
-<section class="artifact" id="artifact-8b-a" markdown="1">
+<section class="artifact" id="artifact-8b-b" markdown="1">
 
-<p class="label">Artifact 8b-A</p>
+<p class="label">Artifact 8b-B</p>
 
 ## Title of the artifact
 
