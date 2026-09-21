@@ -32,6 +32,10 @@ artifacts:
     title: "SBAR Course Project: Recommendation"
     course: "HPTT 805"
     anchor: "artifact-8b-a"
+  - label: "8b-B"
+    title: "Clinical Reasoning Analysis"
+    course: "HPTT 840"
+    anchor: "artifact-8b-b"
 redirect_from:
   - /objectives/8a-learner-assessment/
   - /objectives/8b-learner-assessment/
@@ -155,6 +159,46 @@ implementation.
 
 </section>
 
+
+<section class="artifact" id="artifact-8b-b" markdown="1">
+
+<p class="label">Artifact 8b-B</p>
+
+## Clinical Reasoning Analysis
+
+**Course:** HPTT 840 – Foundations of Clinical Teaching
+{: .meta}
+
+### Reflection
+
+The purpose of this assignment in HPTT 840 – Foundations of Clinical Teaching was to identify
+where clinical reasoning already sits in the simulation activity I had proposed earlier in the
+course, and to redesign one facet where it could be improved. I selected this artifact to
+represent objective 8b because the second half of the assignment required me to refine my own
+design to strengthen clinical reasoning, and to give the rationale behind the change.
+
+Reasoning is already present at the third step of Peyton’s four-step approach in the originally
+devised paracentesis simulation. Here the third-year medical student does not perform the
+procedure but verbally directs the faculty instructor through it, covering safe landmarking,
+sterile technique and the Z-track approach. Directing the faculty member’s movements forces
+retrieval, anticipation of the consequences of each instruction, and metacognitive checking
+against the procedural checklist. The weakness is in the third learning objective, planned as
+three written cases for calculating and interpreting the serum-ascites albumin gradient. Providing
+students with the data removes both hypothesis generation and the patient narrative, leaving
+superficial pattern matching rather than reasoning.
+
+The redesign moves the activity into a sandboxed electronic medical record, similar to one already
+used for second-year medical student small group sessions. Students would read an admission note,
+build their own differential diagnosis, order the serum and ascitic studies they want, and present
+an assessment and plan. One of the challenges encountered was recognizing that my original
+activity looked like clinical reasoning without actually requiring it. Going forward, I intend to
+design my other teaching activities the same way, by evaluating whether students have to gather
+the information themselves or are simply provided it.
+
+<p><a class="dl" href="{{ '/assets/artifacts/hptt840-clinical-reasoning-analysis.pdf' | relative_url }}" rel="noopener" target="_blank">Download the clinical reasoning analysis (PDF)<span class="sr-only"> (opens in a new tab)</span></a></p>
+
+</section>
+
 {% comment %}
   ARTIFACT TEMPLATE — copy everything between the dashed rules out of this
   comment, once per artifact, and fill it in. Nothing inside a Liquid comment
@@ -165,9 +209,9 @@ implementation.
   Keep the entries grouped by part: all of 8a's before any of 8b's.
 
   ----------------------------------------------------------------------------
-<section class="artifact" id="artifact-8b-b" markdown="1">
+<section class="artifact" id="artifact-8b-c" markdown="1">
 
-<p class="label">Artifact 8b-B</p>
+<p class="label">Artifact 8b-C</p>
 
 ## Title of the artifact
 

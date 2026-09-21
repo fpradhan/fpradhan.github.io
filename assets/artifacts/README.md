@@ -23,6 +23,7 @@ Downloadable artifacts go here.
 | `hptt805-psychometric-analysis.pdf` | artifact 8a-A |
 | `hptt805-test-blueprint.pdf` | artifact 8a-B |
 | `hptt805-sbar-recommendation.pdf` | artifact 8b-A |
+| `hptt840-clinical-reasoning-analysis.pdf` | artifact 8b-B |
 | `pradhan-cv.pdf` | the CV button on /resume/ and /cv/ |
 
 Artifacts 2-A and 7b-A are hosted modules and are linked live rather than downloaded.
