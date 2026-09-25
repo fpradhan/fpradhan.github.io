@@ -137,8 +137,7 @@ of Nebraska Medical Center E-Learning Awards Program for the 2024–2025 cohort,
 Faculty Project Director with funding from the Senior Vice Chancellor for Academic Affairs. This
 artifact is professional work rather than HPTT coursework. I selected it to represent objective 7b
 because the leadership lay in directing the project rather than building it, and because it
-documents my mentorship of two medical student module developers, Marissa Baker and Taylor Pitzl,
-College of Medicine Class of 2027.
+documents my mentorship of two medical student module developers.
 
 The module follows Linda, a patient with metabolic dysfunction-associated steatotic liver disease
 and cirrhosis, whose clinical condition deteriorates through the development of ascites,
@@ -182,13 +181,14 @@ artifact to represent objective 7b because I founded the track and now have seve
 enrolled across three years.
 
 The track comprises four domains in every year: clinical, didactics, scholarly and
-interprofessional. First-year students tour organ preservation and the blood bank. Second-year
-students sit in on a transplant selection committee. Third-year students complete a three-week
-Hepatology rotation split across outpatient, pre-transplant and post-transplant care, and observe
-an organ recovery. They also rotate with pharmacists on immunosuppression and with dietitians on
-nutritional evaluation, and present a journal article to faculty. Fourth-year students complete a
-sub-internship in transplant surgery and submit a capstone abstract to a national conference.
-Track completion is recognized in the Medical Student Performance Evaluation.
+interprofessional. First-year students tour organ preservation and the blood bank and sit in on a
+patient selection committee. Second-year students attend a transplant selection committee meeting.
+Third-year students complete a three-week Hepatology rotation split across outpatient,
+pre-transplant and post-transplant care, and observe an organ recovery. They also rotate with
+pharmacists on immunosuppression and with dietitians on nutritional evaluation, and present a
+journal article to faculty. Fourth-year students complete a sub-internship in transplant surgery
+and submit a capstone abstract to a national conference. Track completion is recognized in the
+Medical Student Performance Evaluation.
 
 One of the challenges encountered was sustaining engagement across four years when the capstone
 does not conclude until the final one. I completed preliminary end-of-year surveys, with
