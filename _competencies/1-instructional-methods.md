@@ -4,10 +4,10 @@ number: "1"
 name: "Instructional Methods"
 order: 1
 title: "1. Instructional Methods"
-description: "MHPTT objective 1, Instructional Methods — the outcome statement and the artifacts evidencing it, from the Master of Health Professions Teaching & Technology at UNMC."
+description: "MHPTT competency 1, Instructional Methods: the outcome statement and the artifacts evidencing it, from the Master of Health Professions Teaching & Technology at UNMC."
 # One entry per artifact — label, title, course, and the anchor of its
 # <section> in the body below. Drives the jump list on this page and the
-# artifact list on /objectives/. Left empty until artifacts are chosen.
+# artifact list on /competencies/. Left empty until artifacts are chosen.
 artifacts:
   - label: "1-A"
     title: "Curriculum Outline"
@@ -17,7 +17,9 @@ artifacts:
     title: "Clinical Teaching Project"
     course: "HPTT 840"
     anchor: "artifact-1-b"
-redirect_from: /artifacts/1-instructional-methods/
+redirect_from:
+  - /objectives/1-instructional-methods/
+  - /artifacts/1-instructional-methods/
 statement: >-
   Demonstrate an understanding of the theory and practice of education through
   the development of health science programs which focus on the application of
@@ -36,7 +38,7 @@ statement: >-
 ### Reflection
 
 HPTT 801 – Foundations of Health Professions Education was the first course I took in this
-Master's program, and this artifact aligns well with Learning Outcome 1 (Instructional Methods).
+Master's program, and this artifact aligns well with competency 1 (Instructional Methods).
 This was my first time making a conscientious effort to utilize educational theory (incorporating
 elements of Bandura's reciprocal determinism and Mayer's cognitive theory of multimedia) to
 develop a comprehensive asynchronous online curriculum. The Curriculum Outline assignment required

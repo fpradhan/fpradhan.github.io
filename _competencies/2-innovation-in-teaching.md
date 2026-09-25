@@ -4,10 +4,10 @@ number: "2"
 name: "Innovation in Teaching"
 order: 2
 title: "2. Innovation in Teaching"
-description: "MHPTT objective 2, Innovation in Teaching — the outcome statement and the artifacts evidencing it, from the Master of Health Professions Teaching & Technology at UNMC."
+description: "MHPTT competency 2, Innovation in Teaching: the outcome statement and the artifacts evidencing it, from the Master of Health Professions Teaching & Technology at UNMC."
 # One entry per artifact — label, title, course, and the anchor of its
 # <section> in the body below. Drives the jump list on this page and the
-# artifact list on /objectives/. Left empty until artifacts are chosen.
+# artifact list on /competencies/. Left empty until artifacts are chosen.
 artifacts:
   - label: "2-A"
     title: "Introduction to Steatotic Liver Disease e-Module"
@@ -17,7 +17,9 @@ artifacts:
     title: "Acute Liver Failure Escape Room Simulation"
     course: "HPTT 824"
     anchor: "artifact-2-b"
-redirect_from: /artifacts/2-innovation-in-teaching/
+redirect_from:
+  - /objectives/2-innovation-in-teaching/
+  - /artifacts/2-innovation-in-teaching/
 statement: >-
   Design effective learning environments using a variety of interactive
   educational and multimedia strategies which engage the learner in
@@ -74,7 +76,7 @@ Enhanced Medical Education track into a regional opportunity.
 The purpose of this assignment in HPTT 824 – Simulated and Virtual Learning in Health Professions
 Education was to design a team-based escape room simulation including learning objectives, role
 delineation, puzzle examples, and a debrief strategy. I chose to highlight this assignment because
-it addresses both facets of objective 2a: the puzzles engage learners through interactive
+it addresses both facets of competency 2a: the puzzles engage learners through interactive
 problem-solving rather than through lecture, and the assigned roles require the team to reach the
 diagnosis and the treatment plan collaboratively.
 

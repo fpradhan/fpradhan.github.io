@@ -330,8 +330,8 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
 }
 .statement p{margin:0}
 
-/* Objectives 5, 7 and 8 have two outcome statements, each under its part
-   label. The label also appears on /objectives/, so .part stands alone. */
+/* Competencies 5, 7 and 8 have two outcome statements, each under its part
+   label. The label also appears on /competencies/, so .part stands alone. */
 .statements{margin:0 0 2.5rem}
 .statements .statement{margin-bottom:1.1rem}
 .statements .statement:last-child{margin-bottom:0}

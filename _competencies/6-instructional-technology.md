@@ -4,10 +4,10 @@ number: "6"
 name: "Instructional Technology"
 order: 6
 title: "6. Instructional Technology"
-description: "MHPTT objective 6, Instructional Technology — the outcome statement and the artifacts evidencing it, from the Master of Health Professions Teaching & Technology at UNMC."
+description: "MHPTT competency 6, Instructional Technology: the outcome statement and the artifacts evidencing it, from the Master of Health Professions Teaching & Technology at UNMC."
 # One entry per artifact — label, title, course, and the anchor of its
 # <section> in the body below. Drives the jump list on this page and the
-# artifact list on /objectives/. Left empty until artifacts are chosen.
+# artifact list on /competencies/. Left empty until artifacts are chosen.
 artifacts:
   - label: "6-A"
     title: "SAMR Model Worksheet"
@@ -17,7 +17,9 @@ artifacts:
     title: "Mini Project and Video Creation Reflection Worksheet"
     course: "HPTT 803"
     anchor: "artifact-6-b"
-redirect_from: /artifacts/6-instructional-technology/
+redirect_from:
+  - /objectives/6-instructional-technology/
+  - /artifacts/6-instructional-technology/
 statement: >-
   Demonstrate effective integration of current and emerging technology into
   health professions education to foster active learning and employ innovative
@@ -41,7 +43,7 @@ Curriculum was to take two pieces of my own teaching that use no technology and 
 all four levels of the Substitution, Augmentation, Modification, Redefinition (SAMR) model. The
 first was a student assessment, the informal presentation of a differential diagnosis to the
 attending physician. The second was content delivery, the talk I give on taking a medical history
-in liver disease. I selected this artifact to represent objective 6 because it separates the
+in liver disease. I selected this artifact to represent competency 6 because it separates the
 choice of technology from what that technology changes about the task.
 
 Working through both tables clarified the difference between decorative use of technology and task
@@ -50,7 +52,7 @@ PowerPoint, neither of which altered the learner’s task. Augmentation added th
 feature and hyperlinked sources in Prezi. The task itself changed only at the upper two levels,
 where a Canvas discussion board opened the assessment to peer learning, a wiki broke the medical
 history into linked pages, and Mindmup and Powtoon were investigated as redefinition strategies to
-better engage learners. The two tables also cover both settings named in this objective, the
+better engage learners. The two tables also cover both settings named in this competency, the
 classroom and asynchronous distance delivery.
 
 One of the challenges encountered was resisting the pull towards simple substitution. Redefinition
@@ -78,8 +80,9 @@ evolve the program.
 The purpose of this assignment in HPTT 803 – Integrating Technology into Health Professions
 Curriculum was to complete twelve technology mini-projects and three video projects. Each one had
 to be built, linked, placed on the SAMR model, and reflected upon after completion. I selected
-this artifact to represent objective 6 because it is the one place in the portfolio where I tested
-a range of educational technologies against my own content and recorded an assessment of each.
+this artifact to represent competency 6 because it is the one place in the portfolio where I
+tested a range of educational technologies against my own content and recorded an assessment of
+each.
 
 A wide variety of educational technologies were investigated through this assignment. A ThingLink
 augmented image of a Fibroscan device lets students explore the equipment before they encounter it
@@ -107,7 +110,7 @@ for the asynchronous components of the Enhanced Medical Education Track.
   reaches the browser, so this stays invisible until you move a copy out.
 
   Then add a matching entry to `artifacts:` in the front matter above, so the
-  artifact appears in the jump list here and in the list on /objectives/.
+  artifact appears in the jump list here and in the list on /competencies/.
 
   ----------------------------------------------------------------------------
 <section class="artifact" id="artifact-6-c" markdown="1">

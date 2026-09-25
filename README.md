@@ -14,7 +14,7 @@ About            /                     index.md
 Teaching         /teaching/            teaching.md      philosophy · presentations · learner resources
 Resume / CV      /resume/              resume.md        the graded highlight page — appointments · training · expertise · leadership · scholarship
   └ full CV      /cv/                  cv.md            the complete record; source of the PDF, unlisted and noindexed
-MHPTT Objectives /objectives/          objectives.md    all 8 objectives, with their evidence
+MHPTT Competencies /competencies/     objectives.md    all 8 competencies, with their evidence
   ├ 1. Instructional Methods           _competencies/1-instructional-methods.md
   ├ 2. Innovation in Teaching          _competencies/2-innovation-in-teaching.md
   ├ 3. Learning Theory                 …
@@ -26,12 +26,12 @@ MHPTT Objectives /objectives/          objectives.md    all 8 objectives, with t
 Contact          /contact/             contact.md
 ```
 
-**MHPTT Objectives is a dropdown.** All eight objectives are one click from any page. It
+**MHPTT Competencies is a dropdown.** All eight competencies are one click from any page. It
 opens on hover and on keyboard focus, and needs no JavaScript. On narrow screens it flattens
 into the mobile menu so nothing hides behind a hover a touchscreen cannot perform.
 
 Adding, removing or reordering competency pages needs no other edit. The navigation dropdown,
-the `/objectives/` index and the previous/next pager all read from the collection and sort on
+the `/competencies/` index and the previous/next pager all read from the collection and sort on
 the `order` field.
 
 ---
@@ -49,7 +49,7 @@ name: "Leadership in Health Professions Education"
 order: 7                         # sort position, everywhere
 title: "7. Leadership in Health Professions Education"
 description: "…"                 # used for search results and link previews
-artifacts:                       # drives the jump list and the /objectives/ index
+artifacts:                       # drives the jump list and the /competencies/ index
   - label:  "7a-A"
     title:  "Strategic Plan — Optimizing Nutrition Post-Liver Transplantation"
     course: "HPTT 823 – Leadership in HPE (Spring 2025)"
@@ -61,13 +61,14 @@ statements:                      # 5, 7 and 8 carry two; the rest use `statement
   - part: "7b"
     text: >-
       Demonstrate leadership in health professions education through innovation…
-redirect_from:                   # the split pages this one replaced
+redirect_from:                   # earlier addresses of this page
+  - /objectives/7-leadership/
   - /objectives/7a-leadership/
   - /objectives/7b-leadership/
 ---
 ```
 
-Objectives 5, 7 and 8 each have two outcome statements. They share one page, with both
+Competencies 5, 7 and 8 each have two outcome statements. They share one page, with both
 statements shown at the top under their own labels and the artifacts grouped by part:
 every `7a-` artifact before any `7b-` one, so both reflections for an outcome sit together.
 
@@ -143,7 +144,7 @@ image_height:  1000
 ```
 
 It renders only when both `image` and `image_alt` are present. This works on the standalone
-pages and on the eight objective pages.
+pages and on the eight competency pages.
 
 **3. Anywhere in the prose,** including inside an artifact's `<section>`:
 
@@ -241,7 +242,7 @@ leaving the site. The two faces that set the first screen are preloaded in `head
 The italics are real cuts, not slanted uprights, and `font-synthesis: none` stops the browser
 faking either a slant or a weight it does not have. They are declared but deliberately **not**
 preloaded: a browser fetches a face only when text matching it is actually rendered, so a page
-with no italic text pays nothing for them. Measured — `/objectives/` pulls three font files,
+with no italic text pays nothing for them. Measured — `/competencies/` pulls three font files,
 `/resume/` pulls four, the fourth being Inter italic for the parenthetical notes in its tables.
 
 One consequence worth knowing: JetBrains Mono ships upright only. Italic text inside a label,
@@ -302,11 +303,11 @@ CNAME                    fpradhan.com
 index.md                 About
 teaching.md              Philosophy · Presentations · Resources
 resume.md                Resume / CV  (research interests folded in)
-objectives.md            MHPTT Objectives index — auto-lists all 8 pages
+objectives.md            MHPTT Competencies index at /competencies/, auto-lists all 8 pages
 contact.md               Contact
 404.html                 not-found page
 robots.txt               points crawlers at the generated sitemap
-_competencies/           the 8 objective pages
+_competencies/           the 8 competency pages
 _layouts/                default · home · page · competency
 _includes/               head · header · footer
 assets/css/style.css     all styling
@@ -318,7 +319,7 @@ assets/artifacts/        downloadable artifact files (README lists the expected 
 
 ## Status
 
-Structure, navigation, styling, the CV and all eight objective pages are in place. Each
+Structure, navigation, styling, the CV and all eight competency pages are in place. Each
 competency page carries its outcome statement, a reference section, and an artifact template
 in a Liquid comment ready to be copied out.
 
@@ -328,7 +329,7 @@ in a Liquid comment ready to be copied out.
    `_competencies/<page>.md` and fill in the title, course, description and reflection.
 2. Drop the file into `assets/artifacts/` and point the download link at it.
 3. Add a matching entry to `artifacts:` in that page's front matter, so it appears in the
-   jump list on the page and in the list on `/objectives/`.
+   jump list on the page and in the list on `/competencies/`.
 
 Also still open: the reference lists, the headshot and CV PDF, the profile links, and the
 contact-form endpoint. Every one of those is an optional slot — the page renders correctly

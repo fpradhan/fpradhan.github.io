@@ -4,8 +4,8 @@ number: "8"
 order: 8
 name: "Learner Assessment"
 title: "8. Learner Assessment"
-description: "MHPTT objective 8, Learner Assessment — the two outcome statements and the artifacts evidencing them, from the Master of Health Professions Teaching & Technology at UNMC."
-# Objective 8 has two outcome statements. Each is shown on the page under its own
+description: "MHPTT competency 8, Learner Assessment: the two outcome statements and the artifacts evidencing them, from the Master of Health Professions Teaching & Technology at UNMC."
+# Competency 8 has two outcome statements. Each is shown on the page under its own
 # label, and each artifact says in its label which one it evidences.
 statements:
   - part: "8a"
@@ -18,7 +18,7 @@ statements:
       Create engaging learning solutions to improve health professions education.
 # One entry per artifact — label, title, course, and the anchor of its
 # <section> in the body below. Drives the jump list here and the artifact
-# list on /objectives/. Keep them grouped by part: every 8a before any 8b.
+# list on /competencies/. Keep them grouped by part: every 8a before any 8b.
 artifacts:
   - label: "8a-A"
     title: "Psychometric Analysis"
@@ -37,6 +37,7 @@ artifacts:
     course: "HPTT 840"
     anchor: "artifact-8b-b"
 redirect_from:
+  - /objectives/8-learner-assessment/
   - /objectives/8a-learner-assessment/
   - /objectives/8b-learner-assessment/
   - /artifacts/8a-learner-assessment/
@@ -57,7 +58,7 @@ redirect_from:
 The purpose of this assignment in HPTT 805 – Evaluation and Assessment of Teaching and Learning in
 Health Professions Education was to conduct an item analysis of multiple-choice examination data,
 together with written answers on test reliability and item security. I selected this artifact to
-represent objective 8a because it is the only place in the portfolio where I work with assessment
+represent competency 8a because it is the only place in the portfolio where I work with assessment
 data rather than describe an approach to assessment.
 
 Each of the three items analyzed required a different remedy. On the first, two distractors that
@@ -95,7 +96,7 @@ The purpose of this assignment in HPTT 805 – Evaluation and Assessment of Teac
 Health Professions Education was to develop a blueprint for a summative examination given to
 medical students at the end of a Hepatology lecture series, specifying content areas, learning
 objectives, taxonomic levels, weighting and item types. I selected this artifact to represent
-objective 8a because building the blueprint required me to evaluate what the lecture series
+competency 8a because building the blueprint required me to evaluate what the lecture series
 covered, and at what level, before assessing any student against it.
 
 The blueprint comprises three content areas, each with its own objectives: approaching patients
@@ -133,9 +134,9 @@ The SBAR Course Project in HPTT 805 – Evaluation and Assessment of Teaching an
 Professions Education was submitted as four separate assignments, each carrying the earlier
 sections forward, so the Recommendation document contains all four. It addresses how endoscopic
 competency is judged within our gastroenterology fellowship and proposes a new means of
-assessment. I selected the Recommendation section to represent objective 8b because it is the part
-that designs a solution rather than describing a problem, and one I am able to implement within my
-own program.
+assessment. I selected the Recommendation section to represent competency 8b because it is the
+part that designs a solution rather than describing a problem, and one I am able to implement
+within my own program.
 
 The Situation and Background sections set out the status quo. American Board of Internal Medicine
 milestones are vague on endoscopic competency, the 2007 national core curriculum recommended 130
@@ -174,7 +175,7 @@ implementation.
 The purpose of this assignment in HPTT 840 – Foundations of Clinical Teaching was to identify
 where clinical reasoning already sits in the simulation activity I had proposed earlier in the
 course, and to redesign one facet where it could be improved. I selected this artifact to
-represent objective 8b because the second half of the assignment required me to refine my own
+represent competency 8b because the second half of the assignment required me to refine my own
 design to strengthen clinical reasoning, and to give the rationale behind the change.
 
 Reasoning is already present at the third step of Peyton’s four-step approach in the originally
@@ -205,7 +206,7 @@ the information themselves or are simply provided it.
   reaches the browser, so this stays invisible until you move a copy out.
 
   Then add a matching entry to `artifacts:` in the front matter above, so the
-  artifact appears in the jump list here and in the list on /objectives/.
+  artifact appears in the jump list here and in the list on /competencies/.
   Keep the entries grouped by part: all of 8a's before any of 8b's.
 
   ----------------------------------------------------------------------------

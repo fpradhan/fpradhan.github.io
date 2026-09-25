@@ -4,8 +4,8 @@ number: "5"
 order: 5
 name: "Research"
 title: "5. Research"
-description: "MHPTT objective 5, Research — the two outcome statements and the artifacts evidencing them, from the Master of Health Professions Teaching & Technology at UNMC."
-# Objective 5 has two outcome statements. Each is shown on the page under its own
+description: "MHPTT competency 5, Research: the two outcome statements and the artifacts evidencing them, from the Master of Health Professions Teaching & Technology at UNMC."
+# Competency 5 has two outcome statements. Each is shown on the page under its own
 # label, and each artifact says in its label which one it evidences.
 statements:
   - part: "5a"
@@ -18,7 +18,7 @@ statements:
       learning, and interdisciplinary collaboration.
 # One entry per artifact — label, title, course, and the anchor of its
 # <section> in the body below. Drives the jump list here and the artifact
-# list on /objectives/. Keep them grouped by part: every 5a before any 5b.
+# list on /competencies/. Keep them grouped by part: every 5a before any 5b.
 artifacts:
   - label: "5a-A"
     title: "AI-Augmented Gamification as a Tool for Interactive Medical Student Education"
@@ -37,6 +37,7 @@ artifacts:
     course: "HPTT 830"
     anchor: "artifact-5b-b"
 redirect_from:
+  - /objectives/5-research/
   - /objectives/5a-research/
   - /objectives/5b-research/
   - /artifacts/5a-research/
@@ -57,7 +58,7 @@ redirect_from:
 The purpose of this assignment in HPTT 830 – Research Analysis and Design for Health Professions
 Education was to produce a complete research proposal, covering the introduction, problem
 statement, purpose statement, research questions, literature review, and methodology. I selected
-it to represent objective 5a because the proposal shows my research skills best, and because the
+it to represent competency 5a because the proposal shows my research skills best, and because the
 topic grew out of a curricular gap I had previously identified. As well, the project idea and
 design took inspiration from earlier HPTT courses.
 
@@ -99,7 +100,7 @@ This assignment in HPTT 830 – Research Analysis and Design for Health Professi
 me to critically appraise a published study, covering its design, sampling, intervention,
 assessment tools, findings and limitations. I chose Mikolajczyk and colleagues’ 2021 study of
 mandatory hepatology education for internal medicine residents. I selected it to represent
-objective 5a as critical appraisal of published literature is an important research skill, and
+competency 5a as critical appraisal of published literature is an important research skill, and
 because this study is pertinent to my career interests in building the hepatology workforce and
 trainee hepatology education.
 
@@ -138,7 +139,7 @@ Education, appraises DeNofrio and colleagues’ 2022 report on *Palliative Care 
 a twelve-week online course training hepatologists in primary palliative care. The course ran as
 eleven modules on Stanford University’s edX platform, was completed by thirty-nine providers
 across ten clinical sites, and formed the educational arm of the larger PAL-LIVER trial. I
-selected this artifact to represent objective 5b because interdisciplinary collaboration is
+selected this artifact to represent competency 5b because interdisciplinary collaboration is
 embodied in the study design and involves adult learners.
 
 Most of the critique is an argument about how the statistical findings are represented. The
@@ -176,7 +177,7 @@ before treating a change in scores as evidence that the teaching worked.
 The Revised Literature Review, written for HPTT 830 – Research Analysis and Design for Health
 Professions Education, required a thematically organized survey of the evidence underpinning my
 study, and was revised and adapted based on faculty feedback. I selected it to sit alongside the
-article critique to represent this objective because the two do opposite kinds of analysis: the
+article critique to represent this competency because the two do opposite kinds of analysis: the
 critique tests one study against its own design; the review synthesizes evidence across three
 themes.
 
@@ -209,7 +210,7 @@ otherwise be solely lectured.
   reaches the browser, so this stays invisible until you move a copy out.
 
   Then add a matching entry to `artifacts:` in the front matter above, so the
-  artifact appears in the jump list here and in the list on /objectives/.
+  artifact appears in the jump list here and in the list on /competencies/.
   Keep the entries grouped by part: all of 5a's before any of 5b's.
 
   ----------------------------------------------------------------------------

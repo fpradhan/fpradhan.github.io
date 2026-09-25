@@ -4,10 +4,10 @@ number: "4"
 name: "Best Practices in Teaching"
 order: 4
 title: "4. Best Practices in Teaching"
-description: "MHPTT objective 4, Best Practices in Teaching — the outcome statement and the artifacts evidencing it, from the Master of Health Professions Teaching & Technology at UNMC."
+description: "MHPTT competency 4, Best Practices in Teaching: the outcome statement and the artifacts evidencing it, from the Master of Health Professions Teaching & Technology at UNMC."
 # One entry per artifact — label, title, course, and the anchor of its
 # <section> in the body below. Drives the jump list on this page and the
-# artifact list on /objectives/. Left empty until artifacts are chosen.
+# artifact list on /competencies/. Left empty until artifacts are chosen.
 artifacts:
   - label: "4-A"
     title: "Integration Paper"
@@ -17,7 +17,9 @@ artifacts:
     title: "Applying Science of Learning Activity"
     course: "HPTT 802"
     anchor: "artifact-4-b"
-redirect_from: /artifacts/4-best-practices-in-teaching/
+redirect_from:
+  - /objectives/4-best-practices-in-teaching/
+  - /artifacts/4-best-practices-in-teaching/
 statement: >-
   Demonstrate reflective practice through the integration of evidence-based
   knowledge, skills, and attitudes towards establishing effective learning
@@ -37,8 +39,8 @@ statement: >-
 
 For the Integration Paper in HPTT 801 – Foundations of Health Professions Education, I revisited
 the learning theory paper I had written earlier in the semester and accounted for where it
-diverged from the curriculum I had actually built. I selected it to represent objective 4a because
-it is the artifact where I audit my own design, which effectively demonstrates reflective
+diverged from the curriculum I had actually built. I selected it to represent competency 4a
+because it is the artifact where I audit my own design, which effectively demonstrates reflective
 practice.
 
 My original paper was written with medical trainees who had completed medical school, and
@@ -78,7 +80,7 @@ after the fact.
 The purpose of this assignment in HPTT 802 – Instructional Design for Health Professions Education
 was to choose three of the twelve tips in Gooding, Mann and Armstrong's paper on the science of
 learning in health professions education, find two published examples of each tip in practice, and
-briefly summarize each example. I selected it to represent objective 4a because it required me to
+briefly summarize each example. I selected it to represent competency 4a because it required me to
 find the evidence behind teaching practices I had been using.
 
 My three tips came from three different themes. From applying learning to new and varied contexts,
@@ -108,7 +110,7 @@ reinforces it in the live endoscopy suite.
   reaches the browser, so this stays invisible until you move a copy out.
 
   Then add a matching entry to `artifacts:` in the front matter above, so the
-  artifact appears in the jump list here and in the list on /objectives/.
+  artifact appears in the jump list here and in the list on /competencies/.
 
   ----------------------------------------------------------------------------
 <section class="artifact" id="artifact-4-c" markdown="1">

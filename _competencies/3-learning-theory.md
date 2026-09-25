@@ -4,10 +4,10 @@ number: "3"
 name: "Learning Theory"
 order: 3
 title: "3. Learning Theory"
-description: "MHPTT objective 3, Learning Theory — the outcome statement and the artifacts evidencing it, from the Master of Health Professions Teaching & Technology at UNMC."
+description: "MHPTT competency 3, Learning Theory: the outcome statement and the artifacts evidencing it, from the Master of Health Professions Teaching & Technology at UNMC."
 # One entry per artifact — label, title, course, and the anchor of its
 # <section> in the body below. Drives the jump list on this page and the
-# artifact list on /objectives/. Left empty until artifacts are chosen.
+# artifact list on /competencies/. Left empty until artifacts are chosen.
 artifacts:
   - label: "3-A"
     title: "Learning Theory Paper"
@@ -17,7 +17,9 @@ artifacts:
     title: "Analysis and Application of Learning Theory in Medical Simulation Design"
     course: "HPTT 824"
     anchor: "artifact-3-b"
-redirect_from: /artifacts/3-learning-theory/
+redirect_from:
+  - /objectives/3-learning-theory/
+  - /artifacts/3-learning-theory/
 statement: >-
   Apply content knowledge, pedagogical, and professional knowledge necessary
   to carry out teaching responsibilities and for successful performance in the
@@ -41,13 +43,13 @@ understanding of behaviorism, cognitivism, and constructivism. I felt that cogni
 specifically Bandura's social cognitive theory, matched my teaching most closely. I was
 particularly drawn to Reciprocal Determinism, as it draws on a learner's prior experiences to
 teach new concepts, which has particular relevance for bedside clinical medicine and therefore
-represents objective 3a well.
+represents competency 3a well.
 
 Reciprocal determinism describes personal, behavioral, and environmental factors influencing one
 another, and its adaptability suits it to clinical teaching. Much of the paper explored enactive
 versus observational learning, and the value of modeling my approach to clinical decisions in real
 time so that trainees see the reasoning and not only the decision. Comparing social cognitive
-theory against behaviorism best represents this objective. Operant conditioning is often not an
+theory against behaviorism best represents this competency. Operant conditioning is often not an
 effective tool in endoscopic skill development; when teaching loop reduction during colonoscopy,
 an unrecognized loop carries the risk of splenic laceration or colonic perforation. Positive
 reinforcement still has a role, such as celebrating a successful polypectomy, but modeling remains
@@ -82,8 +84,8 @@ required me to select a peer-reviewed article on learning theory in simulation, 
 the theories described, and apply it to my own simulation design. I chose a 2022 review by
 Herrera-Aliaga and Estrada for its recency at the time, its relevance to how learner needs changed
 after the COVID-19 pandemic, and its mini-review of types of simulation activities. I selected it
-to represent objective 3a as it applies the same pedagogical reasoning as my learning theory paper
-to a different modality.
+to represent competency 3a as it applies the same pedagogical reasoning as my learning theory
+paper to a different modality.
 
 The paper summarizes theories from Vygotsky, Kolb, Dreyfus and Dreyfus, Posner, Schön, Bandura,
 and Ericsson. I chose to summarize and critique Ericsson's work on deliberate practice. Its
@@ -109,7 +111,7 @@ design, especially in the endoscopy ergonomics project I developed later in the 
   reaches the browser, so this stays invisible until you move a copy out.
 
   Then add a matching entry to `artifacts:` in the front matter above, so the
-  artifact appears in the jump list here and in the list on /objectives/.
+  artifact appears in the jump list here and in the list on /competencies/.
 
   ----------------------------------------------------------------------------
 <section class="artifact" id="artifact-3-c" markdown="1">

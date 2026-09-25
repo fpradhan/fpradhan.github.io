@@ -4,11 +4,11 @@ layout: default
 <article class="container">
   <div class="prose competency">
 
-    <p class="crumb"><a class="dl back" href="{{ '/objectives/' | relative_url }}">All objectives</a></p>
+    <p class="crumb"><a class="dl back" href="{{ '/competencies/' | relative_url }}">All competencies</a></p>
     <h1 class="page-title">{{ page.number }}. {{ page.name }}</h1>
 
     {%- comment -%}
-      Objectives 5, 7 and 8 carry two outcome statements; the rest carry one.
+      Competencies 5, 7 and 8 carry two outcome statements; the rest carry one.
     {%- endcomment -%}
     {%- if page.statements and page.statements.size > 0 %}
     <div class="statements">
@@ -54,14 +54,14 @@ layout: default
       {%- unless found %}{% assign prev_item = c %}{% endunless -%}
     {%- endfor -%}
 
-    <nav class="pager" aria-label="MHPTT objectives">
+    <nav class="pager" aria-label="MHPTT competencies">
       {%- if prev_item %}
       <a class="pager-prev" href="{{ prev_item.url | relative_url }}">
         <span class="label">← Previous</span>{{ prev_item.number }}. {{ prev_item.name }}
       </a>
       {%- else %}<span></span>{% endif %}
-      <a class="pager-all" href="{{ '/objectives/' | relative_url }}">
-        <span class="label">↑ Return to</span>All objectives
+      <a class="pager-all" href="{{ '/competencies/' | relative_url }}">
+        <span class="label">↑ Return to</span>All competencies
       </a>
       {%- if next_item %}
       <a class="pager-next" href="{{ next_item.url | relative_url }}">

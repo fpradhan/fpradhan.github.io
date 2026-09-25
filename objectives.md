@@ -1,8 +1,10 @@
 ---
-title: "MHPTT Objectives"
-description: "The MHPTT objectives and the artifacts evidencing each."
-permalink: /objectives/
-redirect_from: /artifacts/
+title: "MHPTT Competencies"
+description: "The MHPTT competencies and the artifacts evidencing each."
+permalink: /competencies/
+redirect_from:
+  - /objectives/
+  - /artifacts/
 wide: true
 ---
 

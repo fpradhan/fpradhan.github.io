@@ -4,8 +4,8 @@ number: "7"
 order: 7
 name: "Leadership in Health Professions Education"
 title: "7. Leadership in Health Professions Education"
-description: "MHPTT objective 7, Leadership in Health Professions Education — the two outcome statements and the artifacts evidencing them, from the Master of Health Professions Teaching & Technology at UNMC."
-# Objective 7 has two outcome statements. Each is shown on the page under its own
+description: "MHPTT competency 7, Leadership in Health Professions Education: the two outcome statements and the artifacts evidencing them, from the Master of Health Professions Teaching & Technology at UNMC."
+# Competency 7 has two outcome statements. Each is shown on the page under its own
 # label, and each artifact says in its label which one it evidences.
 statements:
   - part: "7a"
@@ -18,7 +18,7 @@ statements:
       mentorship, and reflective practice.
 # One entry per artifact — label, title, course, and the anchor of its
 # <section> in the body below. Drives the jump list here and the artifact
-# list on /objectives/. Keep them grouped by part: every 7a before any 7b.
+# list on /competencies/. Keep them grouped by part: every 7a before any 7b.
 artifacts:
   - label: "7a-A"
     title: "Nutritional Success & Liver Transplantation"
@@ -37,6 +37,7 @@ artifacts:
     course: "UNMC College of Medicine"
     anchor: "artifact-7b-b"
 redirect_from:
+  - /objectives/7-leadership/
   - /objectives/7a-leadership/
   - /objectives/7b-leadership/
   - /artifacts/7a-leadership/
@@ -58,7 +59,7 @@ The purpose of this capstone project in HPTT 823 – Leadership in Health Profes
 to develop a strategic plan with a supporting document and a presentation, taken through formal
 peer review. The plan proposes screening every liver transplant candidate for vitamin A, vitamin
 C, vitamin D, vitamin E, zinc and copper deficiency before surgery, with a standardized repletion
-protocol and post-transplant outcome tracking. I selected this artifact to represent objective 7a
+protocol and post-transplant outcome tracking. I selected this artifact to represent competency 7a
 because the administrative elements are the substance of the plan: the multidisciplinary working
 group, the phased implementation pathway, and the post-implementation audit.
 
@@ -96,10 +97,10 @@ now in routine use. Data collection and analysis follow, with completion planned
 The purpose of this assignment in HPTT 840 – Foundations of Clinical Teaching was to design an
 onboarding and orientation plan for a new clinical teaching activity that I had proposed earlier
 in the course. My plan covers two third-year medical students on a three-week Hepatology
-clerkship, preparing for a simulated paracentesis. I selected this artifact to represent objective
-7a because orientation comprises administrative work, including decisions about expectations,
-pre-activity documents, simulation timing and roles that need to be presented to the learner up
-front.
+clerkship, preparing for a simulated paracentesis. I selected this artifact to represent
+competency 7a because orientation comprises administrative work, including decisions about
+expectations, pre-activity documents, simulation timing and roles that need to be presented to the
+learner up front.
 
 The plan is written against a specific learner profile, and includes addressing a common clinical
 misconception, i.e., the belief that an elevated international normalized ratio in chronic liver
@@ -135,8 +136,8 @@ Medical Center (UNMC) simulation lab to further develop this activity.
 *Portal Hypertension: A Systemic Disease* is an e-Learning module produced through the University
 of Nebraska Medical Center E-Learning Awards Program for the 2024–2025 cohort, where I served as
 Faculty Project Director with funding from the Senior Vice Chancellor for Academic Affairs. This
-artifact is professional work rather than HPTT coursework. I selected it to represent objective 7b
-because the leadership lay in directing the project rather than building it, and because it
+artifact is professional work rather than HPTT coursework. I selected it to represent competency
+7b because the leadership lay in directing the project rather than building it, and because it
 documents my mentorship of two medical student module developers.
 
 The module follows Linda, a patient with metabolic dysfunction-associated steatotic liver disease
@@ -177,8 +178,8 @@ This presentation describes the Combined Medical and Surgical Integrated Track i
 Transplantation, an Enhanced Medical Education Track within the University of Nebraska Medical
 Center College of Medicine, for which I am Faculty Director alongside core faculty in transplant
 surgery and transplant hepatology. It is professional work rather than coursework. I selected this
-artifact to represent objective 7b because I founded the track and now have seven medical students
-enrolled across three years.
+artifact to represent competency 7b because I founded the track and now have seven medical
+students enrolled across three years.
 
 The track comprises four domains in every year: clinical, didactics, scholarly and
 interprofessional. First-year students tour organ preservation and the blood bank and sit in on a
@@ -209,7 +210,7 @@ conversations currently underway at Northwestern University.
   reaches the browser, so this stays invisible until you move a copy out.
 
   Then add a matching entry to `artifacts:` in the front matter above, so the
-  artifact appears in the jump list here and in the list on /objectives/.
+  artifact appears in the jump list here and in the list on /competencies/.
   Keep the entries grouped by part: all of 7a's before any of 7b's.
 
   ----------------------------------------------------------------------------
