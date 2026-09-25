@@ -37,7 +37,7 @@ lecture development in order to avoid cognitive overload (Mayer & Moreno, 2003).
 
 Learner assessment is where my practice has changed most. I now design formative and summative
 tools to do different work, a distinction that was not evident to me prior to this program and has
-directly influenced my assessments particularly in e-module development. Effective feedback is
+directly influenced my assessments, particularly in e-module development. Effective feedback is
 also a skill I had underestimated. I now structure it deliberately, using the REFLECT rubric for
 written feedback (Wald et al., 2012) and the PEARLS framework to combine self-assessment, focused
 facilitation, and directive feedback when debriefing (Eppich & Cheng, 2015).
@@ -57,14 +57,15 @@ Prentice-Hall.
 
 Eppich, W., & Cheng, A. (2015). Promoting Excellence and Reflective Learning in Simulation
 (PEARLS): Development and rationale for a blended approach to health care simulation debriefing.
-*Simulation in Healthcare, 10*(2), 106–115.
+*Simulation in Healthcare, 10*(2), 106–115. <https://doi.org/10.1097/SIH.0000000000000072>
 
 Krautter, M., Weyrich, P., Schultz, J. H., Buss, S. J., Maatouk, I., Jünger, J., & Nikendei, C.
 (2011). Effects of Peyton's four-step approach on objective performance measures in technical
 skills training: A controlled trial. *Teaching and Learning in Medicine, 23*(3), 244–250.
+<https://doi.org/10.1080/10401334.2011.586917>
 
 Mayer, R. E., & Moreno, R. (2003). Nine ways to reduce cognitive load in multimedia learning.
-*Educational Psychologist, 38*(1), 43–52.
+*Educational Psychologist, 38*(1), 43–52. <https://doi.org/10.1207/S15326985EP3801_6>
 
 Vygotsky, L. S. (1978). *Mind in society: The development of higher psychological processes.*
 Harvard University Press.
@@ -72,6 +73,7 @@ Harvard University Press.
 Wald, H. S., Borkan, J. M., Taylor, J. S., Anthony, D., & Reis, S. P. (2012). Fostering and
 evaluating reflective capacity in medical education: Developing the REFLECT rubric for assessing
 reflective writing. *Academic Medicine, 87*(1), 41–50.
+<https://doi.org/10.1097/ACM.0b013e31823b55fa>
 
 </section>
 
