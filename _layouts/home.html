@@ -8,7 +8,16 @@ layout: default
   <div class="hero{% unless has_portrait %} hero-solo{% endunless %}">
     <div class="hero-body prose">
       <h1 class="page-title">{{ page.display_title | default: page.title }}</h1>
-      {%- if page.subtitle %}<p class="page-subtitle">{{ page.subtitle }}</p>{% endif %}
+      {%- if page.subtitle %}<p class="page-subtitle{% if page.contact_line %} has-contact{% endif %}">{{ page.subtitle }}</p>{% endif %}
+      {%- if page.contact_line %}
+      {%- comment -%}
+        The rubric asks for contact information on the title page itself. The
+        address is written reversed and assembled by eml-script.html, as on
+        /contact/; without JavaScript "Email" links to the contact page instead.
+      {%- endcomment -%}
+      {%- assign eml = site.email | split: "" | reverse | join: "" %}
+      <p class="hero-contact"><span class="eml" data-x="{{ eml }}"><a href="{{ '/contact/' | relative_url }}">Email</a></span> · <span class="tel">{{ site.phone }}</span> · <a href="{{ '/contact/' | relative_url }}">Contact form</a></p>
+      {%- endif %}
       {{ content }}
     </div>
 
@@ -20,3 +29,6 @@ layout: default
     {%- endif %}
   </div>
 </article>
+{%- if page.contact_line %}
+{% include eml-script.html %}
+{%- endif %}

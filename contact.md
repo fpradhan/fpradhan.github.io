@@ -91,23 +91,7 @@ form appears here. Until then the telephone number above is the working route, s
 this page is broken.</p>
 {% endif %}
 
-<script>
-/* The address is stored reversed so a regex harvester reading the source
-   finds no address, and is assembled here for real visitors. Anyone running
-   a headless browser still gets it: this stops the common scrapers, not all
-   of them. Without JavaScript the fallback text stands and the form works. */
-(function () {
-  var nodes = document.querySelectorAll('.eml[data-x]');
-  for (var i = 0; i < nodes.length; i++) {
-    var el = nodes[i];
-    var addr = el.getAttribute('data-x').split('').reverse().join('');
-    var a = document.createElement('a');
-    a.href = 'mailto:' + addr;
-    a.textContent = addr;
-    el.parentNode.replaceChild(a, el);
-  }
-})();
-</script>
+{% include eml-script.html %}
 
 {% if site.form_endpoint and site.form_endpoint != "" %}
 <script src="https://web3forms.com/client/script.js" async defer></script>

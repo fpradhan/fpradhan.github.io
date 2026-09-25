@@ -417,6 +417,12 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
 .hero-solo{grid-template-columns:minmax(0,1fr)}
 .hero-body{min-width:0;max-width:var(--content)}
 .hero .page-subtitle{margin-bottom:2rem}
+.hero .page-subtitle.has-contact{margin-bottom:.6rem}
+/* Contact line under the subtitle on the home page */
+.hero-contact{margin:0 0 2rem;font-size:1rem;line-height:1.6;color:var(--ink-soft)}
+.hero-contact a{color:var(--ink-soft);text-decoration:none;border-bottom:1px solid var(--rule-strong)}
+.hero-contact a:hover{color:var(--accent);border-bottom-color:var(--accent)}
+.hero-contact .tel{white-space:nowrap}
 .portrait{margin:0}
 .portrait img{
   width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 20%;
@@ -487,13 +493,13 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
    stays just the competency name rather than the entire block of text. */
 .index-name a::after{content:"";position:absolute;inset:0}
 .index-item:hover .index-name a{color:var(--accent)}
-.index-stmt{font-size:.8rem;line-height:1.55;color:var(--ink-soft);margin:0 0 .5rem}
+.index-stmt{font-size:1rem;line-height:1.55;color:var(--ink-soft);margin:0 0 .6rem}
 .prose .index-artifacts{list-style:none;margin:0;padding:0;
   display:flex;flex-direction:column;gap:.15rem}
 .prose .index-artifacts li{
   /* Deliberately NOT the mono face — artifact titles are long, and mono
      uppercase makes them unreadable at this size. */
-  font-family:var(--sans);font-size:.72rem;line-height:1.45;
+  font-family:var(--sans);font-size:.9375rem;line-height:1.45;
   color:var(--ink-faint);margin:0;padding-left:.8rem;position:relative;
 }
 .prose .index-artifacts li::before{
@@ -547,10 +553,10 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
 }
 .cv-list dt:first-of-type{border-top:0;margin-top:0;padding-top:0}
 .cv-list .when{
-  font-family:var(--mono);font-size:.7rem;font-weight:400;color:var(--ink-faint);
+  font-family:var(--mono);font-size:.78rem;font-weight:400;color:var(--ink-faint);
   white-space:nowrap;font-variant-numeric:tabular-nums;letter-spacing:.01em;
 }
-.cv-list dd{margin:.35rem 0 0;font-size:var(--t-sm);line-height:1.55;color:var(--ink-soft)}
+.cv-list dd{margin:.35rem 0 0;font-size:.9375rem;line-height:1.55;color:var(--ink-soft)}
 /* Nested entries inside a cv-list. Without these every level carries the same
    rule and weight, so a committee reads as a peer of the society it sits in.
    Used on /cv/ under society memberships: lv2 is a body within a society, lv3
@@ -587,7 +593,7 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
 .prose .cites{margin:0 0 2rem;padding:0;list-style:none;counter-reset:cite}
 .prose .cites li{
   position:relative;margin:0 0 .9rem;padding-left:2.4rem;
-  font-size:var(--t-sm);line-height:1.6;color:var(--ink-soft);
+  font-size:.9375rem;line-height:1.6;color:var(--ink-soft);
 }
 .prose ol.cites li{counter-increment:cite}
 .prose ol.cites li::before{
@@ -603,7 +609,7 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
 /* One-line skill summary, sitting under the Appointments list. Three labelled
    lines rather than a flowing sentence, so the education, clinical and research
    split is visible rather than inferred. */
-.prose .skills{margin:0 0 .25rem;font-size:var(--t-sm);line-height:1.65;color:var(--ink-soft)}
+.prose .skills{margin:0 0 .25rem;font-size:.9375rem;line-height:1.65;color:var(--ink-soft)}
 .prose .skills strong{color:var(--ink);font-weight:600}
 
 /* Scholarship figures. A handful of headline counts, so a figure list rather
@@ -613,13 +619,13 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
 .prose .figures li{
   margin:0;padding:0;display:grid;grid-template-columns:2.2rem minmax(0,1fr);
   gap:.8rem;align-items:baseline;
-  font-size:var(--t-sm);line-height:1.45;color:var(--ink-soft);
+  font-size:.9375rem;line-height:1.45;color:var(--ink-soft);
 }
 .figures .fig{
   font-family:var(--mono);font-size:1.02rem;font-weight:500;color:var(--ink);
   text-align:right;font-variant-numeric:tabular-nums;letter-spacing:-.01em;
 }
-.figures .sub{color:var(--ink-faint);font-size:var(--t-xs)}
+.figures .sub{color:var(--ink-faint);font-size:var(--t-sm)}
 .figures .sub::before{content:"("}
 .figures .sub::after{content:")"}
 @media (min-width:34rem){
@@ -758,13 +764,16 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
    overflow-x actually apply to a table box. */
 .table-scroll{display:block;width:100%;max-width:100%;overflow-x:auto;
   margin:0 0 1.75rem;border:1px solid var(--rule);border-radius:var(--radius)}
-table{border-collapse:collapse;width:100%;font-size:var(--t-sm)}
+table{border-collapse:collapse;width:100%;font-size:.9375rem}
 th,td{text-align:left;padding:.7rem .9rem;border-bottom:1px solid var(--rule);
   vertical-align:top}
 tbody tr:last-child td{border-bottom:0}
 /* Date ranges read badly when an en dash lets them wrap mid-span — but on a
    narrow screen wrapping beats forcing the page sideways. */
 @media (min-width:641px){ .table-scroll td:first-child{white-space:nowrap} }
+/* Narrower cell padding on phones, so the larger table text still fits a
+   390px screen without the table scrolling sideways. */
+@media (max-width:640px){ th,td{padding:.6rem .65rem} }
 th{font-family:var(--mono);font-weight:500;color:var(--ink-faint);text-transform:uppercase;
   font-size:.68rem;letter-spacing:.05em;background:var(--surface)}
 code{font-size:.85em;background:var(--surface-2);padding:.15em .38em;
