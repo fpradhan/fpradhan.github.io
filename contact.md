@@ -7,12 +7,6 @@ permalink: /contact/
 
 {% assign eml = site.email | split: "" | reverse | join: "" %}
 
-I would be glad to hear from you about the work here, about hepatology education, or about
-teaching and curriculum design more generally.
-{: .lede}
-
-## Reach me
-
 <dl class="facts" markdown="1">
 <dt>Email</dt>
 <dd><span class="eml" data-x="{{ eml }}">Use the form below.</span></dd>
