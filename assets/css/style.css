@@ -488,6 +488,9 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
 .index-text{min-width:0}
 .index-name{font-family:var(--display);font-size:1.3rem;font-weight:400;
   letter-spacing:0;line-height:1.15;margin:0 0 .3rem}
+/* .prose h2 outranks .index-name, so its size, weight and margins win. Only
+   the 3.25rem top margin is taken back here; it put 52px above every name. */
+.prose .index-name{margin-top:0}
 .index-name a{color:inherit;text-decoration:none}
 /* Stretched link: the whole cell is clickable, but the link's accessible name
    stays just the competency name rather than the entire block of text. */
