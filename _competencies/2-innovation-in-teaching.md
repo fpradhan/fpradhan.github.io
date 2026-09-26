@@ -38,7 +38,7 @@ statement: >-
 ### Reflection
 
 This assignment, from HPTT 825 – Essentials of E-Module Development, was one of the more
-challenging tasks throughout the Master of Health Professions Teaching and Technology (MHPTT)
+challenging tasks throughout the Master of Health Professions Teaching & Technology (MHPTT)
 program, but overall, it was the most rewarding. The task was to create an e-Learning module from
 scratch using Articulate Storyline over the summer semester, and I am quite proud of the final
 product: *Introduction to Steatotic Liver Disease*. I selected this artifact to represent
@@ -56,7 +56,7 @@ students and trainees.
 I aim to take the experience gained from this course to continue working with national medical
 societies, such as the American Association for the Study of Liver Diseases (AASLD), on online
 asynchronous interactive content for medical students and trainees. I also plan to expand my
-Enhanced Medical Education track into a regional opportunity.
+Enhanced Medical Education Track into a regional opportunity.
 
 <p><a class="dl ext" href="https://360.articulate.com/review/content/895c33e0-00ba-4da7-bfe8-b95ee220b54d/review" rel="noopener" target="_blank">Open the e-Learning module<span class="sr-only"> (opens in a new tab)</span></a></p>
 

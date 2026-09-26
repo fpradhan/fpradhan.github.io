@@ -94,7 +94,10 @@ expert developed their skill, to measure an individual's proficiency. The limita
 that the theory does not explain how some individuals reach proficiency faster through intuition,
 or acquire technical skills more easily than their peers despite identical practice. Combining
 Ericsson's theory with the zones used by the Boston Children's Simulator Program gave me a
-framework for simulation design for my medical student learners.
+framework for simulation design for my medical student learners. The zones group simulation
+activities by what they train: basic technical skills in zone 0, such as paracentesis on a
+manikin; clinical competencies in zone 1; and clinical decisions in more complex settings in zone
+2.
 
 One of the challenges encountered was adopting a theory whose limitation I had just described, and
 deciding that deliberate practice remained the most useful frame for procedural teaching despite

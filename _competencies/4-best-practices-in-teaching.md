@@ -43,11 +43,11 @@ diverged from the curriculum I had actually built. I selected it to represent co
 because it is the artifact where I audit my own design, which effectively demonstrates reflective
 practice.
 
-My original paper was written with medical trainees who had completed medical school, and
-gastroenterology fellows rotating with the inpatient Hepatology team, in mind, where bedside
-examination and endoscopy make modeling and enactive learning straightforward. As the semester
-progressed, I pivoted to a fifteen-week curriculum aimed at medical students, which changed the
-content, the means of assessment, and the location of instruction.
+My original paper was written for medical trainees who had completed medical school and for
+gastroenterology fellows rotating with the inpatient Hepatology team, where bedside examination
+and endoscopy make modeling and enactive learning straightforward. As the semester progressed, I
+pivoted to a fifteen-week curriculum aimed at medical students, which changed the content, the
+means of assessment, and the location of instruction.
 
 The most important part of the paper discusses the need to adjust learning theory to match the
 change in curriculum while still maintaining elements of Bandura's theory. Weekly open-book
@@ -58,9 +58,9 @@ considered removing the open-book policy and using a locked browser, which would
 assessment more closely with Bandura's triadic reciprocal causation, but chose to retain open-book
 because it mirrors how certification examinations and real clinical lookup function. One of the
 challenges encountered was accepting that fidelity to real practice sometimes outranks theoretical
-tidiness. Following this course, I now have a better understanding regarding the importance of
-planning theory, activity, and assessment when building educational content rather than adapting
-after the fact.
+tidiness. Following this course, I now have a better understanding of the importance of planning
+theory, activity, and assessment when building educational content rather than adapting after the
+fact.
 
 <p><a class="dl" href="{{ '/assets/artifacts/hptt801-integration-paper.pdf' | relative_url }}" rel="noopener" target="_blank">Download the integration paper (PDF)<span class="sr-only"> (opens in a new tab)</span></a></p>
 

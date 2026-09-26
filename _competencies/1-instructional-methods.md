@@ -38,22 +38,22 @@ statement: >-
 ### Reflection
 
 HPTT 801 – Foundations of Health Professions Education was the first course I took in this
-Master's program, and this artifact aligns well with competency 1 (Instructional Methods).
-This was my first time making a conscientious effort to utilize educational theory (incorporating
-elements of Bandura's reciprocal determinism and Mayer's cognitive theory of multimedia) to
+Master's program, and this artifact aligns well with competency 1 (Instructional Methods). This
+was my first time making a conscious effort to utilize educational theory (incorporating elements
+of Bandura's reciprocal determinism and Mayer's cognitive theory of multimedia learning) to
 develop a comprehensive asynchronous online curriculum. The Curriculum Outline assignment required
 me to design a complete course for a health professions audience, divided into weekly assignments,
 and an assessment plan. Using *Schiff's Diseases of the Liver* as the selected textbook, I was
-able to develop a 15-week in-depth course covering multiple facets of hepatology as well as
+able to develop a fifteen-week in-depth course covering multiple facets of hepatology as well as
 introducing transplant medicine. I selected this artifact because I created an entire program
 rather than isolated elements, based on educational theory.
 
 One of the challenges when creating this assignment was the need to develop elements that would be
-covered in future Master of Health Professions Teaching and Technology (MHPTT) courses (such as
-the rubric, and assessment strategies); however, on review I am able to reflect and see the
-progress that I have made throughout this degree. I can already see elements that I would adapt
-and change such as the rubric used to evaluate the discussion posts and the clinical plan from the
-electronic medical record (EMR) final assessment.
+covered in future Master of Health Professions Teaching & Technology (MHPTT) courses (such as the
+rubric, and assessment strategies); however, on review I am able to reflect and see the progress
+that I have made throughout this degree. I can already see elements that I would adapt and change
+such as the rubric used to evaluate the discussion posts and the clinical plan from the electronic
+medical record (EMR) final assessment.
 
 If I were to implement this proposed curriculum, I would have to break it up into two courses
 given the amount of content proposed (such as one course focusing on acute and chronic liver
@@ -82,15 +82,15 @@ one of my final courses in the MHPTT program, and represents a comprehensive ins
 assessment plan based on paracentesis, a procedure that is commonly done within my field of
 practice. It comprises five elements, namely learning objectives, a teaching strategy, a
 reflective assignment, an assessment tool, and a reflection based on peer feedback. I chose this
-assignment to demonstrate my personal progress in developing assessment strategies based on
-Peyton's Four-Step Approach and to highlight my growth as compared to the HPTT 801 curriculum
-outline. Every choice made in this assignment is based on evidence-based strategies and
-methodologies, incorporating national medical society guidelines, the Reflection Evaluation for
-Learners' Enhanced Competencies Tool (REFLECT) rubric as developed by Wald et al., and multiple
-other cited references therein.
+assignment to represent competency 1, to demonstrate my personal progress in developing assessment
+strategies based on Peyton's Four-Step Approach and to highlight my growth as compared to the HPTT
+801 curriculum outline. Every choice made in this assignment is based on evidence-based strategies
+and methodologies, incorporating national medical society guidelines, the Reflection Evaluation
+for Learners' Enhanced Competencies Tool (REFLECT) rubric as developed by Wald et al., and
+multiple other cited references therein.
 
-Creating an affective learning objective was a challenging element to this assignment, especially
-with regards to assessment. Reflective assessments were a new concept for me, and though I had
+Creating an affective learning objective was a challenging element of this assignment, especially
+with regard to assessment. Reflective assessments were a new concept for me, and though I had
 completed various forms of these in the past, I can look back on these prior implementations and
 recognize effective and ineffective mechanisms utilized.
 
