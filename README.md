@@ -223,16 +223,28 @@ phone details, so nothing on it is broken.
 variable in the `:root` block at the top; `--accent` re-skins the whole site. Light and dark
 palettes are both defined, and the site follows the reader's system setting.
 
-The type stack is three faces, each with a job:
+The type stack is two faces, each with a job:
 
 | Variable | Face | Used for |
 |---|---|---|
-| `--display` | Literata | Page titles, section headings, the lede, competency statements and numerals |
-| `--sans` | Inter | Body text, navigation, artifact titles on the index |
-| `--mono` | JetBrains Mono | Every label, date, course line and button — the detail that gives the site its character |
+| `--display` | Literata | Page titles, section headings, the name in the header, and the numerals on the competencies index |
+| `--sans` | Inter | Everything else: body text, introductions, competency statements, labels, course lines, dates, buttons and navigation |
 
-**The fonts are self-hosted**, in `assets/fonts/`, declared at the top of `style.css`. Five
-files: an upright and a true italic for Literata and Inter, plus JetBrains Mono. Each is a
+Page text uses six sizes, each a variable in `:root`: 13px for labels, navigation,
+references and fine print (`--t-sm`); 15px for course lines, résumé entries, dates and
+buttons (`--t-meta`); 17px body (`--t-base`); 19px introductions, 17px on a phone (`--t-md`);
+24px headings (`--t-h2`); and page titles from 31px to 47px (`--t-2xl`). Text comes in two
+colours: `--ink` for reading text and headings, `--ink-soft` for everything secondary. Red
+(`--accent`) is kept for links, hover states, the current page in the menu, and rules. Labels
+are in sentence case, and nothing is set in capitals.
+
+Keep new work to those six sizes and two colours. A peer reviewer found the earlier mix
+distracting: three faces, 24 sizes, two greys, red on text that was not a link, and small
+labels set in capitals. The October 2026 revision brought it to this system. `--mono` remains only
+for `code`, as a system font, so no monospace file is downloaded.
+
+**The fonts are self-hosted**, in `assets/fonts/`, declared at the top of `style.css`. Four
+files: an upright and a true italic for Literata and Inter. Each is a
 variable woff2 covering the whole weight range it declares — so weight 500 interpolates rather
 than snapping to 400. Only the latin subset is shipped; a character outside it falls back to Georgia for that glyph rather than blocking the
 page. Serving them from this domain means one fewer third party, no dependency on a network
@@ -242,15 +254,8 @@ leaving the site. The two faces that set the first screen are preloaded in `head
 The italics are real cuts, not slanted uprights, and `font-synthesis: none` stops the browser
 faking either a slant or a weight it does not have. They are declared but deliberately **not**
 preloaded: a browser fetches a face only when text matching it is actually rendered, so a page
-with no italic text pays nothing for them. Measured — `/competencies/` pulls three font files,
-`/resume/` pulls four, the fourth being Inter italic for the parenthetical notes in its tables.
-
-One consequence worth knowing: JetBrains Mono ships upright only. Italic text inside a label,
-date or course line would render upright rather than slanted. Nothing does that today, and an
-upright is a better failure than a mechanical fake.
-
-Artifact titles on the index are deliberately kept in Inter: they are long, and mono uppercase
-makes them unreadable at that size.
+with no italic text pays nothing for them. Measured: `/competencies/` pulls two font files,
+and pages with italic text, such as `/resume/`, pull a third, Inter italic.
 
 ---
 

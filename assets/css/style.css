@@ -33,11 +33,6 @@
   src:url(/assets/fonts/inter-italic-latin.woff2) format('woff2');
   unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
-@font-face{
-  font-family:'JetBrains Mono';font-style:normal;font-weight:400 500;font-display:swap;
-  src:url(/assets/fonts/jetbrains-mono-latin.woff2) format('woff2');
-  unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
 
 /* ==========================================================================
    Faruq Pradhan — MHPTT Digital Portfolio
@@ -52,15 +47,17 @@
   /* Type */
   --sans:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
   --display:Literata,Iowan Old Style,Georgia,"Times New Roman",serif;
-  --mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;   /* code only */
 
-  /* Fluid type scale */
-  --t-xs:0.75rem;
+  /* Type scale. Page text uses these six sizes and no others:
+     13px labels, navigation, references and fine print; 15px course lines,
+     résumé entries, dates and buttons; 17px body; 19px introductions (17px on
+     a phone); 24px headings; page titles from 31px on a phone to 47px. */
   --t-sm:0.8125rem;
+  --t-meta:0.9375rem;
   --t-base:1.0625rem;
   --t-md:clamp(1.0625rem,1.02rem + 0.22vw,1.1875rem);
-  --t-lg:clamp(1.25rem,1.16rem + 0.42vw,1.5rem);
-  --t-xl:clamp(1.5rem,1.32rem + 0.9vw,2rem);
+  --t-h2:1.5rem;
   --t-2xl:clamp(1.95rem,1.55rem + 1.8vw,2.95rem);
 
   /* Space. --shell governs the header, footer and full-width content; --content
@@ -161,11 +158,11 @@ a:hover{text-decoration-thickness:.1em}
 .container.wide{max-width:var(--shell)}
 .prose{max-width:none}
 
-/* Small uppercase label, used for eyebrows, artifact labels, section marks.
-   Set in the mono face — this is the detail that gives the site its character. */
+/* Small label: artifact labels, "Evidence on this page", the pager's Previous
+   and Next. Every small label on the site shares this style, in sentence case,
+   so a reader meets one kind of label rather than several. */
 .label,.eyebrow{
-  font-family:var(--mono);font-size:.7rem;font-weight:500;letter-spacing:.07em;
-  text-transform:uppercase;color:var(--ink-faint);margin:0;
+  font-size:var(--t-sm);font-weight:600;color:var(--ink-soft);margin:0;
 }
 .eyebrow{margin-bottom:1rem}
 .eyebrow a{color:inherit;text-decoration:none}
@@ -191,8 +188,8 @@ a:hover{text-decoration-thickness:.1em}
 .brand-mark{flex:0 0 auto;color:var(--accent)}
 .brand-name{display:block;font-family:var(--display);font-weight:600;
   font-size:1.12rem;letter-spacing:-.012em;line-height:1.2}
-.brand-role{display:block;font-family:var(--mono);font-size:.66rem;color:var(--ink-faint);
-  letter-spacing:.06em;text-transform:uppercase;margin-top:.3rem;font-weight:400}
+.brand-role{display:block;font-size:var(--t-sm);line-height:1.4;color:var(--ink-soft);
+  margin-top:.3rem;font-weight:400}
 @media (max-width:560px){ .brand-role{display:none} }
 
 .site-nav > ul{display:flex;align-items:center;gap:.35rem;list-style:none;margin:0;padding:0}
@@ -229,8 +226,8 @@ a:hover{text-decoration-thickness:.1em}
 }
 .submenu a:hover{background:var(--surface-2);color:var(--ink)}
 .submenu a[aria-current="page"]{color:var(--accent);font-weight:600}
-.submenu .n{font-family:var(--mono);font-variant-numeric:tabular-nums;font-weight:500;
-  color:var(--accent);font-size:.7rem}
+.submenu .n{font-variant-numeric:tabular-nums;font-weight:600;color:var(--ink-soft);
+  font-size:var(--t-sm)}
 .submenu .sep{height:1px;background:var(--rule);margin:.45rem .7rem}
 .submenu .all{font-weight:600;color:var(--ink)}
 
@@ -297,14 +294,13 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
 .page-title + .prose-body,.page-subtitle + .prose-body{margin-top:0}
 
 .prose h2{font-family:var(--display);font-weight:600;
-  font-size:1.5rem;line-height:1.28;letter-spacing:-.015em;
+  font-size:var(--t-h2);line-height:1.28;letter-spacing:-.015em;
   margin:3.25rem 0 .75rem;text-wrap:balance}
 /* A page that hides its title and opens straight on a section: the first h2
    would otherwise carry its full 3.25rem top margin and sit lower than the
    first line of every other page. Used on /teaching/. */
 .prose > .sr-only:first-child + h2{margin-top:0}
-.prose h3{font-size:var(--t-xs);font-weight:600;text-transform:uppercase;
-  letter-spacing:.11em;color:var(--ink-faint);margin:2.25rem 0 .6rem}
+.prose h3{font-size:var(--t-sm);font-weight:600;color:var(--ink-soft);margin:2.25rem 0 .6rem}
 .prose h2 + h3{margin-top:1.5rem}
 .prose p{margin:0 0 1.15rem;text-wrap:pretty}
 .prose ul,.prose ol{margin:0 0 1.35rem;padding-left:1.25rem}
@@ -314,17 +310,14 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
   border-left:2px solid var(--rule-strong);color:var(--ink-soft)}
 .prose strong{font-weight:600;color:var(--ink)}
 
-/* Opening paragraph, set in the serif for contrast against the sans UI */
-.lede{
-  font-family:var(--display);font-weight:400;font-size:1.34rem;line-height:1.4;
-  letter-spacing:-.006em;color:var(--ink);margin:0 0 1.75rem;max-width:38ch;
-}
-/* Literata carries a real 600, so emphasis here is weight and colour together. */
-.lede strong{font-weight:600;color:var(--accent)}
+/* Opening paragraph: the body face at the introduction size, the same size as
+   the subtitle above it. */
+.lede{font-size:var(--t-md);line-height:1.55;color:var(--ink);margin:0 0 1.75rem}
+.lede strong{font-weight:600;color:var(--ink)}
 
 /* Competency statement */
 .statement{
-  font-family:var(--display);font-style:normal;font-size:1.12rem;line-height:1.48;
+  font-style:normal;font-size:var(--t-base);line-height:1.6;
   color:var(--ink);margin:0 0 2.5rem;padding:0 0 0 1.5rem;
   border-left:0;box-shadow:inset 3px 0 0 var(--accent);max-width:52ch;
 }
@@ -335,26 +328,23 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
 .statements{margin:0 0 2.5rem}
 .statements .statement{margin-bottom:1.1rem}
 .statements .statement:last-child{margin-bottom:0}
-.part{font-family:var(--mono);font-size:.72rem;color:var(--accent);font-weight:500;
-  margin-right:.6rem;letter-spacing:.02em;font-variant-numeric:tabular-nums}
+.part{font-size:var(--t-sm);color:var(--ink-soft);font-weight:600;margin-right:.6rem}
 .index-stmt + .index-stmt{margin-top:.5rem}
 
 /* Course / date metadata line */
-.meta{font-family:var(--mono);font-size:.72rem;line-height:1.6;color:var(--ink-faint);
-  margin:0 0 1.5rem;letter-spacing:.02em}
+.meta{font-size:var(--t-meta);line-height:1.6;color:var(--ink-soft);margin:0 0 1.5rem}
 .meta strong{color:var(--ink-soft);font-weight:600}
 
 /* Download / external artifact link */
 .dl{
   display:inline-flex;align-items:center;gap:.55rem;
-  font-family:var(--mono);font-size:.72rem;font-weight:500;letter-spacing:.05em;
-  text-transform:uppercase;text-decoration:none;color:var(--ink);
+  font-size:var(--t-meta);font-weight:500;text-decoration:none;color:var(--ink);
   border:1px solid var(--ink);border-radius:0;
   padding:.6rem 1rem;background:transparent;
   margin:.25rem .5rem .5rem 0;
   transition:border-color .15s ease,background .15s ease,color .15s ease;
 }
-.dl::after{content:"↓";font-size:.95em;color:var(--ink-faint);transition:color .15s ease}
+.dl::after{content:"↓";font-size:.95em;color:var(--ink-soft);transition:color .15s ease}
 .dl:hover{border-color:var(--accent);color:var(--accent);background:var(--accent-wash)}
 .dl:hover::after{color:var(--accent)}
 .dl.ext::after{content:"↗"}
@@ -362,14 +352,14 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
 /* Back to the artifacts index. The arrow leads rather than trails, so the
    button reads as going up a level rather than onward to a file. */
 .dl.back::after{content:""}
-.dl.back::before{content:"←";font-size:.95em;color:var(--ink-faint);
+.dl.back::before{content:"←";font-size:.95em;color:var(--ink-soft);
   transition:color .15s ease}
 .dl.back:hover::before{color:var(--accent)}
 .crumb{margin:0 0 1.75rem}
 
 /* Unwritten-content marker. Delete the element as each section is filled in. */
 .todo{
-  font-size:var(--t-sm);line-height:1.6;color:var(--ink-faint);
+  font-size:var(--t-sm);line-height:1.6;color:var(--ink-soft);
   border:1px dashed var(--rule-strong);border-radius:var(--radius-sm);
   padding:.9rem 1.05rem;margin:0 0 1.25rem;background:var(--surface);
 }
@@ -392,8 +382,7 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
   border:1px solid var(--rule);border-radius:var(--radius);
 }
 .figure figcaption{
-  font-family:var(--mono);font-size:.7rem;line-height:1.6;letter-spacing:.02em;
-  color:var(--ink-faint);margin-top:.6rem;
+  font-size:var(--t-sm);line-height:1.6;color:var(--ink-soft);margin-top:.6rem;
 }
 /* A lead image may run wider than the reading column on a roomy screen. */
 @media (min-width:900px){
@@ -419,7 +408,7 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
 .hero .page-subtitle{margin-bottom:2rem}
 .hero .page-subtitle.has-contact{margin-bottom:.6rem}
 /* Contact line under the subtitle on the home page */
-.hero-contact{margin:0 0 2rem;font-size:1rem;line-height:1.6;color:var(--ink-soft)}
+.hero-contact{margin:0 0 2rem;font-size:var(--t-meta);line-height:1.6;color:var(--ink-soft)}
 .hero-contact a{color:var(--ink-soft);text-decoration:none;border-bottom:1px solid var(--rule-strong)}
 .hero-contact a:hover{color:var(--accent);border-bottom-color:var(--accent)}
 .hero-contact .tel{white-space:nowrap}
@@ -429,7 +418,7 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
   display:block;border-radius:var(--radius);
   background:var(--surface-2);border:1px solid var(--rule);
 }
-.portrait figcaption{font-family:var(--mono);font-size:.68rem;color:var(--ink-faint);
+.portrait figcaption{font-size:var(--t-sm);color:var(--ink-soft);
   margin-top:.6rem;line-height:1.55}
 @media (prefers-color-scheme:dark){ .portrait img{filter:brightness(.94)} }
 @media (max-width:900px){
@@ -442,13 +431,12 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
 .cv-header{margin:0 0 2.75rem;padding-bottom:1.5rem;border-bottom:1px solid var(--ink)}
 .cv-name{
   font-family:var(--display);font-weight:600;
-  font-size:clamp(1.7rem,1.35rem + 1.5vw,2.4rem);line-height:1.12;letter-spacing:-.022em;
+  font-size:var(--t-2xl);line-height:1.1;letter-spacing:-.022em;
   margin:0 0 .5rem;
 }
-.cv-role{font-size:1rem;line-height:1.5;color:var(--ink-soft);margin:0 0 .7rem}
+.cv-role{font-size:var(--t-base);line-height:1.5;color:var(--ink-soft);margin:0 0 .7rem}
 .cv-contact{
-  font-family:var(--mono);font-size:.74rem;letter-spacing:.02em;line-height:1.7;
-  color:var(--ink-faint);margin:0;
+  font-size:var(--t-meta);line-height:1.7;color:var(--ink-soft);margin:0;
 }
 .cv-contact a{color:var(--ink-soft);text-decoration:none;border-bottom:1px solid var(--rule-strong)}
 .cv-contact a:hover{color:var(--accent);border-bottom-color:var(--accent)}
@@ -458,9 +446,8 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
 
 /* Definition-style fact rows, e.g. board certifications */
 .facts{margin:0 0 1.75rem;padding:0}
-.facts dt{font-family:var(--mono);font-size:.7rem;font-weight:500;text-transform:uppercase;
-  letter-spacing:.06em;color:var(--ink-faint);margin:0 0 .35rem}
-.facts dd{margin:0 0 1.15rem;color:var(--ink-soft);line-height:1.6}
+.facts dt{font-size:var(--t-sm);font-weight:600;color:var(--ink-soft);margin:0 0 .35rem}
+.facts dd{margin:0 0 1.15rem;color:var(--ink);line-height:1.6}
 .facts dd:last-child{margin-bottom:0}
 
 /* ------------------------------------------------- Competency index list */
@@ -482,8 +469,8 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
 }
 .index-list .index-item:hover{background:var(--surface)}
 .index-num{
-  font-family:var(--display);font-size:1.7rem;line-height:1;font-weight:400;
-  color:var(--accent);font-variant-numeric:tabular-nums;letter-spacing:-.01em;
+  font-family:var(--display);font-size:var(--t-h2);line-height:1;font-weight:400;
+  color:var(--ink-soft);font-variant-numeric:tabular-nums;letter-spacing:-.01em;
 }
 .index-text{min-width:0}
 .index-name{font-family:var(--display);font-size:1.3rem;font-weight:400;
@@ -496,14 +483,12 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
    stays just the competency name rather than the entire block of text. */
 .index-name a::after{content:"";position:absolute;inset:0}
 .index-item:hover .index-name a{color:var(--accent)}
-.index-stmt{font-size:1rem;line-height:1.55;color:var(--ink-soft);margin:0 0 .6rem}
+.index-stmt{font-size:var(--t-base);line-height:1.55;color:var(--ink-soft);margin:0 0 .6rem}
 .prose .index-artifacts{list-style:none;margin:0;padding:0;
   display:flex;flex-direction:column;gap:.15rem}
 .prose .index-artifacts li{
-  /* Deliberately NOT the mono face — artifact titles are long, and mono
-     uppercase makes them unreadable at this size. */
-  font-family:var(--sans);font-size:.9375rem;line-height:1.45;
-  color:var(--ink-faint);margin:0;padding-left:.8rem;position:relative;
+  font-size:var(--t-meta);line-height:1.45;
+  color:var(--ink-soft);margin:0;padding-left:.8rem;position:relative;
 }
 .prose .index-artifacts li::before{
   content:"";position:absolute;left:0;top:.55em;width:3px;height:3px;
@@ -514,7 +499,6 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
 }
 @media (max-width:520px){
   .index-list .index-item{grid-template-columns:1.9rem minmax(0,1fr);gap:.7rem;padding:.95rem .2rem 1rem}
-  .index-num{font-size:1.3rem}
   .index-name{font-size:1.2rem}
 }
 
@@ -534,15 +518,14 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
 .on-page a{font-size:var(--t-sm);font-weight:500;color:var(--ink);
   text-decoration:none;line-height:1.5}
 .on-page a:hover{color:var(--accent);text-decoration:underline}
-.on-page .n{font-family:var(--mono);font-size:.72rem;color:var(--accent);font-weight:500;
-  margin-right:.55rem;font-variant-numeric:tabular-nums}
+.on-page .n{font-size:var(--t-sm);color:var(--ink-soft);font-weight:600;margin-right:.55rem}
 
 /* One artifact block */
 .artifact{padding-top:2.75rem;margin-top:2.75rem;border-top:1px solid var(--rule);
   scroll-margin-top:6rem}
 .artifact:first-of-type{padding-top:0;margin-top:0;border-top:0}
 .artifact > h2{margin-top:.35rem}
-.artifact > .label{color:var(--accent);margin-bottom:.55rem}
+.artifact > .label{margin-bottom:.55rem}
 
 .competency-body > h2{margin-top:3.5rem}
 .competency-body > h2:first-child{margin-top:0}
@@ -551,22 +534,22 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
 .cv-list{margin:0 0 2.25rem;padding:0}
 .cv-list dt{
   display:flex;justify-content:space-between;align-items:baseline;gap:1.25rem;
-  font-weight:600;font-size:.97rem;line-height:1.45;color:var(--ink);
+  font-weight:600;font-size:var(--t-meta);line-height:1.45;color:var(--ink);
   border-top:1px solid var(--rule);margin-top:1rem;padding-top:1rem;
 }
 .cv-list dt:first-of-type{border-top:0;margin-top:0;padding-top:0}
 .cv-list .when{
-  font-family:var(--mono);font-size:.78rem;font-weight:400;color:var(--ink-faint);
-  white-space:nowrap;font-variant-numeric:tabular-nums;letter-spacing:.01em;
+  font-size:var(--t-meta);font-weight:400;color:var(--ink-soft);
+  white-space:nowrap;font-variant-numeric:tabular-nums;
 }
-.cv-list dd{margin:.35rem 0 0;font-size:.9375rem;line-height:1.55;color:var(--ink-soft)}
+.cv-list dd{margin:.35rem 0 0;font-size:var(--t-meta);line-height:1.55;color:var(--ink-soft)}
 /* Nested entries inside a cv-list. Without these every level carries the same
    rule and weight, so a committee reads as a peer of the society it sits in.
    Used on /cv/ under society memberships: lv2 is a body within a society, lv3
    a role within that body. */
 .cv-list dt.lv2,.cv-list dt.lv3{border-top:0;padding-top:0}
 .cv-list dt.lv2{margin-top:.6rem;padding-left:1.15rem;color:var(--ink-soft)}
-.cv-list dt.lv3{margin-top:.3rem;padding-left:2.3rem;font-weight:400;font-size:.93rem;
+.cv-list dt.lv3{margin-top:.3rem;padding-left:2.3rem;font-weight:400;font-size:var(--t-meta);
   color:var(--ink-soft)}
 /* A level-2 entry with no date is a group label, not an appointment, so it gets
    room above it. Degrades to the .6rem above where :has() is unsupported. */
@@ -583,12 +566,12 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
 .creds{display:grid;gap:1.4rem;margin:0 0 2.25rem}
 .creds > *{min-width:0}
 .cred-issuer{
-  margin:0 0 .6rem;font-size:var(--t-xs);font-weight:600;line-height:1.4;
-  letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);
+  margin:0 0 .6rem;font-size:var(--t-sm);font-weight:600;line-height:1.4;
+  color:var(--ink-soft);
 }
 .prose .cred-items{display:flex;flex-wrap:wrap;gap:.5rem;margin:0;padding:0;list-style:none}
 .prose .cred-items li{
-  margin:0;padding:.42rem .72rem;font-size:.9rem;font-weight:600;line-height:1.3;
+  margin:0;padding:.42rem .72rem;font-size:var(--t-meta);font-weight:600;line-height:1.3;
   color:var(--ink);background:var(--surface);
   border:1px solid var(--rule);border-radius:var(--radius-sm);
 }
@@ -596,12 +579,12 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
 .prose .cites{margin:0 0 2rem;padding:0;list-style:none;counter-reset:cite}
 .prose .cites li{
   position:relative;margin:0 0 .9rem;padding-left:2.4rem;
-  font-size:.9375rem;line-height:1.6;color:var(--ink-soft);
+  font-size:var(--t-meta);line-height:1.6;color:var(--ink-soft);
 }
 .prose ol.cites li{counter-increment:cite}
 .prose ol.cites li::before{
   content:counter(cite) ".";position:absolute;left:0;top:0;width:2rem;
-  text-align:right;color:var(--ink-faint);font-variant-numeric:tabular-nums;
+  text-align:right;color:var(--ink-soft);font-variant-numeric:tabular-nums;
 }
 .prose ul.cites li::before{
   content:"";position:absolute;left:.75rem;top:.72em;width:4px;height:4px;
@@ -612,7 +595,7 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
 /* One-line skill summary, sitting under the Appointments list. Three labelled
    lines rather than a flowing sentence, so the education, clinical and research
    split is visible rather than inferred. */
-.prose .skills{margin:0 0 .25rem;font-size:.9375rem;line-height:1.65;color:var(--ink-soft)}
+.prose .skills{margin:0 0 .25rem;font-size:var(--t-meta);line-height:1.65;color:var(--ink-soft)}
 .prose .skills strong{color:var(--ink);font-weight:600}
 
 /* Scholarship figures. A handful of headline counts, so a figure list rather
@@ -622,13 +605,13 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
 .prose .figures li{
   margin:0;padding:0;display:grid;grid-template-columns:2.2rem minmax(0,1fr);
   gap:.8rem;align-items:baseline;
-  font-size:.9375rem;line-height:1.45;color:var(--ink-soft);
+  font-size:var(--t-meta);line-height:1.45;color:var(--ink-soft);
 }
 .figures .fig{
-  font-family:var(--mono);font-size:1.02rem;font-weight:500;color:var(--ink);
-  text-align:right;font-variant-numeric:tabular-nums;letter-spacing:-.01em;
+  font-size:var(--t-base);font-weight:600;color:var(--ink);
+  text-align:right;font-variant-numeric:tabular-nums;
 }
-.figures .sub{color:var(--ink-faint);font-size:var(--t-sm)}
+.figures .sub{color:var(--ink-soft);font-size:var(--t-sm)}
 .figures .sub::before{content:"("}
 .figures .sub::after{content:")"}
 @media (min-width:34rem){
@@ -664,20 +647,20 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
 .doc-layout>*{min-width:0}
 
 .doc-nav{position:sticky;top:calc(4.25rem + 1rem)}
-.doc-lbl{font-family:var(--mono);font-size:.62rem;font-weight:500;letter-spacing:.1em;
-  text-transform:uppercase;color:var(--ink-faint);margin:0 0 .85rem;padding-left:.8rem}
+.doc-lbl{font-size:var(--t-sm);font-weight:600;color:var(--ink-soft);margin:0 0 .85rem;
+  padding-left:.8rem}
 .doc-index{list-style:none;margin:0;padding:0}
 .doc-index li{margin:0 0 .3rem}
 .doc-index a{
   display:flex;gap:.5rem;align-items:baseline;justify-content:space-between;
-  font-family:var(--mono);font-size:.72rem;line-height:1.35;
-  color:var(--ink-faint);text-decoration:none;
+  font-size:var(--t-sm);line-height:1.35;
+  color:var(--ink-soft);text-decoration:none;
   border-left:2px solid var(--rule);padding:.3rem 0 .3rem .8rem;
   transition:color .18s ease,border-color .18s ease;
 }
 .doc-index a:hover{color:var(--accent);border-left-color:var(--accent)}
 .doc-index a.is-on{color:var(--ink);border-left-color:var(--accent);font-weight:500}
-.doc-ct{font-size:.62rem;opacity:.6;font-variant-numeric:tabular-nums}
+.doc-ct{font-size:var(--t-sm);opacity:.6;font-variant-numeric:tabular-nums}
 .doc-all{margin-bottom:.65rem;padding-bottom:.55rem;border-bottom:1px solid var(--rule)}
 
 .doc-sec{scroll-margin-top:6rem}
@@ -694,8 +677,8 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
 
 .doc-tail[hidden]{display:none}
 .doc-more{
-  font-family:var(--mono);font-size:.68rem;font-weight:500;letter-spacing:.05em;
-  text-transform:uppercase;color:var(--ink-soft);background:none;
+  font-family:var(--sans);font-size:var(--t-sm);font-weight:600;
+  color:var(--ink-soft);background:none;
   border:1px solid var(--rule-strong);border-radius:999px;
   padding:.5rem .95rem;cursor:pointer;margin-top:.5rem;
   transition:color .15s ease,border-color .15s ease,background .15s ease;
@@ -706,15 +689,15 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
   border-top:1px solid var(--rule)}
 .is-solo .doc-pager{display:flex}
 .doc-step{
-  flex:1;font-family:var(--mono);font-size:.68rem;font-weight:500;line-height:1.35;
-  letter-spacing:.04em;text-transform:uppercase;color:var(--ink-soft);
+  flex:1;font-family:var(--sans);font-size:var(--t-sm);font-weight:600;line-height:1.35;
+  color:var(--ink-soft);
   background:none;border:1px solid var(--rule);border-radius:var(--radius-sm);
   padding:.8rem 1rem;cursor:pointer;text-align:left;
   transition:color .15s ease,border-color .15s ease;
 }
 .doc-step:hover:not(:disabled){color:var(--accent);border-color:var(--accent)}
 .doc-step:disabled{opacity:.35;cursor:default}
-.doc-dir{display:block;font-size:.6rem;color:var(--ink-faint);margin-bottom:.28rem}
+.doc-dir{display:block;font-weight:400;color:var(--ink-soft);margin-bottom:.28rem}
 
 @media (max-width:860px){
   .doc-layout{grid-template-columns:1fr;gap:0;margin-top:1.75rem}
@@ -728,12 +711,11 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
   .doc-index::-webkit-scrollbar{display:none}
   .doc-index li{margin:0;flex:0 0 auto}
   .doc-index a{border-left:0;border:1px solid var(--rule-strong);border-radius:999px;
-    padding:.42rem .8rem;white-space:nowrap;font-size:.67rem}
+    padding:.42rem .8rem;white-space:nowrap}
   .doc-index a.is-on{border-color:var(--accent);background:var(--accent-wash);
     color:var(--accent)}
   .doc-ct{display:none}
   .doc-all{margin:0;padding-bottom:.42rem;border-bottom:0}
-  .doc-step{font-size:.64rem}
 }
 
 @media print{
@@ -746,7 +728,7 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
 /* Previous / next */
 .pager{display:grid;grid-template-columns:1fr 1fr 1fr;gap:1rem;
   margin-top:4.5rem;padding-top:1.75rem;border-top:1px solid var(--rule)}
-.pager a{display:block;text-decoration:none;color:var(--ink-soft);
+.pager a{display:block;text-decoration:none;color:var(--ink);
   font-size:var(--t-sm);line-height:1.45;padding:.85rem 1rem;
   border:1px solid var(--rule);border-radius:var(--radius);
   transition:border-color .15s ease,color .15s ease}
@@ -767,7 +749,7 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
    overflow-x actually apply to a table box. */
 .table-scroll{display:block;width:100%;max-width:100%;overflow-x:auto;
   margin:0 0 1.75rem;border:1px solid var(--rule);border-radius:var(--radius)}
-table{border-collapse:collapse;width:100%;font-size:.9375rem}
+table{border-collapse:collapse;width:100%;font-size:var(--t-meta)}
 th,td{text-align:left;padding:.7rem .9rem;border-bottom:1px solid var(--rule);
   vertical-align:top}
 tbody tr:last-child td{border-bottom:0}
@@ -777,8 +759,7 @@ tbody tr:last-child td{border-bottom:0}
 /* Narrower cell padding on phones, so the larger table text still fits a
    390px screen without the table scrolling sideways. */
 @media (max-width:640px){ th,td{padding:.6rem .65rem} }
-th{font-family:var(--mono);font-weight:500;color:var(--ink-faint);text-transform:uppercase;
-  font-size:.68rem;letter-spacing:.05em;background:var(--surface)}
+th{font-weight:600;color:var(--ink-soft);font-size:var(--t-sm);background:var(--surface)}
 code{font-size:.85em;background:var(--surface-2);padding:.15em .38em;
   border-radius:3px;font-family:var(--mono)}
 
@@ -807,7 +788,7 @@ code{font-size:.85em;background:var(--surface-2);padding:.15em .38em;
 /* Honeypot. Off-screen rather than display:none, which some bots skip, and
    hidden from assistive tech so nobody is asked to fill it in. */
 .trap{position:absolute;left:-9999px;width:1px;height:1px;opacity:0;pointer-events:none}
-.form-note{font-size:var(--t-sm);color:var(--ink-faint);margin:1rem 0 0;max-width:34rem}
+.form-note{font-size:var(--t-sm);color:var(--ink-soft);margin:1rem 0 0;max-width:34rem}
 .form .h-captcha{margin:1.5rem 0 0}
 .form-error{font-size:var(--t-sm);color:var(--accent);margin:.75rem 0 0;max-width:34rem}
 .form-error[hidden]{display:none}
@@ -839,11 +820,11 @@ code{font-size:.85em;background:var(--surface-2);padding:.15em .38em;
 .footer-inner{display:flex;justify-content:space-between;gap:2.5rem;flex-wrap:wrap}
 .site-footer p{margin:0 0 .3rem}
 .footer-name{font-weight:600;color:var(--ink)}
-.footer-meta{color:var(--ink-faint)}
-.footer-contact{text-align:right;color:var(--ink-faint)}
+.footer-meta{color:var(--ink-soft)}
+.footer-contact{text-align:right;color:var(--ink-soft)}
 .footer-contact a{color:var(--ink-soft);text-decoration:none}
 .footer-contact a:hover{color:var(--accent);text-decoration:underline}
-.footer-note{width:100%;color:var(--ink-faint);font-size:var(--t-xs);
+.footer-note{width:100%;color:var(--ink-soft);font-size:var(--t-sm);
   border-top:1px solid var(--rule);padding-top:1.25rem;margin-top:.5rem}
 .footer-disclaimer{border-top:0;padding-top:0;margin-top:.75rem;
   max-width:52rem;text-wrap:pretty}
@@ -855,8 +836,8 @@ code{font-size:.85em;background:var(--surface-2);padding:.15em .38em;
 /* --------------------------------------------------------------- Error */
 
 .error-page{text-align:center;padding:2rem 0 0;max-width:44ch;margin-inline:auto}
-.error-code{font-family:var(--display);font-size:4.8rem;font-weight:600;line-height:1;
-  color:var(--accent);margin:0 0 1rem}
+.error-code{font-family:var(--display);font-size:var(--t-2xl);font-weight:600;line-height:1;
+  color:var(--ink-soft);margin:0 0 1rem}
 
 /* --------------------------------------------------------------- Print */
 
