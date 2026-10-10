@@ -4,7 +4,7 @@
       <p class="footer-name">{{ site.title }}</p>
       <p class="footer-meta">{{ site.tagline }}</p>
       {%- if site.profiles and site.profiles.size > 0 %}
-      <ul class="links" style="margin-top:1rem">
+      <ul class="links">
         {%- for p in site.profiles %}
         <li><a href="{{ p.url }}"{% unless p.url contains site.url %} rel="me noopener"{% endunless %}>{{ p.name }}</a></li>
         {%- endfor %}

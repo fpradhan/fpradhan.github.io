@@ -831,10 +831,14 @@ code{font-size:.85em;background:var(--surface-2);padding:.15em .38em;
 }
 .prose .notice strong{color:var(--ink)}
 
-/* Inline list of external profiles */
-.prose .links{list-style:none;margin:1rem 0 1.5rem;padding:0;
-  display:flex;flex-wrap:wrap;gap:.5rem}
+/* Inline list of external profiles, under "Elsewhere" on /contact/ and in the
+   footer. The list rules sit on .links itself rather than under .prose, so the
+   footer copy, which is outside .prose, gets them too. */
+.links{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:.5rem}
+.links li{margin:0}
+.prose .links{margin:1rem 0 1.5rem;padding:0}   /* outranks .prose ul's indent */
 .prose .links li{margin:0}
+.site-footer .links{margin:1rem 0 0}
 .links a{display:inline-flex;align-items:center;gap:.45rem;
   font-size:var(--t-sm);font-weight:500;text-decoration:none;color:var(--ink);
   border:1px solid var(--rule-strong);border-radius:100px;padding:.4rem .95rem;
