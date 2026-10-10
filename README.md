@@ -221,7 +221,12 @@ phone details, so nothing on it is broken.
 
 **To change the design** — `assets/css/style.css`. Every colour, size and width is a CSS
 variable in the `:root` block at the top; `--accent` re-skins the whole site. Light and dark
-palettes are both defined, and the site follows the reader's system setting.
+palettes are both defined. The site follows the reader's system setting unless they pick
+Light or Dark with the Theme switch in the footer. That choice is stored in their browser only
+(localStorage key `theme`), and a short script in `head.html` applies it before the page is
+drawn, so it never flashes the other palette. Paper always prints light. The dark values
+appear twice in `style.css`, once for the system setting and once for the switch; change both
+together.
 
 The type stack is two faces, each with a job:
 

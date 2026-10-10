@@ -83,8 +83,12 @@
   --radius-sm:6px;
 }
 
-@media (prefers-color-scheme:dark){
-  :root{
+/* Dark palette, on screen only, so paper always prints light. It applies when
+   the device is set to dark, unless the visitor has picked Light with the switch
+   in the footer, and whenever they have picked Dark. The two blocks hold the
+   same values; change them together. */
+@media screen and (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
     --bg:#131210;
     --surface:#1b1a16;
     --surface-2:#23211c;
@@ -98,6 +102,26 @@
     --focus:#7fc0d8;
   }
 }
+@media screen{
+  :root[data-theme="dark"]{
+    --bg:#131210;
+    --surface:#1b1a16;
+    --surface-2:#23211c;
+    --ink:#f0ece1;
+    --ink-soft:#b2ac9d;
+    --ink-faint:#8f887a;
+    --rule:#2b2924;
+    --rule-strong:#3d3a32;
+    --accent:#e88267;
+    --accent-wash:#241a16;
+    --focus:#7fc0d8;
+  }
+}
+/* Which palette the browser's own controls and scrollbars should match. The
+   color-scheme meta tag in head.html covers the moment before this file loads. */
+:root{color-scheme:light dark}
+:root[data-theme="light"]{color-scheme:light}
+:root[data-theme="dark"]{color-scheme:dark}
 
 /* --------------------------------------------------------------- Reset */
 
@@ -390,9 +414,10 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
 }
 /* Photographs sit slightly quieter in the dark theme, where a bright frame
    otherwise glares against the warm dark ground. */
-@media (prefers-color-scheme:dark){
-  .figure img{filter:brightness(.92) contrast(1.02)}
+@media screen and (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]) .figure img{filter:brightness(.92) contrast(1.02)}
 }
+@media screen{ :root[data-theme="dark"] .figure img{filter:brightness(.92) contrast(1.02)} }
 
 /* Several images together — module screens, presentation stills. */
 .gallery{display:grid;gap:1.25rem;margin:0 0 2rem;
@@ -420,7 +445,10 @@ main{flex:1 0 auto;padding:4.5rem 0 6rem}
 }
 .portrait figcaption{font-size:var(--t-sm);color:var(--ink-soft);
   margin-top:.6rem;line-height:1.55}
-@media (prefers-color-scheme:dark){ .portrait img{filter:brightness(.94)} }
+@media screen and (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]) .portrait img{filter:brightness(.94)}
+}
+@media screen{ :root[data-theme="dark"] .portrait img{filter:brightness(.94)} }
 @media (max-width:900px){
   .hero{grid-template-columns:1fr;gap:2rem}
   .portrait{max-width:clamp(13rem,30vw,16rem);order:-1}
@@ -832,6 +860,28 @@ code{font-size:.85em;background:var(--surface-2);padding:.15em .38em;
   .footer-inner{flex-direction:column;gap:1.5rem}
   .footer-contact{text-align:left}
 }
+
+/* Theme switch, in the footer. Auto follows the device; Light and Dark override
+   it in this browser only. The markup ships hidden and the script beneath it
+   reveals it, so a visitor without JavaScript never sees a control that cannot
+   work. */
+.theme-switch{display:flex;align-items:center;justify-content:flex-end;gap:.6rem;
+  margin-top:.9rem}
+.theme-switch[hidden]{display:none}
+.theme-options{display:inline-flex;gap:2px;padding:2px;
+  border:1px solid var(--rule-strong);border-radius:999px}
+.theme-options label{position:relative;display:block;cursor:pointer}
+/* The radios stay in the page, invisible, so the group keeps its keyboard
+   behaviour: Tab reaches it and the arrow keys move between the options. */
+.theme-options input{position:absolute;inset:0;width:100%;height:100%;margin:0;
+  opacity:0;cursor:pointer}
+.theme-options label > span{display:block;padding:.15rem .7rem;border-radius:999px;
+  color:var(--ink-soft);line-height:1.6}
+.theme-options label:hover > span{color:var(--ink)}
+.theme-options input:checked + span{color:var(--ink);font-weight:600;
+  background:var(--bg);box-shadow:0 0 0 1px var(--ink-soft)}
+.theme-options input:focus-visible + span{outline:2px solid var(--focus);outline-offset:2px}
+@media (max-width:640px){ .theme-switch{justify-content:flex-start} }
 
 /* --------------------------------------------------------------- Error */
 

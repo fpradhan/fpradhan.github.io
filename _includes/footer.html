@@ -15,6 +15,14 @@
     <div class="footer-contact">
       {%- if site.phone %}<p>{{ site.phone }}</p>{% endif %}
       <p><a href="{{ '/contact/' | relative_url }}">Contact</a></p>
+      <div class="theme-switch" role="radiogroup" aria-labelledby="theme-label" hidden>
+        <span id="theme-label">Theme</span>
+        <span class="theme-options">
+          <label><input type="radio" name="theme" value="auto"><span>Auto<span class="sr-only">, following your device</span></span></label>
+          <label><input type="radio" name="theme" value="light"><span>Light</span></label>
+          <label><input type="radio" name="theme" value="dark"><span>Dark</span></label>
+        </span>
+      </div>
     </div>
 
     <p class="footer-note">
@@ -28,3 +36,25 @@
     not those of the University of Nebraska Medical Center or Nebraska Medicine.</p>
   </div>
 </footer>
+<script>
+/* Theme switch. The saved choice is already applied by the script in head.html;
+   this marks the current option, reveals the control, and saves a new choice in
+   this browser. If storage is blocked the choice still holds for this page. */
+(function () {
+  var box = document.querySelector('.theme-switch');
+  var theme = window.siteTheme;
+  if (!box || !theme) return;
+  var current = theme.saved === 'light' || theme.saved === 'dark' ? theme.saved : 'auto';
+  var input = box.querySelector('input[value="' + current + '"]');
+  if (input) input.checked = true;
+  box.hidden = false;
+  box.addEventListener('change', function (e) {
+    var t = e.target.value;
+    theme.apply(t);
+    try {
+      if (t === 'light' || t === 'dark') localStorage.setItem('theme', t);
+      else localStorage.removeItem('theme');
+    } catch (err) {}
+  });
+})();
+</script>

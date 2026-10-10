@@ -23,6 +23,33 @@
 <meta name="theme-color" content="#131210" media="(prefers-color-scheme: dark)">
 
 {%- comment -%}
+  Colour theme. The stylesheet follows the device's light or dark setting unless
+  the visitor has picked Light or Dark with the switch in the footer. That choice
+  is kept in their browser only (localStorage "theme") and applied here, before
+  anything is drawn, so a saved choice never flashes the other palette first. It
+  also points the browser's own bar colour at the chosen palette.
+{%- endcomment -%}
+<script>
+(function () {
+  var root = document.documentElement;
+  var bar = { light: '#f6f4ee', dark: '#131210' };
+  function apply(t) {
+    if (t === 'light' || t === 'dark') root.setAttribute('data-theme', t);
+    else root.removeAttribute('data-theme');
+    var metas = document.querySelectorAll('meta[name="theme-color"]');
+    for (var i = 0; i < metas.length; i++) {
+      var own = /dark/.test(metas[i].getAttribute('media') || '') ? bar.dark : bar.light;
+      metas[i].setAttribute('content', bar[t] || own);
+    }
+  }
+  var saved = null;
+  try { saved = localStorage.getItem('theme'); } catch (e) {}
+  apply(saved);
+  window.siteTheme = { apply: apply, saved: saved };
+})();
+</script>
+
+{%- comment -%}
   jekyll-seo-tag writes <title>, description, canonical, Open Graph, Twitter card
   and JSON-LD from _config.yml and the page front matter. Do not hand-write those
   tags here as well or they will be emitted twice.
