@@ -7,16 +7,15 @@ contact_line: true
 description: "Digital portfolio for the Master of Health Professions Teaching & Technology, UNMC."
 ---
 
-This site is my digital portfolio for the **Master of Health Professions Teaching &
-Technology** at UNMC. It collects the work I produced across the program and reflects
+This site is my digital portfolio for the Master of Health Professions Teaching &
+Technology at UNMC. It collects the work I produced across the program and reflects
 on what each piece changed about how I teach.
-{: .lede}
 
 I am a Transplant Hepatologist and Assistant Professor at the University of Nebraska
 Medical Center, where I am Medical Director of Adult Liver Transplantation and core faculty
 for both the Gastroenterology and Transplant Hepatology fellowships. I founded and direct a
-four-year supplementary course to the medical school curriculum: *Combined Medical and Surgical
-Integrated Track in Liver Transplantation*.
+four-year supplementary course to the medical school curriculum: Combined Medical and Surgical
+Integrated Track in Liver Transplantation.
 
 ## Board certifications
 
